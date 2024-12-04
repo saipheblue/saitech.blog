@@ -1,4 +1,8 @@
 public
 resources
+<<<<<<< Updated upstream
 assets/jsconfig.json
 .hugo_build.lock
+=======
+.hugo_build.lock
+>>>>>>> Stashed changes
