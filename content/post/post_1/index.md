@@ -1,6 +1,6 @@
 ---
 title: YT-X
-date: 2024-12-19
+date: 2024-12-18
 description: Youtube terminal browser
 tags:
     - Terminal

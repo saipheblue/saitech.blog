@@ -1,7 +1,7 @@
 ---
-title: Colorize IP
+title: Readable IP in terminal
 date: 2024-12-19
-description:
+description: Colorize IP print output
 tags:
     - Terminal
     - Networking
