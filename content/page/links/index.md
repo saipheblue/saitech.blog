@@ -7,12 +7,12 @@ links:
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 
   - title: Archlinux.org
-    description: Arch Linux's official website, provides resources, downloads, and documentation for Arch Linux, a lightweight and flexible Linux distribution focused on simplicity.
+    description: Arch Linux's official website, provides resources, downloads, and documentation.
     website: https://archlinux.org/
     image: https://tse1.mm.bing.net/th?id=OIP.3sRn_6qtPIni-Bl04BWlmAAAAA&pid=Api
 
   - title: Unixporn
-    description: Submit screenshots of all your *NIX desktops, themes, and nifty configurations, or submit anything else that will make ricers happy. Maybe a server running on an Amiga, or a Thinkpad signed by Bjarne Stroustrup? Show the world how pretty your computer can be!
+    description: A subreddit for sharing and discussing customized Linux and Unix desktop setups.
     website: https://www.reddit.com/r/unixporn/
     image: https://styles.redditmedia.com/t5_2sx2i/styles/communityIcon_7fixeonxbxd41.png
 

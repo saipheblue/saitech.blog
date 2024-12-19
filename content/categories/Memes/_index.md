@@ -1,10 +1,10 @@
 ---
-title: Linux
+title: Memes
 description:
 image:
 
 # Badge style
 style:
-    background: "#1a75ff"
+    background: "#33cc33"
     color: "#fff"
 ---
