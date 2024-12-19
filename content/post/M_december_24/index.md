@@ -1,5 +1,5 @@
 ---
-title: Memes - December 24
+title: December 24'
 description: Memes
 date: 2024-12-18
 image: 5.png
