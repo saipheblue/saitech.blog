@@ -1,7 +1,7 @@
 ---
 title: Colorize and List IPs
 date: 2024-12-19
-description: ip -br -c addr show simplifies IPs.
+description: simple command to list more readable IPs.
 tags:
     - Terminal
     - Networking
