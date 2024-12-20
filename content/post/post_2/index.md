@@ -1,7 +1,7 @@
 ---
-title: Readable IP in terminal
+title: Colorize and List IPs
 date: 2024-12-19
-description: Colorize IP print output
+description: ip -br -c addr show simplifies IPs.
 tags:
     - Terminal
     - Networking
