@@ -17,4 +17,4 @@ The syntax is:
 ip -br -c addr show
 ip -br -c link show
 ```
-Source: https://mastodon.social/@nixCraft/113679576456152013
+[Source](https://mastodon.social/@nixCraft/113679576456152013)

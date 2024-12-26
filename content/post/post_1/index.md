@@ -12,8 +12,8 @@ image: 2024-12-19_01-32.png
 
 ## Source
 
-Get it from this repo made by Benexl :
-https://github.com/Benexl/yt-x
+Get it from [this](https://github.com/Benexl/yt-x) repo made by Benexl
+
 
 ## Basic commands
 ```
@@ -25,5 +25,6 @@ yt-x -e
 ```
 
 ## YouTube video
+Just an example of use, video is not created by me
 
 {{< youtube "-lQabXik_6I" >}}
