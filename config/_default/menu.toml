@@ -7,18 +7,18 @@
 #icon = "home"
 #newtab = true
 
-#[[social]]
-#identifier = "github"
-#name = "GitHub"
-#url = "https://saipheblue.github.io/"
+[[social]]
+identifier = "github"
+name = "GitHub"
+url = "https://github.com/saipheblue/"
 
-#[social.params]
-#icon = "brand-github"
+[social.params]
+icon = "brand-github"
 
-#[[social]]
-#identifier = "twitter"
-#name = "Twitter"
-#url = "https://twitter.com"
+[[social]]
+identifier = "itch.io"
+name = "Itch.io"
+url = "https://saipheblue.itch.io/"
 
-#[social.params]
-#icon = "brand-twitter"
+[social.params]
+icon = "brand-itch"
