@@ -2,7 +2,7 @@
 title: DIY Geiger counter
 date: 2024-12-26
 description: Build a simple radiation monitor using a Raspberry Pi
-image: 3.png
+image: 5.jpg
 tags:
     - Github
     - Geiger–Müller
