@@ -19,7 +19,7 @@ categories:
 
 ## What will you need
 
-* Geiger–Müller kit ([for example this one](www.ebay.com/itm/396034408437?_skw=Geiger_Counter_RadiationD-v1.1-CAJOE))
+* Geiger–Müller kit [for example this one](www.ebay.com/itm/396034408437?_skw=Geiger_Counter_RadiationD-v1.1-CAJOE)
 * Raspberry pi - any model is fine but guide is written for raspberry pi 5. For older models you will need to make some adjustments
 
 ## Hardware
