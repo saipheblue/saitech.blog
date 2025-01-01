@@ -1,7 +1,7 @@
 ---
 title: Quest 3 on Arch
 date: 2024-12-30
-description: How to make working wirleess SteamVR using arch linux
+description: Guide to setting up wireless SteamVR on Arch Linux
 image: 3.jpg
 tags:
     - Steam
@@ -12,6 +12,7 @@ tags:
     - Quest 3
     - Oculus
     - Meta
+    - SteamVR
 categories:
     - Linux
 ---
