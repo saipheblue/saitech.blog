@@ -1,7 +1,7 @@
 ---
 title: Jnauary 25'
 description: Memes
-date: 2025-01-01
+date: 2025-01-03
 image: 7.png
 tags:
     - Linux
