@@ -9,6 +9,9 @@ tags:
     - Arch Linux
     - ALVR
     - SideQuest
+    - Quest 3
+    - Oculus
+    - Meta
 categories:
     - Linux
 ---
@@ -33,7 +36,7 @@ Due to this limitation, we need to use alternative software to pair with SteamVR
 
 SideQuest is a popular platform for sideloading apps, games, and experimental software onto standalone VR headsets. It expands the possibilities of your VR device beyond the default app store.
 
-Visit the official SideQuest site for a detailed guide on how to connect your headset, enable developer mode, and install all prerequisites.
+Visit the official [SideQuest site](https://sidequestvr.com/) for a detailed guide on how to connect your headset, enable developer mode, and install all prerequisites.
 
 If you're having trouble connecting your headset, ensure you have ADB (Android Debug Bridge) installed. To check, run:
 
@@ -60,7 +63,11 @@ Download ALVR from the official [ALVR GitHub releases page](https://github.com/a
 
 ![](4.png)
 
-Follow the on-screen instructions to set up ALVR. Be sure to mark the headset as "trusted." Once done, start SteamVR.
+Follow the on-screen instructions to set up ALVR. Be sure to mark the headset as "trusted."
+
+Once done, start SteamVR.
+
+From there, <b>manually start</b> VR games from your PC. While this is a limitation, once the game is running, you can enjoy your session in the VR headset.
 
 # Fix for Black Screen on Headset
 
@@ -71,6 +78,4 @@ Add the following command to SteamVR's launch options:
 
 <i>(Note: File paths may vary depending on where you installed SteamVR.)</i>
 
-From there, manually start VR games from your PC. While this is a limitation, once the game is running, you can enjoy your session in the VR headset.
-
-Happy gaming ! :)
+# Happy gaming ! :)
