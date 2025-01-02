@@ -2,11 +2,13 @@
 title: Quick Audio Management
 date: 2025-01-06
 description: Win + G; Linux alternative
-image: 5.png
+image: 1.png
 tags:
     - Audio
     - Software
     - Script
+    - Bspwm
+    - Tweaks
 categories:
     - Linux
 ---
@@ -93,4 +95,4 @@ pactl set-sink-input-volume "$stream_id" "$new_volume%"
 # Notify the user of the volume change
 notify-send "Set volume for $app_name to $new_volume%"
 ```
-![Select an application](3.png)![Adjust the volume during gameplay](4.png)
+![Select an application](3.png)  ![Adjust the volume during gameplay](4.png)
