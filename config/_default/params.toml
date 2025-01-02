@@ -6,7 +6,7 @@ favicon = "/favicon.png"
 
 [footer]
 since = 2024
-customText = "<i>Life is a choice: reboot or be root.</i>"
+customText = "<h2><i>Life is a choice: reboot or be root</i></h2>"
 
 [dateFormat]
 published = "Jan 02, 2006"
@@ -14,7 +14,7 @@ lastUpdated = "Jan 02, 2006 15:04 CEST"
 
 [sidebar]
 emoji = ""
-subtitle = "A mini-blog by a Hardware enthusiast, Unix wanderer and Software explorer"
+subtitle = "Tech fun and experiments with hardware, Unix, and software – and everything I’ve tested goes straight into the blog, because I’m sure I’ll forget it otherwise."
 
 [sidebar.avatar]
 enabled = true
