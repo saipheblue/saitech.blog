@@ -14,6 +14,7 @@ tags:
     - python
 categories:
     - Hardware
+    - Guides
 ---
 ![](2.png)![](1.jpg)
 

@@ -1,4 +1,5 @@
 ---
+draft: false
 title: The Dark Queen of Mortholme
 date: 2025-01-01
 description: Free indie anti-game
@@ -17,6 +18,8 @@ categories:
 
 What better way to step into the new year than by playing an intriguing indie title created by <b>Mosu Äijälä</b>
 
+# Get it [HERE](https://qwertyprophecy.itch.io/mortholme) from itch.io
+
 ![](2.png)![](3.png)![](4.png)
 
 Developer's description:
@@ -29,4 +32,4 @@ Developer's description:
 
 {{< youtube "2-pAro_ma5A" >}}
 
-# Get it [HERE](https://qwertyprophecy.itch.io/mortholme) from itch.io
+
