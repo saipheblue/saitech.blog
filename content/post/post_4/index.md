@@ -15,7 +15,7 @@ tags:
     - SteamVR
 categories:
     - Linux
-    - Guides
+    - Guide
 ---
 
 

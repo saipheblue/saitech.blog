@@ -13,7 +13,7 @@ tags:
     - Indie
     - Free
 categories:
-    - Games
+    - Gaming
 ---
 
 What better way to step into the new year than by playing an intriguing indie title created by <b>Mosu Äijälä</b>
