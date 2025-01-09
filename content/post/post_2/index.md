@@ -10,7 +10,7 @@ categories:
 image: 1.png
 ---
 
-Did you know you can colorize and print all IP addresses and interfaces on Linux in a tabular format for better readability?
+Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?
 
 The syntax is:
 ```
