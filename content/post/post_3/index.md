@@ -33,7 +33,9 @@ Connect 5V to any 5V, Ground to any ground and VIN to GPIO4 (pin 7)
 ### μSv/h Ratio
 
 Check the tube that is installed in your kit. In my case, I have J305. We need to calculate μSv/h ratio based on the tube's sensitivity.
-For J305, almost everyone is using the wrong coefficient/ratio of 0.00812037037037. Here is the formula I used, together with a source elaborating why 0.0081 is wrong: J305 has 25 CPM 1 / (25 * 60 / 8.77)
+For J305, almost everyone is using the wrong coefficient/ratio of 0.00812037037037. Here is the formula I used, together with a source elaborating why 0.0081 is wrong: J305 has 25 CPM
+
+`1 / (25 * 60 / 8.77) = 0.00584666666667`
 
 [Source](https://medium.com/@iotdevices/geiger-tube-j305-how-to-calculate-the-conversion-factor-of-cpm-to-%CE%BCsv-h-technical-note-b0cc14850576)
 
@@ -68,7 +70,7 @@ The manufacturer’s documentation lists the M4011, which has the same specs as 
 
 ### SSL
 
-ssl_context=('cert.pem', 'key.pem') can be replaced by ssl_context='adhoc' if you dont have the keys
+`ssl_context=('cert.pem', 'key.pem')` can be replaced by `ssl_context='adhoc'` if you dont have the keys
 
 [Source](https://zhangtemplar.github.io/flask/)
 
@@ -96,4 +98,4 @@ Simply run <b>geiger.py</b> to start measuring:
 python3 geiger.py
 ```
 
-Then navigate to <b>127.0.0.1:80/index</b> to see the chart
+Then navigate to <b>`127.0.0.1:80/index`</b> to see the chart
