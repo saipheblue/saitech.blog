@@ -10,6 +10,7 @@ tags:
     - Bspwm
     - Tweaks
 categories:
+    - Guide
     - Linux
 ---
 I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.

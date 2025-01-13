@@ -13,8 +13,9 @@ tags:
     - flask
     - python
 categories:
-    - Hardware
     - Guide
+    - Hardware
+
 ---
 ![](2.png)![](1.jpg)
 

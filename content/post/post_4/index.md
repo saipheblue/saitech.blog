@@ -14,8 +14,9 @@ tags:
     - Meta
     - SteamVR
 categories:
-    - Linux
+    - Gaming
     - Guide
+    - Linux
 ---
 
 

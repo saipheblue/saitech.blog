@@ -7,9 +7,6 @@ image: 1.png
 tags:
     - Game
     - itch.io
-    - Linux
-    - Windows
-    - iOS
     - Indie
     - Free
 categories:
