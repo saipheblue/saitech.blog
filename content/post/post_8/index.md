@@ -47,41 +47,44 @@ It’s a game that lingers in your mind long after you’ve played it, much like
 
 BABBDI is far from the only game that offers this kind of experience. Over time, I’ve stumbled upon others, each with its own take on liminal beauty. Some I’ve played, and some are still waiting for the right moment to pull me in. Here’s a list of games I’m keeping in mind for my next exploration:
 
-[NaissanceE](https://store.steampowered.com/app/265690/NaissanceE/)
+### [NaissanceE](https://store.steampowered.com/app/265690/NaissanceE/)
 
 An obscure, magical first-person exploration game that feels like stepping into a giant, mysterious structure. It’s less about solving puzzles and more about letting yourself sink into its timeless, otherworldly atmosphere.
 
 ![NaissanceE](10.png) ![NaissanceE](10.jpg)
 
-[Concrete Paths](https://eugenio-lopez.itch.io/concrete-paths)
+### [Concrete Paths](https://eugenio-lopez.itch.io/concrete-paths)
 A meditative exploration through raw, brutalist architecture. This one feels like walking through forgotten spaces where the world fades to concrete and shadows.
 
 ![Concrete Paths ](8.jpg)
 
-[Concrete Tremor](https://mikeklubnika.itch.io/concrete-tremor)
+### [Concrete Tremor](https://mikeklubnika.itch.io/concrete-tremor)
 A short, unsettling experience that captures the liminal tension of industrial environments. It’s minimalist but hits hard with its oppressive, empty mood.
 
 ![Concrete Tremor](7.png)
 
-[Fugue in Void](https://moshelinke.itch.io/fugue-in-void)
+### [Fugue in Void](https://moshelinke.itch.io/fugue-in-void)
 A game that feels more like a visual poem. It takes you through vast, hauntingly empty structures, forcing you to sit with the silence and soak in the mood.
 
 ![Fugue in Void](5.png)
 
-[2:22AM](https://umbrella-isle.itch.io/222am)
+### [2:22AM](https://umbrella-isle.itch.io/222am)
 A quiet, contemplative experience about wandering through a neon-lit urban landscape at night. It captures the strange mix of comfort and unease that comes with being awake when the rest of the world is asleep.
 
 ![2:22AM](4.png)
 
-[Kletka](https://store.steampowered.com/app/1699480/KLETKA/), might not perfectly match the “abandoned” theme, but its atmosphere and mood fit right into the same emotional space. Sometimes, it’s not about the specifics of the environment but the feeling it leaves behind—the echoes, the weight of something unspoken.
+### [Kletka](https://store.steampowered.com/app/1699480/KLETKA/)
+
+It might not perfectly match the “abandoned” theme, but its atmosphere and mood fit right into the same emotional space. Sometimes, it’s not about the specifics of the environment but the feeling it leaves behind—the echoes, the weight of something unspoken.
 
 ![Kletka](15.jpg)
 
-[Machinarium](https://amanita-design.net/games/machinarium.html), by Amanita Design, isn’t about derelict spaces, yet it captures the same sense of isolation and melancholy. Set in a decaying mechanical world, it immerses you in empty, quiet environments where you feel more like a visitor than a participant. The beauty lies in its silence—the world doesn’t need to be abandoned to feel forgotten. With its delicate atmosphere and Tomas Dvorak’s haunting soundtrack, Machinarium evokes the feeling of wandering through spaces that time has left behind, allowing the stillness to speak for itself.
+### [Machinarium](https://amanita-design.net/games/machinarium.html)
+ Created by Amanita Design,this game isn’t about derelict spaces, yet it captures the same sense of isolation and melancholy. Set in a decaying mechanical world, it immerses you in empty, quiet environments where you feel more like a visitor than a participant. The beauty lies in its silence—the world doesn’t need to be abandoned to feel forgotten. With its delicate atmosphere and Tomas Dvorak’s haunting soundtrack, Machinarium evokes the feeling of wandering through spaces that time has left behind, allowing the stillness to speak for itself.
 
 ![Machinarium](1.png)
 
-## The Sound of Nostalgic Emptiness
+## Sweden - C148
 
 As I get lost in these desolate worlds, there’s one track that always seems to match the feeling perfectly: “Sweden” by C418. Originally from Minecraft.
 
