@@ -73,8 +73,7 @@ A quiet, contemplative experience about wandering through a neon-lit urban lands
 
 ![2:22AM](4.png)
 
-[Kletka](https://store.steampowered.com/app/1699480/KLETKA/)
-Kletka, might not perfectly match the “abandoned” theme, but its atmosphere and mood fit right into the same emotional space. Sometimes, it’s not about the specifics of the environment but the feeling it leaves behind—the echoes, the weight of something unspoken.
+[Kletka](https://store.steampowered.com/app/1699480/KLETKA/), might not perfectly match the “abandoned” theme, but its atmosphere and mood fit right into the same emotional space. Sometimes, it’s not about the specifics of the environment but the feeling it leaves behind—the echoes, the weight of something unspoken.
 
 ![Kletka](15.jpg)
 
