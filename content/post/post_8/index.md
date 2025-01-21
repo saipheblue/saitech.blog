@@ -22,6 +22,10 @@ tags:
 categories:
     - Gaming
 ---
+> Disclaimer:
+> This post was created with the help of an LLM ( also incorrectly referred to as AI ), mostly for grammar correction. Most of the generated "translation" is based on my own text, wiki entries, or official game descriptions.
+
+-------------------
 
 There’s something both haunting and captivating about wandering through abandoned video game worlds. The concrete jungles, where rusted steel beams entwine crumbling concrete panels like skeletal vines, feel like places you’ve visited in fleeting dreams or glimpsed at the edges of your memory, though you know you never truly have. They exert a peculiar pull, a delicate tension between familiarity and unease.
 
