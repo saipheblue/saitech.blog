@@ -5,6 +5,7 @@ description: simple command to list more readable IPs
 tags:
     - Terminal
     - Networking
+    - Arch linux
 categories:
     - Linux
 image: 1.png

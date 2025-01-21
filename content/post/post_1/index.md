@@ -5,6 +5,7 @@ description: Youtube terminal browser
 tags:
     - Terminal
     - Youtube
+    - Arch linux
 categories:
     - Linux
 image: 2024-12-19_01-32.png
