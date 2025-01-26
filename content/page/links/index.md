@@ -38,6 +38,10 @@ links:
     website: https://github.com
     image: https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png
 
+  - title: ProtonDB
+    description: ProtonDB is a community-driven database that rates and reviews the compatibility of Windows games on Linux using Steam Play and Proton.
+    website: https://www.protondb.com/
+    image: https://www.protondb.com/sites/protondb/images/site-logo.svg
 menu:
     main:
         weight: 3
