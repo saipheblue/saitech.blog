@@ -1,7 +1,7 @@
 ---
 title: Gamemode
 date: 2025-02-03
-description:
+description: A simple command to potentially improve performance
 image: 1.png
 tags:
     - Arch Linux
@@ -14,11 +14,11 @@ categories:
 
 ## What is gamemode?
 
-The command `gamemoderun %command%` is used on Linux to run a game or application with GameMode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.
+The command `gamemoderun %command%` is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.
 
 ## How It Works:
 
-`gamemoderun`: This is the command that activates GameMode.
+`gamemoderun`: This is the command that activates Gamemode.
 
 `%command%`: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.
 
@@ -29,28 +29,28 @@ If you’re running a game through Steam, you might add the following to the gam
 
 `gamemoderun %command%`
 
-This ensures the game runs with GameMode optimizations.
+This ensures the game runs with Gamemode optimizations.
 
 ## Installation:
 
-If you don’t have GameMode installed, you can install it on Arch Linux using:
+If you don’t have Gamemode installed, you can install it on Arch Linux using:
 
 
 ```
 sudo pacman -S gamemode
 ```
 
-To check if GameMode is active, run:
+To check if Gamemode is active, run:
 
 ```
 gamemoded -s
 ```
-This will show whether GameMode is running.
+This will show whether Gamemode is running.
 
 
-## What Does GameMode Optimize?
+## What Does Gamemode Optimize?
 
-GameMode can tweak a variety of settings to improve gaming performance, including:
+Gamemode can tweak a variety of settings to improve gaming performance, including:
 
 * CPU Governor:
   * Locks your CPU at top speed for better performance.
@@ -82,7 +82,7 @@ Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora,
 
 ## Is It Worth It?
 
-While not all games will see a huge improvement, GameMode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!
+While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!
 
 For more details, check out the [Github repository](https://github.com/FeralInteractive/gamemode)
 
