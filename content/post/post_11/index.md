@@ -21,7 +21,7 @@ categories:
 
 The command `gamemoderun %command%` is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.
 
-## How It Works:
+## How It Works
 
 `gamemoderun`: This is the command that activates Gamemode.
 
@@ -36,7 +36,9 @@ If you’re running a game through Steam, you might add the following to the gam
 
 This ensures the game runs with Gamemode optimizations.
 
-## Installation:
+![](2.png)
+
+## Installation
 
 If you don’t have Gamemode installed, you can install it on Arch Linux using:
 
