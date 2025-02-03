@@ -9,8 +9,8 @@ tags:
     - Tweaks
 
 categories:
-    - Linux
     - Gaming
+    - Linux
 ---
 
 ## What is gamemode?
