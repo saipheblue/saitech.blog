@@ -10,6 +10,7 @@ tags:
 
 categories:
     - Linux
+    - Gaming
 ---
 
 ## What is gamemode?
