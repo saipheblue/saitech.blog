@@ -7,10 +7,14 @@ tags:
     - Arch Linux
     - Terminal
     - Tweaks
+    - GameMode
+    - Steam
+    - Github
 
 categories:
     - Gaming
     - Linux
+
 ---
 
 ## What is gamemode?
