@@ -25,7 +25,7 @@ If you’re a `Discord` user looking for better Linux support, enhanced performa
 
 ![Mascot](4.png)
 
-## Where to Download Vesktop
+## Where to Download it
 
 Official Website: [vencord.dev](https://vencord.dev/)
 
@@ -35,7 +35,7 @@ Flatpak (Linux): [Flathub](https://flathub.org/apps/dev.vencord.Vesktop)
 
 ![Github](1.jpg)
 
-## Why Use Vesktop?
+## Why Use it?
 
 
 Here are some of the key reasons to switch to Vesktop:
@@ -74,7 +74,7 @@ Here are some of the most useful Vesktop plugins to enhance your experience:
 * <b>NoDevtoolsWarning</b>
   * Disables the "HOLD UP" warning when opening Developer Tools. It also prevents Discord from hiding your token, helping avoid random logouts—a must-have for a smoother experience.
 
-* 📡 <b>WebScreenShareFixes</b>
+* <b>WebScreenShareFixes</b>
   * Removes the 2500kbps bitrate cap on Chromium and Vesktop clients, improving screen-sharing quality.
 
 ![Plugins](2.png)
