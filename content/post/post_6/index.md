@@ -9,6 +9,8 @@ tags:
     - Script
     - Bspwm
     - Tweaks
+    - Tiling Windows Manager
+
 categories:
     - Guide
     - Linux

@@ -2,7 +2,7 @@
 title: Arch News Alert
 date: 2025-02-20
 description:  A simple Polybar notification system to track Arch Linux news, especially manual interventions.
-image: 1.png
+image: 3.png
 tags:
     - Arch Linux
     - Bspwm
@@ -21,6 +21,8 @@ categories:
 I got tired of manually checking [archlinux.org/news](https://archlinux.org/news) every day just to see if there were any critical updates requiring manual steps (you know, the dreaded `manual intervention`). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.
 
 When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.
+
+![](2.png)
 
 ## Module
 
