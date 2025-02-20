@@ -45,7 +45,7 @@ Here are some of the key reasons to switch to Vesktop:
 * ✨ <b>Plugins:</b>
   * Customize your Discord experience with a range of plugins.
 * 🎨 <b>Custom Themes:</b>
-  * Make Discord truly yours with community-made themes from discord-themes.com.
+  * Make Discord truly yours with community-made themes from [discord-themes.com](https://discord-themes.com).
 * 🚀 <b>Fake Nitro:</b>
   * Unlock some premium features (like emojis and stickers) without paying—though with certain limitations.
 

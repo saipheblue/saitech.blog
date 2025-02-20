@@ -17,7 +17,7 @@ I was looking for a Linux alternative to the Win + G shortcut in Windows, which 
 
 This script was primarily created for the `bspwm`  tiling window manager but might work with some tweaks on other window managers.
 
-# Steps to Use:
+# Steps to Use
 
 ## Keybind
 
