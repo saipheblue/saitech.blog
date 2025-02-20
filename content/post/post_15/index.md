@@ -18,7 +18,7 @@ categories:
 ---
 ## Why?
 
-I got tired of manually checking archlinux.org/news every day just to see if there were any critical updates requiring manual steps (you know, the dreaded `manual intervention`). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.
+I got tired of manually checking [archlinux.org/news](https://archlinux.org/news) every day just to see if there were any critical updates requiring manual steps (you know, the dreaded `manual intervention`). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.
 
 When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.
 
