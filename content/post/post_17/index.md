@@ -1,6 +1,7 @@
 ---
 title: YouTube Video Finder
 date: 2025-02-25
+publishDate: 2025-02-24
 description: Discover the name of deleted YouTube videos!
 image: 2.png
 tags:
