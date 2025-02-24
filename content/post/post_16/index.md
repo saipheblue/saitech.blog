@@ -27,9 +27,10 @@ That’s what I think about... but enough words. Try it—or don’t.
 
 Made by [Nifflas](https://nifflas.itch.io/)
 
-`Download` it here from the <b>[Internet Archive](https://archive.org/details/Within_a_Deep_Forest/Withinadeepforest2.png)</b>
+[`Download`](https://archive.org/details/Within_a_Deep_Forest/) it here from the [Internet Archive](https://archive.org/details/Within_a_Deep_Forest/)
 
 Check [Game Wiki](https://nifflas.fandom.com/wiki/Within_a_Deep_Forest) for secrets , plot summary and list uf unlockable balls
 
 ![](1.png)
+![](2.png)
 ![](4.png)
