@@ -1,7 +1,7 @@
 ---
 title: MangoHud
 date: 2025-02-28
-description: Performance overlay for FPS, CPU/GPU, and more.
+description: Performance overlay
 image: 1.png
 tags:
     - MangoHud

@@ -10,6 +10,7 @@ tags:
     - GameMode
     - Steam
     - Github
+    - Launch command
 
 categories:
     - Gaming
