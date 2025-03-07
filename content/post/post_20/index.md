@@ -22,7 +22,9 @@ categories:
     - Linux
 
 ---
-Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound. This guide will walk you through how to set them up and get the best out of your headphones.
+Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.
+
+This guide will walk you through how to set them up and get the best out of your headphones.
 
 ## Linux Setup: EasyEffects
 
@@ -37,7 +39,7 @@ flatpak install flathub com.github.wwmm.easyeffects
 
 ### Download and Apply Headphone Configs
 * Check out the <b>[AutoEq repository](https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear)</b> on GitHub for pre-made EQ settings for your headphones.
-*  Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones.
+*  Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving "Input" bar.
 
 Do not forget to save your preset !
 
