@@ -24,7 +24,7 @@ Alright, straight to it—I spent way too much time fighting with my Xbox contro
 Turns out, the fix was simpler than expected. Huge thanks to <b>[this](https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/)</b> blog post for pointing me in the right direction.
 
 
-
+## Install Kernel Headers & xpadneo
 First, make sure you have the kernel headers:
 
 
@@ -37,6 +37,7 @@ Then, install xpadneo, which fixes a bunch of Xbox controller nonsense:
 yay -S xpadneo-dkms-git
 ```
 
+## Update Your Controller Firmware
 Here’s the kicker—you have to update your controller’s firmware, and Microsoft, being Microsoft, only lets you do it on Windows.
 
 So either:
