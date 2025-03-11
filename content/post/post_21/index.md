@@ -14,6 +14,7 @@ tags:
     - Configuration
 
 categories:
+    - Guide
     - Linux
 
 ---
