@@ -45,6 +45,8 @@ So either:
 *  Boot into Windows (if you have it)
 *  Use a Windows VM
 
+And here’s the key part you might’ve missed—head to the Microsoft Store and download the Xbox Accessories app. Once you’ve got that installed, open it up, connect your controller, and you'll be able to update the firmware.
+
 Reboot, reconnect, and boom—your controller should finally work without dropping every five seconds.
 
 Hope this saves someone the headache I had. Happy gaming! 🎮
