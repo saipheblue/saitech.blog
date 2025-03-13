@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tiling Windows Manager on Saitech</title>
-        <link>http://localhost:1313/tags/tiling-windows-manager/</link>
+        <link>https://saipheblue.github.io/tags/tiling-windows-manager/</link>
         <description>Recent content in Tiling Windows Manager on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tiling-windows-manager/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 20 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/tiling-windows-manager/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Arch News Alert</title>
-        <link>http://localhost:1313/p/arch-news-alert/</link>
+        <link>https://saipheblue.github.io/p/arch-news-alert/</link>
         <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/arch-news-alert/</guid>
-        <description>&lt;img src="http://localhost:1313/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id=&#34;why&#34;&gt;Why?
+        <guid>https://saipheblue.github.io/p/arch-news-alert/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id=&#34;why&#34;&gt;Why?
 &lt;/h2&gt;&lt;p&gt;I got tired of manually checking &lt;a class=&#34;link&#34; href=&#34;https://archlinux.org/news&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;archlinux.org/news&lt;/a&gt; every day just to see if there were any critical updates requiring manual steps (you know, the dreaded &lt;code&gt;manual intervention&lt;/code&gt;). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.&lt;/p&gt;
 &lt;p&gt;When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/arch-news-alert/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/arch-news-alert/2.png&#34;
 	width=&#34;1493&#34;
 	height=&#34;489&#34;
-	srcset=&#34;http://localhost:1313/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, http://localhost:1313/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saipheblue.github.io/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -182,11 +182,11 @@
         </item>
         <item>
         <title>Quick Audio Management</title>
-        <link>http://localhost:1313/p/quick-audio-management/</link>
+        <link>https://saipheblue.github.io/p/quick-audio-management/</link>
         <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/quick-audio-management/</guid>
-        <description>&lt;img src="http://localhost:1313/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
+        <guid>https://saipheblue.github.io/p/quick-audio-management/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
 &lt;p&gt;This script was primarily created for the &lt;code&gt;bspwm&lt;/code&gt;  tiling window manager but might work with some tweaks on other window managers.&lt;/p&gt;
 &lt;h1 id=&#34;steps-to-use&#34;&gt;Steps to Use
 &lt;/h1&gt;&lt;h2 id=&#34;keybind&#34;&gt;Keybind
@@ -332,10 +332,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;notify-send &lt;span class=&#34;s2&#34;&gt;&amp;#34;Set volume for &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$app_name&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; to &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$new_volume&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;%&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quick-audio-management/3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/3.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;http://localhost:1313/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, http://localhost:1313/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saipheblue.github.io/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Select an application&#34;
@@ -345,10 +345,10 @@
 		data-flex-grow=&#34;177&#34;
 		data-flex-basis=&#34;426px&#34;
 	
-&gt;  &lt;img src=&#34;http://localhost:1313/p/quick-audio-management/4.png&#34;
+&gt;  &lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/4.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;http://localhost:1313/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, http://localhost:1313/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saipheblue.github.io/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Adjust the volume during gameplay&#34;

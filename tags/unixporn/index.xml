@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Unixporn on Saitech</title>
-        <link>http://localhost:1313/tags/unixporn/</link>
+        <link>https://saipheblue.github.io/tags/unixporn/</link>
         <description>Recent content in Unixporn on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/unixporn/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/unixporn/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Arch Linux Rice Setup</title>
-        <link>http://localhost:1313/p/my-first-arch-linux-rice-setup/</link>
+        <link>https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/</link>
         <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/my-first-arch-linux-rice-setup/</guid>
-        <description>&lt;img src="http://localhost:1313/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link  &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;here&lt;/a&gt;&lt;/b&gt;.&lt;/p&gt;
+        <guid>https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;here&lt;/a&gt;&lt;/b&gt;. 🎉😄&lt;/p&gt;
+&lt;p&gt;Hope that adds some extra excitement!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p&gt;&lt;/blockquote&gt;
 </description>

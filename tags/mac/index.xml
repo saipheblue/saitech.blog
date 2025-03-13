@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Mac on Saitech</title>
-        <link>http://localhost:1313/tags/mac/</link>
+        <link>https://saipheblue.github.io/tags/mac/</link>
         <description>Recent content in Mac on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/mac/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Super-productivity</title>
-        <link>http://localhost:1313/p/super-productivity/</link>
+        <link>https://saipheblue.github.io/p/super-productivity/</link>
         <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/super-productivity/</guid>
-        <description>&lt;img src="http://localhost:1313/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+        <guid>https://saipheblue.github.io/p/super-productivity/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
 &lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
 &lt;p&gt;Official site:&lt;b&gt; &lt;a class=&#34;link&#34; href=&#34;https://super-productivity.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/super-productivity/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/super-productivity/2.png&#34;
 	width=&#34;801&#34;
 	height=&#34;750&#34;
-	srcset=&#34;http://localhost:1313/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, http://localhost:1313/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saipheblue.github.io/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -84,16 +84,16 @@
         </item>
         <item>
         <title>Vencord / Vesktop</title>
-        <link>http://localhost:1313/p/vencord-/-vesktop/</link>
+        <link>https://saipheblue.github.io/p/vencord-/-vesktop/</link>
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/vencord-/-vesktop/</guid>
-        <description>&lt;img src="http://localhost:1313/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
+        <guid>https://saipheblue.github.io/p/vencord-/-vesktop/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
 &lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/4.png&#34;
 	width=&#34;236&#34;
 	height=&#34;236&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, http://localhost:1313/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Mascot&#34;
@@ -111,10 +111,10 @@
     &gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Flatpak (Linux): &lt;a class=&#34;link&#34; href=&#34;https://flathub.org/apps/dev.vencord.Vesktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flathub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/1.jpg&#34;
 	width=&#34;474&#34;
 	height=&#34;237&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, http://localhost:1313/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saipheblue.github.io/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Github&#34;
@@ -150,10 +150,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/5.png&#34;
 	width=&#34;1655&#34;
 	height=&#34;931&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, http://localhost:1313/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Outlook Theme&#34;
@@ -164,10 +164,10 @@
 		data-flex-basis=&#34;426px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/6.png&#34;
+&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/6.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1800&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, http://localhost:1313/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ultra Theme&#34;
@@ -224,10 +224,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/2.png&#34;
 	width=&#34;1227&#34;
 	height=&#34;955&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, http://localhost:1313/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Plugins&#34;
@@ -238,10 +238,10 @@
 		data-flex-basis=&#34;308px&#34;
 	
 &gt;
-&lt;img src=&#34;http://localhost:1313/p/vencord-/-vesktop/3.png&#34;
+&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/3.png&#34;
 	width=&#34;917&#34;
 	height=&#34;1126&#34;
-	srcset=&#34;http://localhost:1313/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, http://localhost:1313/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
+	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Setup&#34;
