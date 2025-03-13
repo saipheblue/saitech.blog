@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Audio on Saitech</title>
-        <link>https://saipheblue.github.io/tags/audio/</link>
+        <link>http://localhost:1313/tags/audio/</link>
         <description>Recent content in Audio on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/audio/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Audio EQ for Windows &amp; Linux</title>
-        <link>https://saipheblue.github.io/p/audio-eq-for-windows-linux/</link>
+        <link>http://localhost:1313/p/audio-eq-for-windows-linux/</link>
         <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/audio-eq-for-windows-linux/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+        <guid>http://localhost:1313/p/audio-eq-for-windows-linux/</guid>
+        <description>&lt;img src="http://localhost:1313/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id=&#34;linux-setup-easyeffects&#34;&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -38,10 +38,10 @@
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/audio-eq-for-windows-linux/3.png&#34;
 	width=&#34;1127&#34;
 	height=&#34;749&#34;
-	srcset=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saipheblue.github.io/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, http://localhost:1313/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EasyEffects&#34;
@@ -53,10 +53,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;windows-setup-equalizer-apo--peace&#34;&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/1.jpeg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/audio-eq-for-windows-linux/1.jpeg&#34;
 	width=&#34;1040&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saipheblue.github.io/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, http://localhost:1313/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Equalizer APO &amp;#43; PEACE&#34;
@@ -91,11 +91,11 @@
         </item>
         <item>
         <title>Quick Audio Management</title>
-        <link>https://saipheblue.github.io/p/quick-audio-management/</link>
+        <link>http://localhost:1313/p/quick-audio-management/</link>
         <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quick-audio-management/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
+        <guid>http://localhost:1313/p/quick-audio-management/</guid>
+        <description>&lt;img src="http://localhost:1313/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
 &lt;p&gt;This script was primarily created for the &lt;code&gt;bspwm&lt;/code&gt;  tiling window manager but might work with some tweaks on other window managers.&lt;/p&gt;
 &lt;h1 id=&#34;steps-to-use&#34;&gt;Steps to Use
 &lt;/h1&gt;&lt;h2 id=&#34;keybind&#34;&gt;Keybind
@@ -241,10 +241,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;notify-send &lt;span class=&#34;s2&#34;&gt;&amp;#34;Set volume for &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$app_name&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; to &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$new_volume&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;%&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quick-audio-management/3.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saipheblue.github.io/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, http://localhost:1313/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Select an application&#34;
@@ -254,10 +254,10 @@
 		data-flex-grow=&#34;177&#34;
 		data-flex-basis=&#34;426px&#34;
 	
-&gt;  &lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/4.png&#34;
+&gt;  &lt;img src=&#34;http://localhost:1313/p/quick-audio-management/4.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saipheblue.github.io/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, http://localhost:1313/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Adjust the volume during gameplay&#34;

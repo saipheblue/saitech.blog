@@ -2,26 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Bluetoothctl on Saitech</title>
-        <link>https://saipheblue.github.io/tags/bluetoothctl/</link>
+        <link>http://localhost:1313/tags/bluetoothctl/</link>
         <description>Recent content in Bluetoothctl on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/bluetoothctl/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>testing github workflows</title>
-        <link>https://saipheblue.github.io/p/testing-github-workflows/</link>
-        <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saipheblue.github.io/p/testing-github-workflows/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/1.png" alt="Featured image of post testing github workflows" /&gt;&lt;p&gt;this is a github workflow test&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bluetoothctl/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Xbox Controller on Linux</title>
-        <link>https://saipheblue.github.io/p/xbox-controller-on-linux/</link>
+        <link>http://localhost:1313/p/xbox-controller-on-linux/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/xbox-controller-on-linux/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+        <guid>http://localhost:1313/p/xbox-controller-on-linux/</guid>
+        <description>&lt;img src="http://localhost:1313/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
 &lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
 &lt;h2 id=&#34;install-kernel-headers--xpadneo&#34;&gt;Install Kernel Headers &amp;amp; xpadneo

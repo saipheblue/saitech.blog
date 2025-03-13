@@ -2,26 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Steam on Saitech</title>
-        <link>https://saipheblue.github.io/tags/steam/</link>
+        <link>http://localhost:1313/tags/steam/</link>
         <description>Recent content in Steam on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/steam/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>testing github workflows</title>
-        <link>https://saipheblue.github.io/p/testing-github-workflows/</link>
-        <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saipheblue.github.io/p/testing-github-workflows/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/1.png" alt="Featured image of post testing github workflows" /&gt;&lt;p&gt;this is a github workflow test&lt;/p&gt;
-</description>
-        </item>
-        <item>
+        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/steam/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Xbox Controller on Linux</title>
-        <link>https://saipheblue.github.io/p/xbox-controller-on-linux/</link>
+        <link>http://localhost:1313/p/xbox-controller-on-linux/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/xbox-controller-on-linux/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+        <guid>http://localhost:1313/p/xbox-controller-on-linux/</guid>
+        <description>&lt;img src="http://localhost:1313/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
 &lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
 &lt;h2 id=&#34;install-kernel-headers--xpadneo&#34;&gt;Install Kernel Headers &amp;amp; xpadneo
@@ -57,11 +48,11 @@
         </item>
         <item>
         <title>MangoHud</title>
-        <link>https://saipheblue.github.io/p/mangohud/</link>
+        <link>http://localhost:1313/p/mangohud/</link>
         <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/mangohud/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+        <guid>http://localhost:1313/p/mangohud/</guid>
+        <description>&lt;img src="http://localhost:1313/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
 &lt;p&gt;Install MangoHud:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -90,10 +81,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/mangohud/1.jpg&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/mangohud/1.jpg&#34;
 	width=&#34;474&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://saipheblue.github.io/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saipheblue.github.io/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, http://localhost:1313/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -106,11 +97,11 @@
         </item>
         <item>
         <title>Gamemode</title>
-        <link>https://saipheblue.github.io/p/gamemode/</link>
+        <link>http://localhost:1313/p/gamemode/</link>
         <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/gamemode/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
+        <guid>http://localhost:1313/p/gamemode/</guid>
+        <description>&lt;img src="http://localhost:1313/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -119,10 +110,10 @@
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/gamemode/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/gamemode/2.png&#34;
 	width=&#34;523&#34;
 	height=&#34;133&#34;
-	srcset=&#34;https://saipheblue.github.io/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saipheblue.github.io/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, http://localhost:1313/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -213,21 +204,21 @@
         </item>
         <item>
         <title>Quest 3 on Arch</title>
-        <link>https://saipheblue.github.io/p/quest-3-on-arch/</link>
+        <link>http://localhost:1313/p/quest-3-on-arch/</link>
         <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quest-3-on-arch/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
+        <guid>http://localhost:1313/p/quest-3-on-arch/</guid>
+        <description>&lt;img src="http://localhost:1313/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
 &lt;h2 id=&#34;steamvr&#34;&gt;SteamVR
 &lt;/h2&gt;&lt;p&gt;SteamVR is the backbone of PC VR gaming, supporting a wide range of headsets and offering access to countless VR titles.
 It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;ve previously used your headset on Windows, you might encounter an issue with Steam Link on Linux. It displays the error:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&#39;Streaming VR is not available from that computer.&#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Due to this limitation, we need to use alternative software to pair with SteamVR.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quest-3-on-arch/1.png&#34;
 	width=&#34;1743&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, http://localhost:1313/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -259,10 +250,10 @@ It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;alvr-air-light-vr&#34;&gt;ALVR (Air Light VR)
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/2.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quest-3-on-arch/2.png&#34;
 	width=&#34;2549&#34;
 	height=&#34;492&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, http://localhost:1313/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -278,10 +269,10 @@ It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;li&gt;Install the APK on your headset using SideQuest.&lt;/li&gt;
 &lt;li&gt;Extract the &lt;code&gt;.tar&lt;/code&gt; file on your Arch Linux machine and run the executable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quest-3-on-arch/4.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1348&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, http://localhost:1313/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	

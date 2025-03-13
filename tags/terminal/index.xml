@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Terminal on Saitech</title>
-        <link>https://saipheblue.github.io/tags/terminal/</link>
+        <link>http://localhost:1313/tags/terminal/</link>
         <description>Recent content in Terminal on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>CTRL &#43; U</title>
-        <link>https://saipheblue.github.io/p/ctrl--u/</link>
+        <link>http://localhost:1313/p/ctrl--u/</link>
         <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/ctrl--u/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/ctrl--u/1.png" alt="Featured image of post CTRL &#43; U" /&gt;&lt;h2 id=&#34;keyboard-shortcut&#34;&gt;Keyboard Shortcut
+        <guid>http://localhost:1313/p/ctrl--u/</guid>
+        <description>&lt;img src="http://localhost:1313/p/ctrl--u/1.png" alt="Featured image of post CTRL &#43; U" /&gt;&lt;h2 id=&#34;keyboard-shortcut&#34;&gt;Keyboard Shortcut
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Funny Linux Commands</title>
-        <link>https://saipheblue.github.io/p/funny-linux-commands/</link>
+        <link>http://localhost:1313/p/funny-linux-commands/</link>
         <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/funny-linux-commands/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id=&#34;cowsay&#34;&gt;Cowsay
+        <guid>http://localhost:1313/p/funny-linux-commands/</guid>
+        <description>&lt;img src="http://localhost:1313/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id=&#34;cowsay&#34;&gt;Cowsay
 &lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
 &lt;p&gt;Install it using pacman:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -42,10 +42,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/4.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/4.png&#34;
 	width=&#34;320&#34;
 	height=&#34;171&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saipheblue.github.io/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, http://localhost:1313/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay hi&#34;
@@ -65,10 +65,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -g &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/6.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/6.png&#34;
 	width=&#34;304&#34;
 	height=&#34;170&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saipheblue.github.io/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, http://localhost:1313/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay -g hi&#34;
@@ -88,10 +88,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/7.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/7.png&#34;
 	width=&#34;351&#34;
 	height=&#34;408&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saipheblue.github.io/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, http://localhost:1313/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay -f fox hi&#34;
@@ -114,10 +114,10 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;cowthink&#34;&gt;Cowthink
 &lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/5.png&#34;
 	width=&#34;302&#34;
 	height=&#34;166&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saipheblue.github.io/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, http://localhost:1313/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowthink hi&#34;
@@ -140,10 +140,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S sl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/1.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/1.png&#34;
 	width=&#34;915&#34;
 	height=&#34;435&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saipheblue.github.io/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, http://localhost:1313/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;sl&#34;
@@ -165,10 +165,10 @@
 &lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/funny-linux-commands/3.png&#34;
 	width=&#34;1194&#34;
 	height=&#34;300&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saipheblue.github.io/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, http://localhost:1313/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;sl -G&#34;
@@ -183,11 +183,11 @@
         </item>
         <item>
         <title>Gamemode</title>
-        <link>https://saipheblue.github.io/p/gamemode/</link>
+        <link>http://localhost:1313/p/gamemode/</link>
         <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/gamemode/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
+        <guid>http://localhost:1313/p/gamemode/</guid>
+        <description>&lt;img src="http://localhost:1313/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -196,10 +196,10 @@
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/gamemode/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/gamemode/2.png&#34;
 	width=&#34;523&#34;
 	height=&#34;133&#34;
-	srcset=&#34;https://saipheblue.github.io/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saipheblue.github.io/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, http://localhost:1313/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -290,11 +290,11 @@
         </item>
         <item>
         <title>Quick Tools to Manage Space Usage</title>
-        <link>https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/</link>
+        <link>http://localhost:1313/p/quick-tools-to-manage-space-usage/</link>
         <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
+        <guid>http://localhost:1313/p/quick-tools-to-manage-space-usage/</guid>
+        <description>&lt;img src="http://localhost:1313/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
 &lt;h2 id=&#34;terminal&#34;&gt;Terminal
 &lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -309,10 +309,10 @@
 &lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/2.png&#34;
 	width=&#34;917&#34;
 	height=&#34;91&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, http://localhost:1313/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;find / -type f&#34;
@@ -343,10 +343,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/1.png&#34;
 	width=&#34;850&#34;
 	height=&#34;428&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, http://localhost:1313/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ncdu&#34;
@@ -367,10 +367,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S baobab
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/3.png&#34;
 	width=&#34;958&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w&#34;
+	srcset=&#34;http://localhost:1313/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, http://localhost:1313/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;baobab&#34;
@@ -432,11 +432,11 @@
         </item>
         <item>
         <title>Colorize and List IPs</title>
-        <link>https://saipheblue.github.io/p/colorize-and-list-ips/</link>
+        <link>http://localhost:1313/p/colorize-and-list-ips/</link>
         <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/colorize-and-list-ips/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
+        <guid>http://localhost:1313/p/colorize-and-list-ips/</guid>
+        <description>&lt;img src="http://localhost:1313/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
 &lt;p&gt;The syntax is:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -454,11 +454,11 @@
         </item>
         <item>
         <title>YT-X</title>
-        <link>https://saipheblue.github.io/p/yt-x/</link>
+        <link>http://localhost:1313/p/yt-x/</link>
         <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/yt-x/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
+        <guid>http://localhost:1313/p/yt-x/</guid>
+        <description>&lt;img src="http://localhost:1313/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
 &lt;h2 id=&#34;source&#34;&gt;Source
 &lt;/h2&gt;&lt;p&gt;Get it from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Benexl/yt-x&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;

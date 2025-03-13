@@ -2,353 +2,359 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://saipheblue.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/arch-linux/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/bspwm/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/configuration/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/linux/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/p/my-first-arch-linux-rice-setup/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/rice/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unixporn/</loc>
+    <lastmod>2025-03-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/application/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/application/</loc>
+    <loc>http://localhost:1313/tags/bluetoothctl/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/arch-linux/</loc>
+    <loc>http://localhost:1313/tags/controller/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/bluetoothctl/</loc>
+    <loc>http://localhost:1313/categories/guide/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/</loc>
+    <loc>http://localhost:1313/tags/steam/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/configuration/</loc>
+    <loc>http://localhost:1313/tags/tweaks/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/controller/</loc>
+    <loc>http://localhost:1313/tags/xbox/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/guide/</loc>
+    <loc>http://localhost:1313/p/xbox-controller-on-linux/</loc>
     <lastmod>2025-03-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/linux/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/post/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/steam/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/p/testing-github-workflows/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/tweaks/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/xbox/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/p/xbox-controller-on-linux/</loc>
-    <lastmod>2025-03-10T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/apo/</loc>
+    <loc>http://localhost:1313/tags/apo/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/audio/</loc>
+    <loc>http://localhost:1313/tags/audio/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/audio-eq-for-windows-linux/</loc>
+    <loc>http://localhost:1313/p/audio-eq-for-windows-linux/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/easyeffects/</loc>
+    <loc>http://localhost:1313/tags/easyeffects/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/equalizer/</loc>
+    <loc>http://localhost:1313/tags/equalizer/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/headphones/</loc>
+    <loc>http://localhost:1313/tags/headphones/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/linux/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/peace/</loc>
+    <loc>http://localhost:1313/tags/peace/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/preset/</loc>
+    <loc>http://localhost:1313/tags/preset/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tools/</loc>
+    <loc>http://localhost:1313/tags/tools/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/windows/</loc>
+    <loc>http://localhost:1313/tags/windows/</loc>
     <lastmod>2025-03-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/mac/</loc>
+    <loc>http://localhost:1313/tags/mac/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/productivity/</loc>
+    <loc>http://localhost:1313/tags/productivity/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/super/</loc>
+    <loc>http://localhost:1313/tags/super/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/super-productivity/</loc>
+    <loc>http://localhost:1313/p/super-productivity/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/todo-list/</loc>
+    <loc>http://localhost:1313/tags/todo-list/</loc>
     <lastmod>2025-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/launch-command/</loc>
+    <loc>http://localhost:1313/tags/launch-command/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/mangohud/</loc>
+    <loc>http://localhost:1313/p/mangohud/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/mangohud/</loc>
+    <loc>http://localhost:1313/tags/mangohud/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tool/</loc>
+    <loc>http://localhost:1313/tags/tool/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tweak/</loc>
+    <loc>http://localhost:1313/tags/tweak/</loc>
     <lastmod>2025-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/bookmark/</loc>
+    <loc>http://localhost:1313/categories/bookmark/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/site/</loc>
+    <loc>http://localhost:1313/tags/site/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/video-finder/</loc>
+    <loc>http://localhost:1313/tags/video-finder/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/web/</loc>
+    <loc>http://localhost:1313/tags/web/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/youtube/</loc>
+    <loc>http://localhost:1313/tags/youtube/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/youtube-video-finder/</loc>
+    <loc>http://localhost:1313/p/youtube-video-finder/</loc>
     <lastmod>2025-02-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/free/</loc>
+    <loc>http://localhost:1313/tags/free/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/freeware/</loc>
+    <loc>http://localhost:1313/tags/freeware/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/game/</loc>
+    <loc>http://localhost:1313/tags/game/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/gaming/</loc>
+    <loc>http://localhost:1313/categories/gaming/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/indie/</loc>
+    <loc>http://localhost:1313/tags/indie/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/itch.io/</loc>
+    <loc>http://localhost:1313/tags/itch.io/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/platformer/</loc>
+    <loc>http://localhost:1313/tags/platformer/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/within-a-deep-forest/</loc>
+    <loc>http://localhost:1313/p/within-a-deep-forest/</loc>
     <lastmod>2025-02-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/arch-news-alert/</loc>
+    <loc>http://localhost:1313/p/arch-news-alert/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/bspwm/</loc>
+    <loc>http://localhost:1313/tags/polybar/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/polybar/</loc>
+    <loc>http://localhost:1313/tags/tiling-windows-manager/</loc>
     <lastmod>2025-02-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tiling-windows-manager/</loc>
-    <lastmod>2025-02-20T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://saipheblue.github.io/tags/adblock/</loc>
+    <loc>http://localhost:1313/tags/adblock/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/discord/</loc>
+    <loc>http://localhost:1313/tags/discord/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/plugins/</loc>
+    <loc>http://localhost:1313/tags/plugins/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/social-network/</loc>
+    <loc>http://localhost:1313/tags/social-network/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/vencord-/-vesktop/</loc>
+    <loc>http://localhost:1313/p/vencord-/-vesktop/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/vesktop/</loc>
+    <loc>http://localhost:1313/tags/vesktop/</loc>
     <lastmod>2025-02-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/ctrl--u/</loc>
+    <loc>http://localhost:1313/p/ctrl--u/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/keyboard-shortcut/</loc>
+    <loc>http://localhost:1313/tags/keyboard-shortcut/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/terminal/</loc>
+    <loc>http://localhost:1313/tags/terminal/</loc>
     <lastmod>2025-02-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/funny-linux-commands/</loc>
+    <loc>http://localhost:1313/p/funny-linux-commands/</loc>
     <lastmod>2025-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/gamemode/</loc>
+    <loc>http://localhost:1313/p/gamemode/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/gamemode/</loc>
+    <loc>http://localhost:1313/tags/gamemode/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2025-02-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/craft/</loc>
+    <loc>http://localhost:1313/tags/craft/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/emoji/</loc>
+    <loc>http://localhost:1313/tags/emoji/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/</loc>
+    <loc>http://localhost:1313/p/emoji-combiner-meets-infinite-fun/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/infinite/</loc>
+    <loc>http://localhost:1313/tags/infinite/</loc>
     <lastmod>2025-01-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/</loc>
+    <loc>http://localhost:1313/p/quick-tools-to-manage-space-usage/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/space-management/</loc>
+    <loc>http://localhost:1313/tags/space-management/</loc>
     <lastmod>2025-01-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/abandoned-worlds/</loc>
+    <loc>http://localhost:1313/tags/abandoned-worlds/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/amanita-design/</loc>
+    <loc>http://localhost:1313/tags/amanita-design/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/atmospheric-games/</loc>
+    <loc>http://localhost:1313/tags/atmospheric-games/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/babbdi/</loc>
+    <loc>http://localhost:1313/tags/babbdi/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/blame-manga/</loc>
+    <loc>http://localhost:1313/tags/blame-manga/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/dying-worlds/</loc>
+    <loc>http://localhost:1313/tags/dying-worlds/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/exploration-games/</loc>
+    <loc>http://localhost:1313/tags/exploration-games/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/liminal-space/</loc>
+    <loc>http://localhost:1313/p/liminal-space/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/liminal-space/</loc>
+    <loc>http://localhost:1313/tags/liminal-space/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tsutomu-nihei/</loc>
+    <loc>http://localhost:1313/tags/tsutomu-nihei/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/uncanny-valley/</loc>
+    <loc>http://localhost:1313/tags/uncanny-valley/</loc>
     <lastmod>2025-01-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/privacy/</loc>
+    <loc>http://localhost:1313/tags/privacy/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/security/</loc>
+    <loc>http://localhost:1313/tags/security/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/tos/</loc>
+    <loc>http://localhost:1313/tags/tos/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/tosdr/</loc>
+    <loc>http://localhost:1313/p/tosdr/</loc>
     <lastmod>2025-01-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/quick-audio-management/</loc>
+    <loc>http://localhost:1313/p/quick-audio-management/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/script/</loc>
+    <loc>http://localhost:1313/tags/script/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/software/</loc>
+    <loc>http://localhost:1313/tags/software/</loc>
     <lastmod>2025-01-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/the-dark-queen-of-mortholme/</loc>
+    <loc>http://localhost:1313/p/the-dark-queen-of-mortholme/</loc>
     <lastmod>2025-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/alvr/</loc>
+    <loc>http://localhost:1313/tags/alvr/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/meta/</loc>
+    <loc>http://localhost:1313/tags/meta/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/oculus/</loc>
+    <loc>http://localhost:1313/tags/oculus/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/quest-3/</loc>
+    <loc>http://localhost:1313/tags/quest-3/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/quest-3-on-arch/</loc>
+    <loc>http://localhost:1313/p/quest-3-on-arch/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/sidequest/</loc>
+    <loc>http://localhost:1313/tags/sidequest/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/steamvr/</loc>
+    <loc>http://localhost:1313/tags/steamvr/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/vr/</loc>
+    <loc>http://localhost:1313/tags/vr/</loc>
     <lastmod>2024-12-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/diy/</loc>
+    <loc>http://localhost:1313/tags/diy/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/diy-geiger-counter/</loc>
+    <loc>http://localhost:1313/p/diy-geiger-counter/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/flask/</loc>
+    <loc>http://localhost:1313/tags/flask/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/geigerm%C3%BCller/</loc>
+    <loc>http://localhost:1313/tags/geigerm%C3%BCller/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/categories/hardware/</loc>
+    <loc>http://localhost:1313/categories/hardware/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/hugo/</loc>
+    <loc>http://localhost:1313/tags/hugo/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/python/</loc>
+    <loc>http://localhost:1313/tags/python/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/radiation/</loc>
+    <loc>http://localhost:1313/tags/radiation/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/raspberry/</loc>
+    <loc>http://localhost:1313/tags/raspberry/</loc>
     <lastmod>2024-12-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/colorize-and-list-ips/</loc>
+    <loc>http://localhost:1313/p/colorize-and-list-ips/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/tags/networking/</loc>
+    <loc>http://localhost:1313/tags/networking/</loc>
     <lastmod>2024-12-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/p/yt-x/</loc>
+    <loc>http://localhost:1313/p/yt-x/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/page/</loc>
+    <loc>http://localhost:1313/page/</loc>
     <lastmod>2022-03-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://saipheblue.github.io/links/</loc>
+    <loc>http://localhost:1313/links/</loc>
   </url><url>
-    <loc>https://saipheblue.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>
