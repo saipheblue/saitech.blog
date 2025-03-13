@@ -7,6 +7,15 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <lastBuildDate>Mon, 10 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/tags/application/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>testing github workflows</title>
+        <link>https://saipheblue.github.io/p/testing-github-workflows/</link>
+        <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://saipheblue.github.io/p/testing-github-workflows/</guid>
+        <description>&lt;img src="https://saipheblue.github.io/1.png" alt="Featured image of post testing github workflows" /&gt;&lt;p&gt;this is a github workflow test&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>Xbox Controller on Linux</title>
         <link>https://saipheblue.github.io/p/xbox-controller-on-linux/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
