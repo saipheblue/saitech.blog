@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Windows on Saitech</title>
-        <link>https://saiptech.blog/tags/windows/</link>
+        <link>https://saitech.blog/tags/windows/</link>
         <description>Recent content in Windows on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiptech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Audio EQ for Windows &amp; Linux</title>
-        <link>https://saiptech.blog/p/audio-eq-for-windows-linux/</link>
+        <link>https://saitech.blog/p/audio-eq-for-windows-linux/</link>
         <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/p/audio-eq-for-windows-linux/</guid>
-        <description>&lt;img src="https://saiptech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+        <guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid>
+        <description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id=&#34;linux-setup-easyeffects&#34;&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -38,10 +38,10 @@
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/audio-eq-for-windows-linux/3.png&#34;
 	width=&#34;1127&#34;
 	height=&#34;749&#34;
-	srcset=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiptech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EasyEffects&#34;
@@ -53,10 +53,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;windows-setup-equalizer-apo--peace&#34;&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/1.jpeg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg&#34;
 	width=&#34;1040&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiptech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Equalizer APO &amp;#43; PEACE&#34;
@@ -91,18 +91,18 @@
         </item>
         <item>
         <title>Super-productivity</title>
-        <link>https://saiptech.blog/p/super-productivity/</link>
+        <link>https://saitech.blog/p/super-productivity/</link>
         <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/p/super-productivity/</guid>
-        <description>&lt;img src="https://saiptech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+        <guid>https://saitech.blog/p/super-productivity/</guid>
+        <description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
 &lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
 &lt;p&gt;Official site:&lt;b&gt; &lt;a class=&#34;link&#34; href=&#34;https://super-productivity.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/super-productivity/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/super-productivity/2.png&#34;
 	width=&#34;801&#34;
 	height=&#34;750&#34;
-	srcset=&#34;https://saiptech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saiptech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saitech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -167,16 +167,16 @@
         </item>
         <item>
         <title>Vencord / Vesktop</title>
-        <link>https://saiptech.blog/p/vencord-/-vesktop/</link>
+        <link>https://saitech.blog/p/vencord-/-vesktop/</link>
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/p/vencord-/-vesktop/</guid>
-        <description>&lt;img src="https://saiptech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
+        <guid>https://saitech.blog/p/vencord-/-vesktop/</guid>
+        <description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
 &lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/4.png&#34;
 	width=&#34;236&#34;
 	height=&#34;236&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saiptech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saitech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Mascot&#34;
@@ -194,10 +194,10 @@
     &gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Flatpak (Linux): &lt;a class=&#34;link&#34; href=&#34;https://flathub.org/apps/dev.vencord.Vesktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flathub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/1.jpg&#34;
 	width=&#34;474&#34;
 	height=&#34;237&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saiptech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saitech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Github&#34;
@@ -233,10 +233,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/5.png&#34;
 	width=&#34;1655&#34;
 	height=&#34;931&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saiptech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saitech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Outlook Theme&#34;
@@ -247,10 +247,10 @@
 		data-flex-basis=&#34;426px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/6.png&#34;
+&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/6.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1800&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saiptech.blog/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saitech.blog/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ultra Theme&#34;
@@ -307,10 +307,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/2.png&#34;
 	width=&#34;1227&#34;
 	height=&#34;955&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saiptech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saitech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Plugins&#34;
@@ -321,10 +321,10 @@
 		data-flex-basis=&#34;308px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/3.png&#34;
+&lt;img src=&#34;https://saitech.blog/p/vencord-/-vesktop/3.png&#34;
 	width=&#34;917&#34;
 	height=&#34;1126&#34;
-	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saiptech.blog/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
+	srcset=&#34;https://saitech.blog/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saitech.blog/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Setup&#34;

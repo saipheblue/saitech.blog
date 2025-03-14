@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on Saitech</title>
-        <link>https://saiptech.blog/categories/</link>
+        <link>https://saitech.blog/categories/</link>
         <description>Recent content in Categories on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiptech.blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Linux</title>
-        <link>https://saiptech.blog/categories/linux/</link>
+        <link>https://saitech.blog/categories/linux/</link>
         <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/categories/linux/</guid>
-        <description>&lt;img src="https://saiptech.blog/categories/linux/1.png" alt="Featured image of post Linux" /&gt;</description>
+        <guid>https://saitech.blog/categories/linux/</guid>
+        <description>&lt;img src="https://saitech.blog/categories/linux/1.png" alt="Featured image of post Linux" /&gt;</description>
         </item>
         <item>
         <title>Guide</title>
-        <link>https://saiptech.blog/categories/guide/</link>
+        <link>https://saitech.blog/categories/guide/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/categories/guide/</guid>
-        <description>&lt;img src="https://saiptech.blog/categories/guide/1.png" alt="Featured image of post Guide" /&gt;</description>
+        <guid>https://saitech.blog/categories/guide/</guid>
+        <description>&lt;img src="https://saitech.blog/categories/guide/1.png" alt="Featured image of post Guide" /&gt;</description>
         </item>
         <item>
         <title>Bookmark</title>
-        <link>https://saiptech.blog/categories/bookmark/</link>
+        <link>https://saitech.blog/categories/bookmark/</link>
         <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/categories/bookmark/</guid>
-        <description>&lt;img src="https://saiptech.blog/categories/bookmark/1.png" alt="Featured image of post Bookmark" /&gt;</description>
+        <guid>https://saitech.blog/categories/bookmark/</guid>
+        <description>&lt;img src="https://saitech.blog/categories/bookmark/1.png" alt="Featured image of post Bookmark" /&gt;</description>
         </item>
         <item>
         <title>Gaming</title>
-        <link>https://saiptech.blog/categories/gaming/</link>
+        <link>https://saitech.blog/categories/gaming/</link>
         <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/categories/gaming/</guid>
-        <description>&lt;img src="https://saiptech.blog/categories/gaming/1.png" alt="Featured image of post Gaming" /&gt;</description>
+        <guid>https://saitech.blog/categories/gaming/</guid>
+        <description>&lt;img src="https://saitech.blog/categories/gaming/1.png" alt="Featured image of post Gaming" /&gt;</description>
         </item>
         <item>
         <title>Hardware</title>
-        <link>https://saiptech.blog/categories/hardware/</link>
+        <link>https://saitech.blog/categories/hardware/</link>
         <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saiptech.blog/categories/hardware/</guid>
-        <description>&lt;img src="https://saiptech.blog/categories/hardware/1.png" alt="Featured image of post Hardware" /&gt;</description>
+        <guid>https://saitech.blog/categories/hardware/</guid>
+        <description>&lt;img src="https://saitech.blog/categories/hardware/1.png" alt="Featured image of post Hardware" /&gt;</description>
         </item>
         
     </channel>
