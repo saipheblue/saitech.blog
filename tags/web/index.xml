@@ -1,85 +1,40 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Web on Saitech</title>
-        <link>https://saitech.blog/tags/web/</link>
-        <description>Recent content in Web on Saitech</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/web/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>YouTube Video Finder</title>
-        <link>https://saitech.blog/p/youtube-video-finder/</link>
-        <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/youtube-video-finder/</guid>
-        <description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" /&gt;&lt;p&gt;Have you ever felt that sinking feeling when you see &lt;code&gt;&amp;quot;This video has been deleted&amp;quot;&lt;/code&gt; in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p&gt;
-&lt;p&gt;Either way, not knowing can be frustrating.&lt;/p&gt;
-&lt;p&gt;This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Search for alternative uploads&lt;/li&gt;
-&lt;li&gt;Find similar content&lt;/li&gt;
-&lt;li&gt;Or simply know what you’ve lost&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Check it out here:&lt;b&gt; &lt;a class=&#34;link&#34; href=&#34;https://findyoutubevideo.thetechrobo.ca/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://findyoutubevideo.thetechrobo.ca/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Emoji Combiner Meets Infinite Fun</title>
-        <link>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</link>
-        <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</guid>
-        <description>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" /&gt;&lt;h2 id=&#34;emoji-combiner&#34;&gt;Emoji Combiner
-&lt;/h2&gt;&lt;p&gt;When I want to create custom emoji faces, I’ll know where to go.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://emojicombiner.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4.png&#34;
-	width=&#34;2133&#34;
-	height=&#34;1334&#34;
-	srcset=&#34;https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_9a0de6952a7a16ab.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_2356c253dbb67a6d.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Emoji Combiner&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;159&#34;
-		data-flex-basis=&#34;383px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;infinite-craft&#34;&gt;Infinite Craft
-&lt;/h2&gt;&lt;p&gt;Speaking of combining two things into one, Infinite Craft has stolen a few hours of my life, and I don’t regret it. It’s a fun experience—try creating something like a sharknado and see how long it takes you.&lt;/p&gt;
-&lt;p&gt;Sharknado is pretty simple, &lt;em&gt;wink wink&lt;/em&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://neal.fun/infinite-craft/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3.png&#34;
-	width=&#34;1537&#34;
-	height=&#34;1331&#34;
-	srcset=&#34;https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_73f0431849fe9984.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_e756627d869e7cc9.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;Infinite Craft&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;115&#34;
-		data-flex-basis=&#34;277px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>ToS;DR</title>
-        <link>https://saitech.blog/p/tosdr/</link>
-        <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/tosdr/</guid>
-        <description>&lt;img src="https://saitech.blog/p/tosdr/1.png" alt="Featured image of post ToS;DR" /&gt;&lt;p&gt;I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p&gt;
-&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://tosdr.org/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;https://tosdr.org/en/&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Web on Saitech</title><link>https://saitech.blog/tags/web/</link><description>Recent content in Web on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>YouTube Video Finder</title><link>https://saitech.blog/p/youtube-video-finder/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/youtube-video-finder/</guid><description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" />&lt;p>Have you ever felt that sinking feeling when you see &lt;code>&amp;quot;This video has been deleted&amp;quot;&lt;/code> in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p>
+&lt;p>Either way, not knowing can be frustrating.&lt;/p>
+&lt;p>This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p>
+&lt;ul>
+&lt;li>Search for alternative uploads&lt;/li>
+&lt;li>Find similar content&lt;/li>
+&lt;li>Or simply know what you’ve lost&lt;/li>
+&lt;/ul>
+&lt;p>Check it out here:&lt;b> &lt;a class="link" href="https://findyoutubevideo.thetechrobo.ca/" target="_blank" rel="noopener"
+>https://findyoutubevideo.thetechrobo.ca/&lt;/a>&lt;/b>&lt;/p></description></item><item><title>Emoji Combiner Meets Infinite Fun</title><link>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</link><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</guid><description>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" />&lt;h2 id="emoji-combiner">Emoji Combiner
+&lt;/h2>&lt;p>When I want to create custom emoji faces, I’ll know where to go.&lt;/p>
+&lt;p>&lt;a class="link" href="https://emojicombiner.app/" target="_blank" rel="noopener"
+>Link&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4.png"
+width="2133"
+height="1334"
+srcset="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_9a0de6952a7a16ab.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_2356c253dbb67a6d.png 1024w"
+loading="lazy"
+alt="Emoji Combiner"
+class="gallery-image"
+data-flex-grow="159"
+data-flex-basis="383px"
+>&lt;/p>
+&lt;h2 id="infinite-craft">Infinite Craft
+&lt;/h2>&lt;p>Speaking of combining two things into one, Infinite Craft has stolen a few hours of my life, and I don’t regret it. It’s a fun experience—try creating something like a sharknado and see how long it takes you.&lt;/p>
+&lt;p>Sharknado is pretty simple, &lt;em>wink wink&lt;/em>.&lt;/p>
+&lt;p>&lt;a class="link" href="https://neal.fun/infinite-craft/" target="_blank" rel="noopener"
+>Link&lt;/a>&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3.png"
+width="1537"
+height="1331"
+srcset="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_73f0431849fe9984.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_e756627d869e7cc9.png 1024w"
+loading="lazy"
+alt="Infinite Craft"
+class="gallery-image"
+data-flex-grow="115"
+data-flex-basis="277px"
+>&lt;/p></description></item><item><title>ToS;DR</title><link>https://saitech.blog/p/tosdr/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/tosdr/</guid><description>&lt;img src="https://saitech.blog/p/tosdr/1.png" alt="Featured image of post ToS;DR" />&lt;p>I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p>
+&lt;p>&lt;a class="link" href="https://tosdr.org/en/" target="_blank" rel="noopener"
+>https://tosdr.org/en/&lt;/a>&lt;/p></description></item></channel></rss>

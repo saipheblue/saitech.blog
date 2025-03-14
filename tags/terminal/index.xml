@@ -1,503 +1,402 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Terminal on Saitech</title>
-        <link>https://saitech.blog/tags/terminal/</link>
-        <description>Recent content in Terminal on Saitech</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>CTRL &#43; U</title>
-        <link>https://saitech.blog/p/ctrl--u/</link>
-        <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/ctrl--u/</guid>
-        <description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL &#43; U" /&gt;&lt;h2 id=&#34;keyboard-shortcut&#34;&gt;Keyboard Shortcut
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Funny Linux Commands</title>
-        <link>https://saitech.blog/p/funny-linux-commands/</link>
-        <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/funny-linux-commands/</guid>
-        <description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id=&#34;cowsay&#34;&gt;Cowsay
-&lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
-&lt;p&gt;Install it using pacman:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S cowsay
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Use cowsay:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay &amp;lt;message&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/4.png&#34;
-	width=&#34;320&#34;
-	height=&#34;171&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saitech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;cowsay hi&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;187&#34;
-		data-flex-basis=&#34;449px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;For greedy eyes:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -g &amp;lt;message&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/6.png&#34;
-	width=&#34;304&#34;
-	height=&#34;170&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saitech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;cowsay -g hi&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;178&#34;
-		data-flex-basis=&#34;429px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;There are other ascii animals that you can use in palce of cow you can list them using &lt;code&gt;cowsay -l&lt;/code&gt; and switch them with &lt;code&gt;-f&lt;/code&gt;&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/7.png&#34;
-	width=&#34;351&#34;
-	height=&#34;408&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saitech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;cowsay -f fox hi&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;86&#34;
-		data-flex-basis=&#34;206px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h3 id=&#34;options&#34;&gt;Options:
-&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-b&lt;/code&gt; Invokes Borg mode&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-d&lt;/code&gt; Causes the cow to appear dead&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-p&lt;/code&gt; Makes the cow paranoid&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-s&lt;/code&gt; Makes the cow appear thoroughly stoned&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; A tired cow&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-y&lt;/code&gt; A youthful cow&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-r&lt;/code&gt; Random animal (instead of &lt;code&gt;-f&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id=&#34;cowthink&#34;&gt;Cowthink
-&lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/5.png&#34;
-	width=&#34;302&#34;
-	height=&#34;166&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saitech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;cowthink hi&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;181&#34;
-		data-flex-basis=&#34;436px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;This changes the speech bubble to a thought bubble, like in comics!&lt;/p&gt;
-&lt;h2 id=&#34;sl&#34;&gt;sl
-&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;sl&lt;/code&gt; is a fun tool created to mock the commonly misspelled &lt;code&gt;ls&lt;/code&gt; command in Linux.&lt;/p&gt;
-&lt;p&gt;Install using pacman:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S sl
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/1.png&#34;
-	width=&#34;915&#34;
-	height=&#34;435&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saitech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;sl&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;210&#34;
-		data-flex-basis=&#34;504px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;p&gt;When you run &lt;code&gt;sl&lt;/code&gt;, a train appears in your terminal. You can add more fun with various options:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;-a&lt;/code&gt;: &lt;b&gt;Accident mode&lt;/b&gt; – You’ll see people crying for help. Not for the faint-hearted! ;)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-l&lt;/code&gt;: &lt;b&gt;Miniature train&lt;/b&gt; – Shows a smaller train with more coaches.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-F&lt;/code&gt;: &lt;b&gt;Flying train&lt;/b&gt; – A train like the Polar Express.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-e&lt;/code&gt;: &lt;b&gt;Interruptible mode&lt;/b&gt; – Allows interruption with Ctrl+C. In other modes, you can&amp;rsquo;t stop the train. But it doesn’t last long unless you have a super-wide monitor.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-d&lt;/code&gt;: &lt;b&gt;Disco Mode&lt;/b&gt; – The train alternates colors.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-G&lt;/code&gt;: &lt;b&gt;Advanced trains&lt;/b&gt; – A new look, similar to advanced trains like the French TGV.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/funny-linux-commands/3.png&#34;
-	width=&#34;1194&#34;
-	height=&#34;300&#34;
-	srcset=&#34;https://saitech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saitech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;sl -G&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;398&#34;
-		data-flex-basis=&#34;955px&#34;
-	
-&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Gamemode</title>
-        <link>https://saitech.blog/p/gamemode/</link>
-        <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/gamemode/</guid>
-        <description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
-&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
-&lt;h2 id=&#34;how-it-works&#34;&gt;How It Works
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;%command%&lt;/code&gt;: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p&gt;
-&lt;p&gt;Example:&lt;/p&gt;
-&lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/gamemode/2.png&#34;
-	width=&#34;523&#34;
-	height=&#34;133&#34;
-	srcset=&#34;https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;393&#34;
-		data-flex-basis=&#34;943px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation
-&lt;/h2&gt;&lt;p&gt;If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S gamemode
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;To check if Gamemode is active, run:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;gamemoded -s
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;This will show whether Gamemode is running.&lt;/p&gt;
-&lt;h2 id=&#34;what-does-gamemode-optimize&#34;&gt;What Does Gamemode Optimize?
-&lt;/h2&gt;&lt;p&gt;Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;CPU Governor:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Locks your CPU at top speed for better performance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;I/O Priority:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Gives your game priority access to your disk, reducing stuttering.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Process Niceness:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Makes sure your game gets more attention from the CPU.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Kernel Scheduler:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Adjusts how tasks are handled to keep your game running smoothly.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Screensaver Inhibiting:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Stops your screensaver from interrupting your game.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;GPU Performance Mode:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;CPU Core Management:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Pins or parks CPU cores to improve performance.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Custom Scripts:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Lets you add your own tweaks for even more control.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;availability&#34;&gt;Availability
-&lt;/h2&gt;&lt;p&gt;Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p&gt;
-&lt;h2 id=&#34;is-it-worth-it&#34;&gt;Is It Worth It?
-&lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
-&lt;p&gt;For more details, check out the &lt;a class=&#34;link&#34; href=&#34;https://github.com/FeralInteractive/gamemode&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Github repository&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Quick Tools to Manage Space Usage</title>
-        <link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link>
-        <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid>
-        <description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
-&lt;h2 id=&#34;terminal&#34;&gt;Terminal
-&lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;find / -type f -size +2000M 2&amp;gt;/dev/null
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;code&gt;/&lt;/code&gt;: Search from the root directory (change to specific directories like /home or /var for faster results).&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png&#34;
-	width=&#34;917&#34;
-	height=&#34;91&#34;
-	srcset=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;find / -type f&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;1007&#34;
-		data-flex-basis=&#34;2418px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;ncdu&#34;&gt;Ncdu
-&lt;/h2&gt;&lt;p&gt;Install ncdu:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S ncdu
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Run ncdu:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ncdu /
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png&#34;
-	width=&#34;850&#34;
-	height=&#34;428&#34;
-	srcset=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;ncdu&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;198&#34;
-		data-flex-basis=&#34;476px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;gui-tool&#34;&gt;GUI tool
-&lt;/h2&gt;&lt;p&gt;If you prefer graphical tools, you can use baobab:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S baobab
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png&#34;
-	width=&#34;958&#34;
-	height=&#34;597&#34;
-	srcset=&#34;https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w&#34;
-	loading=&#34;lazy&#34;
-	
-		alt=&#34;baobab&#34;
-	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;160&#34;
-		data-flex-basis=&#34;385px&#34;
-	
-&gt;&lt;/p&gt;
-&lt;h2 id=&#34;package-cache&#34;&gt;Package cache
-&lt;/h2&gt;&lt;p&gt;Check cache size:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;du&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sh&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cache&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pacman&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pkg&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Clean package cache:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Sc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;To remove all cached packages:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -Scc
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;log-files&#34;&gt;Log files
-&lt;/h2&gt;&lt;p&gt;Check log sizes:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;du&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sh&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/*&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;Clear logs ( use with caution !!! ):&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-gdscript3&#34; data-lang=&#34;gdscript3&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;sudo&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;truncate&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;-&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;k&#34;&gt;var&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;log&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;filename&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;log&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        <item>
-        <title>Colorize and List IPs</title>
-        <link>https://saitech.blog/p/colorize-and-list-ips/</link>
-        <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/colorize-and-list-ips/</guid>
-        <description>&lt;img src="https://saitech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
-&lt;p&gt;The syntax is:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ip -br -c addr show
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ip -br -c link show
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://mastodon.social/@nixCraft/113679576456152013&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;Source&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>YT-X</title>
-        <link>https://saitech.blog/p/yt-x/</link>
-        <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
-        
-        <guid>https://saitech.blog/p/yt-x/</guid>
-        <description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
-&lt;h2 id=&#34;source&#34;&gt;Source
-&lt;/h2&gt;&lt;p&gt;Get it from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Benexl/yt-x&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;
-&lt;h2 id=&#34;installation&#34;&gt;Installation
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# for paru users
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;paru -S yt-x-git
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# for yay users
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yay -S yt-x-git
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;&lt;h2 id=&#34;basic-commands&#34;&gt;Basic commands
-&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
-&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
-&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
-&lt;td class=&#34;lntd&#34;&gt;
-&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# launch the ui
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yt-x
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# edit your config
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;yt-x -e
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal on Saitech</title><link>https://saitech.blog/tags/terminal/</link><description>Recent content in Terminal on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 11 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>CTRL + U</title><link>https://saitech.blog/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ctrl--u/</guid><description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" />&lt;h2 id="keyboard-shortcut">Keyboard Shortcut
+&lt;/h2>&lt;p>&lt;code>CTRL + U&lt;/code> clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p></description></item><item><title>Funny Linux Commands</title><link>https://saitech.blog/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/funny-linux-commands/</guid><description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" />&lt;h2 id="cowsay">Cowsay
+&lt;/h2>&lt;p>Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p>
+&lt;p>Install it using pacman:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S cowsay
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Use cowsay:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay &amp;lt;message&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/4.png"
+width="320"
+height="171"
+srcset="https://saitech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saitech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
+loading="lazy"
+alt="cowsay hi"
+class="gallery-image"
+data-flex-grow="187"
+data-flex-basis="449px"
+>&lt;/p>
+&lt;p>For greedy eyes:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay -g &amp;lt;message&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/6.png"
+width="304"
+height="170"
+srcset="https://saitech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saitech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
+loading="lazy"
+alt="cowsay -g hi"
+class="gallery-image"
+data-flex-grow="178"
+data-flex-basis="429px"
+>&lt;/p>
+&lt;p>There are other ascii animals that you can use in palce of cow you can list them using &lt;code>cowsay -l&lt;/code> and switch them with &lt;code>-f&lt;/code>&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/7.png"
+width="351"
+height="408"
+srcset="https://saitech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saitech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
+loading="lazy"
+alt="cowsay -f fox hi"
+class="gallery-image"
+data-flex-grow="86"
+data-flex-basis="206px"
+>&lt;/p>
+&lt;h3 id="options">Options:
+&lt;/h3>&lt;ul>
+&lt;li>&lt;code>-b&lt;/code> Invokes Borg mode&lt;/li>
+&lt;li>&lt;code>-d&lt;/code> Causes the cow to appear dead&lt;/li>
+&lt;li>&lt;code>-p&lt;/code> Makes the cow paranoid&lt;/li>
+&lt;li>&lt;code>-s&lt;/code> Makes the cow appear thoroughly stoned&lt;/li>
+&lt;li>&lt;code>-t&lt;/code> A tired cow&lt;/li>
+&lt;li>&lt;code>-y&lt;/code> A youthful cow&lt;/li>
+&lt;li>&lt;code>-r&lt;/code> Random animal (instead of &lt;code>-f&lt;/code>)&lt;/li>
+&lt;/ul>
+&lt;h3 id="cowthink">Cowthink
+&lt;/h3>&lt;p>Want the cow to think instead of speak? Try:&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/5.png"
+width="302"
+height="166"
+srcset="https://saitech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saitech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
+loading="lazy"
+alt="cowthink hi"
+class="gallery-image"
+data-flex-grow="181"
+data-flex-basis="436px"
+>&lt;/p>
+&lt;p>This changes the speech bubble to a thought bubble, like in comics!&lt;/p>
+&lt;h2 id="sl">sl
+&lt;/h2>&lt;p>The command &lt;code>sl&lt;/code> is a fun tool created to mock the commonly misspelled &lt;code>ls&lt;/code> command in Linux.&lt;/p>
+&lt;p>Install using pacman:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S sl
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/1.png"
+width="915"
+height="435"
+srcset="https://saitech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saitech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
+loading="lazy"
+alt="sl"
+class="gallery-image"
+data-flex-grow="210"
+data-flex-basis="504px"
+>&lt;/p>
+&lt;p>When you run &lt;code>sl&lt;/code>, a train appears in your terminal. You can add more fun with various options:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>-a&lt;/code>: &lt;b>Accident mode&lt;/b> – You’ll see people crying for help. Not for the faint-hearted! ;)&lt;/li>
+&lt;li>&lt;code>-l&lt;/code>: &lt;b>Miniature train&lt;/b> – Shows a smaller train with more coaches.&lt;/li>
+&lt;li>&lt;code>-F&lt;/code>: &lt;b>Flying train&lt;/b> – A train like the Polar Express.&lt;/li>
+&lt;li>&lt;code>-e&lt;/code>: &lt;b>Interruptible mode&lt;/b> – Allows interruption with Ctrl+C. In other modes, you can&amp;rsquo;t stop the train. But it doesn’t last long unless you have a super-wide monitor.&lt;/li>
+&lt;li>&lt;code>-d&lt;/code>: &lt;b>Disco Mode&lt;/b> – The train alternates colors.&lt;/li>
+&lt;li>&lt;code>-G&lt;/code>: &lt;b>Advanced trains&lt;/b> – A new look, similar to advanced trains like the French TGV.&lt;/li>
+&lt;li>&lt;code>-w&lt;/code>: &lt;b>Speed boost&lt;/b> – Makes the train move faster.&lt;/li>
+&lt;li>&lt;code>-[Number]&lt;/code>: &lt;b>Custom cars&lt;/b> – Adjust the number of train cars.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/3.png"
+width="1194"
+height="300"
+srcset="https://saitech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saitech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
+loading="lazy"
+alt="sl -G"
+class="gallery-image"
+data-flex-grow="398"
+data-flex-basis="955px"
+>&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
+&lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
+&lt;h2 id="how-it-works">How It Works
+&lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>
+&lt;p>&lt;code>%command%&lt;/code>: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p>
+&lt;p>Example:&lt;/p>
+&lt;p>If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p>
+&lt;p>&lt;code>gamemoderun %command%&lt;/code>&lt;/p>
+&lt;p>This ensures the game runs with Gamemode optimizations.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/gamemode/2.png"
+width="523"
+height="133"
+srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="393"
+data-flex-basis="943px"
+>&lt;/p>
+&lt;h2 id="installation">Installation
+&lt;/h2>&lt;p>If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S gamemode
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To check if Gamemode is active, run:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">gamemoded -s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This will show whether Gamemode is running.&lt;/p>
+&lt;h2 id="what-does-gamemode-optimize">What Does Gamemode Optimize?
+&lt;/h2>&lt;p>Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>CPU Governor:&lt;/p>
+&lt;ul>
+&lt;li>Locks your CPU at top speed for better performance.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>I/O Priority:&lt;/p>
+&lt;ul>
+&lt;li>Gives your game priority access to your disk, reducing stuttering.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Process Niceness:&lt;/p>
+&lt;ul>
+&lt;li>Makes sure your game gets more attention from the CPU.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Kernel Scheduler:&lt;/p>
+&lt;ul>
+&lt;li>Adjusts how tasks are handled to keep your game running smoothly.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Screensaver Inhibiting:&lt;/p>
+&lt;ul>
+&lt;li>Stops your screensaver from interrupting your game.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>GPU Performance Mode:&lt;/p>
+&lt;ul>
+&lt;li>Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>CPU Core Management:&lt;/p>
+&lt;ul>
+&lt;li>Pins or parks CPU cores to improve performance.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>
+&lt;p>Custom Scripts:&lt;/p>
+&lt;ul>
+&lt;li>Lets you add your own tweaks for even more control.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="availability">Availability
+&lt;/h2>&lt;p>Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p>
+&lt;h2 id="is-it-worth-it">Is It Worth It?
+&lt;/h2>&lt;p>While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p>
+&lt;p>For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
+>Github repository&lt;/a>&lt;/p></description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" />&lt;p>From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p>
+&lt;h2 id="terminal">Terminal
+&lt;/h2>&lt;p>Command to Locate Large Files&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find / -type f -size +2000M 2&amp;gt;/dev/null
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;code>/&lt;/code>: Search from the root directory (change to specific directories like /home or /var for faster results).&lt;/p>
+&lt;p>&lt;code>-type f&lt;/code>: Search for files only.&lt;/p>
+&lt;p>&lt;code>-size +2000M&lt;/code>: Files larger than 2000 MB.&lt;/p>
+&lt;p>&lt;code>2&amp;gt;/dev/null&lt;/code>: Suppress permission denied errors.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png"
+width="917"
+height="91"
+srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
+loading="lazy"
+alt="find / -type f"
+class="gallery-image"
+data-flex-grow="1007"
+data-flex-basis="2418px"
+>&lt;/p>
+&lt;h2 id="ncdu">Ncdu
+&lt;/h2>&lt;p>Install ncdu:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S ncdu
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Run ncdu:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ncdu /
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Use arrow keys to navigate&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png"
+width="850"
+height="428"
+srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
+loading="lazy"
+alt="ncdu"
+class="gallery-image"
+data-flex-grow="198"
+data-flex-basis="476px"
+>&lt;/p>
+&lt;h2 id="gui-tool">GUI tool
+&lt;/h2>&lt;p>If you prefer graphical tools, you can use baobab:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S baobab
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png"
+width="958"
+height="597"
+srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
+loading="lazy"
+alt="baobab"
+class="gallery-image"
+data-flex-grow="160"
+data-flex-basis="385px"
+>&lt;/p>
+&lt;h2 id="package-cache">Package cache
+&lt;/h2>&lt;p>Check cache size:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">du&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">cache&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pacman&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pkg&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Clean package cache:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Sc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To remove all cached packages:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Scc
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="log-files">Log files
+&lt;/h2>&lt;p>Check log sizes:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">du&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/*&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Clear logs ( use with caution !!! ):&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">truncate&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">filename&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Colorize and List IPs</title><link>https://saitech.blog/p/colorize-and-list-ips/</link><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/colorize-and-list-ips/</guid><description>&lt;img src="https://saitech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" />&lt;p>Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p>
+&lt;p>The syntax is:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ip -br -c addr show
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ip -br -c link show
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;a class="link" href="https://mastodon.social/@nixCraft/113679576456152013" target="_blank" rel="noopener"
+>Source&lt;/a>&lt;/p></description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" />&lt;p>What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p>
+&lt;h2 id="source">Source
+&lt;/h2>&lt;p>Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
+>this&lt;/a> repo made by Benexl&lt;/p>
+&lt;h2 id="installation">Installation
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># for paru users
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">paru -S yt-x-git
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># for yay users
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yay -S yt-x-git
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="basic-commands">Basic commands
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># launch the ui
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># edit your config
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x -e
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
