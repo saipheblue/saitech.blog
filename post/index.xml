@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Posts on Saitech</title>
-        <link>https://saipheblue.github.io/post/</link>
+        <link>https://saiptech.blog/post/</link>
         <description>Recent content in Posts on Saitech</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saipheblue.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 13 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiptech.blog/post/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>My First Arch Linux Rice Setup</title>
-        <link>https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/</link>
+        <link>https://saiptech.blog/p/my-first-arch-linux-rice-setup/</link>
         <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+        <guid>https://saiptech.blog/p/my-first-arch-linux-rice-setup/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;here&lt;/a&gt;&lt;/b&gt;. 🎉😄&lt;/p&gt;
 &lt;p&gt;Hope that adds some extra excitement!&lt;/p&gt;
 &lt;blockquote&gt;
@@ -21,11 +21,11 @@
         </item>
         <item>
         <title>Xbox Controller on Linux</title>
-        <link>https://saipheblue.github.io/p/xbox-controller-on-linux/</link>
+        <link>https://saiptech.blog/p/xbox-controller-on-linux/</link>
         <pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/xbox-controller-on-linux/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/xbox-controller-on-linux/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
 &lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class=&#34;link&#34; href=&#34;https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
 &lt;h2 id=&#34;install-kernel-headers--xpadneo&#34;&gt;Install Kernel Headers &amp;amp; xpadneo
@@ -61,11 +61,11 @@
         </item>
         <item>
         <title>Audio EQ for Windows &amp; Linux</title>
-        <link>https://saipheblue.github.io/p/audio-eq-for-windows-linux/</link>
+        <link>https://saiptech.blog/p/audio-eq-for-windows-linux/</link>
         <pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/audio-eq-for-windows-linux/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/audio-eq-for-windows-linux/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id=&#34;linux-setup-easyeffects&#34;&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -91,10 +91,10 @@
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/3.png&#34;
 	width=&#34;1127&#34;
 	height=&#34;749&#34;
-	srcset=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saipheblue.github.io/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiptech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;EasyEffects&#34;
@@ -106,10 +106,10 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;windows-setup-equalizer-apo--peace&#34;&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/1.jpeg&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/1.jpeg&#34;
 	width=&#34;1040&#34;
 	height=&#34;674&#34;
-	srcset=&#34;https://saipheblue.github.io/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saipheblue.github.io/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiptech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Equalizer APO &amp;#43; PEACE&#34;
@@ -144,18 +144,18 @@
         </item>
         <item>
         <title>Super-productivity</title>
-        <link>https://saipheblue.github.io/p/super-productivity/</link>
+        <link>https://saiptech.blog/p/super-productivity/</link>
         <pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/super-productivity/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+        <guid>https://saiptech.blog/p/super-productivity/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
 &lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
 &lt;p&gt;Official site:&lt;b&gt; &lt;a class=&#34;link&#34; href=&#34;https://super-productivity.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/super-productivity/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/super-productivity/2.png&#34;
 	width=&#34;801&#34;
 	height=&#34;750&#34;
-	srcset=&#34;https://saipheblue.github.io/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saipheblue.github.io/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saiptech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -220,11 +220,11 @@
         </item>
         <item>
         <title>MangoHud</title>
-        <link>https://saipheblue.github.io/p/mangohud/</link>
+        <link>https://saiptech.blog/p/mangohud/</link>
         <pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/mangohud/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/mangohud/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
 &lt;p&gt;Install MangoHud:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -253,10 +253,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/mangohud/1.jpg&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/mangohud/1.jpg&#34;
 	width=&#34;474&#34;
 	height=&#34;266&#34;
-	srcset=&#34;https://saipheblue.github.io/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saipheblue.github.io/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saiptech.blog/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -269,11 +269,11 @@
         </item>
         <item>
         <title>YouTube Video Finder</title>
-        <link>https://saipheblue.github.io/p/youtube-video-finder/</link>
+        <link>https://saiptech.blog/p/youtube-video-finder/</link>
         <pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/youtube-video-finder/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" /&gt;&lt;p&gt;Have you ever felt that sinking feeling when you see &lt;code&gt;&amp;quot;This video has been deleted&amp;quot;&lt;/code&gt; in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p&gt;
+        <guid>https://saiptech.blog/p/youtube-video-finder/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" /&gt;&lt;p&gt;Have you ever felt that sinking feeling when you see &lt;code&gt;&amp;quot;This video has been deleted&amp;quot;&lt;/code&gt; in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p&gt;
 &lt;p&gt;Either way, not knowing can be frustrating.&lt;/p&gt;
 &lt;p&gt;This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p&gt;
 &lt;ul&gt;
@@ -287,11 +287,11 @@
         </item>
         <item>
         <title>Within a Deep Forest</title>
-        <link>https://saipheblue.github.io/p/within-a-deep-forest/</link>
+        <link>https://saiptech.blog/p/within-a-deep-forest/</link>
         <pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/within-a-deep-forest/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/within-a-deep-forest/3.png" alt="Featured image of post Within a Deep Forest" /&gt;&lt;p&gt;I had been searching for this game for a decade—maybe even longer—until I finally stumbled upon it yesterday.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/within-a-deep-forest/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/within-a-deep-forest/3.png" alt="Featured image of post Within a Deep Forest" /&gt;&lt;p&gt;I had been searching for this game for a decade—maybe even longer—until I finally stumbled upon it yesterday.&lt;/p&gt;
 &lt;p&gt;Why? Is it something special? Is it that good? I don’t know. But I kept coming back to this game in my memories from time to time. For me, it’s a special masterpiece.&lt;/p&gt;
 &lt;p&gt;When I look at screenshots or play the game, I’m filled with a strange, fake nostalgia for a non-existent past. Don’t get me wrong—it’s not about who I was back then or what the world was like. When I feel nostalgic about games, it’s simply about the games themselves. They create a feeling, and from that feeling, an entire world is born.&lt;/p&gt;
 &lt;p&gt;That’s what I think about&amp;hellip; but enough words. Try it—or don’t.&lt;/p&gt;
@@ -302,10 +302,10 @@
     &gt;Internet Archive&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Check out the &lt;a class=&#34;link&#34; href=&#34;https://nifflas.fandom.com/wiki/Within_a_Deep_Forest&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Game Wiki&lt;/a&gt; for secrets , plot summary and list of unlockable balls&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/within-a-deep-forest/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/within-a-deep-forest/1.png&#34;
 	width=&#34;800&#34;
 	height=&#34;600&#34;
-	srcset=&#34;https://saipheblue.github.io/p/within-a-deep-forest/1_hu_48851f1773087c64.png 480w, https://saipheblue.github.io/p/within-a-deep-forest/1_hu_985b6d282459baa9.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/within-a-deep-forest/1_hu_48851f1773087c64.png 480w, https://saiptech.blog/p/within-a-deep-forest/1_hu_985b6d282459baa9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -314,10 +314,10 @@
 		data-flex-basis=&#34;320px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saipheblue.github.io/p/within-a-deep-forest/2.png&#34;
+&lt;img src=&#34;https://saiptech.blog/p/within-a-deep-forest/2.png&#34;
 	width=&#34;556&#34;
 	height=&#34;442&#34;
-	srcset=&#34;https://saipheblue.github.io/p/within-a-deep-forest/2_hu_d96f4b9771e5c8f0.png 480w, https://saipheblue.github.io/p/within-a-deep-forest/2_hu_db1413c60996a77c.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/within-a-deep-forest/2_hu_d96f4b9771e5c8f0.png 480w, https://saiptech.blog/p/within-a-deep-forest/2_hu_db1413c60996a77c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -326,10 +326,10 @@
 		data-flex-basis=&#34;301px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saipheblue.github.io/p/within-a-deep-forest/4.png&#34;
+&lt;img src=&#34;https://saiptech.blog/p/within-a-deep-forest/4.png&#34;
 	width=&#34;598&#34;
 	height=&#34;478&#34;
-	srcset=&#34;https://saipheblue.github.io/p/within-a-deep-forest/4_hu_d975b26bc381b48a.png 480w, https://saipheblue.github.io/p/within-a-deep-forest/4_hu_a8f494d3969572d7.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/within-a-deep-forest/4_hu_d975b26bc381b48a.png 480w, https://saiptech.blog/p/within-a-deep-forest/4_hu_a8f494d3969572d7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -342,18 +342,18 @@
         </item>
         <item>
         <title>Arch News Alert</title>
-        <link>https://saipheblue.github.io/p/arch-news-alert/</link>
+        <link>https://saiptech.blog/p/arch-news-alert/</link>
         <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/arch-news-alert/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id=&#34;why&#34;&gt;Why?
+        <guid>https://saiptech.blog/p/arch-news-alert/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id=&#34;why&#34;&gt;Why?
 &lt;/h2&gt;&lt;p&gt;I got tired of manually checking &lt;a class=&#34;link&#34; href=&#34;https://archlinux.org/news&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;archlinux.org/news&lt;/a&gt; every day just to see if there were any critical updates requiring manual steps (you know, the dreaded &lt;code&gt;manual intervention&lt;/code&gt;). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.&lt;/p&gt;
 &lt;p&gt;When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/arch-news-alert/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/arch-news-alert/2.png&#34;
 	width=&#34;1493&#34;
 	height=&#34;489&#34;
-	srcset=&#34;https://saipheblue.github.io/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saipheblue.github.io/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saiptech.blog/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -516,16 +516,16 @@
         </item>
         <item>
         <title>Vencord / Vesktop</title>
-        <link>https://saipheblue.github.io/p/vencord-/-vesktop/</link>
+        <link>https://saiptech.blog/p/vencord-/-vesktop/</link>
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/vencord-/-vesktop/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
+        <guid>https://saiptech.blog/p/vencord-/-vesktop/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id=&#34;what-is-vencord--vesktop&#34;&gt;What is Vencord / Vesktop?
 &lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/4.png&#34;
 	width=&#34;236&#34;
 	height=&#34;236&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saiptech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Mascot&#34;
@@ -543,10 +543,10 @@
     &gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Flatpak (Linux): &lt;a class=&#34;link&#34; href=&#34;https://flathub.org/apps/dev.vencord.Vesktop&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Flathub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/1.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/1.jpg&#34;
 	width=&#34;474&#34;
 	height=&#34;237&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saipheblue.github.io/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saiptech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Github&#34;
@@ -582,10 +582,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/5.png&#34;
 	width=&#34;1655&#34;
 	height=&#34;931&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saiptech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Outlook Theme&#34;
@@ -596,10 +596,10 @@
 		data-flex-basis=&#34;426px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/6.png&#34;
+&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/6.png&#34;
 	width=&#34;2880&#34;
 	height=&#34;1800&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saiptech.blog/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Ultra Theme&#34;
@@ -656,10 +656,10 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/2.png&#34;
 	width=&#34;1227&#34;
 	height=&#34;955&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saiptech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Plugins&#34;
@@ -670,10 +670,10 @@
 		data-flex-basis=&#34;308px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/3.png&#34;
+&lt;img src=&#34;https://saiptech.blog/p/vencord-/-vesktop/3.png&#34;
 	width=&#34;917&#34;
 	height=&#34;1126&#34;
-	srcset=&#34;https://saipheblue.github.io/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saipheblue.github.io/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saiptech.blog/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Setup&#34;
@@ -688,21 +688,21 @@
         </item>
         <item>
         <title>CTRL &#43; U</title>
-        <link>https://saipheblue.github.io/p/ctrl--u/</link>
+        <link>https://saiptech.blog/p/ctrl--u/</link>
         <pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/ctrl--u/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/ctrl--u/1.png" alt="Featured image of post CTRL &#43; U" /&gt;&lt;h2 id=&#34;keyboard-shortcut&#34;&gt;Keyboard Shortcut
+        <guid>https://saiptech.blog/p/ctrl--u/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL &#43; U" /&gt;&lt;h2 id=&#34;keyboard-shortcut&#34;&gt;Keyboard Shortcut
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Funny Linux Commands</title>
-        <link>https://saipheblue.github.io/p/funny-linux-commands/</link>
+        <link>https://saiptech.blog/p/funny-linux-commands/</link>
         <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/funny-linux-commands/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id=&#34;cowsay&#34;&gt;Cowsay
+        <guid>https://saiptech.blog/p/funny-linux-commands/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id=&#34;cowsay&#34;&gt;Cowsay
 &lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
 &lt;p&gt;Install it using pacman:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -722,10 +722,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/4.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/4.png&#34;
 	width=&#34;320&#34;
 	height=&#34;171&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saipheblue.github.io/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saiptech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay hi&#34;
@@ -745,10 +745,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -g &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/6.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/6.png&#34;
 	width=&#34;304&#34;
 	height=&#34;170&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saipheblue.github.io/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saiptech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay -g hi&#34;
@@ -768,10 +768,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/7.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/7.png&#34;
 	width=&#34;351&#34;
 	height=&#34;408&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saipheblue.github.io/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saiptech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowsay -f fox hi&#34;
@@ -794,10 +794,10 @@
 &lt;/ul&gt;
 &lt;h3 id=&#34;cowthink&#34;&gt;Cowthink
 &lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/5.png&#34;
 	width=&#34;302&#34;
 	height=&#34;166&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saipheblue.github.io/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saiptech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;cowthink hi&#34;
@@ -820,10 +820,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S sl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/1.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/1.png&#34;
 	width=&#34;915&#34;
 	height=&#34;435&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saipheblue.github.io/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saiptech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;sl&#34;
@@ -845,10 +845,10 @@
 &lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/funny-linux-commands/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/funny-linux-commands/3.png&#34;
 	width=&#34;1194&#34;
 	height=&#34;300&#34;
-	srcset=&#34;https://saipheblue.github.io/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saipheblue.github.io/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saiptech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;sl -G&#34;
@@ -863,11 +863,11 @@
         </item>
         <item>
         <title>Gamemode</title>
-        <link>https://saipheblue.github.io/p/gamemode/</link>
+        <link>https://saiptech.blog/p/gamemode/</link>
         <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/gamemode/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
+        <guid>https://saiptech.blog/p/gamemode/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id=&#34;what-is-gamemode&#34;&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id=&#34;how-it-works&#34;&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -876,10 +876,10 @@
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/gamemode/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/gamemode/2.png&#34;
 	width=&#34;523&#34;
 	height=&#34;133&#34;
-	srcset=&#34;https://saipheblue.github.io/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saipheblue.github.io/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saiptech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -970,18 +970,18 @@
         </item>
         <item>
         <title>Emoji Combiner Meets Infinite Fun</title>
-        <link>https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/</link>
+        <link>https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/</link>
         <pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" /&gt;&lt;h2 id=&#34;emoji-combiner&#34;&gt;Emoji Combiner
+        <guid>https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" /&gt;&lt;h2 id=&#34;emoji-combiner&#34;&gt;Emoji Combiner
 &lt;/h2&gt;&lt;p&gt;When I want to create custom emoji faces, I’ll know where to go.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://emojicombiner.app/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/4.png&#34;
 	width=&#34;2133&#34;
 	height=&#34;1334&#34;
-	srcset=&#34;https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/4_hu_9a0de6952a7a16ab.png 480w, https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/4_hu_2356c253dbb67a6d.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_9a0de6952a7a16ab.png 480w, https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_2356c253dbb67a6d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Emoji Combiner&#34;
@@ -997,10 +997,10 @@
 &lt;p&gt;Sharknado is pretty simple, &lt;em&gt;wink wink&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://neal.fun/infinite-craft/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Link&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/3.png&#34;
 	width=&#34;1537&#34;
 	height=&#34;1331&#34;
-	srcset=&#34;https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/3_hu_73f0431849fe9984.png 480w, https://saipheblue.github.io/p/emoji-combiner-meets-infinite-fun/3_hu_e756627d869e7cc9.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_73f0431849fe9984.png 480w, https://saiptech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_e756627d869e7cc9.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Infinite Craft&#34;
@@ -1015,11 +1015,11 @@
         </item>
         <item>
         <title>Quick Tools to Manage Space Usage</title>
-        <link>https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/</link>
+        <link>https://saiptech.blog/p/quick-tools-to-manage-space-usage/</link>
         <pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
+        <guid>https://saiptech.blog/p/quick-tools-to-manage-space-usage/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
 &lt;h2 id=&#34;terminal&#34;&gt;Terminal
 &lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
@@ -1034,10 +1034,10 @@
 &lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/2.png&#34;
 	width=&#34;917&#34;
 	height=&#34;91&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saiptech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;find / -type f&#34;
@@ -1068,10 +1068,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/1.png&#34;
 	width=&#34;850&#34;
 	height=&#34;428&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saiptech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;ncdu&#34;
@@ -1092,10 +1092,10 @@
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;sudo pacman -S baobab
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/3.png&#34;
 	width=&#34;958&#34;
 	height=&#34;597&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saipheblue.github.io/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saiptech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;baobab&#34;
@@ -1157,11 +1157,11 @@
         </item>
         <item>
         <title>Liminal Space</title>
-        <link>https://saipheblue.github.io/p/liminal-space/</link>
+        <link>https://saiptech.blog/p/liminal-space/</link>
         <pubDate>Mon, 13 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/liminal-space/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/liminal-space/title.jpg" alt="Featured image of post Liminal Space" /&gt;&lt;blockquote&gt;
+        <guid>https://saiptech.blog/p/liminal-space/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/liminal-space/title.jpg" alt="Featured image of post Liminal Space" /&gt;&lt;blockquote&gt;
 &lt;p&gt;Disclaimer:
 This post was created with the help of an LLM ( also incorrectly referred to as AI ), mostly for grammar correction. Most of the generated &amp;ldquo;translation&amp;rdquo; is based on my own text, wiki entries, or official game descriptions.&lt;/p&gt;&lt;/blockquote&gt;
 &lt;hr&gt;
@@ -1176,10 +1176,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;p&gt;&amp;ldquo;BABBDI is a short, first-person exploration experience with light narrative and platforming elements.   Visit the town of BABBDI, a forsaken district in the outer ring of the megalopolis. Meet its inhabitants and discover how to escape.&amp;rdquo;&lt;/p&gt;&lt;/blockquote&gt;
 &lt;p&gt;But this doesn’t tell you what it feels like to play. Wandering through the desolate streets of BABBDI, surrounded by muted gray tones, I found myself immersed in its quiet melancholy. The air felt heavy with stories untold, whispers of lives once lived but now absent. There’s no rush to leave, no immediate threat to overcome—just the haunting beauty of a forgotten place.&lt;/p&gt;
 &lt;p&gt;It’s a game that lingers in your mind long after you’ve played it, much like a dream you can’t quite shake. I’ve promised myself I’ll return to BABBDI one day when I’m in the right mood, just to stroll through its streets again and let its atmosphere wash over me.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/3.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/3.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1439&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/3_hu_83cf1aabf520c971.png 480w, https://saipheblue.github.io/p/liminal-space/3_hu_44df7166b14fa85a.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/3_hu_83cf1aabf520c971.png 480w, https://saiptech.blog/p/liminal-space/3_hu_44df7166b14fa85a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Babbdi&#34;
@@ -1190,10 +1190,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 		data-flex-basis=&#34;426px&#34;
 	
 &gt;
-&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/9.png&#34;
+&lt;img src=&#34;https://saiptech.blog/p/liminal-space/9.png&#34;
 	width=&#34;2554&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/9_hu_6dd35dc9d7fa65d3.png 480w, https://saipheblue.github.io/p/liminal-space/9_hu_6fd41a55c61e7144.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/9_hu_6dd35dc9d7fa65d3.png 480w, https://saiptech.blog/p/liminal-space/9_hu_6fd41a55c61e7144.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Babbdi&#34;
@@ -1209,10 +1209,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;naissancee&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/265690/NaissanceE/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;NaissanceE&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;An obscure, magical first-person exploration game that feels like stepping into a giant, mysterious structure. It’s less about solving puzzles and more about letting yourself sink into its timeless, otherworldly atmosphere.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/10.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/10.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1439&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/10_hu_85fb410e04d85a96.png 480w, https://saipheblue.github.io/p/liminal-space/10_hu_b10d860677f93454.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/10_hu_85fb410e04d85a96.png 480w, https://saiptech.blog/p/liminal-space/10_hu_b10d860677f93454.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;NaissanceE&#34;
@@ -1222,10 +1222,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 		data-flex-grow=&#34;177&#34;
 		data-flex-basis=&#34;426px&#34;
 	
-&gt; &lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/10.jpg&#34;
+&gt; &lt;img src=&#34;https://saiptech.blog/p/liminal-space/10.jpg&#34;
 	width=&#34;1920&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/10_hu_a83619fe2e117878.jpg 480w, https://saipheblue.github.io/p/liminal-space/10_hu_3757909a5a60d31.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/10_hu_a83619fe2e117878.jpg 480w, https://saiptech.blog/p/liminal-space/10_hu_3757909a5a60d31.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;NaissanceE&#34;
@@ -1239,10 +1239,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;concrete-paths&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://eugenio-lopez.itch.io/concrete-paths&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Concrete Paths&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;A meditative exploration through raw, brutalist architecture. This one feels like walking through forgotten spaces where the world fades to concrete and shadows.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/8.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/8.jpg&#34;
 	width=&#34;990&#34;
 	height=&#34;556&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/8_hu_239dd3023dcb1312.jpg 480w, https://saipheblue.github.io/p/liminal-space/8_hu_2048d5cfc2185021.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/8_hu_239dd3023dcb1312.jpg 480w, https://saiptech.blog/p/liminal-space/8_hu_2048d5cfc2185021.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Concrete Paths &#34;
@@ -1256,10 +1256,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;concrete-tremor&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://mikeklubnika.itch.io/concrete-tremor&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Concrete Tremor&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;A short, unsettling experience that captures the liminal tension of industrial environments. It’s minimalist but hits hard with its oppressive, empty mood.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/7.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/7.png&#34;
 	width=&#34;1387&#34;
 	height=&#34;779&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/7_hu_82dbf7ee5d717e2d.png 480w, https://saipheblue.github.io/p/liminal-space/7_hu_b42897ecfa604e6.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/7_hu_82dbf7ee5d717e2d.png 480w, https://saiptech.blog/p/liminal-space/7_hu_b42897ecfa604e6.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Concrete Tremor&#34;
@@ -1273,10 +1273,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;fugue-in-void&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://moshelinke.itch.io/fugue-in-void&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Fugue in Void&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;A game that feels more like a visual poem. It takes you through vast, hauntingly empty structures, forcing you to sit with the silence and soak in the mood.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/5.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/5.png&#34;
 	width=&#34;1080&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/5_hu_5658b7fffbbda7e2.png 480w, https://saipheblue.github.io/p/liminal-space/5_hu_bdb197725aaa2fe7.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/5_hu_5658b7fffbbda7e2.png 480w, https://saiptech.blog/p/liminal-space/5_hu_bdb197725aaa2fe7.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Fugue in Void&#34;
@@ -1290,10 +1290,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;222am&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://umbrella-isle.itch.io/222am&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;2:22AM&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;A quiet, contemplative experience about wandering through a neon-lit urban landscape at night. It captures the strange mix of comfort and unease that comes with being awake when the rest of the world is asleep.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/4.png&#34;
 	width=&#34;800&#34;
 	height=&#34;600&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/4_hu_cc855be460c2d98e.png 480w, https://saipheblue.github.io/p/liminal-space/4_hu_e17e8000b6a0f8eb.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/4_hu_cc855be460c2d98e.png 480w, https://saiptech.blog/p/liminal-space/4_hu_e17e8000b6a0f8eb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;2:22AM&#34;
@@ -1307,10 +1307,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;kletka&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://store.steampowered.com/app/1699480/KLETKA/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Kletka&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;It might not perfectly match the “abandoned” theme, but its atmosphere and mood fit right into the same emotional space. Sometimes, it’s not about the specifics of the environment but the feeling it leaves behind—the echoes, the weight of something unspoken.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/15.jpg&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/15.jpg&#34;
 	width=&#34;1920&#34;
 	height=&#34;1080&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/15_hu_89034dfa17453748.jpg 480w, https://saipheblue.github.io/p/liminal-space/15_hu_1449016581ee982f.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/15_hu_89034dfa17453748.jpg 480w, https://saiptech.blog/p/liminal-space/15_hu_1449016581ee982f.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Kletka&#34;
@@ -1324,10 +1324,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h3 id=&#34;machinarium&#34;&gt;&lt;a class=&#34;link&#34; href=&#34;https://amanita-design.net/games/machinarium.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Machinarium&lt;/a&gt;
 &lt;/h3&gt;&lt;p&gt;Created by Amanita Design,this game isn’t about derelict spaces, yet it captures the same sense of isolation and melancholy. Set in a decaying mechanical world, it immerses you in empty, quiet environments where you feel more like a visitor than a participant. The beauty lies in its silence—the world doesn’t need to be abandoned to feel forgotten. With its delicate atmosphere and Tomas Dvorak’s haunting soundtrack, Machinarium evokes the feeling of wandering through spaces that time has left behind, allowing the stillness to speak for itself.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/1.png&#34;
 	width=&#34;1052&#34;
 	height=&#34;818&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/1_hu_a2acdc03601350cd.png 480w, https://saipheblue.github.io/p/liminal-space/1_hu_1b55070728d77271.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/1_hu_a2acdc03601350cd.png 480w, https://saiptech.blog/p/liminal-space/1_hu_1b55070728d77271.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Machinarium&#34;
@@ -1353,10 +1353,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;h2 id=&#34;manga-blame-by-tsutomu-nihei&#34;&gt;Manga: Blame! by Tsutomu Nihei
 &lt;/h2&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://w9.blame-manga.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Blame!&lt;/a&gt; is not a game, but it fits the vibe perfectly. A sprawling, nightmarish city that stretches endlessly, where silence and danger coexist. Nihei’s artwork is all sharp angles and impossible spaces—like a blueprint for the worlds these games explore.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/11.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/11.png&#34;
 	width=&#34;1261&#34;
 	height=&#34;732&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/11_hu_8e375ebe92d3caeb.png 480w, https://saipheblue.github.io/p/liminal-space/11_hu_c08f50cb4f29b090.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/11_hu_8e375ebe92d3caeb.png 480w, https://saiptech.blog/p/liminal-space/11_hu_c08f50cb4f29b090.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Blame!&#34;
@@ -1371,10 +1371,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;/h2&gt;&lt;p&gt;These experiences remind me that games don’t always need grand narratives or complex mechanics to make an impact. Sometimes, the simplest thing—a quiet walk through an empty, crumbling world—is all it takes to feel profoundly connected to something beyond words.&lt;/p&gt;
 &lt;p&gt;So next time that strange, reflective mood strikes, I’ll know where to go. If anyone is reading this, you might find yourself in one of these worlds, too.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/liminal-space/13.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/liminal-space/13.png&#34;
 	width=&#34;791&#34;
 	height=&#34;258&#34;
-	srcset=&#34;https://saipheblue.github.io/p/liminal-space/13_hu_543cb147821bb753.png 480w, https://saipheblue.github.io/p/liminal-space/13_hu_123358dbc14b3fe.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/liminal-space/13_hu_543cb147821bb753.png 480w, https://saiptech.blog/p/liminal-space/13_hu_123358dbc14b3fe.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Here is something for my future self if you are reading this&#34;
@@ -1389,22 +1389,22 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
         </item>
         <item>
         <title>ToS;DR</title>
-        <link>https://saipheblue.github.io/p/tosdr/</link>
+        <link>https://saiptech.blog/p/tosdr/</link>
         <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/tosdr/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/tosdr/1.png" alt="Featured image of post ToS;DR" /&gt;&lt;p&gt;I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/tosdr/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/tosdr/1.png" alt="Featured image of post ToS;DR" /&gt;&lt;p&gt;I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://tosdr.org/en/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;https://tosdr.org/en/&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
         <title>Quick Audio Management</title>
-        <link>https://saipheblue.github.io/p/quick-audio-management/</link>
+        <link>https://saiptech.blog/p/quick-audio-management/</link>
         <pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quick-audio-management/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/quick-audio-management/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
 &lt;p&gt;This script was primarily created for the &lt;code&gt;bspwm&lt;/code&gt;  tiling window manager but might work with some tweaks on other window managers.&lt;/p&gt;
 &lt;h1 id=&#34;steps-to-use&#34;&gt;Steps to Use
 &lt;/h1&gt;&lt;h2 id=&#34;keybind&#34;&gt;Keybind
@@ -1550,10 +1550,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;notify-send &lt;span class=&#34;s2&#34;&gt;&amp;#34;Set volume for &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$app_name&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt; to &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;$new_volume&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;%&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/3.png&#34;
+&lt;/div&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quick-audio-management/3.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saipheblue.github.io/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saiptech.blog/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Select an application&#34;
@@ -1563,10 +1563,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 		data-flex-grow=&#34;177&#34;
 		data-flex-basis=&#34;426px&#34;
 	
-&gt;  &lt;img src=&#34;https://saipheblue.github.io/p/quick-audio-management/4.png&#34;
+&gt;  &lt;img src=&#34;https://saiptech.blog/p/quick-audio-management/4.png&#34;
 	width=&#34;2560&#34;
 	height=&#34;1440&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saipheblue.github.io/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saiptech.blog/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;Adjust the volume during gameplay&#34;
@@ -1581,17 +1581,17 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
         </item>
         <item>
         <title>The Dark Queen of Mortholme</title>
-        <link>https://saipheblue.github.io/p/the-dark-queen-of-mortholme/</link>
+        <link>https://saiptech.blog/p/the-dark-queen-of-mortholme/</link>
         <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/the-dark-queen-of-mortholme/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/the-dark-queen-of-mortholme/1.png" alt="Featured image of post The Dark Queen of Mortholme" /&gt;&lt;p&gt;What better way to step into the new year than by playing an intriguing indie title created by &lt;b&gt;Mosu Äijälä&lt;/b&gt;&lt;/p&gt;
+        <guid>https://saiptech.blog/p/the-dark-queen-of-mortholme/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/the-dark-queen-of-mortholme/1.png" alt="Featured image of post The Dark Queen of Mortholme" /&gt;&lt;p&gt;What better way to step into the new year than by playing an intriguing indie title created by &lt;b&gt;Mosu Äijälä&lt;/b&gt;&lt;/p&gt;
 &lt;h1 id=&#34;get-it-here-from-itchio&#34;&gt;Get it &lt;a class=&#34;link&#34; href=&#34;https://qwertyprophecy.itch.io/mortholme&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;HERE&lt;/a&gt; from itch.io
-&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/2.png&#34;
+&lt;/h1&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/2.png&#34;
 	width=&#34;3360&#34;
 	height=&#34;2100&#34;
-	srcset=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/2_hu_34987220ad817187.png 480w, https://saipheblue.github.io/p/the-dark-queen-of-mortholme/2_hu_e545acd719ab2b86.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/2_hu_34987220ad817187.png 480w, https://saiptech.blog/p/the-dark-queen-of-mortholme/2_hu_e545acd719ab2b86.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1599,10 +1599,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 		data-flex-grow=&#34;160&#34;
 		data-flex-basis=&#34;384px&#34;
 	
-&gt;&lt;img src=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/3.png&#34;
+&gt;&lt;img src=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/3.png&#34;
 	width=&#34;3360&#34;
 	height=&#34;2100&#34;
-	srcset=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/3_hu_de44d9c5a8da1381.png 480w, https://saipheblue.github.io/p/the-dark-queen-of-mortholme/3_hu_b991c6091f59375e.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/3_hu_de44d9c5a8da1381.png 480w, https://saiptech.blog/p/the-dark-queen-of-mortholme/3_hu_b991c6091f59375e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1610,10 +1610,10 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
 		data-flex-grow=&#34;160&#34;
 		data-flex-basis=&#34;384px&#34;
 	
-&gt;&lt;img src=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/4.png&#34;
+&gt;&lt;img src=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/4.png&#34;
 	width=&#34;3360&#34;
 	height=&#34;2100&#34;
-	srcset=&#34;https://saipheblue.github.io/p/the-dark-queen-of-mortholme/4_hu_b1481e8c789a08e9.png 480w, https://saipheblue.github.io/p/the-dark-queen-of-mortholme/4_hu_ef6684a6a6f9902e.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/the-dark-queen-of-mortholme/4_hu_b1481e8c789a08e9.png 480w, https://saiptech.blog/p/the-dark-queen-of-mortholme/4_hu_ef6684a6a6f9902e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1640,21 +1640,21 @@ This post was created with the help of an LLM ( also incorrectly referred to as 
         </item>
         <item>
         <title>Quest 3 on Arch</title>
-        <link>https://saipheblue.github.io/p/quest-3-on-arch/</link>
+        <link>https://saiptech.blog/p/quest-3-on-arch/</link>
         <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/quest-3-on-arch/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
+        <guid>https://saiptech.blog/p/quest-3-on-arch/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
 &lt;h2 id=&#34;steamvr&#34;&gt;SteamVR
 &lt;/h2&gt;&lt;p&gt;SteamVR is the backbone of PC VR gaming, supporting a wide range of headsets and offering access to countless VR titles.
 It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;ve previously used your headset on Windows, you might encounter an issue with Steam Link on Linux. It displays the error:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;&#39;Streaming VR is not available from that computer.&#39;&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Due to this limitation, we need to use alternative software to pair with SteamVR.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/1.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quest-3-on-arch/1.png&#34;
 	width=&#34;1743&#34;
 	height=&#34;405&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saiptech.blog/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1686,10 +1686,10 @@ It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id=&#34;alvr-air-light-vr&#34;&gt;ALVR (Air Light VR)
-&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/2.png&#34;
+&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quest-3-on-arch/2.png&#34;
 	width=&#34;2549&#34;
 	height=&#34;492&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saiptech.blog/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1705,10 +1705,10 @@ It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;li&gt;Install the APK on your headset using SideQuest.&lt;/li&gt;
 &lt;li&gt;Extract the &lt;code&gt;.tar&lt;/code&gt; file on your Arch Linux machine and run the executable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/quest-3-on-arch/4.png&#34;
+&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/quest-3-on-arch/4.png&#34;
 	width=&#34;2559&#34;
 	height=&#34;1348&#34;
-	srcset=&#34;https://saipheblue.github.io/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saipheblue.github.io/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saiptech.blog/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1733,14 +1733,14 @@ Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
         </item>
         <item>
         <title>DIY Geiger counter</title>
-        <link>https://saipheblue.github.io/p/diy-geiger-counter/</link>
+        <link>https://saiptech.blog/p/diy-geiger-counter/</link>
         <pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/diy-geiger-counter/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/diy-geiger-counter/5.jpg" alt="Featured image of post DIY Geiger counter" /&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/diy-geiger-counter/2.png&#34;
+        <guid>https://saiptech.blog/p/diy-geiger-counter/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/diy-geiger-counter/5.jpg" alt="Featured image of post DIY Geiger counter" /&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/diy-geiger-counter/2.png&#34;
 	width=&#34;1911&#34;
 	height=&#34;1086&#34;
-	srcset=&#34;https://saipheblue.github.io/p/diy-geiger-counter/2_hu_4d9e1a1de9e7182b.png 480w, https://saipheblue.github.io/p/diy-geiger-counter/2_hu_aefccaa9262dca4a.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/diy-geiger-counter/2_hu_4d9e1a1de9e7182b.png 480w, https://saiptech.blog/p/diy-geiger-counter/2_hu_aefccaa9262dca4a.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1748,10 +1748,10 @@ Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
 		data-flex-grow=&#34;175&#34;
 		data-flex-basis=&#34;422px&#34;
 	
-&gt;&lt;img src=&#34;https://saipheblue.github.io/p/diy-geiger-counter/1.jpg&#34;
+&gt;&lt;img src=&#34;https://saiptech.blog/p/diy-geiger-counter/1.jpg&#34;
 	width=&#34;4000&#34;
 	height=&#34;3000&#34;
-	srcset=&#34;https://saipheblue.github.io/p/diy-geiger-counter/1_hu_3c799a12db51e7d.jpg 480w, https://saipheblue.github.io/p/diy-geiger-counter/1_hu_1e534e07ca3e16e0.jpg 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/diy-geiger-counter/1_hu_3c799a12db51e7d.jpg 480w, https://saiptech.blog/p/diy-geiger-counter/1_hu_1e534e07ca3e16e0.jpg 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1769,10 +1769,10 @@ Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
 &lt;h2 id=&#34;hardware&#34;&gt;Hardware
 &lt;/h2&gt;&lt;p&gt;Connect 5V to any 5V, Ground to any ground and VIN to GPIO4 (pin 7)&lt;/p&gt;
 &lt;h3 id=&#34;rpi5-gpio-diagram&#34;&gt;Rpi5 GPIO diagram
-&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://saipheblue.github.io/p/diy-geiger-counter/4.png&#34;
+&lt;/h3&gt;&lt;p&gt;&lt;img src=&#34;https://saiptech.blog/p/diy-geiger-counter/4.png&#34;
 	width=&#34;2165&#34;
 	height=&#34;1247&#34;
-	srcset=&#34;https://saipheblue.github.io/p/diy-geiger-counter/4_hu_b06ff95892119d4b.png 480w, https://saipheblue.github.io/p/diy-geiger-counter/4_hu_2baefa7a8ea68b0e.png 1024w&#34;
+	srcset=&#34;https://saiptech.blog/p/diy-geiger-counter/4_hu_b06ff95892119d4b.png 480w, https://saiptech.blog/p/diy-geiger-counter/4_hu_2baefa7a8ea68b0e.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
@@ -1861,11 +1861,11 @@ For J305, almost everyone is using the wrong coefficient/ratio of 0.008120370370
         </item>
         <item>
         <title>Colorize and List IPs</title>
-        <link>https://saipheblue.github.io/p/colorize-and-list-ips/</link>
+        <link>https://saiptech.blog/p/colorize-and-list-ips/</link>
         <pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/colorize-and-list-ips/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
+        <guid>https://saiptech.blog/p/colorize-and-list-ips/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
 &lt;p&gt;The syntax is:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -1883,11 +1883,11 @@ For J305, almost everyone is using the wrong coefficient/ratio of 0.008120370370
         </item>
         <item>
         <title>YT-X</title>
-        <link>https://saipheblue.github.io/p/yt-x/</link>
+        <link>https://saiptech.blog/p/yt-x/</link>
         <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://saipheblue.github.io/p/yt-x/</guid>
-        <description>&lt;img src="https://saipheblue.github.io/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
+        <guid>https://saiptech.blog/p/yt-x/</guid>
+        <description>&lt;img src="https://saiptech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
 &lt;h2 id=&#34;source&#34;&gt;Source
 &lt;/h2&gt;&lt;p&gt;Get it from &lt;a class=&#34;link&#34; href=&#34;https://github.com/Benexl/yt-x&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;
