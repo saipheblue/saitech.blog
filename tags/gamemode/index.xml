@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saitech.blog/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saitech.blog/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
+&lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
+&lt;ul>
+&lt;li>Disable split lock mitigate:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>Enable split lock mitigate:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+>thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+>guide&lt;/a>.&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
 &lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
 &lt;h2 id="how-it-works">How It Works
 &lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>

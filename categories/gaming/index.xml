@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gaming on Saitech</title><link>https://saitech.blog/categories/gaming/</link><description>Recent content in Gaming on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 24 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/gaming/index.xml" rel="self" type="application/rss+xml"/><item><title>Within a Deep Forest</title><link>https://saitech.blog/p/within-a-deep-forest/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/within-a-deep-forest/</guid><description>&lt;img src="https://saitech.blog/p/within-a-deep-forest/3.png" alt="Featured image of post Within a Deep Forest" />&lt;p>I had been searching for this game for a decade—maybe even longer—until I finally stumbled upon it yesterday.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gaming on Saitech</title><link>https://saitech.blog/categories/gaming/</link><description>Recent content in Gaming on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/gaming/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
+&lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
+&lt;ul>
+&lt;li>Disable split lock mitigate:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;ul>
+&lt;li>Enable split lock mitigate:&lt;/li>
+&lt;/ul>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+>thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+>guide&lt;/a>.&lt;/p></description></item><item><title>Within a Deep Forest</title><link>https://saitech.blog/p/within-a-deep-forest/</link><pubDate>Mon, 24 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/within-a-deep-forest/</guid><description>&lt;img src="https://saitech.blog/p/within-a-deep-forest/3.png" alt="Featured image of post Within a Deep Forest" />&lt;p>I had been searching for this game for a decade—maybe even longer—until I finally stumbled upon it yesterday.&lt;/p>
 &lt;p>Why? Is it something special? Is it that good? I don’t know. But I kept coming back to this game in my memories from time to time. For me, it’s a special masterpiece.&lt;/p>
 &lt;p>When I look at screenshots or play the game, I’m filled with a strange, fake nostalgia for a non-existent past. Don’t get me wrong—it’s not about who I was back then or what the world was like. When I feel nostalgic about games, it’s simply about the games themselves. They create a feeling, and from that feeling, an entire world is born.&lt;/p>
 &lt;p>That’s what I think about&amp;hellip; but enough words. Try it—or don’t.&lt;/p>
