@@ -1,9 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Saitech</title><link>https://saitech.blog/post/</link><description>Recent content in Posts on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Saitech</title><link>https://saitech.blog/post/</link><description>Recent content in Posts on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>Anime Girls with Books</title><link>https://saitech.blog/p/anime-girls-with-books/</link><pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/anime-girls-with-books/</guid><description>&lt;img src="https://saitech.blog/p/anime-girls-with-books/4.png" alt="Featured image of post Anime Girls with Books" />&lt;p>I’m not sure if I’ll ever use this, but I find it hilarious and amusing. So, I’m sharing it here for anyone who loves anime and programming!&lt;/p>
+&lt;p>Check out this &lt;b>&lt;a class="link" href="https://senpy.club/" target="_blank" rel="noopener"
+>site&lt;/a>&lt;/b> for an extensive collection of anime girls holding programming books. You can select your preferred language or software and see if there are any cute anime girl pictures related to it.&lt;/p>
+&lt;p>For example:&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/anime-girls-with-books/1.png"
+width="527"
+height="513"
+srcset="https://saitech.blog/p/anime-girls-with-books/1_hu_aff34234ea75336.png 480w, https://saitech.blog/p/anime-girls-with-books/1_hu_c8b74ffd1298bc72.png 1024w"
+loading="lazy"
+alt="Godot"
+class="gallery-image"
+data-flex-grow="102"
+data-flex-basis="246px"
+> &lt;img src="https://saitech.blog/p/anime-girls-with-books/2.png"
+width="1366"
+height="768"
+srcset="https://saitech.blog/p/anime-girls-with-books/2_hu_343c2349cfd34311.png 480w, https://saitech.blog/p/anime-girls-with-books/2_hu_256a0ffbbc87e909.png 1024w"
+loading="lazy"
+alt="Lua"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+> &lt;img src="https://saitech.blog/p/anime-girls-with-books/3.png"
+width="1920"
+height="1080"
+srcset="https://saitech.blog/p/anime-girls-with-books/3_hu_dc3be96510eb158e.png 480w, https://saitech.blog/p/anime-girls-with-books/3_hu_c7d5664130987334.png 1024w"
+loading="lazy"
+alt="Android"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+> &lt;img src="https://saitech.blog/p/anime-girls-with-books/5.jpg"
+width="750"
+height="750"
+srcset="https://saitech.blog/p/anime-girls-with-books/5_hu_7941545f0e12644.jpg 480w, https://saitech.blog/p/anime-girls-with-books/5_hu_332ef34b16054b1b.jpg 1024w"
+loading="lazy"
+alt="Bash"
+class="gallery-image"
+data-flex-grow="100"
+data-flex-basis="240px"
+> &lt;img src="https://saitech.blog/p/anime-girls-with-books/6.jpg"
+width="735"
+height="703"
+srcset="https://saitech.blog/p/anime-girls-with-books/6_hu_1581926e098af4a7.jpg 480w, https://saitech.blog/p/anime-girls-with-books/6_hu_7fb507b9f514b6a2.jpg 1024w"
+loading="lazy"
+alt="Arch linux"
+class="gallery-image"
+data-flex-grow="104"
+data-flex-basis="250px"
+>&lt;/p></description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
+&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+>thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+>guide&lt;/a>.&lt;/p>
 &lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
-&lt;ul>
-&lt;li>Disable split lock mitigate:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;h2 id="disable-split-lock-mitigate">Disable split lock mitigate
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -11,10 +61,8 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;ul>
-&lt;li>Enable split lock mitigate:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;div class="chroma">
+&lt;/div>&lt;h2 id="enable-split-lock-mitigate">Enable split lock mitigate
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
@@ -22,9 +70,21 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
->thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
->guide&lt;/a>.&lt;/p></description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saitech.blog/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saitech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" />&lt;p>What more to say? 🎉 Today I published my first &lt;code>rice&lt;/code> on Arch Linux for the &lt;code>bspwm&lt;/code> WM. You can find the link &lt;b>&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
+&lt;/div>&lt;h2 id="gamemode-user-group">Gamemode user group
+&lt;/h2>&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo usermod -aG gamemode username
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="security-risks">Security risks
+&lt;/h2>&lt;p>Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p>
+&lt;h2 id="gamemode">Gamemode
+&lt;/h2>&lt;p>If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
+>here&lt;/a>.&lt;/p></description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saitech.blog/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saitech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" />&lt;p>What more to say? 🎉 Today I published my first &lt;code>rice&lt;/code> on Arch Linux for the &lt;code>bspwm&lt;/code> WM. You can find the link &lt;b>&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
 >here&lt;/a>&lt;/b>. 🎉😄&lt;/p>
 &lt;p>Hope that adds some extra excitement!&lt;/p>
 &lt;blockquote>
