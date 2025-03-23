@@ -21,8 +21,9 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="gamemode-user-group">Gamemode user group
-&lt;/h2>&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
+&lt;/div>&lt;h2 id="gamemode">Gamemode
+&lt;/h2>&lt;p>If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p>
+&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -31,8 +32,18 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo usermod -aG gamemode username
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="security-risks">Security risks
+&lt;/div>&lt;p>You can check if your user is part of the gamemode group with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">groups
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p>
+&lt;h2 id="security-risks">Security risks
 &lt;/h2>&lt;p>Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p>
-&lt;h2 id="gamemode">Gamemode
+&lt;h2 id="gamemode-1">Gamemode
 &lt;/h2>&lt;p>If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
 >here&lt;/a>.&lt;/p></description></item></channel></rss>
