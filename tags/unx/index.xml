@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UnX on Saitech</title><link>https://saitech.blog/tags/unx/</link><description>Recent content in UnX on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/unx/index.xml" rel="self" type="application/rss+xml"/><item><title>FF-X on Arch Linux</title><link>https://saitech.blog/p/ff-x-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-x-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-x-on-arch-linux/2.png" alt="Featured image of post FF-X on Arch Linux" />&lt;p>Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p>
+&lt;h2 id="what-is-unx">What is UnX?
+&lt;/h2>&lt;p>UnX is a mod for Final Fantasy X/X-2 HD Remaster created by the Special K project. It improves performance, fixes bugs, and adds customization options like:&lt;/p>
+&lt;ul>
+&lt;li>Better frame pacing and performance fixes&lt;/li>
+&lt;li>Borderless fullscreen support&lt;/li>
+&lt;li>Custom resolution scaling&lt;/li>
+&lt;li>Language overrides (for Japanese voices with English subtitles)&lt;/li>
+&lt;/ul>
+&lt;p>UnX is essential for tweaking the game on PC, but not all versions work well on Linux.&lt;/p>
+&lt;h2 id="installing-unx-on-arch-linux">Installing UnX on Arch Linux
+&lt;/h2>&lt;p>I first tried to install the latest installer from the Special K UnX wiki. It detected the game installation folder and installed correctly along with the Visual C++ libraries.&lt;/p>
+&lt;p>Unfortunately, the game wouldn&amp;rsquo;t start and just crashed (white screen).&lt;/p>
+&lt;h2 id="workaround">Workaround
+&lt;/h2>&lt;p>The trick is to use &lt;code>UnX 0.8.7&lt;/code> instead of the newer versions:&lt;/p>
+&lt;ul>
+&lt;li>Download &lt;b>&lt;a class="link" href="https://github.com/Kaldaien/UnX/releases/tag/unx_087" target="_blank" rel="noopener"
+>UnX 0.8.7.&lt;/a>&lt;/b>&lt;/li>
+&lt;li>Unzip the contents directly into the game folder.&lt;/li>
+&lt;li>Launch the game — this version works without crashing.&lt;/li>
+&lt;/ul>
+&lt;p>To confirm, I also tested newer version like v0.9.1.9 using the same method, and both resulted in the white screen crash.&lt;/p>
+&lt;h2 id="proton-version">Proton Version
+&lt;/h2>&lt;p>It’s also important to use the correct Proton version:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Proton 7.0-6&lt;/code> is the only one that worked for me.&lt;/li>
+&lt;li>Proton GE and other versions led to the same white screen crash.&lt;/li>
+&lt;/ul>
+&lt;p>You can select the Proton version in the game’s properties by forcing a specific Steam Play compatibility tool.&lt;/p>
+&lt;h2 id="unx-steam-guide">UnX Steam Guide
+&lt;/h2>&lt;p>For more details about configuring UnX and its shortcuts, check this Steam &lt;b>&lt;a class="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=683802394" target="_blank" rel="noopener"
+>guide&lt;/a>&lt;/b> . It covers the key settings in case you want to fine-tune the experience.&lt;/p>
+&lt;h2 id="changing-the-game-language">Changing the Game Language
+&lt;/h2>&lt;p>Basically, to change the language, just go to the Steam library, right-click on the game → Manage → Browse local files.
+Then, adjust the &lt;code>UnX_Language.ini&lt;/code> file:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
+&lt;/span>&lt;span class="lnt">8
+&lt;/span>&lt;span class="lnt">9
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[Language.Master]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SoundEffects=jp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Voice=jp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Video=jp
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[FFX.exe]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Voice=
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SoundEffects=
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Video=
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>In the example above, the voice will be in Japanese, while the text will be the one selected in-game settings on launch.
+&lt;code>Language.Master&lt;/code> is for all games, while &lt;code>FFX.exe&lt;/code> will change it for the specific game only (override).&lt;/p>
+&lt;hr>
+&lt;p>&lt;b>TLDR:&lt;/b> Install UnX 0.8.7 , use Proton 7.0-6 , change UnX_Language.ini&lt;/p></description></item></channel></rss>
