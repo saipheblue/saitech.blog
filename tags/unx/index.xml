@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UnX on Saitech</title><link>https://saitech.blog/tags/unx/</link><description>Recent content in UnX on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/unx/index.xml" rel="self" type="application/rss+xml"/><item><title>FF-X on Arch Linux</title><link>https://saitech.blog/p/ff-x-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-x-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-x-on-arch-linux/2.png" alt="Featured image of post FF-X on Arch Linux" />&lt;p>Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UnX on Saitech</title><link>https://saitech.blog/tags/unx/</link><description>Recent content in UnX on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/unx/index.xml" rel="self" type="application/rss+xml"/><item><title>FF-X│X-2 on Arch Linux</title><link>https://saitech.blog/p/ff-xx-2-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-xx-2-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-xx-2-on-arch-linux/2.png" alt="Featured image of post FF-X│X-2 on Arch Linux" />&lt;p>Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p>
 &lt;h2 id="what-is-unx">What is UnX?
 &lt;/h2>&lt;p>UnX is a mod for Final Fantasy X/X-2 HD Remaster created by the Special K project. It improves performance, fixes bugs, and adds customization options like:&lt;/p>
 &lt;ul>
@@ -19,7 +19,7 @@
 &lt;li>Unzip the contents directly into the game folder.&lt;/li>
 &lt;li>Launch the game — this version works without crashing.&lt;/li>
 &lt;/ul>
-&lt;p>To confirm, I also tested newer version like v0.9.1.9 using the same method, and both resulted in the white screen crash.&lt;/p>
+&lt;p>To confirm, I also tested newer version like v0.9.1.9 using the same method, and it resulted in the white screen crash.&lt;/p>
 &lt;h2 id="proton-version">Proton Version
 &lt;/h2>&lt;p>It’s also important to use the correct Proton version:&lt;/p>
 &lt;ul>
