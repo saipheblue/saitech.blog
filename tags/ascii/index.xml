@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ASCII on Saitech</title><link>https://saitech.blog/tags/ascii/</link><description>Recent content in ASCII on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/ascii/index.xml" rel="self" type="application/rss+xml"/><item><title>Screenfetch Style Hack</title><link>https://saitech.blog/p/screenfetch-style-hack/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/screenfetch-style-hack/</guid><description>&lt;img src="https://saitech.blog/p/screenfetch-style-hack/3.png" alt="Featured image of post Screenfetch Style Hack" />&lt;p>Quick tip for Arch users who like to tweak their terminal looks.&lt;/p>
+&lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
+&lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S screenfetch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then run it with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">screenfetch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p>
+&lt;h2 id="customising-the-logo">Customising the Logo
+&lt;/h2>&lt;p>Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p>
+&lt;p>The script is located here:&lt;/p>
+&lt;pre>&lt;code>/usr/bin/screenfetch
+&lt;/code>&lt;/pre>
+&lt;p>Open it with your editor of choice:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /usr/bin/screenfetch
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p>
+&lt;pre>&lt;code>&amp;quot;Arch Linux&amp;quot;
+&lt;/code>&lt;/pre>
+&lt;p>Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p>
+&lt;p>This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p>
+&lt;h2 id="ascii-art-website">ASCII art website
+&lt;/h2>&lt;p>Check out this site for cool ASCII art you can use: &lt;b>&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
+>emojicombos.com&lt;/a>&lt;/b>&lt;/p></description></item></channel></rss>
