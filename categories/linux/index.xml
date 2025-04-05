@@ -1,4 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/categories/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Screenfetch Style Hack</title><link>https://saitech.blog/p/screenfetch-style-hack/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/screenfetch-style-hack/</guid><description>&lt;img src="https://saitech.blog/p/screenfetch-style-hack/3.png" alt="Featured image of post Screenfetch Style Hack" />&lt;p>Quick tip for Arch users who like to tweak their terminal looks.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/categories/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" />&lt;p>If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong>SkyChart (Cartes du Ciel)&lt;/strong> is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch.&lt;/p>
+&lt;h3 id="install-skychart">Install SkyChart
+&lt;/h3>&lt;p>You can install it straight from the official Arch repos:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo yay -S skychart
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This will pull in everything you need to get started.&lt;/p>
+&lt;h3 id="running-it">Running It
+&lt;/h3>&lt;p>Once installed, just launch it with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">skychart
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The interface is a bit old-school, but it’s powerful, you can load catalogs, plot celestial events, and even connect to telescopes.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/2.png"
+width="1284"
+height="640"
+srcset="https://saitech.blog/p/skychart-on-arch-linux/2_hu_b4f4f3e198c8d8af.png 480w, https://saitech.blog/p/skychart-on-arch-linux/2_hu_757f02ed54b96ff2.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="200"
+data-flex-basis="481px"
+> &lt;img src="https://saitech.blog/p/skychart-on-arch-linux/5.png"
+width="2552"
+height="1397"
+srcset="https://saitech.blog/p/skychart-on-arch-linux/5_hu_7b8219591732c7da.png 480w, https://saitech.blog/p/skychart-on-arch-linux/5_hu_21272b9a2d05c788.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="182"
+data-flex-basis="438px"
+>&lt;/p>
+&lt;h3 id="optional-extra-catalogs">Optional: Extra Catalogs
+&lt;/h3>&lt;p>SkyChart supports extra star and object catalogs if you want more detailed views.&lt;/p>
+&lt;p>You can grab them via the app itself or manually from their website:
+&lt;a class="link" href="https://www.ap-i.net/skychart/en/download" target="_blank" rel="noopener"
+>https://www.ap-i.net/skychart/en/download&lt;/a>&lt;/p>
+&lt;p>Extract them and add through &lt;strong>Setup → Catalog&lt;/strong> in the GUI.&lt;/p>
+&lt;h3 id="config-files">Config Files
+&lt;/h3>&lt;p>User config is usually saved under:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">~/.skychart/
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>So if you want to reset settings or back up your setup, that’s the place.&lt;/p>
+&lt;hr>
+&lt;p>That’s pretty much it! Nice little tool for astronomy nerds or anyone who just wants to know what’s above their head tonight.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/4.png"
+width="1949"
+height="662"
+srcset="https://saitech.blog/p/skychart-on-arch-linux/4_hu_3916b12e6808b77e.png 480w, https://saitech.blog/p/skychart-on-arch-linux/4_hu_975f8449c0b97b0a.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="294"
+data-flex-basis="706px"
+>&lt;/p></description></item><item><title>Screenfetch Style Hack</title><link>https://saitech.blog/p/screenfetch-style-hack/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/screenfetch-style-hack/</guid><description>&lt;img src="https://saitech.blog/p/screenfetch-style-hack/3.png" alt="Featured image of post Screenfetch Style Hack" />&lt;p>Quick tip for Arch users who like to tweak their terminal looks.&lt;/p>
 &lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
 &lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
