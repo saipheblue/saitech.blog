@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/categories/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" />&lt;p>If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong>SkyChart (Cartes du Ciel)&lt;/strong> is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p>
-&lt;h3 id="install-skychart">Install SkyChart
-&lt;/h3>&lt;p>You can install it straight from the official Arch repos:&lt;/p>
+&lt;h2 id="install-skychart">Install SkyChart
+&lt;/h2>&lt;p>You can install it straight from the official Arch repos:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -10,8 +10,8 @@
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>This will pull in everything you need to get started.&lt;/p>
-&lt;h3 id="running-it">Running It
-&lt;/h3>&lt;p>Once installed, just launch it with:&lt;/p>
+&lt;h2 id="running-it">Running It
+&lt;/h2>&lt;p>Once installed, just launch it with:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
@@ -38,14 +38,14 @@ class="gallery-image"
 data-flex-grow="182"
 data-flex-basis="438px"
 >&lt;/p>
-&lt;h3 id="optional-extra-catalogs">Optional: Extra Catalogs
-&lt;/h3>&lt;p>SkyChart supports extra star and object catalogs if you want more detailed views.&lt;/p>
+&lt;h2 id="optional-extra-catalogs">Optional: Extra Catalogs
+&lt;/h2>&lt;p>SkyChart supports extra star and object catalogs if you want more detailed views.&lt;/p>
 &lt;p>You can grab them via the app itself or manually from their website:
 &lt;a class="link" href="https://www.ap-i.net/skychart/en/download" target="_blank" rel="noopener"
 >https://www.ap-i.net/skychart/en/download&lt;/a>&lt;/p>
 &lt;p>Extract them and add through &lt;strong>Setup → Catalog&lt;/strong> in the GUI.&lt;/p>
-&lt;h3 id="config-files">Config Files
-&lt;/h3>&lt;p>User config is usually saved under:&lt;/p>
+&lt;h2 id="config-files">Config Files
+&lt;/h2>&lt;p>User config is usually saved under:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
