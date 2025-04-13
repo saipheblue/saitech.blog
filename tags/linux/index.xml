@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/tags/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/tags/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/1.png" alt="Featured image of post The End of ArcoLinux ?" />&lt;p>ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/_NMQ_-77JRM"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>&lt;b>You can read Erik&amp;rsquo;s full farewell post &lt;a class="link" href="https://www.arcolinux.info/a-farewell-to-the-arcolinux-university/" target="_blank" rel="noopener"
+>&lt;code>here.&lt;/code>&lt;/a>&lt;/b>&lt;/p>
+&lt;p>Makes me think, maybe this is how most smaller distros will end up. Either they burn out, or they slowly merge back into their upstream projects. In Arco’s case, it’s back to Arch.&lt;/p>
+&lt;p>The distro isn’t just disappearing, it’s more like he’s closing the door on a long-running learning platform.
+ArcoLinux helped a lot of people get into Linux—especially Arch. That alone earns it some real respect.
+So, thanks Erik. Good job.&lt;/p>
+&lt;hr>
+&lt;p style="text-align: center;"> We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p></description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
 &lt;p>This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p>
 &lt;h2 id="linux-setup-easyeffects">Linux Setup: EasyEffects
 &lt;/h2>&lt;p>For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p>

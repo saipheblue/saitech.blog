@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Saitech</title><link>https://saitech.blog/tags/tools/</link><description>Recent content in Tools on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" />&lt;p>If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong>SkyChart (Cartes du Ciel)&lt;/strong> is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tools on Saitech</title><link>https://saitech.blog/tags/tools/</link><description>Recent content in Tools on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 12 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/tools/index.xml" rel="self" type="application/rss+xml"/><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/1.png" alt="Featured image of post The End of ArcoLinux ?" />&lt;p>ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
+&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/_NMQ_-77JRM"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;/p>
+&lt;p>&lt;b>You can read Erik&amp;rsquo;s full farewell post &lt;a class="link" href="https://www.arcolinux.info/a-farewell-to-the-arcolinux-university/" target="_blank" rel="noopener"
+>&lt;code>here.&lt;/code>&lt;/a>&lt;/b>&lt;/p>
+&lt;p>Makes me think, maybe this is how most smaller distros will end up. Either they burn out, or they slowly merge back into their upstream projects. In Arco’s case, it’s back to Arch.&lt;/p>
+&lt;p>The distro isn’t just disappearing, it’s more like he’s closing the door on a long-running learning platform.
+ArcoLinux helped a lot of people get into Linux—especially Arch. That alone earns it some real respect.
+So, thanks Erik. Good job.&lt;/p>
+&lt;hr>
+&lt;p style="text-align: center;"> We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p></description></item><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" />&lt;p>If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong>SkyChart (Cartes du Ciel)&lt;/strong> is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p>
 &lt;h2 id="install-skychart">Install SkyChart
 &lt;/h2>&lt;p>You can install it straight from the official Arch repos:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
