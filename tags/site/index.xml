@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Saitech</title><link>https://saitech.blog/tags/site/</link><description>Recent content in Site on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Saitech</title><link>https://saitech.blog/tags/site/</link><description>Recent content in Site on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Archive.today</title><link>https://saitech.blog/p/archive.today/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/archive.today/</guid><description>&lt;img src="https://saitech.blog/p/archive.today/1.png" alt="Featured image of post Archive.today" />&lt;p>Archive.today is a simple tool for accessing snapshots of web pages — useful when a site is behind a paywall, taken down, or modified.&lt;/p>
+&lt;p>Paste any URL into &lt;a class="link" href="https://archive.today" target="_blank" rel="noopener"
+>https://archive.today&lt;/a> to view an archived version of the page.&lt;/p>
+&lt;p>Benefits:&lt;/p>
+&lt;ul>
+&lt;li>Bypasses many paywalls and subscription overlays&lt;/li>
+&lt;li>Preserves content that may later be deleted or edited&lt;/li>
+&lt;li>Useful for citation, research, and saving references&lt;/li>
+&lt;/ul>
+&lt;p>No login needed. No extensions. Just a direct snapshot of the web as it was.&lt;/p></description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
 &lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
 &lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
