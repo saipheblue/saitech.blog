@@ -73,6 +73,9 @@
 </span><span class=lnt>44
 </span><span class=lnt>45
 </span><span class=lnt>46
+</span><span class=lnt>47
+</span><span class=lnt>48
+</span><span class=lnt>49
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl><span class=cp>#!/bin/bash
 </span></span></span><span class=line><span class=cl><span class=cp></span>
 </span></span><span class=line><span class=cl><span class=nv>NEWS_FILE</span><span class=o>=</span><span class=s2>&#34;</span><span class=nv>$HOME</span><span class=s2>/.cache/</span><span class=k>$(</span>whoami<span class=k>)</span><span class=s2>/arch_news_last&#34;</span>
@@ -82,10 +85,10 @@
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Function to fetch the latest news store them to variable and write it to news file</span>
 </span></span><span class=line><span class=cl>fetch_news<span class=o>()</span> <span class=o>{</span>
-</span></span><span class=line><span class=cl>    curl -s <span class=s2>&#34;</span><span class=nv>$FEED_URL</span><span class=s2>&#34;</span> <span class=p>|</span> grep -oP <span class=s1>&#39;(?&lt;=&lt;title&gt;).*?(?=&lt;/title&gt;)&#39;</span> <span class=p>|</span> sed <span class=s1>&#39;1d&#39;</span> <span class=p>|</span> head -n <span class=m>1</span> <span class=p>|</span> sed <span class=s1>&#39;s/$/b/&#39;</span>
+</span></span><span class=line><span class=cl>    curl -s <span class=s2>&#34;</span><span class=nv>$FEED_URL</span><span class=s2>&#34;</span> <span class=p>|</span> grep -oP <span class=s1>&#39;(?&lt;=&lt;title&gt;).*?(?=&lt;/title&gt;)&#39;</span> <span class=p>|</span> sed <span class=s1>&#39;1d&#39;</span> <span class=p>|</span> head -n <span class=m>1</span> <span class=c1># | sed &#39;s/$/b/&#39;</span>
 </span></span><span class=line><span class=cl><span class=o>}</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>visualize_news<span class=o>()</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>icon_change<span class=o>()</span> <span class=o>{</span>
 </span></span><span class=line><span class=cl>    <span class=c1># If news file has &#34;clear&#34;, show default message</span>
 </span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=k>$(</span>cat <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span><span class=k>)</span><span class=s2>&#34;</span> <span class=o>==</span> <span class=s2>&#34;clear&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
 </span></span><span class=line><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;%{F#7aa2f7}📰 %{F-}&#34;</span>  <span class=c1># violet-blue</span>
@@ -102,21 +105,24 @@
 </span></span><span class=line><span class=cl><span class=c1># fetch news, compare them with cached file CURRENT and if different save them to NEWS and CURRENT files</span>
 </span></span><span class=line><span class=cl><span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$1</span><span class=s2>&#34;</span> <span class=o>=</span> <span class=s2>&#34;fetch&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
 </span></span><span class=line><span class=cl>	<span class=o>[</span> ! -f <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span> <span class=o>]</span> <span class=o>&amp;&amp;</span> touch <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span>
-</span></span><span class=line><span class=cl>	<span class=nv>current_news</span><span class=o>=</span><span class=s2>&#34;</span><span class=k>$(</span>fetch_news<span class=k>)</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl>	<span class=nv>latest_news</span><span class=o>=</span><span class=s2>&#34;</span><span class=k>$(</span>fetch_news<span class=k>)</span><span class=s2>&#34;</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$current_news</span><span class=s2>&#34;</span> !<span class=o>=</span> <span class=s2>&#34;</span><span class=k>$(</span>cat <span class=s2>&#34;</span><span class=nv>$CURRENT_FILE</span><span class=s2>&#34;</span><span class=k>)</span><span class=s2>&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
-</span></span><span class=line><span class=cl>        <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$current_news</span><span class=s2>&#34;</span> &gt; <span class=s2>&#34;</span><span class=nv>$CURRENT_FILE</span><span class=s2>&#34;</span>
-</span></span><span class=line><span class=cl>		<span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$current_news</span><span class=s2>&#34;</span> &gt; <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> <span class=o>[</span> -n <span class=s2>&#34;</span><span class=nv>$latest_news</span><span class=s2>&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$latest_news</span><span class=s2>&#34;</span> !<span class=o>=</span> <span class=s2>&#34;</span><span class=k>$(</span>cat <span class=s2>&#34;</span><span class=nv>$CURRENT_FILE</span><span class=s2>&#34;</span> 2&gt;/dev/null<span class=k>)</span><span class=s2>&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
+</span></span><span class=line><span class=cl>            <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$latest_news</span><span class=s2>&#34;</span> &gt; <span class=s2>&#34;</span><span class=nv>$CURRENT_FILE</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl>            <span class=nb>echo</span> <span class=s2>&#34;</span><span class=nv>$latest_news</span><span class=s2>&#34;</span> &gt; <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=k>fi</span>
 </span></span><span class=line><span class=cl>    <span class=k>fi</span>
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>    visualize_news
+</span></span><span class=line><span class=cl>    icon_change
 </span></span><span class=line><span class=cl>    <span class=nb>exit</span> <span class=m>0</span>
 </span></span><span class=line><span class=cl><span class=k>fi</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=c1># Echo clear to make the news disappear once you read them</span>
 </span></span><span class=line><span class=cl><span class=k>if</span> <span class=o>[</span> <span class=s2>&#34;</span><span class=nv>$1</span><span class=s2>&#34;</span> <span class=o>==</span> <span class=s2>&#34;clear&#34;</span> <span class=o>]</span><span class=p>;</span> <span class=k>then</span>
 </span></span><span class=line><span class=cl>	<span class=nb>echo</span> <span class=s2>&#34;clear&#34;</span> &gt; <span class=s2>&#34;</span><span class=nv>$NEWS_FILE</span><span class=s2>&#34;</span>
-</span></span><span class=line><span class=cl>	visualize_news
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>	icon_change
 </span></span><span class=line><span class=cl>	<span class=nb>exit</span> <span class=m>0</span>
 </span></span><span class=line><span class=cl><span class=k>fi</span>
 </span></span></code></pre></td></tr></table></div></div><p>Make the script executable:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
