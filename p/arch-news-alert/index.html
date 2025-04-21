@@ -24,7 +24,7 @@
 </span></span><span class=line><span class=cl>format-prefix = &#34;&#34;
 </span></span><span class=line><span class=cl>format-underline = #5E81AC
 </span></span><span class=line><span class=cl>
-</span></span><span class=line><span class=cl>click-left = /home/saiphe/.config/bspwm/src/arch_news.sh clear &amp;&amp; xdg-open https://archlinux.org/news/
+</span></span><span class=line><span class=cl>click-left = ~/.config/bspwm/src/arch_news.sh clear &amp;&amp; xdg-open https://archlinux.org/news/
 </span></span></code></pre></td></tr></table></div></div><h2 id=config>Config</h2><p>Now, include the new module in your Polybar configuration. Add <code>arch_news</code> to your module list, along with a separator <code>sep</code> if you prefer.</p><p>Example:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>modules-center = arch_news
 </span></span></code></pre></td></tr></table></div></div><h2 id=script>Script</h2><p>Save the following script as <code>arch_news.sh</code> in your <code>bspwm</code> script directory <code>~/.config/bspwm/src/</code></p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt> 1
@@ -127,7 +127,7 @@
 </span></span><span class=line><span class=cl><span class=k>fi</span>
 </span></span></code></pre></td></tr></table></div></div><p>Make the script executable:</p><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt>1
 </span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>chmod +x ~/.config/bspwm/src/arch_news.sh
-</span></span></code></pre></td></tr></table></div></div><h2 id=usage>Usage</h2><p>Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/arch-linux/>Arch Linux</a>
+</span></span></code></pre></td></tr></table></div></div><h2 id=usage>Usage</h2><p>Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.</p><hr><p style=text-align:center>Edit history</p><p>21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent</p></section><footer class=article-footer><section class=article-tags><a href=/tags/arch-linux/>Arch Linux</a>
 <a href=/tags/bspwm/>Bspwm</a>
 <a href=/tags/polybar/>Polybar</a>
 <a href=/tags/tiling-windows-manager/>Tiling Windows Manager</a>

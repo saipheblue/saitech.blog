@@ -32,7 +32,7 @@ data-flex-basis="732px"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">format-prefix = &amp;#34;&amp;#34;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">format-underline = #5E81AC
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">click-left = /home/saiphe/.config/bspwm/src/arch_news.sh clear &amp;amp;&amp;amp; xdg-open https://archlinux.org/news/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">click-left = ~/.config/bspwm/src/arch_news.sh clear &amp;amp;&amp;amp; xdg-open https://archlinux.org/news/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="config">Config
@@ -162,4 +162,7 @@ data-flex-basis="732px"
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="usage">Usage
-&lt;/h2>&lt;p>Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.&lt;/p></description></item></channel></rss>
+&lt;/h2>&lt;p>Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.&lt;/p>
+&lt;hr>
+&lt;p style="text-align: center;"> Edit history &lt;/p>
+&lt;p>21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent&lt;/p></description></item></channel></rss>
