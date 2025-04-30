@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blame on Saitech</title><link>https://saitech.blog/tags/blame/</link><description>Recent content in Blame on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 30 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/blame/index.xml" rel="self" type="application/rss+xml"/><item><title>Blame your boot time like PewDiePie</title><link>https://saitech.blog/p/blame-your-boot-time-like-pewdiepie/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time-like-pewdiepie/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time-like-pewdiepie/1.png" alt="Featured image of post Blame your boot time like PewDiePie" />&lt;p>PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p>
+&lt;p>Turns out systemd comes with tools that show you &lt;strong>how long your system takes to boot&lt;/strong> and &lt;strong>which services are the slowest&lt;/strong>.&lt;/p>
+&lt;h2 id="commands">Commands
+&lt;/h2>&lt;h3 id="systemd-analyze">systemd-analyze
+&lt;/h3>&lt;p>This command breaks down your boot time. It’s the full timeline: firmware, bootloader, kernel, and userspace.&lt;/p>
+&lt;p>Example output:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Startup&lt;/span> &lt;span class="n">finished&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="mf">13.125&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">firmware&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">5.376&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">loader&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">6.182&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">kernel&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">2.845&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">userspace&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">27.529&lt;/span>&lt;span class="n">s&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">graphical&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">target&lt;/span> &lt;span class="n">reached&lt;/span> &lt;span class="n">after&lt;/span> &lt;span class="mf">2.844&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">userspace&lt;/span>&lt;span class="o">.&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="systemd-analyze-blame">systemd-analyze blame
+&lt;/h3>&lt;p>This one shows &lt;strong>what&lt;/strong> is taking time. It lists services and mount points, sorted by delay.&lt;/p>
+&lt;p>Example output:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
+&lt;/span>&lt;span class="lnt"> 2
+&lt;/span>&lt;span class="lnt"> 3
+&lt;/span>&lt;span class="lnt"> 4
+&lt;/span>&lt;span class="lnt"> 5
+&lt;/span>&lt;span class="lnt"> 6
+&lt;/span>&lt;span class="lnt"> 7
+&lt;/span>&lt;span class="lnt"> 8
+&lt;/span>&lt;span class="lnt"> 9
+&lt;/span>&lt;span class="lnt">10
+&lt;/span>&lt;span class="lnt">11
+&lt;/span>&lt;span class="lnt">12
+&lt;/span>&lt;span class="lnt">13
+&lt;/span>&lt;span class="lnt">14
+&lt;/span>&lt;span class="lnt">15
+&lt;/span>&lt;span class="lnt">16
+&lt;/span>&lt;span class="lnt">17
+&lt;/span>&lt;span class="lnt">18
+&lt;/span>&lt;span class="lnt">19
+&lt;/span>&lt;span class="lnt">20
+&lt;/span>&lt;span class="lnt">21
+&lt;/span>&lt;span class="lnt">22
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">dm_mod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">640&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme1tbgames&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">624&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">ssd500gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">618&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme250gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">593&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">bare&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">5.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">17200.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2846.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">591&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2855.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1802.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1908.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">589&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gnome&lt;/span>\&lt;span class="n">x2d3&lt;/span>\&lt;span class="n">x2d28&lt;/span>\&lt;span class="n">x2d1804&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">198.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gtk&lt;/span>\&lt;span class="n">x2dcommon&lt;/span>\&lt;span class="n">x2dthemes&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1535.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">23771.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">587&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">24505.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2273.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2285.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">580&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">tmp&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">412&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">modules&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">load&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">397&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">binfmt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">382&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">snapd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">274&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">NetworkManager&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="pews-video">Pew&amp;rsquo;s video
+&lt;/h2>&lt;div class="video-wrapper">
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/pVI_smLgTY0"
+allowfullscreen
+title="YouTube Video"
+>
+&lt;/iframe>
+&lt;/div>
+&lt;p style="text-align: center;">Note: In the future, I might explore an animated fetch so we can flex like Pew. &lt;p></description></item></channel></rss>
