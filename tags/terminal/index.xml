@@ -111,7 +111,7 @@ title="YouTube Video"
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">274&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">NetworkManager&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h2 id="pews-video">Pew&amp;rsquo;s video
+&lt;/div>&lt;h2 id="pewds-video">Pewds&amp;rsquo; video
 &lt;/h2>&lt;div class="video-wrapper">
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/pVI_smLgTY0"
@@ -120,7 +120,7 @@ title="YouTube Video"
 >
 &lt;/iframe>
 &lt;/div>
-&lt;p style="text-align: center;">Note: In the future, I might explore an animated fetch so we can flex like Pew. &lt;p></description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
+&lt;p style="text-align: center;">Note: In the future, I might explore an animated fetch so we can flex like Felix. &lt;p></description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
 &lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
 &lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
