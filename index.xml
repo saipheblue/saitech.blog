@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saitech</title><link>https://saitech.blog/</link><description>Recent content on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" />&lt;p>During my Arch Linux installation, I made a small mistake:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saitech</title><link>https://saitech.blog/</link><description>Recent content on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 09 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/index.xml" rel="self" type="application/rss+xml"/><item><title/><link>https://saitech.blog/p/</link><pubDate>Fri, 09 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/</guid><description>&lt;img src="https://saitech.blog/1.png" alt="Featured image of post " />&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">##
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &amp;lt;b&amp;gt;[](https://)&amp;lt;/b&amp;gt;
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>Offline Arch wiki</title><link>https://saitech.blog/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/offline-arch-wiki/</guid><description>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" />&lt;p>It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p>
+&lt;h2 id="html-version">Html version
+&lt;/h2>&lt;p>Install with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S arch-wiki-docs
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Navigate to Location:&lt;/p>
+&lt;ul>
+&lt;li>🗂️ /usr/share/doc/arch-wiki/html/&lt;/li>
+&lt;/ul>
+&lt;p>Example commands to open the Zsh.html page:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd /usr/share/doc/arch-wiki/html/
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ls
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cd en
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ls
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">firefox Zsh.html
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png"
+width="2560"
+height="1439"
+srcset="https://saitech.blog/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saitech.blog/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
+loading="lazy"
+alt="Zsh.html page"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;h2 id="terminal-version">Terminal version
+&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/offline-arch-wiki/2.png"
+width="1403"
+height="893"
+srcset="https://saitech.blog/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saitech.blog/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
+loading="lazy"
+alt="wiki-search zsh output"
+class="gallery-image"
+data-flex-grow="157"
+data-flex-basis="377px"
+> &lt;img src="https://saitech.blog/p/offline-arch-wiki/3.png"
+width="978"
+height="696"
+srcset="https://saitech.blog/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saitech.blog/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
+loading="lazy"
+alt="Zsh option"
+class="gallery-image"
+data-flex-grow="140"
+data-flex-basis="337px"
+>&lt;/p>
+&lt;p>Install with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S arch-wiki-lite
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>To search for Zsh page, use:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wiki-search zsh
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Use Page Up and Page Down to navigate, or the arrow keys.&lt;/p>
+&lt;p>That&amp;rsquo;s it!&lt;/p></description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" />&lt;p>During my Arch Linux installation, I made a small mistake:
 I left the default mirrorlist untouched.&lt;/p>
 &lt;p>As a result, I relied solely on the built-in mirrors, which &lt;em>work&lt;/em>, but might not always be the fastest or most up-to-date.
 To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p>
