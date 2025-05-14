@@ -119,7 +119,7 @@ data-flex-basis="412px"
 &lt;li>Share internet via &lt;strong>your new Wi-Fi network&lt;/strong>&lt;/li>
 &lt;li>Fully utilize your router—even when your ISP is down.&lt;/li>
 &lt;/ul>
-&lt;p>Alternative firmware FTW 🚀&lt;/p></description></item><item><title>.desktop Files</title><link>https://saitech.blog/p/.desktop-files/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/.desktop-files/</guid><description>&lt;img src="https://saitech.blog/p/.desktop-files/1.png" alt="Featured image of post .desktop Files" />&lt;p>Whenever I update apps like Godot manually, the &lt;code>app launcher&lt;/code> might still point to the old version. I just open the relevant &lt;code>.desktop&lt;/code> file and update the &lt;code>Exec=&lt;/code> path to the new binary.&lt;/p>
+&lt;p>Alternative firmware FTW 🚀&lt;/p></description></item><item><title>Desktop Files</title><link>https://saitech.blog/p/desktop-files/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/desktop-files/</guid><description>&lt;img src="https://saitech.blog/p/desktop-files/1.png" alt="Featured image of post Desktop Files" />&lt;p>Whenever I update apps like Godot manually, the &lt;code>app launcher&lt;/code> might still point to the old version. I just open the relevant &lt;code>.desktop&lt;/code> file and update the &lt;code>Exec=&lt;/code> path to the new binary.&lt;/p>
 &lt;ul>
 &lt;li>🗂️ ~/.local/share/applications/&lt;/li>
 &lt;/ul>
