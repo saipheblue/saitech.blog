@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Apps on Saitech</title><link>https://saitech.blog/tags/apps/</link><description>Recent content in Apps on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/apps/index.xml" rel="self" type="application/rss+xml"/><item><title>.desktop Files</title><link>https://saitech.blog/p/.desktop-files/</link><pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/.desktop-files/</guid><description>&lt;img src="https://saitech.blog/p/.desktop-files/1.png" alt="Featured image of post .desktop Files" />&lt;p>Whenever I update apps like Godot manually, the &lt;code>app launcher&lt;/code> might still point to the old version. I just open the relevant &lt;code>.desktop&lt;/code> file and update the &lt;code>Exec=&lt;/code> path to the new binary.&lt;/p>
+&lt;ul>
+&lt;li>🗂️ ~/.local/share/applications/&lt;/li>
+&lt;/ul>
+&lt;p>It’s a small thing, but it keeps the app launcher clean and avoids confusion. Easy to forget, so this post is my personal breadcrumb.&lt;/p>
+&lt;p>If you use the AUR (&lt;code>godot-bin&lt;/code> or similar), you can automate updates with an AUR helper like &lt;code>yay&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">yay -Syu
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>AUR godot isntall:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">yay -S godot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>So I&amp;rsquo;m considering migrating to the AUR version of Godot..&lt;/p></description></item></channel></rss>

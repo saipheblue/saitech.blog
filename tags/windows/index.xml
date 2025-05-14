@@ -1,4 +1,125 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Saitech</title><link>https://saitech.blog/tags/windows/</link><description>Recent content in Windows on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 07 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Saitech</title><link>https://saitech.blog/tags/windows/</link><description>Recent content in Windows on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" />&lt;p>My router didn’t support &lt;strong>Client Bridge&lt;/strong> or &lt;strong>Repeater Bridge&lt;/strong> mode out of the box.&lt;/p>
+&lt;p>Sometimes when my internet goes down, I share a mobile hotspot from my phone. But to &lt;strong>distribute that connection over LAN and Wi-Fi&lt;/strong>, I needed a router that supports client mode + AP. Unfortunately, my &lt;strong>TP-Link Archer C6&lt;/strong> couldn’t do this… until I replaced the official firmware with &lt;strong>OpenWRT&lt;/strong>.&lt;/p>
+&lt;h2 id="-check-compatibility">✅ Check Compatibility
+&lt;/h2>&lt;p>Make sure your device is supported:
+🔗 &lt;a class="link" href="https://openwrt.org/toh/start" target="_blank" rel="noopener"
+>https://openwrt.org/toh/start&lt;/a>&lt;/p>
+&lt;p>Download the &lt;strong>exact&lt;/strong> firmware version for your hardware revision.
+⚠️ &lt;em>Double-check your model and version before flashing!&lt;/em>&lt;/p>
+&lt;p>Then upgrade the firmware as you normally would via the router’s web UI.&lt;/p>
+&lt;h2 id="-setting-up-openwrt-using-luci-web-interface-">⚙️ Setting Up OpenWRT (Using LUCI Web Interface )
+&lt;/h2>&lt;p>Access your router: &lt;a class="link" href="http://192.168.1.1" target="_blank" rel="noopener"
+>http://192.168.1.1&lt;/a>
+Set your password if prompted.&lt;/p>
+&lt;h3 id="connect-to-your-hotspot--client-mode-">Connect to Your Hotspot ( Client Mode )
+&lt;/h3>&lt;ul>
+&lt;li>Go to &lt;strong>Network → Wireless&lt;/strong>&lt;/li>
+&lt;li>Click &lt;strong>Scan&lt;/strong> next to the wireless radio&lt;/li>
+&lt;li>Find your mobile hotspot, click &lt;strong>Join Network&lt;/strong>&lt;/li>
+&lt;li>Enter your hotspot password ( Wireless Security )&lt;/li>
+&lt;li>Set:
+&lt;ul>
+&lt;li>&lt;strong>Mode:&lt;/strong> Client&lt;/li>
+&lt;li>&lt;strong>Network:&lt;/strong> &lt;code>wwan&lt;/code> (create if needed)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Save &amp;amp; Apply&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3.png"
+width="1513"
+height="1318"
+srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_106e9a23e112034d.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_7e2816986f1e711b.png 1024w"
+loading="lazy"
+alt="Mobile hotspot"
+class="gallery-image"
+data-flex-grow="114"
+data-flex-basis="275px"
+> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6.png"
+width="1161"
+height="456"
+srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_db3c3308f924bc23.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_a0f7ddc01af2aeb7.png 1024w"
+loading="lazy"
+alt="Security - Hotspot"
+class="gallery-image"
+data-flex-grow="254"
+data-flex-basis="611px"
+>&lt;/p>
+&lt;h3 id="add-a-new-wi-fi-network-access-point-">Add a New Wi-Fi Network (Access Point )
+&lt;/h3>&lt;ul>
+&lt;li>Still under &lt;strong>Network → Wireless&lt;/strong>, click &lt;strong>Add&lt;/strong>&lt;/li>
+&lt;li>Set:
+&lt;ul>
+&lt;li>&lt;strong>Mode:&lt;/strong> Access Point&lt;/li>
+&lt;li>&lt;strong>SSID:&lt;/strong> (e.g., &lt;code>MyRouterRepeater&lt;/code>)&lt;/li>
+&lt;li>&lt;strong>Network:&lt;/strong> &lt;code>lan&lt;/code>&lt;/li>
+&lt;li>Encryption: WPA2-PSK&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Save &amp;amp; Apply&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2.png"
+width="1498"
+height="1336"
+srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_e929cc93830a722a.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_c29187eb63b76cae.png 1024w"
+loading="lazy"
+alt="New WiFi"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="269px"
+> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4.png"
+width="1481"
+height="1322"
+srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_4834023b30a6538c.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_c66a1f0f1bfbebf.png 1024w"
+loading="lazy"
+alt="Master - auto generated"
+class="gallery-image"
+data-flex-grow="112"
+data-flex-basis="268px"
+> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5.png"
+width="1158"
+height="674"
+srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_37dfa2510cf9c5e4.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_58a23f334e0d7826.png 1024w"
+loading="lazy"
+alt="Security - New Wifi"
+class="gallery-image"
+data-flex-grow="171"
+data-flex-basis="412px"
+>&lt;/p>
+&lt;h3 id="optional">Optional
+&lt;/h3>&lt;h4 id="configure-interfaces">Configure Interfaces
+&lt;/h4>&lt;ul>
+&lt;li>Go to &lt;strong>Network → Interfaces&lt;/strong>&lt;/li>
+&lt;li>Ensure:
+&lt;ul>
+&lt;li>&lt;code>lan&lt;/code> → covers Ethernet + new AP&lt;/li>
+&lt;li>&lt;code>wwan&lt;/code> → uses &lt;strong>DHCP client&lt;/strong> (for hotspot)&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>If not:
+&lt;ul>
+&lt;li>Edit &lt;code>wwan&lt;/code> → Protocol: &lt;strong>DHCP client&lt;/strong>&lt;/li>
+&lt;li>Assign Firewall Zone: &lt;strong>wan&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="firewall-rules">Firewall Rules
+&lt;/h4>&lt;ul>
+&lt;li>Go to &lt;strong>Network → Firewall&lt;/strong>&lt;/li>
+&lt;li>Ensure:
+&lt;ul>
+&lt;li>&lt;code>lan&lt;/code> can forward to &lt;code>wan&lt;/code>&lt;/li>
+&lt;li>If &lt;code>wwan&lt;/code> is its own zone, allow forwarding from &lt;code>lan&lt;/code> to &lt;code>wwan&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="save-and-reboot">Save and Reboot
+&lt;/h3>&lt;p>Now you can:&lt;/p>
+&lt;ul>
+&lt;li>Connect devices over &lt;strong>LAN&lt;/strong>&lt;/li>
+&lt;li>Share internet via &lt;strong>your new Wi-Fi network&lt;/strong>&lt;/li>
+&lt;li>Fully utilize your router—even when your ISP is down.&lt;/li>
+&lt;/ul>
+&lt;p>Alternative firmware FTW 🚀&lt;/p></description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
 &lt;p>This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p>
 &lt;h2 id="linux-setup-easyeffects">Linux Setup: EasyEffects
 &lt;/h2>&lt;p>For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p>
