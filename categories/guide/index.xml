@@ -1,4 +1,136 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Saitech</title><link>https://saitech.blog/categories/guide/</link><description>Recent content in Guide on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" />&lt;p>My router didn’t support &lt;strong>Client Bridge&lt;/strong> or &lt;strong>Repeater Bridge&lt;/strong> mode out of the box.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Saitech</title><link>https://saitech.blog/categories/guide/</link><description>Recent content in Guide on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Mounting External Drives on Linux</title><link>https://saitech.blog/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" />&lt;p>🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
+>NTFS-3G on Arch Wiki&lt;/a>
+🔗 &lt;a class="link" href="https://github.com/coldfix/udiskie" target="_blank" rel="noopener"
+>Udiskie GitHub&lt;/a>&lt;/p>
+&lt;p>I needed to mount an external disk with NTFS filesystem on an Arch-based system. After some digging, this turned out to be the most reliable and persistent method.&lt;/p>
+&lt;h2 id="install-ntfs-3g">Install NTFS-3G
+&lt;/h2>&lt;p>To properly support NTFS (especially for writing), &lt;code>ntfs-3g&lt;/code> is still the most compatible driver.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo pacman -S ntfs-3g
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="create-a-mount-point">Create a mount point
+&lt;/h2>&lt;p>Standard procedure — create a directory where the disk will be mounted.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mkdir -p /mnt/ntfsdisk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This location can be changed as needed. Just ensure it&amp;rsquo;s writable and accessible by the user or scripts that will use it.&lt;/p>
+&lt;h2 id="mount-the-ntfs-drive-manually">Mount the NTFS drive manually
+&lt;/h2>&lt;p>Use the &lt;code>ntfs-3g&lt;/code> driver explicitly.&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mount -t ntfs-3g /dev/sdb1 /mnt/ntfsdisk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Replace &lt;code>/dev/sdb1&lt;/code> with the actual device identifier. You can check it with:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">lsblk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>or&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo fdisk -l
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="check-contents-and-verify">Check contents and verify
+&lt;/h2>&lt;p>After mounting, confirm that the contents are accessible:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ls /mnt/ntfsdisk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="unmount-when-done">Unmount when done
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo umount /mnt/ntfsdisk
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="automating-the-mount-optional">Automating the Mount (Optional)
+&lt;/h2>&lt;p>To avoid manual mounting every time, &lt;code>udiskie&lt;/code> is a lightweight automounter that integrates with &lt;code>udisks2&lt;/code>.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png"
+width="750"
+height="340"
+srcset="https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
+loading="lazy"
+alt="Udiskie"
+class="gallery-image"
+data-flex-grow="220"
+data-flex-basis="529px"
+>&lt;/p>
+&lt;p>Install it:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo pacman -S udiskie
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then run it (ideally from your session or startup script):&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">udiskie --tray &lt;span class="p">&amp;amp;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This enables auto-mounting when drives are plugged in, with an optional tray icon for status/control.&lt;/p>
+&lt;h2 id="custom-mount-options">Custom Mount Options
+&lt;/h2>&lt;p>For persistent configuration, define NTFS mount options in the udisks2 config. This allows you to override the defaults with user-specific behavior.&lt;/p>
+&lt;p>Create or edit:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo nano /etc/udisks2/mount_options.conf
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Example config:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-ini" data-lang="ini">&lt;span class="line">&lt;span class="cl">&lt;span class="k">[defaults]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_defaults&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">uid=$UID,gid=$GID,windows_names,big_writes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_allow&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">uid=$UID,gid=$GID,umask,dmask,fmask,locale,windows_names,big_writes&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_drivers&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">ntfs,ntfs3&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>This makes sure UID/GID match the current user, allows compatibility with Windows filenames, and improves performance with &lt;code>big_writes&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;p>This setup has been solid for external NTFS drives and keeps things simple with minimal manual steps. Clean, functional, works every time.&lt;/p></description></item><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" />&lt;p>My router didn’t support &lt;strong>Client Bridge&lt;/strong> or &lt;strong>Repeater Bridge&lt;/strong> mode out of the box.&lt;/p>
 &lt;p>Sometimes when my internet goes down, I share a mobile hotspot from my phone. But to &lt;strong>distribute that connection over LAN and Wi-Fi&lt;/strong>, I needed a router that supports client mode + AP. Unfortunately, my &lt;strong>TP-Link Archer C6&lt;/strong> couldn’t do this… until I replaced the official firmware with &lt;strong>OpenWRT&lt;/strong>.&lt;/p>
 &lt;h2 id="-check-compatibility">✅ Check Compatibility
 &lt;/h2>&lt;p>Make sure your device is supported:
