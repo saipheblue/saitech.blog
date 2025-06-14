@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Multimedia on Saitech</title><link>https://saitech.blog/tags/multimedia/</link><description>Recent content in Multimedia on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/multimedia/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg</title><link>https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</guid><description>&lt;img src="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/1.jpg" alt="Featured image of post Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg" />&lt;p>When I was troubleshooting playback issues on my Raspberry Pi, I realized that many video formats, especially older ones like &lt;code>.avi&lt;/code>, aren&amp;rsquo;t fully supported by default media players. Some files wouldn’t play at all, others had no sound or were stuttering badly.&lt;/p>
+&lt;p>After a bit of trial and error, the most reliable solution was to convert the videos to a more modern and compatible format — &lt;code>MP4 with H.264&lt;/code> for video and &lt;code>AAC&lt;/code> for audio.&lt;/p>
+&lt;h2 id="usage">Usage
+&lt;/h2>&lt;p>FFmpeg made the process simple. Here’s the command I used:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ffmpeg -i input.avi -c:v libx264 -preset slow -crf 23 -c:a aac -b:a 128k output.mp4
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="breakdown-of-the-command">Breakdown of the Command
+&lt;/h2>&lt;ul>
+&lt;li>ffmpeg: The command-line tool used for processing audio and video&lt;/li>
+&lt;li>-i input.avi: Specifies the input file. FFmpeg supports a wide range of formats including .avi, .mkv, .mov, .flv, .mpg, .ts, .webm, .wmv, and more&lt;/li>
+&lt;li>-c:v libx264: Uses the H.264 video codec (via the libx264 library)&lt;/li>
+&lt;li>-preset slow: A slower encoding preset which produces better compression (smaller file, same quality)&lt;/li>
+&lt;li>-crf 23: Constant Rate Factor for quality control — 23 is a good balance between size and quality&lt;/li>
+&lt;li>-c:a aac: Uses the AAC audio codec&lt;/li>
+&lt;li>-b:a 128k: Sets audio bitrate to 128kbps&lt;/li>
+&lt;li>output.mp4: The output file name&lt;/li>
+&lt;/ul>
+&lt;h2 id="why-convert-to-mp4">Why Convert to MP4?
+&lt;/h2>&lt;ul>
+&lt;li>Compatibility: MP4 with H.264/AAC is supported by nearly all devices and browsers.&lt;/li>
+&lt;li>Efficiency: Better compression than older AVI formats.&lt;/li>
+&lt;li>Smaller file size with the same perceptual quality.&lt;/li>
+&lt;/ul>
+&lt;h2 id="gui-options-for-ffmpeg">GUI Options for FFmpeg
+&lt;/h2>&lt;p>There are many graphical user interfaces (GUIs) available for FFmpeg, but personally, I chose the lightweight QWinFF, so I&amp;rsquo;ll just mention it here briefly.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2.png"
+width="1051"
+height="469"
+srcset="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_7d4500780db3d01e.png 480w, https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_fcdedc1555da9274.png 1024w"
+loading="lazy"
+alt="QWINFF"
+class="gallery-image"
+data-flex-grow="224"
+data-flex-basis="537px"
+>&lt;/p>
+&lt;p>Installation on Arch Linux:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">yay -S qwinff
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
