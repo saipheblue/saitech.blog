@@ -514,12 +514,13 @@ To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors
 &lt;p style="text-align: center;">Speaking of mirrors...&lt;p>
 &lt;div class="video-wrapper">
 &lt;iframe loading="lazy"
-src="https://www.youtube.com/embed/SVg8eP7KPNQ"
+src="https://www.youtube.com/embed/1AfNOKQdY-U"
 allowfullscreen
 title="YouTube Video"
 >
 &lt;/iframe>
-&lt;/div></description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" />&lt;p>PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p>
+&lt;/div>
+&lt;p>&lt;em>Blind Guardian- Mirror Mirror&lt;/em>&lt;/p></description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" />&lt;p>PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p>
 &lt;p>Turns out systemd comes with tools that show you &lt;strong>how long your system takes to boot&lt;/strong> and &lt;strong>which services are the slowest&lt;/strong>.&lt;/p>
 &lt;h2 id="commands">Commands
 &lt;/h2>&lt;h3 id="systemd-analyze">systemd-analyze
