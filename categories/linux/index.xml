@@ -825,7 +825,7 @@ Then, adjust the &lt;code>UnX_Language.ini&lt;/code> file:&lt;/p>
 >here&lt;/a>&lt;/b>. 🎉😄&lt;/p>
 &lt;p>Hope that adds some extra excitement!&lt;/p>
 &lt;blockquote>
-&lt;p>Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p>&lt;/blockquote></description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" />&lt;p>Alright, straight to it—I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p>
+&lt;p>Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p>&lt;/blockquote></description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" />&lt;p>Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p>
 &lt;p>Turns out, the fix was simpler than expected. Huge thanks to &lt;b>&lt;a class="link" href="https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/" target="_blank" rel="noopener"
 >this&lt;/a>&lt;/b> blog post for pointing me in the right direction.&lt;/p>
 &lt;h2 id="install-kernel-headers--xpadneo">Install Kernel Headers &amp;amp; xpadneo
@@ -848,14 +848,14 @@ Then, adjust the &lt;code>UnX_Language.ini&lt;/code> file:&lt;/p>
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;h2 id="update-your-controller-firmware">Update Your Controller Firmware
-&lt;/h2>&lt;p>Here’s the kicker—you have to update your controller’s firmware, and Microsoft, being Microsoft, only lets you do it on Windows.&lt;/p>
+&lt;/h2>&lt;p>Here’s the kicker, you have to update your controller’s firmware, and Microsoft, being Microsoft, only lets you do it on Windows.&lt;/p>
 &lt;p>So either:&lt;/p>
 &lt;ul>
 &lt;li>Boot into Windows (if you have it)&lt;/li>
 &lt;li>Use a Windows VM&lt;/li>
 &lt;/ul>
-&lt;p>And here’s the key part you might’ve missed—head to the Microsoft Store and download the &lt;code>Xbox Accessories app&lt;/code>. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p>
-&lt;p>Reboot, reconnect, and boom—your controller should finally work without dropping every five seconds.&lt;/p>
+&lt;p>And here’s the key part you might’ve missed, head to the Microsoft Store and download the &lt;code>Xbox Accessories app&lt;/code>. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p>
+&lt;p>Reboot, reconnect, and boom, your controller should finally work without dropping every five seconds.&lt;/p>
 &lt;p>Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p></description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
 &lt;p>This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p>
 &lt;h2 id="linux-setup-easyeffects">Linux Setup: EasyEffects
