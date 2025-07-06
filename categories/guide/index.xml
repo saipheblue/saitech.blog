@@ -1,4 +1,119 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Saitech</title><link>https://saitech.blog/categories/guide/</link><description>Recent content in Guide on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 14 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" />&lt;p>After updating my graphics drivers and running a full system update with
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Guide on Saitech</title><link>https://saitech.blog/categories/guide/</link><description>Recent content in Guide on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" />&lt;h2 id="the-problem">The Problem
+&lt;/h2>&lt;p>EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p>
+&lt;p>You can find them in:&lt;/p>
+&lt;p>&lt;code>/usr/share/applications/&lt;/code>&lt;/p>
+&lt;h2 id="solution">Solution
+&lt;/h2>&lt;p>I initially found a solution in this: &lt;b>&lt;a class="link" href="https://www.reddit.com/r/linux4noobs/comments/g40e3a/comment/fo2y3bi/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3" target="_blank" rel="noopener"
+>reddit comment&lt;/a>&lt;/b>&lt;/p>
+&lt;p>Unfortunately, it didn&amp;rsquo;t work for me because just adding &lt;code>Hidden=true&lt;/code> is not valid &lt;code>.desktop&lt;/code> file on Arch Linux.&lt;/p>
+&lt;p>So I slightly modified the script shared by user &amp;ldquo;mthqwork&amp;rdquo;:&lt;/p>
+&lt;p>First, create a temporary file with the minimal valid &lt;code>.desktop&lt;/code> content:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">echo -e &amp;#34;[Desktop Entry]\nType=Application\nName=LSP Plugin (Hidden)\nExec=true\nHidden=true&amp;#34; &amp;gt; /tmp/1
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then, for each LSP plugin file, it creates a corresponding user-level &lt;code>.desktop&lt;/code> file with the &lt;code>Hidden&lt;/code> flag, while ensuring it remains valid:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find /usr -name &amp;#34;lsp_plugdesktop&amp;#34; 2&amp;gt;/dev/null | cut -f 5 -d &amp;#39;/&amp;#39; | xargs -I {} cp /tmp/1 ~/.local/share/applications/{}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>The point is that by creating &lt;strong>user-specific desktop files in&lt;/strong>: &lt;code>.local/share/applications/&lt;/code>their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+width="1261"
+height="761"
+srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
+loading="lazy"
+alt="Clean app launcher"
+class="gallery-image"
+data-flex-grow="165"
+data-flex-basis="397px"
+>&lt;/p></description></item><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" />&lt;h2 id="the-issue">The Issue
+&lt;/h2>&lt;p>During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
+&lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
+width="1430"
+height="489"
+srcset="https://saitech.blog/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saitech.blog/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
+loading="lazy"
+alt="Shutdown issue"
+class="gallery-image"
+data-flex-grow="292"
+data-flex-basis="701px"
+>
+Obviously, some processes weren&amp;rsquo;t terminating properly.&lt;/p>
+&lt;h2 id="analysis">Analysis
+&lt;/h2>&lt;p>What helped was letting the system run for a while to see if it would print something else I could catch.&lt;/p>
+&lt;p>Eventually, the terminal snitched on the likely suspect:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ailed deactivating swap /dev/disk/by-&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">dev-disk-by\x2ddiskseq-3\x2dpart2.swap&amp;gt;
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Yeah, the swap partition was likely to blame.
+After rebooting, I checked in the terminal:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">journalctl -b -1 -r
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>And following advice from more experienced Linux gurus, I first tried adding in:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /etc/systemd/system.conf
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DefaultTimeoutStopSec=15s
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>(make sure to uncomment the line)&lt;/p>
+&lt;p>But that didn&amp;rsquo;t help either.&lt;/p>
+&lt;h2 id="solution">Solution
+&lt;/h2>&lt;p>Finally, an expert suggested adding the swap to fstab.&lt;/p>
+&lt;p>First, I found the UUID of the swap partition using:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">blkid&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">t&lt;/span> &lt;span class="n">TYPE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">swap&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">o&lt;/span> &lt;span class="k">export&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then I added this to &lt;code>/etc/fstab&lt;/code>:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Swap partition – wait max 5 s for device
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">UUID=&amp;#34;FILL WITH YOUR UUID&amp;#34; none swap defaults,x-systemd.device-timeout=5s 0 0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Since then, the issue has been gone.
+Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p>
+&lt;h2 id="final-thoughts">Final thoughts
+&lt;/h2>&lt;p>I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p></description></item><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" />&lt;p>After updating my graphics drivers and running a full system update with
 &lt;code>sudo pacman -Syu&lt;/code>, I discovered that Arch Linux would no longer boot properly. Instead, it stopped at a black screen showing the system disk path with a blinking dash underneath.&lt;/p>
 &lt;p>I use &lt;code>SDDM&lt;/code> as my login manager and &lt;code>BSPWM&lt;/code> as my tiling window manager. Naturally, I suspected that the problem was with SDDM since it’s responsible for the login screen and should be the first thing visible.&lt;/p>
 &lt;h2 id="the-solution">The Solution
@@ -398,7 +513,8 @@ data-flex-basis="370px"
 &lt;li>Download a preset, then import it into PEACE via the Import button to instantly improve your audio.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">Conclusion
-&lt;/h2>&lt;p>No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p></description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" />&lt;p>Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p>
+&lt;/h2>&lt;p>No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p>
+&lt;p>EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p></description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" />&lt;p>Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p>
 &lt;p>Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p>
 &lt;p>Official site:&lt;b> &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
 >https://super-productivity.com/&lt;/a>&lt;/b>&lt;/p>
