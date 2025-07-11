@@ -1,4 +1,146 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/categories/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" />&lt;h2 id="the-problem">The Problem
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/categories/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/categories/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" />&lt;p>Simple local guide on how to install a program to convert images to ASCII art.&lt;/p>
+&lt;p>You can find all instructions here.&lt;/p>
+&lt;p>&lt;b>Github Repository:&lt;/b>&lt;/p>
+&lt;p>&lt;b>🔗&lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
+>https://github.com/Hugana/p2ascii&lt;/a>&lt;/b>&lt;/p>
+&lt;h2 id="installation">Installation
+&lt;/h2>&lt;p>On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -m venv /home/saiphe/yourenv
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Then I activated it:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/saiphe/yourenv/bin/activate
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>And installed dependencies via pip:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install opencv-python numpy
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>Now, just navigate to the folder where your image is and run these two commands:&lt;/p>
+&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/saiphe/yourenv/bin/activate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/usr/bin/p2ascii cc2cimage 3.jpg auto
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="examples">Examples
+&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
+width="1920"
+height="1080"
+srcset="https://saitech.blog/p/converting-image-to-ascii/2_hu_3730400725d7947d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/2_hu_4adea7c24c88cca0.jpg 1024w"
+loading="lazy"
+alt="Original"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
+width="1920"
+height="1080"
+srcset="https://saitech.blog/p/converting-image-to-ascii/22_hu_badd32d385f105cc.png 480w, https://saitech.blog/p/converting-image-to-ascii/22_hu_aa542e84a0390eb3.png 1024w"
+loading="lazy"
+alt="cc2cimage auto"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
+width="1600"
+height="900"
+srcset="https://saitech.blog/p/converting-image-to-ascii/3_hu_eb2d8c692d97dab.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/3_hu_dd28c7f2dfbecb19.jpg 1024w"
+loading="lazy"
+alt="Original"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
+width="1600"
+height="900"
+srcset="https://saitech.blog/p/converting-image-to-ascii/33_hu_9f064a4decf38211.png 480w, https://saitech.blog/p/converting-image-to-ascii/33_hu_9320a1e8e0433fd1.png 1024w"
+loading="lazy"
+alt="cc2cimage auto"
+class="gallery-image"
+data-flex-grow="177"
+data-flex-basis="426px"
+>&lt;/p>
+&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
+width="630"
+height="995"
+srcset="https://saitech.blog/p/converting-image-to-ascii/1_hu_b096f3b5d33b575d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/1_hu_fdb4ba75f9480e63.jpg 1024w"
+loading="lazy"
+alt="Original"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="151px"
+> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
+width="630"
+height="995"
+srcset="https://saitech.blog/p/converting-image-to-ascii/10_hu_2cd4a5d27e94a4df.png 480w, https://saitech.blog/p/converting-image-to-ascii/10_hu_a28426422b372173.png 1024w"
+loading="lazy"
+alt="Treshold 10"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="151px"
+> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
+width="630"
+height="995"
+srcset="https://saitech.blog/p/converting-image-to-ascii/120_hu_9e5df42bdfbfbfed.png 480w, https://saitech.blog/p/converting-image-to-ascii/120_hu_aede66f75b4b594a.png 1024w"
+loading="lazy"
+alt="Treshold 120"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="151px"
+> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
+width="630"
+height="995"
+srcset="https://saitech.blog/p/converting-image-to-ascii/250_hu_8a30d20d8da750fa.png 480w, https://saitech.blog/p/converting-image-to-ascii/250_hu_9b8ba222e33fdf10.png 1024w"
+loading="lazy"
+alt="Treshold 250"
+class="gallery-image"
+data-flex-grow="63"
+data-flex-basis="151px"
+>&lt;/p>
+&lt;h2 id="usage-taken-from-github">Usage taken from Github
+&lt;/h2>&lt;p>I know it’s a bit lazy, but I want to save this here for myself.&lt;/p>
+&lt;h3 id="simple-conversion-no-edge-detection">Simple Conversion (No Edge Detection)
+&lt;/h3>&lt;pre>&lt;code>sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
+sc2text &amp;lt;img&amp;gt; Convert image to ASCII text (stdout)
+sc2cimage &amp;lt;img&amp;gt; [--transparent] Colored ASCII image
+sc2ctext &amp;lt;img&amp;gt; Colored ASCII text (stdout)
+&lt;/code>&lt;/pre>
+&lt;h3 id="complex-conversion-with-edge-detection">Complex Conversion (With Edge Detection)
+&lt;/h3>&lt;pre>&lt;code>cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
+cc2text &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; ASCII text with edge symbols (stdout)
+cc2cimage &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] Colored ASCII image with edge awareness
+cc2ctext &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; Colored ASCII text with edge symbols
+&lt;/code>&lt;/pre>
+&lt;h3 id="threshold-parameter-">Threshold Parameter ()
+&lt;/h3>&lt;p>Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p>
+&lt;pre>&lt;code>auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
+0–255: Manual threshold.
+Higher = fewer edges (only strong ones)
+Lower = more edges (fine details)
+&lt;/code>&lt;/pre>
+&lt;h3 id="transparency-mode-transparent">Transparency Mode (&amp;ndash;transparent)
+&lt;/h3>&lt;p>When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p></description></item><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" />&lt;h2 id="the-problem">The Problem
 &lt;/h2>&lt;p>EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p>
 &lt;p>You can find them in:&lt;/p>
 &lt;p>&lt;code>🗂️ /usr/share/applications/&lt;/code>&lt;/p>
