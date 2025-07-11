@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saitech</title><link>https://saitech.blog/</link><description>Recent content on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" />&lt;p>Simple local guide on how to install a program to convert images to ASCII art.&lt;/p>
 &lt;p>You can find all instructions here.&lt;/p>
-&lt;p>&lt;b>Github Repository:&lt;/b>&lt;/p>
-&lt;p>&lt;b>🔗&lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
+&lt;p>&lt;b>Github Repository:&lt;/b> &lt;b>🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
 >https://github.com/Hugana/p2ascii&lt;/a>&lt;/b>&lt;/p>
 &lt;h2 id="installation">Installation
 &lt;/h2>&lt;p>On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p>
