@@ -1,4 +1,58 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pacman on Saitech</title><link>https://saitech.blog/tags/pacman/</link><description>Recent content in Pacman on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 12 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pacman/index.xml" rel="self" type="application/rss+xml"/><item><title>Pacman update issue</title><link>https://saitech.blog/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pacman-update-issue/</guid><description>&lt;img src="https://saitech.blog/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" />&lt;p>Recently, when I entered:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pacman on Saitech</title><link>https://saitech.blog/tags/pacman/</link><description>Recent content in Pacman on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pacman/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" />&lt;p>The latest version of &lt;code>Flameshot&lt;/code> on Arch Linux is broken — it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p>
+&lt;p>The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p>
+&lt;h2 id="remove-flameshot">Remove Flameshot
+&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Rns flameshot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h2 id="downgrade">Downgrade
+&lt;/h2>&lt;h3 id="using-arch-linux-archive-ala">Using Arch Linux Archive (ALA)
+&lt;/h3>&lt;h4 id="remove-flameshot-1">Remove Flameshot
+&lt;/h4>&lt;p>&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
+>https://archive.archlinux.org/packages/f/flameshot/&lt;/a>&lt;/p>
+&lt;h4 id="download-it">Download it
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="install-manually">Install manually
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h3 id="using-the-downgrade-tool">Using the downgrade tool
+&lt;/h3>&lt;h4 id="install-downgrade">Install downgrade
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">YAY -S downgrade
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;h4 id="run-downgrade">Run downgrade
+&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
+&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td class="lntd">
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo downgrade flameshot
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div>&lt;p>From the menu, pick version &lt;strong>13.0.1&lt;/strong> and you’re done.
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p></description></item><item><title>Pacman update issue</title><link>https://saitech.blog/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pacman-update-issue/</guid><description>&lt;img src="https://saitech.blog/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" />&lt;p>Recently, when I entered:&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
