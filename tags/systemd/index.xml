@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systemd on Saitech</title><link>https://saitech.blog/tags/systemd/</link><description>Recent content in Systemd on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/systemd/index.xml" rel="self" type="application/rss+xml"/><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" />&lt;h2 id="the-issue">The Issue
-&lt;/h2>&lt;p>During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systemd on Saitech</title><link>https://saitech.blog/tags/systemd/</link><description>Recent content in Systemd on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/systemd/index.xml" rel="self" type="application/rss+xml"/><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+&lt;/h2&gt;&lt;p&gt;During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
 &lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
 width="1430"
 height="489"
@@ -9,149 +9,149 @@ alt="Shutdown issue"
 class="gallery-image"
 data-flex-grow="292"
 data-flex-basis="701px"
->
-Obviously, some processes weren&amp;rsquo;t terminating properly.&lt;/p>
-&lt;h2 id="analysis">Analysis
-&lt;/h2>&lt;p>What helped was letting the system run for a while to see if it would print something else I could catch.&lt;/p>
-&lt;p>Eventually, the terminal snitched on the likely suspect:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">...
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ailed deactivating swap /dev/disk/by-&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">dev-disk-by\x2ddiskseq-3\x2dpart2.swap&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Yeah, the swap partition was likely to blame.
-After rebooting, I checked in the terminal:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">journalctl -b -1 -r
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>And following advice from more experienced Linux gurus, I first tried adding in:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /etc/systemd/system.conf
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DefaultTimeoutStopSec=15s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>(make sure to uncomment the line)&lt;/p>
-&lt;p>But that didn&amp;rsquo;t help either.&lt;/p>
-&lt;h2 id="solution">Solution
-&lt;/h2>&lt;p>Finally, an expert suggested adding the swap to fstab.&lt;/p>
-&lt;p>First, I found the UUID of the swap partition using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">blkid&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">t&lt;/span> &lt;span class="n">TYPE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">swap&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">o&lt;/span> &lt;span class="k">export&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then I added this to &lt;code>🗂️ /etc/fstab&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Swap partition – wait max 5 s for device
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">UUID=&amp;#34;FILL WITH YOUR UUID&amp;#34; none swap defaults,x-systemd.device-timeout=5s 0 0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Since then, the issue has been gone.
-Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p>
-&lt;h2 id="final-thoughts">Final thoughts
-&lt;/h2>&lt;p>I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p></description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" />&lt;p>PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p>
-&lt;p>Turns out systemd comes with tools that show you &lt;strong>how long your system takes to boot&lt;/strong> and &lt;strong>which services are the slowest&lt;/strong>.&lt;/p>
-&lt;h2 id="commands">Commands
-&lt;/h2>&lt;h3 id="systemd-analyze">systemd-analyze
-&lt;/h3>&lt;p>This command breaks down your boot time. It’s the full timeline: firmware, bootloader, kernel, and userspace.&lt;/p>
-&lt;p>Example output:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Startup&lt;/span> &lt;span class="n">finished&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="mf">13.125&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">firmware&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">5.376&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">loader&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">6.182&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">kernel&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">2.845&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">userspace&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">27.529&lt;/span>&lt;span class="n">s&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">graphical&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">target&lt;/span> &lt;span class="n">reached&lt;/span> &lt;span class="n">after&lt;/span> &lt;span class="mf">2.844&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">userspace&lt;/span>&lt;span class="o">.&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="systemd-analyze-blame">systemd-analyze blame
-&lt;/h3>&lt;p>This one shows &lt;strong>what&lt;/strong> is taking time. It lists services and mount points, sorted by delay.&lt;/p>
-&lt;p>Example output:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">dm_mod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">640&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme1tbgames&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">624&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">ssd500gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">618&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme250gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">593&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">bare&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">5.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">17200.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2846.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">591&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2855.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1802.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1908.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">589&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gnome&lt;/span>\&lt;span class="n">x2d3&lt;/span>\&lt;span class="n">x2d28&lt;/span>\&lt;span class="n">x2d1804&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">198.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gtk&lt;/span>\&lt;span class="n">x2dcommon&lt;/span>\&lt;span class="n">x2dthemes&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1535.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">23771.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">587&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">24505.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2273.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2285.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">580&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">tmp&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">412&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">modules&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">load&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">397&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">binfmt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">382&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">snapd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">274&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">NetworkManager&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="pewds-video">Pewds&amp;rsquo; video
-&lt;/h2>&lt;div class="video-wrapper">
+&gt;
+Obviously, some processes weren&amp;rsquo;t terminating properly.&lt;/p&gt;
+&lt;h2 id="analysis"&gt;Analysis
+&lt;/h2&gt;&lt;p&gt;What helped was letting the system run for a while to see if it would print something else I could catch.&lt;/p&gt;
+&lt;p&gt;Eventually, the terminal snitched on the likely suspect:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ailed deactivating swap /dev/disk/by-&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;dev-disk-by\x2ddiskseq-3\x2dpart2.swap&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Yeah, the swap partition was likely to blame.
+After rebooting, I checked in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -b -1 -r
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And following advice from more experienced Linux gurus, I first tried adding in:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /etc/systemd/system.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DefaultTimeoutStopSec=15s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(make sure to uncomment the line)&lt;/p&gt;
+&lt;p&gt;But that didn&amp;rsquo;t help either.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;Finally, an expert suggested adding the swap to fstab.&lt;/p&gt;
+&lt;p&gt;First, I found the UUID of the swap partition using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;blkid&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;TYPE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;swap&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="k"&gt;export&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then I added this to &lt;code&gt;🗂️ /etc/fstab&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Swap partition – wait max 5 s for device
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;UUID=&amp;#34;FILL WITH YOUR UUID&amp;#34; none swap defaults,x-systemd.device-timeout=5s 0 0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Since then, the issue has been gone.
+Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p&gt;
+&lt;h2 id="final-thoughts"&gt;Final thoughts
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" /&gt;&lt;p&gt;PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p&gt;
+&lt;p&gt;Turns out systemd comes with tools that show you &lt;strong&gt;how long your system takes to boot&lt;/strong&gt; and &lt;strong&gt;which services are the slowest&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="commands"&gt;Commands
+&lt;/h2&gt;&lt;h3 id="systemd-analyze"&gt;systemd-analyze
+&lt;/h3&gt;&lt;p&gt;This command breaks down your boot time. It’s the full timeline: firmware, bootloader, kernel, and userspace.&lt;/p&gt;
+&lt;p&gt;Example output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Startup&lt;/span&gt; &lt;span class="n"&gt;finished&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;13.125&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;firmware&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;5.376&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loader&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;6.182&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kernel&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;2.845&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;userspace&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;27.529&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;graphical&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;target&lt;/span&gt; &lt;span class="n"&gt;reached&lt;/span&gt; &lt;span class="n"&gt;after&lt;/span&gt; &lt;span class="mf"&gt;2.844&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;userspace&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="systemd-analyze-blame"&gt;systemd-analyze blame
+&lt;/h3&gt;&lt;p&gt;This one shows &lt;strong&gt;what&lt;/strong&gt; is taking time. It lists services and mount points, sorted by delay.&lt;/p&gt;
+&lt;p&gt;Example output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="mf"&gt;1.033&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;modprobe&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;dm_mod&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="mf"&gt;1.033&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;modprobe&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;loop&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;640&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;nvme1tbgames&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;624&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;ssd500gb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;618&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;nvme250gb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;593&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;bare&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;5.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;592&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;17200.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;592&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core18&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2846.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;591&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core18&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2855.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;590&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core22&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1802.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;590&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core22&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1908.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;589&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;gnome&lt;/span&gt;\&lt;span class="n"&gt;x2d3&lt;/span&gt;\&lt;span class="n"&gt;x2d28&lt;/span&gt;\&lt;span class="n"&gt;x2d1804&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;198.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;588&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;gtk&lt;/span&gt;\&lt;span class="n"&gt;x2dcommon&lt;/span&gt;\&lt;span class="n"&gt;x2dthemes&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1535.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;588&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;23771.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;587&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;24505.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;586&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;superproductivity&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2273.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;586&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;superproductivity&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2285.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;580&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;tmp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;412&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;modules&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;load&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;397&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;binfmt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;382&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;274&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;NetworkManager&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="pewds-video"&gt;Pewds&amp;rsquo; video
+&lt;/h2&gt;&lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/pVI_smLgTY0"
 allowfullscreen
 title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;p style="text-align: center;">Note: In the future, I might explore an animated fetch so we can flex like Felix. &lt;p></description></item></channel></rss>
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p style="text-align: center;"&gt;Note: In the future, I might explore an animated fetch so we can flex like Felix. &lt;p&gt;</description></item></channel></rss>

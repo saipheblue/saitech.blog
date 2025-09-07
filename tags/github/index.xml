@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Saitech</title><link>https://saitech.blog/tags/github/</link><description>Recent content in Github on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" />&lt;p>Simple local guide on how to install a program to convert images to ASCII art.&lt;/p>
-&lt;p>You can find all instructions here.&lt;/p>
-&lt;p>&lt;b>Github Repository:&lt;/b> &lt;b>🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
->https://github.com/Hugana/p2ascii&lt;/a>&lt;/b>&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p>
-&lt;p>&lt;code>Do not forget to change your username (YourUsername) in these commands&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -m venv /home/YourUsername/yourenv
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then I activated it:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>And installed dependencies via pip:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install opencv-python numpy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now, just navigate to the folder where your image is and run these two commands:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="examples">Examples
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Saitech</title><link>https://saitech.blog/tags/github/</link><description>Recent content in Github on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" /&gt;&lt;p&gt;Simple local guide on how to install a program to convert images to ASCII art.&lt;/p&gt;
+&lt;p&gt;You can find all instructions here.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Github Repository:&lt;/b&gt; &lt;b&gt;🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
+&gt;https://github.com/Hugana/p2ascii&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Do not forget to change your username (YourUsername) in these commands&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python -m venv /home/YourUsername/yourenv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then I activated it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And installed dependencies via pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install opencv-python numpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Now, just navigate to the folder where your image is and run these two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="examples"&gt;Examples
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/2_hu_3730400725d7947d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/2_hu_4adea7c24c88cca0.jpg 1024w"
@@ -52,7 +52,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/22_hu_badd32d385f105cc.png 480w, https://saitech.blog/p/converting-image-to-ascii/22_hu_aa542e84a0390eb3.png 1024w"
@@ -61,8 +61,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/3_hu_eb2d8c692d97dab.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/3_hu_dd28c7f2dfbecb19.jpg 1024w"
@@ -71,7 +71,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/33_hu_9f064a4decf38211.png 480w, https://saitech.blog/p/converting-image-to-ascii/33_hu_9320a1e8e0433fd1.png 1024w"
@@ -80,8 +80,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/1_hu_b096f3b5d33b575d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/1_hu_fdb4ba75f9480e63.jpg 1024w"
@@ -90,7 +90,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/10_hu_2cd4a5d27e94a4df.png 480w, https://saitech.blog/p/converting-image-to-ascii/10_hu_a28426422b372173.png 1024w"
@@ -99,7 +99,7 @@ alt="Treshold 10"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/120_hu_9e5df42bdfbfbfed.png 480w, https://saitech.blog/p/converting-image-to-ascii/120_hu_aede66f75b4b594a.png 1024w"
@@ -108,7 +108,7 @@ alt="Treshold 120"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/250_hu_8a30d20d8da750fa.png 480w, https://saitech.blog/p/converting-image-to-ascii/250_hu_9b8ba222e33fdf10.png 1024w"
@@ -117,43 +117,43 @@ alt="Treshold 250"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
->&lt;/p>
-&lt;h2 id="usage-taken-from-github">Usage taken from Github
-&lt;/h2>&lt;p>I know it’s a bit lazy, but I want to save this here for myself.&lt;/p>
-&lt;h3 id="simple-conversion-no-edge-detection">Simple Conversion (No Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
+&gt;&lt;/p&gt;
+&lt;h2 id="usage-taken-from-github"&gt;Usage taken from Github
+&lt;/h2&gt;&lt;p&gt;I know it’s a bit lazy, but I want to save this here for myself.&lt;/p&gt;
+&lt;h3 id="simple-conversion-no-edge-detection"&gt;Simple Conversion (No Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
 sc2text &amp;lt;img&amp;gt; Convert image to ASCII text (stdout)
 sc2cimage &amp;lt;img&amp;gt; [--transparent] Colored ASCII image
 sc2ctext &amp;lt;img&amp;gt; Colored ASCII text (stdout)
-&lt;/code>&lt;/pre>
-&lt;h3 id="complex-conversion-with-edge-detection">Complex Conversion (With Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="complex-conversion-with-edge-detection"&gt;Complex Conversion (With Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
 cc2text &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; ASCII text with edge symbols (stdout)
 cc2cimage &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] Colored ASCII image with edge awareness
 cc2ctext &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; Colored ASCII text with edge symbols
-&lt;/code>&lt;/pre>
-&lt;h3 id="threshold-parameter-">Threshold Parameter ()
-&lt;/h3>&lt;p>Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p>
-&lt;pre>&lt;code>auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="threshold-parameter-"&gt;Threshold Parameter ()
+&lt;/h3&gt;&lt;p&gt;Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
 0–255: Manual threshold.
 Higher = fewer edges (only strong ones)
 Lower = more edges (fine details)
-&lt;/code>&lt;/pre>
-&lt;h3 id="transparency-mode-transparent">Transparency Mode (&amp;ndash;transparent)
-&lt;/h3>&lt;p>When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p></description></item><item><title>Extension for hiding your email</title><link>https://saitech.blog/p/extension-for-hiding-your-email/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/extension-for-hiding-your-email/</guid><description>&lt;img src="https://saitech.blog/p/extension-for-hiding-your-email/1.png" alt="Featured image of post Extension for hiding your email" />&lt;p>No need to repeat what’s already written and especially what’s up-to-date on the GitHub page. Just follow the instructions there. It’s worth mentioning that this is a client-only extension, so your data is protected!&lt;/p>
-&lt;p>You can find the project and follow the installation steps here:
-&lt;b>&lt;a class="link" href="https://github.com/webmonch/hide-my-mail-cloudflare" target="_blank" rel="noopener"
-> 🔗 https://github.com/webmonch/hide-my-mail-cloudflare&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Note that in Firefox, extensions only run in temporary mode, so you need to reload them every time you start the browser.&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
-&lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
-&lt;h2 id="how-it-works">How It Works
-&lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>
-&lt;p>&lt;code>%command%&lt;/code>: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p>
-&lt;p>Example:&lt;/p>
-&lt;p>If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p>
-&lt;p>&lt;code>gamemoderun %command%&lt;/code>&lt;/p>
-&lt;p>This ensures the game runs with Gamemode optimizations.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="transparency-mode-transparent"&gt;Transparency Mode (&amp;ndash;transparent)
+&lt;/h3&gt;&lt;p&gt;When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p&gt;</description></item><item><title>Extension for hiding your email</title><link>https://saitech.blog/p/extension-for-hiding-your-email/</link><pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/extension-for-hiding-your-email/</guid><description>&lt;img src="https://saitech.blog/p/extension-for-hiding-your-email/1.png" alt="Featured image of post Extension for hiding your email" /&gt;&lt;p&gt;No need to repeat what’s already written and especially what’s up-to-date on the GitHub page. Just follow the instructions there. It’s worth mentioning that this is a client-only extension, so your data is protected!&lt;/p&gt;
+&lt;p&gt;You can find the project and follow the installation steps here:
+&lt;b&gt;&lt;a class="link" href="https://github.com/webmonch/hide-my-mail-cloudflare" target="_blank" rel="noopener"
+&gt; 🔗 https://github.com/webmonch/hide-my-mail-cloudflare&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Note that in Firefox, extensions only run in temporary mode, so you need to reload them every time you start the browser.&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How It Works
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;%command%&lt;/code&gt;: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
 width="523"
 height="133"
 srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
@@ -161,85 +161,85 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
 data-flex-basis="943px"
->&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S gamemode
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To check if Gamemode is active, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">gamemoded -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This will show whether Gamemode is running.&lt;/p>
-&lt;h2 id="what-does-gamemode-optimize">What Does Gamemode Optimize?
-&lt;/h2>&lt;p>Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>CPU Governor:&lt;/p>
-&lt;ul>
-&lt;li>Locks your CPU at top speed for better performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>I/O Priority:&lt;/p>
-&lt;ul>
-&lt;li>Gives your game priority access to your disk, reducing stuttering.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Process Niceness:&lt;/p>
-&lt;ul>
-&lt;li>Makes sure your game gets more attention from the CPU.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Kernel Scheduler:&lt;/p>
-&lt;ul>
-&lt;li>Adjusts how tasks are handled to keep your game running smoothly.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Screensaver Inhibiting:&lt;/p>
-&lt;ul>
-&lt;li>Stops your screensaver from interrupting your game.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>GPU Performance Mode:&lt;/p>
-&lt;ul>
-&lt;li>Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CPU Core Management:&lt;/p>
-&lt;ul>
-&lt;li>Pins or parks CPU cores to improve performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Custom Scripts:&lt;/p>
-&lt;ul>
-&lt;li>Lets you add your own tweaks for even more control.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="availability">Availability
-&lt;/h2>&lt;p>Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p>
-&lt;h2 id="is-it-worth-it">Is It Worth It?
-&lt;/h2>&lt;p>While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p>
-&lt;p>For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
->Github repository&lt;/a>&lt;/p></description></item><item><title>DIY Geiger counter</title><link>https://saitech.blog/p/diy-geiger-counter/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/diy-geiger-counter/</guid><description>&lt;img src="https://saitech.blog/p/diy-geiger-counter/5.jpg" alt="Featured image of post DIY Geiger counter" />&lt;p>&lt;img src="https://saitech.blog/p/diy-geiger-counter/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S gamemode
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To check if Gamemode is active, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gamemoded -s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will show whether Gamemode is running.&lt;/p&gt;
+&lt;h2 id="what-does-gamemode-optimize"&gt;What Does Gamemode Optimize?
+&lt;/h2&gt;&lt;p&gt;Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Governor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locks your CPU at top speed for better performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I/O Priority:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gives your game priority access to your disk, reducing stuttering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Process Niceness:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Makes sure your game gets more attention from the CPU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kernel Scheduler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjusts how tasks are handled to keep your game running smoothly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screensaver Inhibiting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stops your screensaver from interrupting your game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPU Performance Mode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Core Management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pins or parks CPU cores to improve performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lets you add your own tweaks for even more control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="availability"&gt;Availability
+&lt;/h2&gt;&lt;p&gt;Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p&gt;
+&lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
+&lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
+&lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DIY Geiger counter</title><link>https://saitech.blog/p/diy-geiger-counter/</link><pubDate>Thu, 26 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/diy-geiger-counter/</guid><description>&lt;img src="https://saitech.blog/p/diy-geiger-counter/5.jpg" alt="Featured image of post DIY Geiger counter" /&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/diy-geiger-counter/2.png"
 width="1911"
 height="1086"
 srcset="https://saitech.blog/p/diy-geiger-counter/2_hu_4d9e1a1de9e7182b.png 480w, https://saitech.blog/p/diy-geiger-counter/2_hu_aefccaa9262dca4a.png 1024w"
@@ -247,7 +247,7 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="175"
 data-flex-basis="422px"
->&lt;img src="https://saitech.blog/p/diy-geiger-counter/1.jpg"
+&gt;&lt;img src="https://saitech.blog/p/diy-geiger-counter/1.jpg"
 width="4000"
 height="3000"
 srcset="https://saitech.blog/p/diy-geiger-counter/1_hu_3c799a12db51e7d.jpg 480w, https://saitech.blog/p/diy-geiger-counter/1_hu_1e534e07ca3e16e0.jpg 1024w"
@@ -255,17 +255,17 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="133"
 data-flex-basis="320px"
->&lt;/p>
-&lt;h2 id="what-will-you-need">What will you need
-&lt;/h2>&lt;ul>
-&lt;li>Geiger–Müller kit &lt;a class="link" href="https://www.ebay.com/itm/396034408437?_skw=Geiger_Counter_RadiationD-v1.1-CAJOE" target="_blank" rel="noopener"
->for example this one&lt;/a>&lt;/li>
-&lt;li>Raspberry pi - any model is fine but guide is written for raspberry pi 5. For older models you will need to make some adjustments&lt;/li>
-&lt;/ul>
-&lt;h2 id="hardware">Hardware
-&lt;/h2>&lt;p>Connect 5V to any 5V, Ground to any ground and VIN to GPIO4 (pin 7)&lt;/p>
-&lt;h3 id="rpi5-gpio-diagram">Rpi5 GPIO diagram
-&lt;/h3>&lt;p>&lt;img src="https://saitech.blog/p/diy-geiger-counter/4.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="what-will-you-need"&gt;What will you need
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Geiger–Müller kit &lt;a class="link" href="https://www.ebay.com/itm/396034408437?_skw=Geiger_Counter_RadiationD-v1.1-CAJOE" target="_blank" rel="noopener"
+&gt;for example this one&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Raspberry pi - any model is fine but guide is written for raspberry pi 5. For older models you will need to make some adjustments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hardware"&gt;Hardware
+&lt;/h2&gt;&lt;p&gt;Connect 5V to any 5V, Ground to any ground and VIN to GPIO4 (pin 7)&lt;/p&gt;
+&lt;h3 id="rpi5-gpio-diagram"&gt;Rpi5 GPIO diagram
+&lt;/h3&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/diy-geiger-counter/4.png"
 width="2165"
 height="1247"
 srcset="https://saitech.blog/p/diy-geiger-counter/4_hu_b06ff95892119d4b.png 480w, https://saitech.blog/p/diy-geiger-counter/4_hu_2baefa7a8ea68b0e.png 1024w"
@@ -273,80 +273,80 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="173"
 data-flex-basis="416px"
->&lt;/p>
-&lt;h3 id="μsvh-ratio">μSv/h Ratio
-&lt;/h3>&lt;p>Check the tube that is installed in your kit. In my case, I have J305. We need to calculate μSv/h ratio based on the tube&amp;rsquo;s sensitivity.
-For J305, almost everyone is using the wrong coefficient/ratio of 0.00812037037037. Here is the formula I used, together with a source elaborating why 0.0081 is wrong: J305 has 25 CPM&lt;/p>
-&lt;p>&lt;code>1 / (25 * 60 / 8.77) = 0.00584666666667&lt;/code>&lt;/p>
-&lt;p>&lt;a class="link" href="https://medium.com/@iotdevices/geiger-tube-j305-how-to-calculate-the-conversion-factor-of-cpm-to-%CE%BCsv-h-technical-note-b0cc14850576" target="_blank" rel="noopener"
->Source&lt;/a>&lt;/p>
-&lt;h2 id="software">Software
-&lt;/h2>&lt;p>I am using Raspbian OS. If you have a different OS, commands may differ.&lt;/p>
-&lt;h3 id="required-files">Required files
-&lt;/h3>&lt;p>Navigate to &lt;b>&lt;a class="link" href="https://github.com/saipheblue/Rpi5_Geiger_Counter_RadiationD-v1.1-CAJOE?search=1" target="_blank" rel="noopener"
->this&lt;/a>&lt;/b> repository and clone it.&lt;/p>
-&lt;p>In documentation folder, you can find more detailed information about how everything works and values used in calculations&lt;/p>
-&lt;h2 id="issues--pre-req">Issues &amp;amp; pre-req
-&lt;/h2>&lt;h3 id="install-flask">Install flask
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install flask
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>If you got permisisons error, use sudo&lt;/p>
-&lt;p>If you get a 404 error, make sure index page is in the &amp;ldquo;templates&amp;rdquo; folder. It is case sensitive. The structure should be as follows:&lt;/p>
-&lt;pre>&lt;code>Project
+&gt;&lt;/p&gt;
+&lt;h3 id="μsvh-ratio"&gt;μSv/h Ratio
+&lt;/h3&gt;&lt;p&gt;Check the tube that is installed in your kit. In my case, I have J305. We need to calculate μSv/h ratio based on the tube&amp;rsquo;s sensitivity.
+For J305, almost everyone is using the wrong coefficient/ratio of 0.00812037037037. Here is the formula I used, together with a source elaborating why 0.0081 is wrong: J305 has 25 CPM&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;1 / (25 * 60 / 8.77) = 0.00584666666667&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://medium.com/@iotdevices/geiger-tube-j305-how-to-calculate-the-conversion-factor-of-cpm-to-%CE%BCsv-h-technical-note-b0cc14850576" target="_blank" rel="noopener"
+&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="software"&gt;Software
+&lt;/h2&gt;&lt;p&gt;I am using Raspbian OS. If you have a different OS, commands may differ.&lt;/p&gt;
+&lt;h3 id="required-files"&gt;Required files
+&lt;/h3&gt;&lt;p&gt;Navigate to &lt;b&gt;&lt;a class="link" href="https://github.com/saipheblue/Rpi5_Geiger_Counter_RadiationD-v1.1-CAJOE?search=1" target="_blank" rel="noopener"
+&gt;this&lt;/a&gt;&lt;/b&gt; repository and clone it.&lt;/p&gt;
+&lt;p&gt;In documentation folder, you can find more detailed information about how everything works and values used in calculations&lt;/p&gt;
+&lt;h2 id="issues--pre-req"&gt;Issues &amp;amp; pre-req
+&lt;/h2&gt;&lt;h3 id="install-flask"&gt;Install flask
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install flask
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;If you got permisisons error, use sudo&lt;/p&gt;
+&lt;p&gt;If you get a 404 error, make sure index page is in the &amp;ldquo;templates&amp;rdquo; folder. It is case sensitive. The structure should be as follows:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Project
 geiger.py
 templates
 index.html
-&lt;/code>&lt;/pre>
-&lt;h3 id="m4011-tube">M4011 tube
-&lt;/h3>&lt;p>The manufacturer’s documentation lists the M4011, which has the same specs as the J305.&lt;/p>
-&lt;h3 id="ssl">SSL
-&lt;/h3>&lt;p>&lt;code>ssl_context=('cert.pem', 'key.pem')&lt;/code> can be replaced by &lt;code>ssl_context='adhoc'&lt;/code> if you dont have the keys&lt;/p>
-&lt;p>&lt;a class="link" href="https://zhangtemplar.github.io/flask/" target="_blank" rel="noopener"
->Source&lt;/a>&lt;/p>
-&lt;h3 id="gpio-problem">GPIO problem
-&lt;/h3>&lt;p>RPi 5 has issues with GPIO. Remove the current GPIO library using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo apt remove python3-rpi.gpio
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then install lgpio:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python3 -m pip install rpi-lgpio flask
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>If you have installation problems, use this (but it could break system packages, or you can use a virtual environment):&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python3 -m pip install rpi-lgpio flask --break-system-packages
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;a class="link" href="https://pimylifeup.com/python-externally-managed-environment/" target="_blank" rel="noopener"
->more info&lt;/a>&lt;/p>
-&lt;h2 id="run-the-script">Run the script
-&lt;/h2>&lt;p>Simply run &lt;b>geiger.py&lt;/b> to start measuring:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python3 geiger.py
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then navigate to &lt;b>&lt;code>127.0.0.1:80/index&lt;/code>&lt;/b> to see the chart&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="m4011-tube"&gt;M4011 tube
+&lt;/h3&gt;&lt;p&gt;The manufacturer’s documentation lists the M4011, which has the same specs as the J305.&lt;/p&gt;
+&lt;h3 id="ssl"&gt;SSL
+&lt;/h3&gt;&lt;p&gt;&lt;code&gt;ssl_context=('cert.pem', 'key.pem')&lt;/code&gt; can be replaced by &lt;code&gt;ssl_context='adhoc'&lt;/code&gt; if you dont have the keys&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://zhangtemplar.github.io/flask/" target="_blank" rel="noopener"
+&gt;Source&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id="gpio-problem"&gt;GPIO problem
+&lt;/h3&gt;&lt;p&gt;RPi 5 has issues with GPIO. Remove the current GPIO library using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo apt remove python3-rpi.gpio
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then install lgpio:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python3 -m pip install rpi-lgpio flask
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;If you have installation problems, use this (but it could break system packages, or you can use a virtual environment):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python3 -m pip install rpi-lgpio flask --break-system-packages
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://pimylifeup.com/python-externally-managed-environment/" target="_blank" rel="noopener"
+&gt;more info&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="run-the-script"&gt;Run the script
+&lt;/h2&gt;&lt;p&gt;Simply run &lt;b&gt;geiger.py&lt;/b&gt; to start measuring:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python3 geiger.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then navigate to &lt;b&gt;&lt;code&gt;127.0.0.1:80/index&lt;/code&gt;&lt;/b&gt; to see the chart&lt;/p&gt;</description></item></channel></rss>

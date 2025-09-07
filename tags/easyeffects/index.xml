@@ -1,32 +1,32 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EasyEffects on Saitech</title><link>https://saitech.blog/tags/easyeffects/</link><description>Recent content in EasyEffects on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/easyeffects/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" />&lt;h2 id="the-problem">The Problem
-&lt;/h2>&lt;p>EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p>
-&lt;p>You can find them in:&lt;/p>
-&lt;p>&lt;code>🗂️ /usr/share/applications/&lt;/code>&lt;/p>
-&lt;h2 id="solution">Solution
-&lt;/h2>&lt;p>I initially found a solution in this: &lt;b>&lt;a class="link" href="https://www.reddit.com/r/linux4noobs/comments/g40e3a/comment/fo2y3bi/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3" target="_blank" rel="noopener"
->reddit comment&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Unfortunately, it didn&amp;rsquo;t work for me because just adding &lt;code>Hidden=true&lt;/code> is not valid &lt;code>.desktop&lt;/code> file on Arch Linux.&lt;/p>
-&lt;p>So I slightly modified the script shared by user &amp;ldquo;mthqwork&amp;rdquo;:&lt;/p>
-&lt;p>First, create a temporary file with the minimal valid &lt;code>.desktop&lt;/code> content:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">echo -e &amp;#34;[Desktop Entry]\nType=Application\nName=LSP Plugin (Hidden)\nExec=true\nHidden=true&amp;#34; &amp;gt; /tmp/1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then, for each LSP plugin file, it creates a corresponding user-level &lt;code>.desktop&lt;/code> file with the &lt;code>Hidden&lt;/code> flag, while ensuring it remains valid:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find /usr -name &amp;#34;lsp_plugdesktop&amp;#34; 2&amp;gt;/dev/null | cut -f 5 -d &amp;#39;/&amp;#39; | xargs -I {} cp /tmp/1 ~/.local/share/applications/{}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>The point is that by creating &lt;strong>user-specific desktop files in&lt;/strong>: &lt;code>🗂️ .local/share/applications/&lt;/code>their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EasyEffects on Saitech</title><link>https://saitech.blog/tags/easyeffects/</link><description>Recent content in EasyEffects on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/easyeffects/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
+&lt;/h2&gt;&lt;p&gt;EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p&gt;
+&lt;p&gt;You can find them in:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;🗂️ /usr/share/applications/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;I initially found a solution in this: &lt;b&gt;&lt;a class="link" href="https://www.reddit.com/r/linux4noobs/comments/g40e3a/comment/fo2y3bi/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3" target="_blank" rel="noopener"
+&gt;reddit comment&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, it didn&amp;rsquo;t work for me because just adding &lt;code&gt;Hidden=true&lt;/code&gt; is not valid &lt;code&gt;.desktop&lt;/code&gt; file on Arch Linux.&lt;/p&gt;
+&lt;p&gt;So I slightly modified the script shared by user &amp;ldquo;mthqwork&amp;rdquo;:&lt;/p&gt;
+&lt;p&gt;First, create a temporary file with the minimal valid &lt;code&gt;.desktop&lt;/code&gt; content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;echo -e &amp;#34;[Desktop Entry]\nType=Application\nName=LSP Plugin (Hidden)\nExec=true\nHidden=true&amp;#34; &amp;gt; /tmp/1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then, for each LSP plugin file, it creates a corresponding user-level &lt;code&gt;.desktop&lt;/code&gt; file with the &lt;code&gt;Hidden&lt;/code&gt; flag, while ensuring it remains valid:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;find /usr -name &amp;#34;lsp_plugdesktop&amp;#34; 2&amp;gt;/dev/null | cut -f 5 -d &amp;#39;/&amp;#39; | xargs -I {} cp /tmp/1 ~/.local/share/applications/{}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The point is that by creating &lt;strong&gt;user-specific desktop files in&lt;/strong&gt;: &lt;code&gt;🗂️ .local/share/applications/&lt;/code&gt;their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
 width="1261"
 height="761"
 srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
@@ -35,33 +35,33 @@ alt="Clean app launcher"
 class="gallery-image"
 data-flex-grow="165"
 data-flex-basis="397px"
->&lt;/p></description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
-&lt;p>This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p>
-&lt;h2 id="linux-setup-easyeffects">Linux Setup: EasyEffects
-&lt;/h2>&lt;p>For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p>
-&lt;h3 id="install-easyeffects-via-flatpak">Install EasyEffects via Flatpak
-&lt;/h3>&lt;ul>
-&lt;li>Run this command to install from Flatpak:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak install flathub com.github.wwmm.easyeffects
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;ul>
-&lt;li>EasyEffects comes with several built-in plugins for audio enhancement if instaleld via Flatpak.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-and-apply-headphone-configs">Download and Apply Headphone Configs
-&lt;/h3>&lt;ul>
-&lt;li>Check out the &lt;b>&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
->AutoEq repository&lt;/a>&lt;/b> on GitHub for pre-made EQ settings for your headphones.&lt;/li>
-&lt;li>Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li>
-&lt;/ul>
-&lt;p>Do not forget to save your preset !&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
+&gt;&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+&lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
+&lt;h2 id="linux-setup-easyeffects"&gt;Linux Setup: EasyEffects
+&lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
+&lt;h3 id="install-easyeffects-via-flatpak"&gt;Install EasyEffects via Flatpak
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Run this command to install from Flatpak:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak install flathub com.github.wwmm.easyeffects
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;EasyEffects comes with several built-in plugins for audio enhancement if instaleld via Flatpak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-and-apply-headphone-configs"&gt;Download and Apply Headphone Configs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Check out the &lt;b&gt;&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
+&gt;AutoEq repository&lt;/a&gt;&lt;/b&gt; on GitHub for pre-made EQ settings for your headphones.&lt;/li&gt;
+&lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
 srcset="https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
@@ -70,9 +70,9 @@ alt="EasyEffects"
 class="gallery-image"
 data-flex-grow="150"
 data-flex-basis="361px"
->&lt;/p>
-&lt;h2 id="windows-setup-equalizer-apo--peace">Windows Setup: Equalizer APO + PEACE
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
+&gt;&lt;/p&gt;
+&lt;h2 id="windows-setup-equalizer-apo--peace"&gt;Windows Setup: Equalizer APO + PEACE
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
 srcset="https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
@@ -81,25 +81,25 @@ alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"
 data-flex-grow="154"
 data-flex-basis="370px"
->&lt;/p>
-&lt;h3 id="download-equalizer-apo">Download Equalizer APO
-&lt;/h3>&lt;ul>
-&lt;li>Go to Equalizer APO&amp;rsquo;s &lt;b>&lt;a class="link" href="https://sourceforge.net/projects/equalizerapo/" target="_blank" rel="noopener"
->SourceForge page&lt;/a>&lt;/b> and install the software.&lt;/li>
-&lt;li>Restart your computer once the installation is complete.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-peace-gui-for-equalizer-apo">Download PEACE (GUI for Equalizer APO)
-&lt;/h3>&lt;ul>
-&lt;li>Visit &lt;b>&lt;a class="link" href="https://sourceforge.net/projects/peace-equalizer-apo-extension/" target="_blank" rel="noopener"
->PEACE&amp;rsquo;s SourceForge page&lt;/a>&lt;/b> to download and install the GUI.&lt;/li>
-&lt;li>Open PEACE after installation— it will automatically recognize Equalizer APO.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-and-apply-headphone-configs-1">Download and Apply Headphone Configs
-&lt;/h3>&lt;ul>
-&lt;li>Check out the &lt;b>&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
->AutoEq repository&lt;/a>&lt;/b> on GitHub for pre-made EQ settings for your headphones.&lt;/li>
-&lt;li>Download a preset, then import it into PEACE via the Import button to instantly improve your audio.&lt;/li>
-&lt;/ul>
-&lt;h2 id="conclusion">Conclusion
-&lt;/h2>&lt;p>No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p>
-&lt;p>EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;
+&lt;h3 id="download-equalizer-apo"&gt;Download Equalizer APO
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Go to Equalizer APO&amp;rsquo;s &lt;b&gt;&lt;a class="link" href="https://sourceforge.net/projects/equalizerapo/" target="_blank" rel="noopener"
+&gt;SourceForge page&lt;/a&gt;&lt;/b&gt; and install the software.&lt;/li&gt;
+&lt;li&gt;Restart your computer once the installation is complete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-peace-gui-for-equalizer-apo"&gt;Download PEACE (GUI for Equalizer APO)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Visit &lt;b&gt;&lt;a class="link" href="https://sourceforge.net/projects/peace-equalizer-apo-extension/" target="_blank" rel="noopener"
+&gt;PEACE&amp;rsquo;s SourceForge page&lt;/a&gt;&lt;/b&gt; to download and install the GUI.&lt;/li&gt;
+&lt;li&gt;Open PEACE after installation— it will automatically recognize Equalizer APO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-and-apply-headphone-configs-1"&gt;Download and Apply Headphone Configs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Check out the &lt;b&gt;&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
+&gt;AutoEq repository&lt;/a&gt;&lt;/b&gt; on GitHub for pre-made EQ settings for your headphones.&lt;/li&gt;
+&lt;li&gt;Download a preset, then import it into PEACE via the Import button to instantly improve your audio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p&gt;
+&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item></channel></rss>

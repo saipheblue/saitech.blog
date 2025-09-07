@@ -1,66 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Saitech</title><link>https://saitech.blog/tags/site/</link><description>Recent content in Site on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Archive.today</title><link>https://saitech.blog/p/archive.today/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/archive.today/</guid><description>&lt;img src="https://saitech.blog/p/archive.today/1.png" alt="Featured image of post Archive.today" />&lt;p>Archive.today is a simple tool for accessing snapshots of web pages — useful when a site is behind a paywall, taken down, or modified.&lt;/p>
-&lt;p>Paste any URL into &lt;a class="link" href="https://archive.today" target="_blank" rel="noopener"
->https://archive.today&lt;/a> to view an archived version of the page.&lt;/p>
-&lt;p>Benefits:&lt;/p>
-&lt;ul>
-&lt;li>Bypasses many paywalls and subscription overlays&lt;/li>
-&lt;li>Preserves content that may later be deleted or edited&lt;/li>
-&lt;li>Useful for citation, research, and saving references&lt;/li>
-&lt;/ul>
-&lt;p>No login needed. No extensions. Just a direct snapshot of the web as it was.&lt;/p>
-&lt;p>EDIT: Most EU websites can be saved, but often you can’t get past the paywall&lt;/p></description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
-&lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
-&lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then run it with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p>
-&lt;h2 id="customising-the-logo">Customising the Logo
-&lt;/h2>&lt;p>Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p>
-&lt;p>The script is located here:&lt;/p>
-&lt;pre>&lt;code>/usr/bin/screenfetch
-&lt;/code>&lt;/pre>
-&lt;p>Open it with your editor of choice:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /usr/bin/screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p>
-&lt;pre>&lt;code>&amp;quot;Arch Linux&amp;quot;
-&lt;/code>&lt;/pre>
-&lt;p>Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p>
-&lt;p>This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p>
-&lt;h2 id="ascii-art-website">ASCII art website
-&lt;/h2>&lt;p>Check out this site for cool ASCII art you can use: &lt;b>&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
->emojicombos.com&lt;/a>&lt;/b>&lt;/p></description></item><item><title>The Art of Asking Smart Questions</title><link>https://saitech.blog/p/the-art-of-asking-smart-questions/</link><pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-art-of-asking-smart-questions/</guid><description>&lt;img src="https://saitech.blog/p/the-art-of-asking-smart-questions/1.png" alt="Featured image of post The Art of Asking Smart Questions" />&lt;p>I&amp;rsquo;m saving these sites for later, both as a reminder for myself and as a reference for others on how to ask questions properly. Most people ask nonsense and don&amp;rsquo;t even know what they want, so I have no illusions that this will help. Maybe just a few sharp minds…&lt;/p>
-&lt;ul>
-&lt;li>&lt;b>&lt;a class="link" href="https://dontasktoask.com/" target="_blank" rel="noopener"
->Dont ask to ask&lt;/a>&lt;/b>&lt;/li>
-&lt;li>&lt;b>&lt;a class="link" href="https://xyproblem.info/" target="_blank" rel="noopener"
->xy problem&lt;/a>&lt;/b>&lt;/li>
-&lt;/ul></description></item><item><title>Anime Girls Holding Coding Books</title><link>https://saitech.blog/p/anime-girls-holding-coding-books/</link><pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/anime-girls-holding-coding-books/</guid><description>&lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/4.png" alt="Featured image of post Anime Girls Holding Coding Books" />&lt;p>I’m not sure if I’ll ever use this, but I find it hilarious and amusing. So, I’m sharing it here for anyone who loves anime and programming!&lt;/p>
-&lt;p>Check out this &lt;b>&lt;a class="link" href="https://senpy.club/" target="_blank" rel="noopener"
->site&lt;/a>&lt;/b> for an extensive collection of anime girls holding programming books. You can select your preferred language or software and see if there are any cute anime girl pictures related to it.&lt;/p>
-&lt;p>For example:&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/1.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site on Saitech</title><link>https://saitech.blog/tags/site/</link><description>Recent content in Site on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 19 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/site/index.xml" rel="self" type="application/rss+xml"/><item><title>Archive.today</title><link>https://saitech.blog/p/archive.today/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/archive.today/</guid><description>&lt;img src="https://saitech.blog/p/archive.today/1.png" alt="Featured image of post Archive.today" /&gt;&lt;p&gt;Archive.today is a simple tool for accessing snapshots of web pages — useful when a site is behind a paywall, taken down, or modified.&lt;/p&gt;
+&lt;p&gt;Paste any URL into &lt;a class="link" href="https://archive.today" target="_blank" rel="noopener"
+&gt;https://archive.today&lt;/a&gt; to view an archived version of the page.&lt;/p&gt;
+&lt;p&gt;Benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bypasses many paywalls and subscription overlays&lt;/li&gt;
+&lt;li&gt;Preserves content that may later be deleted or edited&lt;/li&gt;
+&lt;li&gt;Useful for citation, research, and saving references&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No login needed. No extensions. Just a direct snapshot of the web as it was.&lt;/p&gt;
+&lt;p&gt;EDIT: Most EU websites can be saved, but often you can’t get past the paywall&lt;/p&gt;</description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" /&gt;&lt;p&gt;Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p&gt;
+&lt;h2 id="installing-screenfetch-on-arch"&gt;Installing Screenfetch on Arch
+&lt;/h2&gt;&lt;p&gt;Just pop this in your terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then run it with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p&gt;
+&lt;h2 id="customising-the-logo"&gt;Customising the Logo
+&lt;/h2&gt;&lt;p&gt;Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p&gt;
+&lt;p&gt;The script is located here:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/usr/bin/screenfetch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Open it with your editor of choice:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /usr/bin/screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;Arch Linux&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p&gt;
+&lt;p&gt;This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p&gt;
+&lt;h2 id="ascii-art-website"&gt;ASCII art website
+&lt;/h2&gt;&lt;p&gt;Check out this site for cool ASCII art you can use: &lt;b&gt;&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
+&gt;emojicombos.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>The Art of Asking Smart Questions</title><link>https://saitech.blog/p/the-art-of-asking-smart-questions/</link><pubDate>Sat, 29 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-art-of-asking-smart-questions/</guid><description>&lt;img src="https://saitech.blog/p/the-art-of-asking-smart-questions/1.png" alt="Featured image of post The Art of Asking Smart Questions" /&gt;&lt;p&gt;I&amp;rsquo;m saving these sites for later, both as a reminder for myself and as a reference for others on how to ask questions properly. Most people ask nonsense and don&amp;rsquo;t even know what they want, so I have no illusions that this will help. Maybe just a few sharp minds…&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;&lt;a class="link" href="https://dontasktoask.com/" target="_blank" rel="noopener"
+&gt;Dont ask to ask&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;&lt;a class="link" href="https://xyproblem.info/" target="_blank" rel="noopener"
+&gt;xy problem&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Anime Girls Holding Coding Books</title><link>https://saitech.blog/p/anime-girls-holding-coding-books/</link><pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/anime-girls-holding-coding-books/</guid><description>&lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/4.png" alt="Featured image of post Anime Girls Holding Coding Books" /&gt;&lt;p&gt;I’m not sure if I’ll ever use this, but I find it hilarious and amusing. So, I’m sharing it here for anyone who loves anime and programming!&lt;/p&gt;
+&lt;p&gt;Check out this &lt;b&gt;&lt;a class="link" href="https://senpy.club/" target="_blank" rel="noopener"
+&gt;site&lt;/a&gt;&lt;/b&gt; for an extensive collection of anime girls holding programming books. You can select your preferred language or software and see if there are any cute anime girl pictures related to it.&lt;/p&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/1.png"
 width="527"
 height="513"
 srcset="https://saitech.blog/p/anime-girls-holding-coding-books/1_hu_aff34234ea75336.png 480w, https://saitech.blog/p/anime-girls-holding-coding-books/1_hu_c8b74ffd1298bc72.png 1024w"
@@ -69,7 +69,7 @@ alt="Godot"
 class="gallery-image"
 data-flex-grow="102"
 data-flex-basis="246px"
-> &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/2.png"
+&gt; &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/2.png"
 width="1366"
 height="768"
 srcset="https://saitech.blog/p/anime-girls-holding-coding-books/2_hu_343c2349cfd34311.png 480w, https://saitech.blog/p/anime-girls-holding-coding-books/2_hu_256a0ffbbc87e909.png 1024w"
@@ -78,7 +78,7 @@ alt="Lua"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/3.png"
+&gt; &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/3.png"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/anime-girls-holding-coding-books/3_hu_dc3be96510eb158e.png 480w, https://saitech.blog/p/anime-girls-holding-coding-books/3_hu_c7d5664130987334.png 1024w"
@@ -87,7 +87,7 @@ alt="Android"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/5.jpg"
+&gt; &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/5.jpg"
 width="750"
 height="750"
 srcset="https://saitech.blog/p/anime-girls-holding-coding-books/5_hu_7941545f0e12644.jpg 480w, https://saitech.blog/p/anime-girls-holding-coding-books/5_hu_332ef34b16054b1b.jpg 1024w"
@@ -96,7 +96,7 @@ alt="Bash"
 class="gallery-image"
 data-flex-grow="100"
 data-flex-basis="240px"
-> &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/6.jpg"
+&gt; &lt;img src="https://saitech.blog/p/anime-girls-holding-coding-books/6.jpg"
 width="735"
 height="703"
 srcset="https://saitech.blog/p/anime-girls-holding-coding-books/6_hu_1581926e098af4a7.jpg 480w, https://saitech.blog/p/anime-girls-holding-coding-books/6_hu_7fb507b9f514b6a2.jpg 1024w"
@@ -105,20 +105,20 @@ alt="Arch linux"
 class="gallery-image"
 data-flex-grow="104"
 data-flex-basis="250px"
->&lt;/p></description></item><item><title>YouTube Video Finder</title><link>https://saitech.blog/p/youtube-video-finder/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/youtube-video-finder/</guid><description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" />&lt;p>Have you ever felt that sinking feeling when you see &lt;code>&amp;quot;This video has been deleted&amp;quot;&lt;/code> in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p>
-&lt;p>Either way, not knowing can be frustrating.&lt;/p>
-&lt;p>This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p>
-&lt;ul>
-&lt;li>Search for alternative uploads&lt;/li>
-&lt;li>Find similar content&lt;/li>
-&lt;li>Or simply know what you’ve lost&lt;/li>
-&lt;/ul>
-&lt;p>Check it out here:&lt;b> &lt;a class="link" href="https://findyoutubevideo.thetechrobo.ca/" target="_blank" rel="noopener"
->https://findyoutubevideo.thetechrobo.ca/&lt;/a>&lt;/b>&lt;/p></description></item><item><title>Emoji Combiner Meets Infinite Fun</title><link>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</link><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</guid><description>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" />&lt;h2 id="emoji-combiner">Emoji Combiner
-&lt;/h2>&lt;p>When I want to create custom emoji faces, I’ll know where to go.&lt;/p>
-&lt;p>&lt;a class="link" href="https://emojicombiner.app/" target="_blank" rel="noopener"
->Link&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4.png"
+&gt;&lt;/p&gt;</description></item><item><title>YouTube Video Finder</title><link>https://saitech.blog/p/youtube-video-finder/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/youtube-video-finder/</guid><description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" /&gt;&lt;p&gt;Have you ever felt that sinking feeling when you see &lt;code&gt;&amp;quot;This video has been deleted&amp;quot;&lt;/code&gt; in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p&gt;
+&lt;p&gt;Either way, not knowing can be frustrating.&lt;/p&gt;
+&lt;p&gt;This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search for alternative uploads&lt;/li&gt;
+&lt;li&gt;Find similar content&lt;/li&gt;
+&lt;li&gt;Or simply know what you’ve lost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check it out here:&lt;b&gt; &lt;a class="link" href="https://findyoutubevideo.thetechrobo.ca/" target="_blank" rel="noopener"
+&gt;https://findyoutubevideo.thetechrobo.ca/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>Emoji Combiner Meets Infinite Fun</title><link>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</link><pubDate>Sun, 26 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/emoji-combiner-meets-infinite-fun/</guid><description>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/5.png" alt="Featured image of post Emoji Combiner Meets Infinite Fun" /&gt;&lt;h2 id="emoji-combiner"&gt;Emoji Combiner
+&lt;/h2&gt;&lt;p&gt;When I want to create custom emoji faces, I’ll know where to go.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://emojicombiner.app/" target="_blank" rel="noopener"
+&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4.png"
 width="2133"
 height="1334"
 srcset="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_9a0de6952a7a16ab.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/4_hu_2356c253dbb67a6d.png 1024w"
@@ -127,13 +127,13 @@ alt="Emoji Combiner"
 class="gallery-image"
 data-flex-grow="159"
 data-flex-basis="383px"
->&lt;/p>
-&lt;h2 id="infinite-craft">Infinite Craft
-&lt;/h2>&lt;p>Speaking of combining two things into one, Infinite Craft has stolen a few hours of my life, and I don’t regret it. It’s a fun experience—try creating something like a sharknado and see how long it takes you.&lt;/p>
-&lt;p>Sharknado is pretty simple, &lt;em>wink wink&lt;/em>.&lt;/p>
-&lt;p>&lt;a class="link" href="https://neal.fun/infinite-craft/" target="_blank" rel="noopener"
->Link&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="infinite-craft"&gt;Infinite Craft
+&lt;/h2&gt;&lt;p&gt;Speaking of combining two things into one, Infinite Craft has stolen a few hours of my life, and I don’t regret it. It’s a fun experience—try creating something like a sharknado and see how long it takes you.&lt;/p&gt;
+&lt;p&gt;Sharknado is pretty simple, &lt;em&gt;wink wink&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://neal.fun/infinite-craft/" target="_blank" rel="noopener"
+&gt;Link&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3.png"
 width="1537"
 height="1331"
 srcset="https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_73f0431849fe9984.png 480w, https://saitech.blog/p/emoji-combiner-meets-infinite-fun/3_hu_e756627d869e7cc9.png 1024w"
@@ -142,6 +142,6 @@ alt="Infinite Craft"
 class="gallery-image"
 data-flex-grow="115"
 data-flex-basis="277px"
->&lt;/p></description></item><item><title>ToS;DR</title><link>https://saitech.blog/p/tosdr/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/tosdr/</guid><description>&lt;img src="https://saitech.blog/p/tosdr/1.png" alt="Featured image of post ToS;DR" />&lt;p>I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p>
-&lt;p>&lt;a class="link" href="https://tosdr.org/en/" target="_blank" rel="noopener"
->https://tosdr.org/en/&lt;/a>&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;</description></item><item><title>ToS;DR</title><link>https://saitech.blog/p/tosdr/</link><pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/tosdr/</guid><description>&lt;img src="https://saitech.blog/p/tosdr/1.png" alt="Featured image of post ToS;DR" /&gt;&lt;p&gt;I came across a great website where, by entering a service like Facebook or Google, it provides a brief and clear overview of the Terms of Service (ToS) in bullet points for that specific page and rates it based on how user-friendly it is for the end user.&lt;/p&gt;
+&lt;p&gt;&lt;a class="link" href="https://tosdr.org/en/" target="_blank" rel="noopener"
+&gt;https://tosdr.org/en/&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

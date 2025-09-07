@@ -1,104 +1,104 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tweak on Saitech</title><link>https://saitech.blog/tags/tweak/</link><description>Recent content in Tweak on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/tweak/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" />&lt;p>The latest version of &lt;code>Flameshot&lt;/code> on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p>
-&lt;p>The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p>
-&lt;h2 id="remove-flameshot">Remove Flameshot
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Rns flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="downgrade">Downgrade
-&lt;/h2>&lt;h3 id="using-arch-linux-archive-ala">Using Arch Linux Archive (ALA)
-&lt;/h3>&lt;h4 id="remove-flameshot-1">Remove Flameshot
-&lt;/h4>&lt;p>&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
->https://archive.archlinux.org/packages/f/flameshot/&lt;/a>&lt;/p>
-&lt;h4 id="download-it">Download it
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="install-manually">Install manually
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="using-the-downgrade-tool">Using the downgrade tool
-&lt;/h3>&lt;h4 id="install-downgrade">Install downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">YAY -S downgrade
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="run-downgrade">Run downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo downgrade flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>From the menu, pick version &lt;strong>13.0.1&lt;/strong> and you’re done.
-Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p></description></item><item><title>Archive.today</title><link>https://saitech.blog/p/archive.today/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/archive.today/</guid><description>&lt;img src="https://saitech.blog/p/archive.today/1.png" alt="Featured image of post Archive.today" />&lt;p>Archive.today is a simple tool for accessing snapshots of web pages — useful when a site is behind a paywall, taken down, or modified.&lt;/p>
-&lt;p>Paste any URL into &lt;a class="link" href="https://archive.today" target="_blank" rel="noopener"
->https://archive.today&lt;/a> to view an archived version of the page.&lt;/p>
-&lt;p>Benefits:&lt;/p>
-&lt;ul>
-&lt;li>Bypasses many paywalls and subscription overlays&lt;/li>
-&lt;li>Preserves content that may later be deleted or edited&lt;/li>
-&lt;li>Useful for citation, research, and saving references&lt;/li>
-&lt;/ul>
-&lt;p>No login needed. No extensions. Just a direct snapshot of the web as it was.&lt;/p>
-&lt;p>EDIT: Most EU websites can be saved, but often you can’t get past the paywall&lt;/p></description></item><item><title>Discord Interface Zoom</title><link>https://saitech.blog/p/discord-interface-zoom/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/discord-interface-zoom/</guid><description>&lt;img src="https://saitech.blog/p/discord-interface-zoom/1.png" alt="Featured image of post Discord Interface Zoom" />&lt;p>Just a quick note — after every update, my zoom level preferences in Discord get reset to default. Annoying, right? What makes it even worse is that the desktop app doesn’t have a zoom slider for DPI adjustments.&lt;/p>
-&lt;p>So, every time this happens, I find myself Ecosiyng (because who needs Google anymore?) the same thing over and over. Turns out, the fix is super simple:&lt;/p>
-&lt;p>Just use:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Ctrl + &amp;quot;+&amp;quot; to zoom in&lt;/code>&lt;/li>
-&lt;li>&lt;code>Ctrl + &amp;quot;-&amp;quot; to zoom out&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>That’s it. No hidden settings or complicated tweaks. Simple as that!&lt;/p></description></item><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" />&lt;p>Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p>
-&lt;p>Install MangoHud:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S mangohud
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Enable MangoHud in Steam:&lt;/p>
-&lt;p>Go to Game Properties → Launch Options and add:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MANGOHUD=1 %command%
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Limit FPS to 60:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MANGOHUD_CONFIG=fps_limit=60 %command%
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tweak on Saitech</title><link>https://saitech.blog/tags/tweak/</link><description>Recent content in Tweak on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/tweak/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
+&lt;p&gt;The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p&gt;
+&lt;h2 id="remove-flameshot"&gt;Remove Flameshot
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Rns flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="downgrade"&gt;Downgrade
+&lt;/h2&gt;&lt;h3 id="using-arch-linux-archive-ala"&gt;Using Arch Linux Archive (ALA)
+&lt;/h3&gt;&lt;h4 id="remove-flameshot-1"&gt;Remove Flameshot
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
+&gt;https://archive.archlinux.org/packages/f/flameshot/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="download-it"&gt;Download it
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="install-manually"&gt;Install manually
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="using-the-downgrade-tool"&gt;Using the downgrade tool
+&lt;/h3&gt;&lt;h4 id="install-downgrade"&gt;Install downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;YAY -S downgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="run-downgrade"&gt;Run downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo downgrade flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From the menu, pick version &lt;strong&gt;13.0.1&lt;/strong&gt; and you’re done.
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>Archive.today</title><link>https://saitech.blog/p/archive.today/</link><pubDate>Sat, 19 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/archive.today/</guid><description>&lt;img src="https://saitech.blog/p/archive.today/1.png" alt="Featured image of post Archive.today" /&gt;&lt;p&gt;Archive.today is a simple tool for accessing snapshots of web pages — useful when a site is behind a paywall, taken down, or modified.&lt;/p&gt;
+&lt;p&gt;Paste any URL into &lt;a class="link" href="https://archive.today" target="_blank" rel="noopener"
+&gt;https://archive.today&lt;/a&gt; to view an archived version of the page.&lt;/p&gt;
+&lt;p&gt;Benefits:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bypasses many paywalls and subscription overlays&lt;/li&gt;
+&lt;li&gt;Preserves content that may later be deleted or edited&lt;/li&gt;
+&lt;li&gt;Useful for citation, research, and saving references&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;No login needed. No extensions. Just a direct snapshot of the web as it was.&lt;/p&gt;
+&lt;p&gt;EDIT: Most EU websites can be saved, but often you can’t get past the paywall&lt;/p&gt;</description></item><item><title>Discord Interface Zoom</title><link>https://saitech.blog/p/discord-interface-zoom/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/discord-interface-zoom/</guid><description>&lt;img src="https://saitech.blog/p/discord-interface-zoom/1.png" alt="Featured image of post Discord Interface Zoom" /&gt;&lt;p&gt;Just a quick note — after every update, my zoom level preferences in Discord get reset to default. Annoying, right? What makes it even worse is that the desktop app doesn’t have a zoom slider for DPI adjustments.&lt;/p&gt;
+&lt;p&gt;So, every time this happens, I find myself Ecosiyng (because who needs Google anymore?) the same thing over and over. Turns out, the fix is super simple:&lt;/p&gt;
+&lt;p&gt;Just use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + &amp;quot;+&amp;quot; to zoom in&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + &amp;quot;-&amp;quot; to zoom out&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s it. No hidden settings or complicated tweaks. Simple as that!&lt;/p&gt;</description></item><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+&lt;p&gt;Install MangoHud:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S mangohud
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Enable MangoHud in Steam:&lt;/p&gt;
+&lt;p&gt;Go to Game Properties → Launch Options and add:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD=1 %command%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Limit FPS to 60:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
 width="474"
 height="266"
 srcset="https://saitech.blog/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saitech.blog/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
@@ -106,4 +106,4 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="178"
 data-flex-basis="427px"
->&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;</description></item></channel></rss>

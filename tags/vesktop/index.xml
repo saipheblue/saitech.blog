@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vesktop on Saitech</title><link>https://saitech.blog/tags/vesktop/</link><description>Recent content in Vesktop on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/vesktop/index.xml" rel="self" type="application/rss+xml"/><item><title>Discord Interface Zoom</title><link>https://saitech.blog/p/discord-interface-zoom/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/discord-interface-zoom/</guid><description>&lt;img src="https://saitech.blog/p/discord-interface-zoom/1.png" alt="Featured image of post Discord Interface Zoom" />&lt;p>Just a quick note — after every update, my zoom level preferences in Discord get reset to default. Annoying, right? What makes it even worse is that the desktop app doesn’t have a zoom slider for DPI adjustments.&lt;/p>
-&lt;p>So, every time this happens, I find myself Ecosiyng (because who needs Google anymore?) the same thing over and over. Turns out, the fix is super simple:&lt;/p>
-&lt;p>Just use:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Ctrl + &amp;quot;+&amp;quot; to zoom in&lt;/code>&lt;/li>
-&lt;li>&lt;code>Ctrl + &amp;quot;-&amp;quot; to zoom out&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>That’s it. No hidden settings or complicated tweaks. Simple as that!&lt;/p></description></item><item><title>Vencord / Vesktop</title><link>https://saitech.blog/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" />&lt;h1 id="what-is-vencord--vesktop">What is Vencord / Vesktop?
-&lt;/h1>&lt;p>If you’re a &lt;code>Discord&lt;/code> user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/4.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vesktop on Saitech</title><link>https://saitech.blog/tags/vesktop/</link><description>Recent content in Vesktop on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/vesktop/index.xml" rel="self" type="application/rss+xml"/><item><title>Discord Interface Zoom</title><link>https://saitech.blog/p/discord-interface-zoom/</link><pubDate>Tue, 25 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/discord-interface-zoom/</guid><description>&lt;img src="https://saitech.blog/p/discord-interface-zoom/1.png" alt="Featured image of post Discord Interface Zoom" /&gt;&lt;p&gt;Just a quick note — after every update, my zoom level preferences in Discord get reset to default. Annoying, right? What makes it even worse is that the desktop app doesn’t have a zoom slider for DPI adjustments.&lt;/p&gt;
+&lt;p&gt;So, every time this happens, I find myself Ecosiyng (because who needs Google anymore?) the same thing over and over. Turns out, the fix is super simple:&lt;/p&gt;
+&lt;p&gt;Just use:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + &amp;quot;+&amp;quot; to zoom in&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Ctrl + &amp;quot;-&amp;quot; to zoom out&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s it. No hidden settings or complicated tweaks. Simple as that!&lt;/p&gt;</description></item><item><title>Vencord / Vesktop</title><link>https://saitech.blog/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id="what-is-vencord--vesktop"&gt;What is Vencord / Vesktop?
+&lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/4.png"
 width="236"
 height="236"
 srcset="https://saitech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saitech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w"
@@ -16,15 +16,15 @@ alt="Mascot"
 class="gallery-image"
 data-flex-grow="100"
 data-flex-basis="240px"
->&lt;/p>
-&lt;h2 id="where-to-download-it">Where to Download it
-&lt;/h2>&lt;p>Official Website: &lt;a class="link" href="https://vencord.dev/" target="_blank" rel="noopener"
->vencord.dev&lt;/a>&lt;/p>
-&lt;p>GitHub Repository: &lt;a class="link" href="https://github.com/Vencord/Vesktop" target="_blank" rel="noopener"
->Vencord/Vesktop&lt;/a>&lt;/p>
-&lt;p>Flatpak (Linux): &lt;a class="link" href="https://flathub.org/apps/dev.vencord.Vesktop" target="_blank" rel="noopener"
->Flathub&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/1.jpg"
+&gt;&lt;/p&gt;
+&lt;h2 id="where-to-download-it"&gt;Where to Download it
+&lt;/h2&gt;&lt;p&gt;Official Website: &lt;a class="link" href="https://vencord.dev/" target="_blank" rel="noopener"
+&gt;vencord.dev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Repository: &lt;a class="link" href="https://github.com/Vencord/Vesktop" target="_blank" rel="noopener"
+&gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Flatpak (Linux): &lt;a class="link" href="https://flathub.org/apps/dev.vencord.Vesktop" target="_blank" rel="noopener"
+&gt;Flathub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/1.jpg"
 width="474"
 height="237"
 srcset="https://saitech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saitech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w"
@@ -33,33 +33,33 @@ alt="Github"
 class="gallery-image"
 data-flex-grow="200"
 data-flex-basis="480px"
->&lt;/p>
-&lt;h2 id="why-use-it">Why Use it?
-&lt;/h2>&lt;p>Here are some of the key reasons to switch to Vesktop:&lt;/p>
-&lt;ul>
-&lt;li>✅ &lt;b>Better Linux Support:&lt;/b>
-&lt;ul>
-&lt;li>Unlike the official Discord app, Vesktop offers improved Linux compatibility and performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>✨ &lt;b>Plugins:&lt;/b>
-&lt;ul>
-&lt;li>Customize your Discord experience with a range of plugins.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>🎨 &lt;b>Custom Themes:&lt;/b>
-&lt;ul>
-&lt;li>Make Discord truly yours with community-made themes from &lt;a class="link" href="https://discord-themes.com" target="_blank" rel="noopener"
->discord-themes.com&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>🚀 &lt;b>Fake Nitro:&lt;/b>
-&lt;ul>
-&lt;li>Unlock some premium features (like emojis and stickers) without paying—though with certain limitations.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/5.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="why-use-it"&gt;Why Use it?
+&lt;/h2&gt;&lt;p&gt;Here are some of the key reasons to switch to Vesktop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;b&gt;Better Linux Support:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlike the official Discord app, Vesktop offers improved Linux compatibility and performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;✨ &lt;b&gt;Plugins:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Customize your Discord experience with a range of plugins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎨 &lt;b&gt;Custom Themes:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Make Discord truly yours with community-made themes from &lt;a class="link" href="https://discord-themes.com" target="_blank" rel="noopener"
+&gt;discord-themes.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🚀 &lt;b&gt;Fake Nitro:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlock some premium features (like emojis and stickers) without paying—though with certain limitations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/5.png"
 width="1655"
 height="931"
 srcset="https://saitech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saitech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w"
@@ -68,7 +68,7 @@ alt="Outlook Theme"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->
+&gt;
 &lt;img src="https://saitech.blog/p/vencord-/-vesktop/6.png"
 width="2880"
 height="1800"
@@ -78,54 +78,54 @@ alt="Ultra Theme"
 class="gallery-image"
 data-flex-grow="160"
 data-flex-basis="384px"
->&lt;/p>
-&lt;h2 id="recommended-plugins">Recommended Plugins
-&lt;/h2>&lt;p>Here are some of the most useful Vesktop plugins to enhance your experience:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;b>YoutubeAdblock&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Finally, an adblocker that works inside the Discord app! &lt;code>This was the main reason I migrated to Vesktop.&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>FixYoutubeEmbeds&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Bypass Discord&amp;rsquo;s annoying &amp;ldquo;Watch on YouTube&amp;rdquo; restrictions and play videos directly inside the app.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>WebKeybinds&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Adds missing keybinds to the web version of Discord (which Vesktop uses), making navigation smoother.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>ClearURLs&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Automatically removes tracking parameters from URLs for added privacy.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>CrashHandler&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Handles crashes gracefully without forcing you to restart the entire app.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>NoDevtoolsWarning&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Disables the &amp;ldquo;HOLD UP&amp;rdquo; warning when opening Developer Tools. It also prevents Discord from hiding your token, helping avoid random logouts—a must-have for a smoother experience.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>WebScreenShareFixes&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Removes the 2500kbps bitrate cap on Chromium and Vesktop clients, improving screen-sharing quality.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="recommended-plugins"&gt;Recommended Plugins
+&lt;/h2&gt;&lt;p&gt;Here are some of the most useful Vesktop plugins to enhance your experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;YoutubeAdblock&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finally, an adblocker that works inside the Discord app! &lt;code&gt;This was the main reason I migrated to Vesktop.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;FixYoutubeEmbeds&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bypass Discord&amp;rsquo;s annoying &amp;ldquo;Watch on YouTube&amp;rdquo; restrictions and play videos directly inside the app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;WebKeybinds&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds missing keybinds to the web version of Discord (which Vesktop uses), making navigation smoother.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;ClearURLs&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically removes tracking parameters from URLs for added privacy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;CrashHandler&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handles crashes gracefully without forcing you to restart the entire app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;NoDevtoolsWarning&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disables the &amp;ldquo;HOLD UP&amp;rdquo; warning when opening Developer Tools. It also prevents Discord from hiding your token, helping avoid random logouts—a must-have for a smoother experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;WebScreenShareFixes&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Removes the 2500kbps bitrate cap on Chromium and Vesktop clients, improving screen-sharing quality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/2.png"
 width="1227"
 height="955"
 srcset="https://saitech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saitech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w"
@@ -134,7 +134,7 @@ alt="Plugins"
 class="gallery-image"
 data-flex-grow="128"
 data-flex-basis="308px"
->
+&gt;
 &lt;img src="https://saitech.blog/p/vencord-/-vesktop/3.png"
 width="917"
 height="1126"
@@ -144,4 +144,4 @@ alt="Setup"
 class="gallery-image"
 data-flex-grow="81"
 data-flex-basis="195px"
->&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;</description></item></channel></rss>

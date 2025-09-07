@@ -1,49 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pip on Saitech</title><link>https://saitech.blog/tags/pip/</link><description>Recent content in Pip on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pip/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" />&lt;p>Simple local guide on how to install a program to convert images to ASCII art.&lt;/p>
-&lt;p>You can find all instructions here.&lt;/p>
-&lt;p>&lt;b>Github Repository:&lt;/b> &lt;b>🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
->https://github.com/Hugana/p2ascii&lt;/a>&lt;/b>&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p>
-&lt;p>&lt;code>Do not forget to change your username (YourUsername) in these commands&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -m venv /home/YourUsername/yourenv
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then I activated it:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>And installed dependencies via pip:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install opencv-python numpy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now, just navigate to the folder where your image is and run these two commands:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="examples">Examples
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pip on Saitech</title><link>https://saitech.blog/tags/pip/</link><description>Recent content in Pip on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 10 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pip/index.xml" rel="self" type="application/rss+xml"/><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" /&gt;&lt;p&gt;Simple local guide on how to install a program to convert images to ASCII art.&lt;/p&gt;
+&lt;p&gt;You can find all instructions here.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Github Repository:&lt;/b&gt; &lt;b&gt;🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
+&gt;https://github.com/Hugana/p2ascii&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Do not forget to change your username (YourUsername) in these commands&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python -m venv /home/YourUsername/yourenv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then I activated it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And installed dependencies via pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install opencv-python numpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Now, just navigate to the folder where your image is and run these two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="examples"&gt;Examples
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/2_hu_3730400725d7947d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/2_hu_4adea7c24c88cca0.jpg 1024w"
@@ -52,7 +52,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/22_hu_badd32d385f105cc.png 480w, https://saitech.blog/p/converting-image-to-ascii/22_hu_aa542e84a0390eb3.png 1024w"
@@ -61,8 +61,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/3_hu_eb2d8c692d97dab.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/3_hu_dd28c7f2dfbecb19.jpg 1024w"
@@ -71,7 +71,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/33_hu_9f064a4decf38211.png 480w, https://saitech.blog/p/converting-image-to-ascii/33_hu_9320a1e8e0433fd1.png 1024w"
@@ -80,8 +80,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/1_hu_b096f3b5d33b575d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/1_hu_fdb4ba75f9480e63.jpg 1024w"
@@ -90,7 +90,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/10_hu_2cd4a5d27e94a4df.png 480w, https://saitech.blog/p/converting-image-to-ascii/10_hu_a28426422b372173.png 1024w"
@@ -99,7 +99,7 @@ alt="Treshold 10"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/120_hu_9e5df42bdfbfbfed.png 480w, https://saitech.blog/p/converting-image-to-ascii/120_hu_aede66f75b4b594a.png 1024w"
@@ -108,7 +108,7 @@ alt="Treshold 120"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/250_hu_8a30d20d8da750fa.png 480w, https://saitech.blog/p/converting-image-to-ascii/250_hu_9b8ba222e33fdf10.png 1024w"
@@ -117,27 +117,27 @@ alt="Treshold 250"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
->&lt;/p>
-&lt;h2 id="usage-taken-from-github">Usage taken from Github
-&lt;/h2>&lt;p>I know it’s a bit lazy, but I want to save this here for myself.&lt;/p>
-&lt;h3 id="simple-conversion-no-edge-detection">Simple Conversion (No Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
+&gt;&lt;/p&gt;
+&lt;h2 id="usage-taken-from-github"&gt;Usage taken from Github
+&lt;/h2&gt;&lt;p&gt;I know it’s a bit lazy, but I want to save this here for myself.&lt;/p&gt;
+&lt;h3 id="simple-conversion-no-edge-detection"&gt;Simple Conversion (No Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
 sc2text &amp;lt;img&amp;gt; Convert image to ASCII text (stdout)
 sc2cimage &amp;lt;img&amp;gt; [--transparent] Colored ASCII image
 sc2ctext &amp;lt;img&amp;gt; Colored ASCII text (stdout)
-&lt;/code>&lt;/pre>
-&lt;h3 id="complex-conversion-with-edge-detection">Complex Conversion (With Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="complex-conversion-with-edge-detection"&gt;Complex Conversion (With Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
 cc2text &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; ASCII text with edge symbols (stdout)
 cc2cimage &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] Colored ASCII image with edge awareness
 cc2ctext &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; Colored ASCII text with edge symbols
-&lt;/code>&lt;/pre>
-&lt;h3 id="threshold-parameter-">Threshold Parameter ()
-&lt;/h3>&lt;p>Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p>
-&lt;pre>&lt;code>auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="threshold-parameter-"&gt;Threshold Parameter ()
+&lt;/h3&gt;&lt;p&gt;Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
 0–255: Manual threshold.
 Higher = fewer edges (only strong ones)
 Lower = more edges (fine details)
-&lt;/code>&lt;/pre>
-&lt;h3 id="transparency-mode-transparent">Transparency Mode (&amp;ndash;transparent)
-&lt;/h3>&lt;p>When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p></description></item></channel></rss>
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="transparency-mode-transparent"&gt;Transparency Mode (&amp;ndash;transparent)
+&lt;/h3&gt;&lt;p&gt;When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p&gt;</description></item></channel></rss>

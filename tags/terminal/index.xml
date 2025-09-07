@@ -1,103 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal on Saitech</title><link>https://saitech.blog/tags/terminal/</link><description>Recent content in Terminal on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" />&lt;p>The latest version of &lt;code>Flameshot&lt;/code> on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p>
-&lt;p>The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p>
-&lt;h2 id="remove-flameshot">Remove Flameshot
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Rns flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="downgrade">Downgrade
-&lt;/h2>&lt;h3 id="using-arch-linux-archive-ala">Using Arch Linux Archive (ALA)
-&lt;/h3>&lt;h4 id="remove-flameshot-1">Remove Flameshot
-&lt;/h4>&lt;p>&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
->https://archive.archlinux.org/packages/f/flameshot/&lt;/a>&lt;/p>
-&lt;h4 id="download-it">Download it
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="install-manually">Install manually
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="using-the-downgrade-tool">Using the downgrade tool
-&lt;/h3>&lt;h4 id="install-downgrade">Install downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">YAY -S downgrade
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="run-downgrade">Run downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo downgrade flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>From the menu, pick version &lt;strong>13.0.1&lt;/strong> and you’re done.
-Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p></description></item><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" />&lt;p>Simple local guide on how to install a program to convert images to ASCII art.&lt;/p>
-&lt;p>You can find all instructions here.&lt;/p>
-&lt;p>&lt;b>Github Repository:&lt;/b> &lt;b>🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
->https://github.com/Hugana/p2ascii&lt;/a>&lt;/b>&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p>
-&lt;p>&lt;code>Do not forget to change your username (YourUsername) in these commands&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">python -m venv /home/YourUsername/yourenv
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then I activated it:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>And installed dependencies via pip:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">pip install opencv-python numpy
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Now, just navigate to the folder where your image is and run these two commands:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">source /home/YourUsername/yourenv/bin/activate
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="examples">Examples
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Terminal on Saitech</title><link>https://saitech.blog/tags/terminal/</link><description>Recent content in Terminal on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/terminal/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
+&lt;p&gt;The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p&gt;
+&lt;h2 id="remove-flameshot"&gt;Remove Flameshot
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Rns flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="downgrade"&gt;Downgrade
+&lt;/h2&gt;&lt;h3 id="using-arch-linux-archive-ala"&gt;Using Arch Linux Archive (ALA)
+&lt;/h3&gt;&lt;h4 id="remove-flameshot-1"&gt;Remove Flameshot
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
+&gt;https://archive.archlinux.org/packages/f/flameshot/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="download-it"&gt;Download it
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="install-manually"&gt;Install manually
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="using-the-downgrade-tool"&gt;Using the downgrade tool
+&lt;/h3&gt;&lt;h4 id="install-downgrade"&gt;Install downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;YAY -S downgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="run-downgrade"&gt;Run downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo downgrade flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From the menu, pick version &lt;strong&gt;13.0.1&lt;/strong&gt; and you’re done.
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>Converting Image to ASCII</title><link>https://saitech.blog/p/converting-image-to-ascii/</link><pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/converting-image-to-ascii/</guid><description>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png" alt="Featured image of post Converting Image to ASCII" /&gt;&lt;p&gt;Simple local guide on how to install a program to convert images to ASCII art.&lt;/p&gt;
+&lt;p&gt;You can find all instructions here.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Github Repository:&lt;/b&gt; &lt;b&gt;🔗 &lt;a class="link" href="https://github.com/Hugana/p2ascii" target="_blank" rel="noopener"
+&gt;https://github.com/Hugana/p2ascii&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;On my machine, Python did not allow installing packages normally, so I had to create a virtual environment:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Do not forget to change your username (YourUsername) in these commands&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;python -m venv /home/YourUsername/yourenv
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then I activated it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And installed dependencies via pip:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;pip install opencv-python numpy
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Now, just navigate to the folder where your image is and run these two commands:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;source /home/YourUsername/yourenv/bin/activate
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;/usr/bin/p2ascii cc2cimage name_of_your_image.jpg auto
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="examples"&gt;Examples
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/2.jpg"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/2_hu_3730400725d7947d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/2_hu_4adea7c24c88cca0.jpg 1024w"
@@ -106,7 +106,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/22.png"
 width="1920"
 height="1080"
 srcset="https://saitech.blog/p/converting-image-to-ascii/22_hu_badd32d385f105cc.png 480w, https://saitech.blog/p/converting-image-to-ascii/22_hu_aa542e84a0390eb3.png 1024w"
@@ -115,8 +115,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/3.jpg"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/3_hu_eb2d8c692d97dab.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/3_hu_dd28c7f2dfbecb19.jpg 1024w"
@@ -125,7 +125,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/33.png"
 width="1600"
 height="900"
 srcset="https://saitech.blog/p/converting-image-to-ascii/33_hu_9f064a4decf38211.png 480w, https://saitech.blog/p/converting-image-to-ascii/33_hu_9320a1e8e0433fd1.png 1024w"
@@ -134,8 +134,8 @@ alt="cc2cimage auto"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/converting-image-to-ascii/1.jpg"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/1_hu_b096f3b5d33b575d.jpg 480w, https://saitech.blog/p/converting-image-to-ascii/1_hu_fdb4ba75f9480e63.jpg 1024w"
@@ -144,7 +144,7 @@ alt="Original"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/10.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/10_hu_2cd4a5d27e94a4df.png 480w, https://saitech.blog/p/converting-image-to-ascii/10_hu_a28426422b372173.png 1024w"
@@ -153,7 +153,7 @@ alt="Treshold 10"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/120.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/120_hu_9e5df42bdfbfbfed.png 480w, https://saitech.blog/p/converting-image-to-ascii/120_hu_aede66f75b4b594a.png 1024w"
@@ -162,7 +162,7 @@ alt="Treshold 120"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
-> &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
+&gt; &lt;img src="https://saitech.blog/p/converting-image-to-ascii/250.png"
 width="630"
 height="995"
 srcset="https://saitech.blog/p/converting-image-to-ascii/250_hu_8a30d20d8da750fa.png 480w, https://saitech.blog/p/converting-image-to-ascii/250_hu_9b8ba222e33fdf10.png 1024w"
@@ -171,58 +171,58 @@ alt="Treshold 250"
 class="gallery-image"
 data-flex-grow="63"
 data-flex-basis="151px"
->&lt;/p>
-&lt;h2 id="usage-taken-from-github">Usage taken from Github
-&lt;/h2>&lt;p>I know it’s a bit lazy, but I want to save this here for myself.&lt;/p>
-&lt;h3 id="simple-conversion-no-edge-detection">Simple Conversion (No Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
+&gt;&lt;/p&gt;
+&lt;h2 id="usage-taken-from-github"&gt;Usage taken from Github
+&lt;/h2&gt;&lt;p&gt;I know it’s a bit lazy, but I want to save this here for myself.&lt;/p&gt;
+&lt;h3 id="simple-conversion-no-edge-detection"&gt;Simple Conversion (No Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;sc2image &amp;lt;img&amp;gt; [--transparent] Convert image to ASCII image
 sc2text &amp;lt;img&amp;gt; Convert image to ASCII text (stdout)
 sc2cimage &amp;lt;img&amp;gt; [--transparent] Colored ASCII image
 sc2ctext &amp;lt;img&amp;gt; Colored ASCII text (stdout)
-&lt;/code>&lt;/pre>
-&lt;h3 id="complex-conversion-with-edge-detection">Complex Conversion (With Edge Detection)
-&lt;/h3>&lt;pre>&lt;code>cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="complex-conversion-with-edge-detection"&gt;Complex Conversion (With Edge Detection)
+&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;cc2image &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] ASCII image using edge orientation
 cc2text &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; ASCII text with edge symbols (stdout)
 cc2cimage &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; [--transparent] Colored ASCII image with edge awareness
 cc2ctext &amp;lt;img&amp;gt; &amp;lt;thresh&amp;gt; Colored ASCII text with edge symbols
-&lt;/code>&lt;/pre>
-&lt;h3 id="threshold-parameter-">Threshold Parameter ()
-&lt;/h3>&lt;p>Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p>
-&lt;pre>&lt;code>auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="threshold-parameter-"&gt;Threshold Parameter ()
+&lt;/h3&gt;&lt;p&gt;Used in complex conversion to control edge sensitivity based on gradient magnitude.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;auto: Automatically computes threshold as the 90th percentile of non-zero magnitudes:
 0–255: Manual threshold.
 Higher = fewer edges (only strong ones)
 Lower = more edges (fine details)
-&lt;/code>&lt;/pre>
-&lt;h3 id="transparency-mode-transparent">Transparency Mode (&amp;ndash;transparent)
-&lt;/h3>&lt;p>When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p></description></item><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" />&lt;h2 id="the-problem">The Problem
-&lt;/h2>&lt;p>EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p>
-&lt;p>You can find them in:&lt;/p>
-&lt;p>&lt;code>🗂️ /usr/share/applications/&lt;/code>&lt;/p>
-&lt;h2 id="solution">Solution
-&lt;/h2>&lt;p>I initially found a solution in this: &lt;b>&lt;a class="link" href="https://www.reddit.com/r/linux4noobs/comments/g40e3a/comment/fo2y3bi/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3" target="_blank" rel="noopener"
->reddit comment&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Unfortunately, it didn&amp;rsquo;t work for me because just adding &lt;code>Hidden=true&lt;/code> is not valid &lt;code>.desktop&lt;/code> file on Arch Linux.&lt;/p>
-&lt;p>So I slightly modified the script shared by user &amp;ldquo;mthqwork&amp;rdquo;:&lt;/p>
-&lt;p>First, create a temporary file with the minimal valid &lt;code>.desktop&lt;/code> content:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">echo -e &amp;#34;[Desktop Entry]\nType=Application\nName=LSP Plugin (Hidden)\nExec=true\nHidden=true&amp;#34; &amp;gt; /tmp/1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then, for each LSP plugin file, it creates a corresponding user-level &lt;code>.desktop&lt;/code> file with the &lt;code>Hidden&lt;/code> flag, while ensuring it remains valid:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find /usr -name &amp;#34;lsp_plugdesktop&amp;#34; 2&amp;gt;/dev/null | cut -f 5 -d &amp;#39;/&amp;#39; | xargs -I {} cp /tmp/1 ~/.local/share/applications/{}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>The point is that by creating &lt;strong>user-specific desktop files in&lt;/strong>: &lt;code>🗂️ .local/share/applications/&lt;/code>their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id="transparency-mode-transparent"&gt;Transparency Mode (&amp;ndash;transparent)
+&lt;/h3&gt;&lt;p&gt;When included, the output ASCII image will have a transparent background, displaying only the characters. This option is applicable to image output commands: sc2image, sc2cimage, cc2image, and cc2cimage.&lt;/p&gt;</description></item><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
+&lt;/h2&gt;&lt;p&gt;EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p&gt;
+&lt;p&gt;You can find them in:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;🗂️ /usr/share/applications/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;I initially found a solution in this: &lt;b&gt;&lt;a class="link" href="https://www.reddit.com/r/linux4noobs/comments/g40e3a/comment/fo2y3bi/?utm_source=share&amp;amp;utm_medium=web2x&amp;amp;context=3" target="_blank" rel="noopener"
+&gt;reddit comment&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Unfortunately, it didn&amp;rsquo;t work for me because just adding &lt;code&gt;Hidden=true&lt;/code&gt; is not valid &lt;code&gt;.desktop&lt;/code&gt; file on Arch Linux.&lt;/p&gt;
+&lt;p&gt;So I slightly modified the script shared by user &amp;ldquo;mthqwork&amp;rdquo;:&lt;/p&gt;
+&lt;p&gt;First, create a temporary file with the minimal valid &lt;code&gt;.desktop&lt;/code&gt; content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;echo -e &amp;#34;[Desktop Entry]\nType=Application\nName=LSP Plugin (Hidden)\nExec=true\nHidden=true&amp;#34; &amp;gt; /tmp/1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then, for each LSP plugin file, it creates a corresponding user-level &lt;code&gt;.desktop&lt;/code&gt; file with the &lt;code&gt;Hidden&lt;/code&gt; flag, while ensuring it remains valid:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;find /usr -name &amp;#34;lsp_plugdesktop&amp;#34; 2&amp;gt;/dev/null | cut -f 5 -d &amp;#39;/&amp;#39; | xargs -I {} cp /tmp/1 ~/.local/share/applications/{}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;The point is that by creating &lt;strong&gt;user-specific desktop files in&lt;/strong&gt;: &lt;code&gt;🗂️ .local/share/applications/&lt;/code&gt;their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
 width="1261"
 height="761"
 srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
@@ -231,8 +231,8 @@ alt="Clean app launcher"
 class="gallery-image"
 data-flex-grow="165"
 data-flex-basis="397px"
->&lt;/p></description></item><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" />&lt;h2 id="the-issue">The Issue
-&lt;/h2>&lt;p>During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
+&gt;&lt;/p&gt;</description></item><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+&lt;/h2&gt;&lt;p&gt;During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
 &lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
 width="1430"
 height="489"
@@ -242,149 +242,149 @@ alt="Shutdown issue"
 class="gallery-image"
 data-flex-grow="292"
 data-flex-basis="701px"
->
-Obviously, some processes weren&amp;rsquo;t terminating properly.&lt;/p>
-&lt;h2 id="analysis">Analysis
-&lt;/h2>&lt;p>What helped was letting the system run for a while to see if it would print something else I could catch.&lt;/p>
-&lt;p>Eventually, the terminal snitched on the likely suspect:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">...
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ailed deactivating swap /dev/disk/by-&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">dev-disk-by\x2ddiskseq-3\x2dpart2.swap&amp;gt;
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">...
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Yeah, the swap partition was likely to blame.
-After rebooting, I checked in the terminal:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">journalctl -b -1 -r
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>And following advice from more experienced Linux gurus, I first tried adding in:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /etc/systemd/system.conf
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">DefaultTimeoutStopSec=15s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>(make sure to uncomment the line)&lt;/p>
-&lt;p>But that didn&amp;rsquo;t help either.&lt;/p>
-&lt;h2 id="solution">Solution
-&lt;/h2>&lt;p>Finally, an expert suggested adding the swap to fstab.&lt;/p>
-&lt;p>First, I found the UUID of the swap partition using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">blkid&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">t&lt;/span> &lt;span class="n">TYPE&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">swap&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">o&lt;/span> &lt;span class="k">export&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then I added this to &lt;code>🗂️ /etc/fstab&lt;/code>:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">Swap partition – wait max 5 s for device
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">UUID=&amp;#34;FILL WITH YOUR UUID&amp;#34; none swap defaults,x-systemd.device-timeout=5s 0 0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Since then, the issue has been gone.
-Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p>
-&lt;h2 id="final-thoughts">Final thoughts
-&lt;/h2>&lt;p>I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p></description></item><item><title>Mounting External Drives on Linux</title><link>https://saitech.blog/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" />&lt;p>🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
->NTFS-3G on Arch Wiki&lt;/a>
+&gt;
+Obviously, some processes weren&amp;rsquo;t terminating properly.&lt;/p&gt;
+&lt;h2 id="analysis"&gt;Analysis
+&lt;/h2&gt;&lt;p&gt;What helped was letting the system run for a while to see if it would print something else I could catch.&lt;/p&gt;
+&lt;p&gt;Eventually, the terminal snitched on the likely suspect:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ailed deactivating swap /dev/disk/by-&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;dev-disk-by\x2ddiskseq-3\x2dpart2.swap&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Yeah, the swap partition was likely to blame.
+After rebooting, I checked in the terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;journalctl -b -1 -r
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;And following advice from more experienced Linux gurus, I first tried adding in:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /etc/systemd/system.conf
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;DefaultTimeoutStopSec=15s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;(make sure to uncomment the line)&lt;/p&gt;
+&lt;p&gt;But that didn&amp;rsquo;t help either.&lt;/p&gt;
+&lt;h2 id="solution"&gt;Solution
+&lt;/h2&gt;&lt;p&gt;Finally, an expert suggested adding the swap to fstab.&lt;/p&gt;
+&lt;p&gt;First, I found the UUID of the swap partition using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;blkid&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="n"&gt;TYPE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;swap&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;o&lt;/span&gt; &lt;span class="k"&gt;export&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then I added this to &lt;code&gt;🗂️ /etc/fstab&lt;/code&gt;:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Swap partition – wait max 5 s for device
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;UUID=&amp;#34;FILL WITH YOUR UUID&amp;#34; none swap defaults,x-systemd.device-timeout=5s 0 0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Since then, the issue has been gone.
+Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p&gt;
+&lt;h2 id="final-thoughts"&gt;Final thoughts
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Mounting External Drives on Linux</title><link>https://saitech.blog/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" /&gt;&lt;p&gt;🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
+&gt;NTFS-3G on Arch Wiki&lt;/a&gt;
 🔗 &lt;a class="link" href="https://github.com/coldfix/udiskie" target="_blank" rel="noopener"
->Udiskie GitHub&lt;/a>&lt;/p>
-&lt;p>I needed to mount an external disk with NTFS filesystem on an Arch-based system. After some digging, this turned out to be the most reliable and persistent method.&lt;/p>
-&lt;h2 id="install-ntfs-3g">Install NTFS-3G
-&lt;/h2>&lt;p>To properly support NTFS (especially for writing), &lt;code>ntfs-3g&lt;/code> is still the most compatible driver.&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo pacman -S ntfs-3g
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="create-a-mount-point">Create a mount point
-&lt;/h2>&lt;p>Standard procedure — create a directory where the disk will be mounted.&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mkdir -p /mnt/ntfsdisk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This location can be changed as needed. Just ensure it&amp;rsquo;s writable and accessible by the user or scripts that will use it.&lt;/p>
-&lt;h2 id="mount-the-ntfs-drive-manually">Mount the NTFS drive manually
-&lt;/h2>&lt;p>Use the &lt;code>ntfs-3g&lt;/code> driver explicitly.&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo mount -t ntfs-3g /dev/sdb1 /mnt/ntfsdisk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Replace &lt;code>/dev/sdb1&lt;/code> with the actual device identifier. You can check it with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">lsblk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>or&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo fdisk -l
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="check-contents-and-verify">Check contents and verify
-&lt;/h2>&lt;p>After mounting, confirm that the contents are accessible:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">ls /mnt/ntfsdisk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="unmount-when-done">Unmount when done
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo umount /mnt/ntfsdisk
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="automating-the-mount-optional">Automating the Mount (Optional)
-&lt;/h2>&lt;p>To avoid manual mounting every time, &lt;code>udiskie&lt;/code> is a lightweight automounter that integrates with &lt;code>udisks2&lt;/code>.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png"
+&gt;Udiskie GitHub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I needed to mount an external disk with NTFS filesystem on an Arch-based system. After some digging, this turned out to be the most reliable and persistent method.&lt;/p&gt;
+&lt;h2 id="install-ntfs-3g"&gt;Install NTFS-3G
+&lt;/h2&gt;&lt;p&gt;To properly support NTFS (especially for writing), &lt;code&gt;ntfs-3g&lt;/code&gt; is still the most compatible driver.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S ntfs-3g
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="create-a-mount-point"&gt;Create a mount point
+&lt;/h2&gt;&lt;p&gt;Standard procedure — create a directory where the disk will be mounted.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo mkdir -p /mnt/ntfsdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This location can be changed as needed. Just ensure it&amp;rsquo;s writable and accessible by the user or scripts that will use it.&lt;/p&gt;
+&lt;h2 id="mount-the-ntfs-drive-manually"&gt;Mount the NTFS drive manually
+&lt;/h2&gt;&lt;p&gt;Use the &lt;code&gt;ntfs-3g&lt;/code&gt; driver explicitly.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo mount -t ntfs-3g /dev/sdb1 /mnt/ntfsdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Replace &lt;code&gt;/dev/sdb1&lt;/code&gt; with the actual device identifier. You can check it with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;lsblk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;or&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo fdisk -l
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="check-contents-and-verify"&gt;Check contents and verify
+&lt;/h2&gt;&lt;p&gt;After mounting, confirm that the contents are accessible:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls /mnt/ntfsdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="unmount-when-done"&gt;Unmount when done
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo umount /mnt/ntfsdisk
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="automating-the-mount-optional"&gt;Automating the Mount (Optional)
+&lt;/h2&gt;&lt;p&gt;To avoid manual mounting every time, &lt;code&gt;udiskie&lt;/code&gt; is a lightweight automounter that integrates with &lt;code&gt;udisks2&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png"
 width="750"
 height="340"
 srcset="https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
@@ -393,87 +393,87 @@ alt="Udiskie"
 class="gallery-image"
 data-flex-grow="220"
 data-flex-basis="529px"
->&lt;/p>
-&lt;p>Install it:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo pacman -S udiskie
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then run it (ideally from your session or startup script):&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">udiskie --tray &lt;span class="p">&amp;amp;&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This enables auto-mounting when drives are plugged in, with an optional tray icon for status/control.&lt;/p>
-&lt;h2 id="custom-mount-options">Custom Mount Options
-&lt;/h2>&lt;p>For persistent configuration, define NTFS mount options in the udisks2 config. This allows you to override the defaults with user-specific behavior.&lt;/p>
-&lt;p>Create or edit:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">sudo nano /etc/udisks2/mount_options.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Example config:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-ini" data-lang="ini">&lt;span class="line">&lt;span class="cl">&lt;span class="k">[defaults]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_defaults&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">uid=$UID,gid=$GID,windows_names,big_writes&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_allow&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">uid=$UID,gid=$GID,umask,dmask,fmask,locale,windows_names,big_writes&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="na">ntfs_drivers&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">ntfs,ntfs3&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This makes sure UID/GID match the current user, allows compatibility with Windows filenames, and improves performance with &lt;code>big_writes&lt;/code>.&lt;/p>
-&lt;hr>
-&lt;p>This setup has been solid for external NTFS drives and keeps things simple with minimal manual steps. Clean, functional, works every time.&lt;/p></description></item><item><title>Offline Arch wiki</title><link>https://saitech.blog/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/offline-arch-wiki/</guid><description>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" />&lt;p>It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p>
-&lt;h2 id="html-version">Html version
-&lt;/h2>&lt;p>Install with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S arch-wiki-docs
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Navigate to Location:&lt;/p>
-&lt;ul>
-&lt;li>🗂️ /usr/share/doc/arch-wiki/html/&lt;/li>
-&lt;/ul>
-&lt;p>Example commands to open the Zsh.html page:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cd /usr/share/doc/arch-wiki/html/
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ls
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cd en
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ls
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">firefox Zsh.html
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;Install it:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S udiskie
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then run it (ideally from your session or startup script):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;udiskie --tray &lt;span class="p"&gt;&amp;amp;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This enables auto-mounting when drives are plugged in, with an optional tray icon for status/control.&lt;/p&gt;
+&lt;h2 id="custom-mount-options"&gt;Custom Mount Options
+&lt;/h2&gt;&lt;p&gt;For persistent configuration, define NTFS mount options in the udisks2 config. This allows you to override the defaults with user-specific behavior.&lt;/p&gt;
+&lt;p&gt;Create or edit:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /etc/udisks2/mount_options.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Example config:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-ini" data-lang="ini"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;[defaults]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="na"&gt;ntfs_defaults&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;uid=$UID,gid=$GID,windows_names,big_writes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="na"&gt;ntfs_allow&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;uid=$UID,gid=$GID,umask,dmask,fmask,locale,windows_names,big_writes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="na"&gt;ntfs_drivers&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;ntfs,ntfs3&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This makes sure UID/GID match the current user, allows compatibility with Windows filenames, and improves performance with &lt;code&gt;big_writes&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;This setup has been solid for external NTFS drives and keeps things simple with minimal manual steps. Clean, functional, works every time.&lt;/p&gt;</description></item><item><title>Offline Arch wiki</title><link>https://saitech.blog/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/offline-arch-wiki/</guid><description>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" /&gt;&lt;p&gt;It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p&gt;
+&lt;h2 id="html-version"&gt;Html version
+&lt;/h2&gt;&lt;p&gt;Install with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S arch-wiki-docs
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Navigate to Location:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ /usr/share/doc/arch-wiki/html/&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Example commands to open the Zsh.html page:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cd /usr/share/doc/arch-wiki/html/
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cd en
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ls
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;firefox Zsh.html
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png"
 width="2560"
 height="1439"
 srcset="https://saitech.blog/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saitech.blog/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
@@ -482,9 +482,9 @@ alt="Zsh.html page"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->&lt;/p>
-&lt;h2 id="terminal-version">Terminal version
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/offline-arch-wiki/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="terminal-version"&gt;Terminal version
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/2.png"
 width="1403"
 height="893"
 srcset="https://saitech.blog/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saitech.blog/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
@@ -493,7 +493,7 @@ alt="wiki-search zsh output"
 class="gallery-image"
 data-flex-grow="157"
 data-flex-basis="377px"
-> &lt;img src="https://saitech.blog/p/offline-arch-wiki/3.png"
+&gt; &lt;img src="https://saitech.blog/p/offline-arch-wiki/3.png"
 width="978"
 height="696"
 srcset="https://saitech.blog/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saitech.blog/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
@@ -502,261 +502,261 @@ alt="Zsh option"
 class="gallery-image"
 data-flex-grow="140"
 data-flex-basis="337px"
->&lt;/p>
-&lt;p>Install with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S arch-wiki-lite
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To search for Zsh page, use:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wiki-search zsh
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Use Page Up and Page Down to navigate, or the arrow keys.&lt;/p>
-&lt;p>That&amp;rsquo;s it!&lt;/p></description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" />&lt;p>During my Arch Linux installation, I made a small mistake:
-I left the default mirrorlist untouched.&lt;/p>
-&lt;p>As a result, I relied solely on the built-in mirrors, which &lt;em>work&lt;/em>, but might not always be the fastest or most up-to-date.
-To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p>
-&lt;h2 id="mirrorlist-file">Mirrorlist file
-&lt;/h2>&lt;p>Here&amp;rsquo;s a clean example of a minimal and stable setup using the official mirror redirector:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">################################################################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">################# Arch Linux mirrorlist ########################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">################################################################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Server = https://mirror.pkgbuild.com/$repo/os/$arch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This mirror is maintained directly by the Arch team and automatically redirects you to a healthy, synchronized server.&lt;/p>
-&lt;p>The mirror configuration file is located at:&lt;/p>
-&lt;ul>
-&lt;li>🗂️ /etc/pacman.d/mirrorlist&lt;/li>
-&lt;/ul>
-&lt;p>Of course, it&amp;rsquo;s a good idea to add a few more mirrors from your region as fallback options.&lt;/p>
-&lt;h2 id="resources">Resources
-&lt;/h2>&lt;p>&lt;b>&lt;a class="link" href="https://archlinux.org/mirrorlist/" target="_blank" rel="noopener"
->archlinux.org/mirrorlist&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Create a personalized mirrorlist by selecting countries, protocols (HTTPS/HTTP), and sorting preferences.&lt;/p>
-&lt;p>&lt;b>&lt;a class="link" href="https://archlinux.org/mirrors/status/" target="_blank" rel="noopener"
->archlinux.org/mirrors/status&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Check real-time status of all official mirrors — including their last sync time, success rate, and availability.&lt;/p>
-&lt;hr>
-&lt;p style="text-align: center;">Speaking of mirrors...&lt;p>
-&lt;div class="video-wrapper">
+&gt;&lt;/p&gt;
+&lt;p&gt;Install with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S arch-wiki-lite
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To search for Zsh page, use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wiki-search zsh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Use Page Up and Page Down to navigate, or the arrow keys.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;</description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" /&gt;&lt;p&gt;During my Arch Linux installation, I made a small mistake:
+I left the default mirrorlist untouched.&lt;/p&gt;
+&lt;p&gt;As a result, I relied solely on the built-in mirrors, which &lt;em&gt;work&lt;/em&gt;, but might not always be the fastest or most up-to-date.
+To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p&gt;
+&lt;h2 id="mirrorlist-file"&gt;Mirrorlist file
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s a clean example of a minimal and stable setup using the official mirror redirector:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################################################################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################# Arch Linux mirrorlist ########################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################################################################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Server = https://mirror.pkgbuild.com/$repo/os/$arch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This mirror is maintained directly by the Arch team and automatically redirects you to a healthy, synchronized server.&lt;/p&gt;
+&lt;p&gt;The mirror configuration file is located at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ /etc/pacman.d/mirrorlist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, it&amp;rsquo;s a good idea to add a few more mirrors from your region as fallback options.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources
+&lt;/h2&gt;&lt;p&gt;&lt;b&gt;&lt;a class="link" href="https://archlinux.org/mirrorlist/" target="_blank" rel="noopener"
+&gt;archlinux.org/mirrorlist&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Create a personalized mirrorlist by selecting countries, protocols (HTTPS/HTTP), and sorting preferences.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a class="link" href="https://archlinux.org/mirrors/status/" target="_blank" rel="noopener"
+&gt;archlinux.org/mirrors/status&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Check real-time status of all official mirrors — including their last sync time, success rate, and availability.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p style="text-align: center;"&gt;Speaking of mirrors...&lt;p&gt;
+&lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/1AfNOKQdY-U"
 allowfullscreen
 title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;p>&lt;em>Blind Guardian - Mirror Mirror&lt;/em>&lt;/p></description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" />&lt;p>PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p>
-&lt;p>Turns out systemd comes with tools that show you &lt;strong>how long your system takes to boot&lt;/strong> and &lt;strong>which services are the slowest&lt;/strong>.&lt;/p>
-&lt;h2 id="commands">Commands
-&lt;/h2>&lt;h3 id="systemd-analyze">systemd-analyze
-&lt;/h3>&lt;p>This command breaks down your boot time. It’s the full timeline: firmware, bootloader, kernel, and userspace.&lt;/p>
-&lt;p>Example output:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Startup&lt;/span> &lt;span class="n">finished&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="mf">13.125&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">firmware&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">5.376&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">loader&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">6.182&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">kernel&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">+&lt;/span> &lt;span class="mf">2.845&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="p">(&lt;/span>&lt;span class="n">userspace&lt;/span>&lt;span class="p">)&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="mf">27.529&lt;/span>&lt;span class="n">s&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">graphical&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">target&lt;/span> &lt;span class="n">reached&lt;/span> &lt;span class="n">after&lt;/span> &lt;span class="mf">2.844&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="ow">in&lt;/span> &lt;span class="n">userspace&lt;/span>&lt;span class="o">.&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="systemd-analyze-blame">systemd-analyze blame
-&lt;/h3>&lt;p>This one shows &lt;strong>what&lt;/strong> is taking time. It lists services and mount points, sorted by delay.&lt;/p>
-&lt;p>Example output:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
-&lt;/span>&lt;span class="lnt">12
-&lt;/span>&lt;span class="lnt">13
-&lt;/span>&lt;span class="lnt">14
-&lt;/span>&lt;span class="lnt">15
-&lt;/span>&lt;span class="lnt">16
-&lt;/span>&lt;span class="lnt">17
-&lt;/span>&lt;span class="lnt">18
-&lt;/span>&lt;span class="lnt">19
-&lt;/span>&lt;span class="lnt">20
-&lt;/span>&lt;span class="lnt">21
-&lt;/span>&lt;span class="lnt">22
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">dm_mod&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="mf">1.033&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="n">modprobe&lt;/span>&lt;span class="err">@&lt;/span>&lt;span class="n">loop&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">640&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme1tbgames&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">624&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">ssd500gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">618&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">media&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">saiphe&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">nvme250gb&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">593&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">bare&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">5.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">17200.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">592&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2846.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">591&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core18&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2855.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1802.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">590&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">core22&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1908.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">589&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gnome&lt;/span>\&lt;span class="n">x2d3&lt;/span>\&lt;span class="n">x2d28&lt;/span>\&lt;span class="n">x2d1804&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">198.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">gtk&lt;/span>\&lt;span class="n">x2dcommon&lt;/span>\&lt;span class="n">x2dthemes&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">1535.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">588&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">23771.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">587&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">24505.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2273.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">586&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="k">var&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snapd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">snap&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">superproductivity&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="mf">2285.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">580&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">tmp&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">mount&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">412&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">modules&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="nb">load&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">397&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">systemd&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">binfmt&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">382&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">snapd&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="mi">274&lt;/span>&lt;span class="n">ms&lt;/span> &lt;span class="n">NetworkManager&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">service&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="pewds-video">Pewds&amp;rsquo; video
-&lt;/h2>&lt;div class="video-wrapper">
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Blind Guardian - Mirror Mirror&lt;/em&gt;&lt;/p&gt;</description></item><item><title>Blame your boot time</title><link>https://saitech.blog/p/blame-your-boot-time/</link><pubDate>Wed, 30 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/blame-your-boot-time/</guid><description>&lt;img src="https://saitech.blog/p/blame-your-boot-time/1.png" alt="Featured image of post Blame your boot time" /&gt;&lt;p&gt;PewDiePie making a video about Linux (Arch? really??) was not something I expected this year. But hey, here we are, and I actually learned something useful from it.&lt;/p&gt;
+&lt;p&gt;Turns out systemd comes with tools that show you &lt;strong&gt;how long your system takes to boot&lt;/strong&gt; and &lt;strong&gt;which services are the slowest&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="commands"&gt;Commands
+&lt;/h2&gt;&lt;h3 id="systemd-analyze"&gt;systemd-analyze
+&lt;/h3&gt;&lt;p&gt;This command breaks down your boot time. It’s the full timeline: firmware, bootloader, kernel, and userspace.&lt;/p&gt;
+&lt;p&gt;Example output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;Startup&lt;/span&gt; &lt;span class="n"&gt;finished&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="mf"&gt;13.125&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;firmware&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;5.376&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;loader&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;6.182&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;kernel&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mf"&gt;2.845&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;userspace&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;27.529&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;graphical&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;target&lt;/span&gt; &lt;span class="n"&gt;reached&lt;/span&gt; &lt;span class="n"&gt;after&lt;/span&gt; &lt;span class="mf"&gt;2.844&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;userspace&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="systemd-analyze-blame"&gt;systemd-analyze blame
+&lt;/h3&gt;&lt;p&gt;This one shows &lt;strong&gt;what&lt;/strong&gt; is taking time. It lists services and mount points, sorted by delay.&lt;/p&gt;
+&lt;p&gt;Example output:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt; 1
+&lt;/span&gt;&lt;span class="lnt"&gt; 2
+&lt;/span&gt;&lt;span class="lnt"&gt; 3
+&lt;/span&gt;&lt;span class="lnt"&gt; 4
+&lt;/span&gt;&lt;span class="lnt"&gt; 5
+&lt;/span&gt;&lt;span class="lnt"&gt; 6
+&lt;/span&gt;&lt;span class="lnt"&gt; 7
+&lt;/span&gt;&lt;span class="lnt"&gt; 8
+&lt;/span&gt;&lt;span class="lnt"&gt; 9
+&lt;/span&gt;&lt;span class="lnt"&gt;10
+&lt;/span&gt;&lt;span class="lnt"&gt;11
+&lt;/span&gt;&lt;span class="lnt"&gt;12
+&lt;/span&gt;&lt;span class="lnt"&gt;13
+&lt;/span&gt;&lt;span class="lnt"&gt;14
+&lt;/span&gt;&lt;span class="lnt"&gt;15
+&lt;/span&gt;&lt;span class="lnt"&gt;16
+&lt;/span&gt;&lt;span class="lnt"&gt;17
+&lt;/span&gt;&lt;span class="lnt"&gt;18
+&lt;/span&gt;&lt;span class="lnt"&gt;19
+&lt;/span&gt;&lt;span class="lnt"&gt;20
+&lt;/span&gt;&lt;span class="lnt"&gt;21
+&lt;/span&gt;&lt;span class="lnt"&gt;22
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="mf"&gt;1.033&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;modprobe&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;dm_mod&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="mf"&gt;1.033&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="n"&gt;modprobe&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;loop&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;640&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;nvme1tbgames&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;624&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;ssd500gb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;618&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;media&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;saiphe&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;nvme250gb&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;593&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;bare&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;5.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;592&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;17200.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;592&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core18&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2846.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;591&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core18&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2855.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;590&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core22&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1802.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;590&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;core22&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1908.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;589&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;gnome&lt;/span&gt;\&lt;span class="n"&gt;x2d3&lt;/span&gt;\&lt;span class="n"&gt;x2d28&lt;/span&gt;\&lt;span class="n"&gt;x2d1804&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;198.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;588&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;gtk&lt;/span&gt;\&lt;span class="n"&gt;x2dcommon&lt;/span&gt;\&lt;span class="n"&gt;x2dthemes&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;1535.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;588&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;23771.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;587&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;24505.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;586&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;superproductivity&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2273.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;586&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;snap&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;superproductivity&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mf"&gt;2285.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;580&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;tmp&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;mount&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;412&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;modules&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="nb"&gt;load&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;397&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;systemd&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;binfmt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;382&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;snapd&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; &lt;span class="mi"&gt;274&lt;/span&gt;&lt;span class="n"&gt;ms&lt;/span&gt; &lt;span class="n"&gt;NetworkManager&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;service&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="pewds-video"&gt;Pewds&amp;rsquo; video
+&lt;/h2&gt;&lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/pVI_smLgTY0"
 allowfullscreen
 title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;p style="text-align: center;">Note: In the future, I might explore an animated fetch so we can flex like Felix. &lt;p></description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
-&lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
-&lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then run it with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p>
-&lt;h2 id="customising-the-logo">Customising the Logo
-&lt;/h2>&lt;p>Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p>
-&lt;p>The script is located here:&lt;/p>
-&lt;pre>&lt;code>/usr/bin/screenfetch
-&lt;/code>&lt;/pre>
-&lt;p>Open it with your editor of choice:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /usr/bin/screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p>
-&lt;pre>&lt;code>&amp;quot;Arch Linux&amp;quot;
-&lt;/code>&lt;/pre>
-&lt;p>Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p>
-&lt;p>This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p>
-&lt;h2 id="ascii-art-website">ASCII art website
-&lt;/h2>&lt;p>Check out this site for cool ASCII art you can use: &lt;b>&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
->emojicombos.com&lt;/a>&lt;/b>&lt;/p></description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
-&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
->thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
->guide&lt;/a>.&lt;/p>
-&lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
-&lt;h2 id="disable-split-lock-mitigate">Disable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="enable-split-lock-mitigate">Enable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="gamemode">Gamemode
-&lt;/h2>&lt;p>If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p>
-&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo usermod -aG gamemode username
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>You can check if your user is part of the gamemode group with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">groups
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p>
-&lt;h2 id="security-risks">Security risks
-&lt;/h2>&lt;p>Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p>
-&lt;h2 id="gamemode-1">Gamemode
-&lt;/h2>&lt;p>If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
->here&lt;/a>.&lt;/p></description></item><item><title>CTRL + U</title><link>https://saitech.blog/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ctrl--u/</guid><description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" />&lt;h2 id="keyboard-shortcut">Keyboard Shortcut
-&lt;/h2>&lt;p>&lt;code>CTRL + U&lt;/code> clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p></description></item><item><title>Funny Linux Commands</title><link>https://saitech.blog/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/funny-linux-commands/</guid><description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" />&lt;h2 id="cowsay">Cowsay
-&lt;/h2>&lt;p>Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p>
-&lt;p>Install it using pacman:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S cowsay
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Use cowsay:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay &amp;lt;message&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/4.png"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p style="text-align: center;"&gt;Note: In the future, I might explore an animated fetch so we can flex like Felix. &lt;p&gt;</description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" /&gt;&lt;p&gt;Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p&gt;
+&lt;h2 id="installing-screenfetch-on-arch"&gt;Installing Screenfetch on Arch
+&lt;/h2&gt;&lt;p&gt;Just pop this in your terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then run it with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p&gt;
+&lt;h2 id="customising-the-logo"&gt;Customising the Logo
+&lt;/h2&gt;&lt;p&gt;Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p&gt;
+&lt;p&gt;The script is located here:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/usr/bin/screenfetch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Open it with your editor of choice:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /usr/bin/screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;Arch Linux&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p&gt;
+&lt;p&gt;This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p&gt;
+&lt;h2 id="ascii-art-website"&gt;ASCII art website
+&lt;/h2&gt;&lt;p&gt;Check out this site for cool ASCII art you can use: &lt;b&gt;&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
+&gt;emojicombos.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+&gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+&gt;guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p&gt;
+&lt;h2 id="disable-split-lock-mitigate"&gt;Disable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="enable-split-lock-mitigate"&gt;Enable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="gamemode"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p&gt;
+&lt;p&gt;Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG gamemode username
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You can check if your user is part of the gamemode group with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p&gt;
+&lt;h2 id="security-risks"&gt;Security risks
+&lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
+&lt;h2 id="gamemode-1"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>CTRL + U</title><link>https://saitech.blog/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ctrl--u/</guid><description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" /&gt;&lt;h2 id="keyboard-shortcut"&gt;Keyboard Shortcut
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;</description></item><item><title>Funny Linux Commands</title><link>https://saitech.blog/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/funny-linux-commands/</guid><description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id="cowsay"&gt;Cowsay
+&lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
+&lt;p&gt;Install it using pacman:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S cowsay
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Use cowsay:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay &amp;lt;message&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/4.png"
 width="320"
 height="171"
 srcset="https://saitech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saitech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
@@ -765,17 +765,17 @@ alt="cowsay hi"
 class="gallery-image"
 data-flex-grow="187"
 data-flex-basis="449px"
->&lt;/p>
-&lt;p>For greedy eyes:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay -g &amp;lt;message&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/6.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;For greedy eyes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -g &amp;lt;message&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/6.png"
 width="304"
 height="170"
 srcset="https://saitech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saitech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
@@ -784,17 +784,17 @@ alt="cowsay -g hi"
 class="gallery-image"
 data-flex-grow="178"
 data-flex-basis="429px"
->&lt;/p>
-&lt;p>There are other ascii animals that you can use in palce of cow you can list them using &lt;code>cowsay -l&lt;/code> and switch them with &lt;code>-f&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/7.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;There are other ascii animals that you can use in palce of cow you can list them using &lt;code&gt;cowsay -l&lt;/code&gt; and switch them with &lt;code&gt;-f&lt;/code&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/7.png"
 width="351"
 height="408"
 srcset="https://saitech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saitech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
@@ -803,20 +803,20 @@ alt="cowsay -f fox hi"
 class="gallery-image"
 data-flex-grow="86"
 data-flex-basis="206px"
->&lt;/p>
-&lt;h3 id="options">Options:
-&lt;/h3>&lt;ul>
-&lt;li>&lt;code>-b&lt;/code> Invokes Borg mode&lt;/li>
-&lt;li>&lt;code>-d&lt;/code> Causes the cow to appear dead&lt;/li>
-&lt;li>&lt;code>-p&lt;/code> Makes the cow paranoid&lt;/li>
-&lt;li>&lt;code>-s&lt;/code> Makes the cow appear thoroughly stoned&lt;/li>
-&lt;li>&lt;code>-t&lt;/code> A tired cow&lt;/li>
-&lt;li>&lt;code>-y&lt;/code> A youthful cow&lt;/li>
-&lt;li>&lt;code>-r&lt;/code> Random animal (instead of &lt;code>-f&lt;/code>)&lt;/li>
-&lt;/ul>
-&lt;h3 id="cowthink">Cowthink
-&lt;/h3>&lt;p>Want the cow to think instead of speak? Try:&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/5.png"
+&gt;&lt;/p&gt;
+&lt;h3 id="options"&gt;Options:
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-b&lt;/code&gt; Invokes Borg mode&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-d&lt;/code&gt; Causes the cow to appear dead&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-p&lt;/code&gt; Makes the cow paranoid&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-s&lt;/code&gt; Makes the cow appear thoroughly stoned&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-t&lt;/code&gt; A tired cow&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-y&lt;/code&gt; A youthful cow&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-r&lt;/code&gt; Random animal (instead of &lt;code&gt;-f&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="cowthink"&gt;Cowthink
+&lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/5.png"
 width="302"
 height="166"
 srcset="https://saitech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saitech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
@@ -825,20 +825,20 @@ alt="cowthink hi"
 class="gallery-image"
 data-flex-grow="181"
 data-flex-basis="436px"
->&lt;/p>
-&lt;p>This changes the speech bubble to a thought bubble, like in comics!&lt;/p>
-&lt;h2 id="sl">sl
-&lt;/h2>&lt;p>The command &lt;code>sl&lt;/code> is a fun tool created to mock the commonly misspelled &lt;code>ls&lt;/code> command in Linux.&lt;/p>
-&lt;p>Install using pacman:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S sl
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/1.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;This changes the speech bubble to a thought bubble, like in comics!&lt;/p&gt;
+&lt;h2 id="sl"&gt;sl
+&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;sl&lt;/code&gt; is a fun tool created to mock the commonly misspelled &lt;code&gt;ls&lt;/code&gt; command in Linux.&lt;/p&gt;
+&lt;p&gt;Install using pacman:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S sl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/1.png"
 width="915"
 height="435"
 srcset="https://saitech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saitech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
@@ -847,19 +847,19 @@ alt="sl"
 class="gallery-image"
 data-flex-grow="210"
 data-flex-basis="504px"
->&lt;/p>
-&lt;p>When you run &lt;code>sl&lt;/code>, a train appears in your terminal. You can add more fun with various options:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>-a&lt;/code>: &lt;b>Accident mode&lt;/b> – You’ll see people crying for help. Not for the faint-hearted! ;)&lt;/li>
-&lt;li>&lt;code>-l&lt;/code>: &lt;b>Miniature train&lt;/b> – Shows a smaller train with more coaches.&lt;/li>
-&lt;li>&lt;code>-F&lt;/code>: &lt;b>Flying train&lt;/b> – A train like the Polar Express.&lt;/li>
-&lt;li>&lt;code>-e&lt;/code>: &lt;b>Interruptible mode&lt;/b> – Allows interruption with Ctrl+C. In other modes, you can&amp;rsquo;t stop the train. But it doesn’t last long unless you have a super-wide monitor.&lt;/li>
-&lt;li>&lt;code>-d&lt;/code>: &lt;b>Disco Mode&lt;/b> – The train alternates colors.&lt;/li>
-&lt;li>&lt;code>-G&lt;/code>: &lt;b>Advanced trains&lt;/b> – A new look, similar to advanced trains like the French TGV.&lt;/li>
-&lt;li>&lt;code>-w&lt;/code>: &lt;b>Speed boost&lt;/b> – Makes the train move faster.&lt;/li>
-&lt;li>&lt;code>-[Number]&lt;/code>: &lt;b>Custom cars&lt;/b> – Adjust the number of train cars.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/funny-linux-commands/3.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;When you run &lt;code&gt;sl&lt;/code&gt;, a train appears in your terminal. You can add more fun with various options:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;-a&lt;/code&gt;: &lt;b&gt;Accident mode&lt;/b&gt; – You’ll see people crying for help. Not for the faint-hearted! ;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-l&lt;/code&gt;: &lt;b&gt;Miniature train&lt;/b&gt; – Shows a smaller train with more coaches.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-F&lt;/code&gt;: &lt;b&gt;Flying train&lt;/b&gt; – A train like the Polar Express.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-e&lt;/code&gt;: &lt;b&gt;Interruptible mode&lt;/b&gt; – Allows interruption with Ctrl+C. In other modes, you can&amp;rsquo;t stop the train. But it doesn’t last long unless you have a super-wide monitor.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-d&lt;/code&gt;: &lt;b&gt;Disco Mode&lt;/b&gt; – The train alternates colors.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-G&lt;/code&gt;: &lt;b&gt;Advanced trains&lt;/b&gt; – A new look, similar to advanced trains like the French TGV.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/3.png"
 width="1194"
 height="300"
 srcset="https://saitech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saitech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
@@ -868,16 +868,16 @@ alt="sl -G"
 class="gallery-image"
 data-flex-grow="398"
 data-flex-basis="955px"
->&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
-&lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
-&lt;h2 id="how-it-works">How It Works
-&lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>
-&lt;p>&lt;code>%command%&lt;/code>: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p>
-&lt;p>Example:&lt;/p>
-&lt;p>If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p>
-&lt;p>&lt;code>gamemoderun %command%&lt;/code>&lt;/p>
-&lt;p>This ensures the game runs with Gamemode optimizations.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How It Works
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;%command%&lt;/code&gt;: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
 width="523"
 height="133"
 srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
@@ -885,100 +885,100 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
 data-flex-basis="943px"
->&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S gamemode
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To check if Gamemode is active, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">gamemoded -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This will show whether Gamemode is running.&lt;/p>
-&lt;h2 id="what-does-gamemode-optimize">What Does Gamemode Optimize?
-&lt;/h2>&lt;p>Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>CPU Governor:&lt;/p>
-&lt;ul>
-&lt;li>Locks your CPU at top speed for better performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>I/O Priority:&lt;/p>
-&lt;ul>
-&lt;li>Gives your game priority access to your disk, reducing stuttering.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Process Niceness:&lt;/p>
-&lt;ul>
-&lt;li>Makes sure your game gets more attention from the CPU.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Kernel Scheduler:&lt;/p>
-&lt;ul>
-&lt;li>Adjusts how tasks are handled to keep your game running smoothly.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Screensaver Inhibiting:&lt;/p>
-&lt;ul>
-&lt;li>Stops your screensaver from interrupting your game.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>GPU Performance Mode:&lt;/p>
-&lt;ul>
-&lt;li>Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CPU Core Management:&lt;/p>
-&lt;ul>
-&lt;li>Pins or parks CPU cores to improve performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Custom Scripts:&lt;/p>
-&lt;ul>
-&lt;li>Lets you add your own tweaks for even more control.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="availability">Availability
-&lt;/h2>&lt;p>Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p>
-&lt;h2 id="is-it-worth-it">Is It Worth It?
-&lt;/h2>&lt;p>While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p>
-&lt;p>For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
->Github repository&lt;/a>&lt;/p></description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" />&lt;p>From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p>
-&lt;h2 id="terminal">Terminal
-&lt;/h2>&lt;p>Command to Locate Large Files&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">find / -type f -size +2000M 2&amp;gt;/dev/null
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;code>/&lt;/code>: Search from the root directory (change to specific directories like /home or /var for faster results).&lt;/p>
-&lt;p>&lt;code>-type f&lt;/code>: Search for files only.&lt;/p>
-&lt;p>&lt;code>-size +2000M&lt;/code>: Files larger than 2000 MB.&lt;/p>
-&lt;p>&lt;code>2&amp;gt;/dev/null&lt;/code>: Suppress permission denied errors.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S gamemode
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To check if Gamemode is active, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gamemoded -s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will show whether Gamemode is running.&lt;/p&gt;
+&lt;h2 id="what-does-gamemode-optimize"&gt;What Does Gamemode Optimize?
+&lt;/h2&gt;&lt;p&gt;Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Governor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locks your CPU at top speed for better performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I/O Priority:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gives your game priority access to your disk, reducing stuttering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Process Niceness:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Makes sure your game gets more attention from the CPU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kernel Scheduler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjusts how tasks are handled to keep your game running smoothly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screensaver Inhibiting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stops your screensaver from interrupting your game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPU Performance Mode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Core Management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pins or parks CPU cores to improve performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lets you add your own tweaks for even more control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="availability"&gt;Availability
+&lt;/h2&gt;&lt;p&gt;Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p&gt;
+&lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
+&lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
+&lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
+&lt;h2 id="terminal"&gt;Terminal
+&lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;find / -type f -size +2000M 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;code&gt;/&lt;/code&gt;: Search from the root directory (change to specific directories like /home or /var for faster results).&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png"
 width="917"
 height="91"
 srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
@@ -987,28 +987,28 @@ alt="find / -type f"
 class="gallery-image"
 data-flex-grow="1007"
 data-flex-basis="2418px"
->&lt;/p>
-&lt;h2 id="ncdu">Ncdu
-&lt;/h2>&lt;p>Install ncdu:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S ncdu
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Run ncdu:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ncdu /
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Use arrow keys to navigate&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="ncdu"&gt;Ncdu
+&lt;/h2&gt;&lt;p&gt;Install ncdu:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S ncdu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Run ncdu:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ncdu /
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png"
 width="850"
 height="428"
 srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
@@ -1017,18 +1017,18 @@ alt="ncdu"
 class="gallery-image"
 data-flex-grow="198"
 data-flex-basis="476px"
->&lt;/p>
-&lt;h2 id="gui-tool">GUI tool
-&lt;/h2>&lt;p>If you prefer graphical tools, you can use baobab:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S baobab
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="gui-tool"&gt;GUI tool
+&lt;/h2&gt;&lt;p&gt;If you prefer graphical tools, you can use baobab:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S baobab
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png"
 width="958"
 height="597"
 srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
@@ -1037,103 +1037,103 @@ alt="baobab"
 class="gallery-image"
 data-flex-grow="160"
 data-flex-basis="385px"
->&lt;/p>
-&lt;h2 id="package-cache">Package cache
-&lt;/h2>&lt;p>Check cache size:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">du&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">cache&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pacman&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pkg&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Clean package cache:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Sc
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To remove all cached packages:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Scc
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="log-files">Log files
-&lt;/h2>&lt;p>Check log sizes:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">du&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">sh&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/*&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Clear logs ( use with caution !!! ):&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">truncate&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">s&lt;/span> &lt;span class="mi">0&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="nb">log&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">filename&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">log&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item><item><title>Colorize and List IPs</title><link>https://saitech.blog/p/colorize-and-list-ips/</link><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/colorize-and-list-ips/</guid><description>&lt;img src="https://saitech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" />&lt;p>Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p>
-&lt;p>The syntax is:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">ip -br -c addr show
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">ip -br -c link show
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;a class="link" href="https://mastodon.social/@nixCraft/113679576456152013" target="_blank" rel="noopener"
->Source&lt;/a>&lt;/p></description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" />&lt;p>What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p>
-&lt;h2 id="source">Source
-&lt;/h2>&lt;p>Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
->this&lt;/a> repo made by Benexl&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># for paru users
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">paru -S yt-x-git
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># for yay users
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yay -S yt-x-git
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="basic-commands">Basic commands
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># launch the ui
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># edit your config
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x -e
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+&gt;&lt;/p&gt;
+&lt;h2 id="package-cache"&gt;Package cache
+&lt;/h2&gt;&lt;p&gt;Check cache size:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;du&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sh&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;cache&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pacman&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pkg&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Clean package cache:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Sc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To remove all cached packages:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Scc
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="log-files"&gt;Log files
+&lt;/h2&gt;&lt;p&gt;Check log sizes:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;du&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;sh&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;log&lt;/span&gt;&lt;span class="o"&gt;/*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Clear logs ( use with caution !!! ):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;truncate&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;log&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;log&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>Colorize and List IPs</title><link>https://saitech.blog/p/colorize-and-list-ips/</link><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/colorize-and-list-ips/</guid><description>&lt;img src="https://saitech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
+&lt;p&gt;The syntax is:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ip -br -c addr show
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;ip -br -c link show
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://mastodon.social/@nixCraft/113679576456152013" target="_blank" rel="noopener"
+&gt;Source&lt;/a&gt;&lt;/p&gt;</description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
+&lt;h2 id="source"&gt;Source
+&lt;/h2&gt;&lt;p&gt;Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
+&gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# for paru users
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S yt-x-git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# for yay users
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yay -S yt-x-git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="basic-commands"&gt;Basic commands
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# launch the ui
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yt-x
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# edit your config
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yt-x -e
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

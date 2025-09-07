@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Saitech</title><link>https://saitech.blog/tags/productivity/</link><description>Recent content in Productivity on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" />&lt;p>Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p>
-&lt;p>Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p>
-&lt;p>Official site:&lt;b> &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
->https://super-productivity.com/&lt;/a>&lt;/b>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/super-productivity/2.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Saitech</title><link>https://saitech.blog/tags/productivity/</link><description>Recent content in Productivity on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 06 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+&lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
+&lt;p&gt;Official site:&lt;b&gt; &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
+&gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/super-productivity/2.png"
 width="801"
 height="750"
 srcset="https://saitech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saitech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
@@ -10,56 +10,56 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="106"
 data-flex-basis="256px"
->&lt;/p>
-&lt;h2 id="arch-linux">Arch linux
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://aur.archlinux.org/superproductivity-bin.git
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cd superproductivity-bin
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">makepkg -si
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="flatpak">Flatpak
-&lt;/h2>&lt;h3 id="install">Install
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak install flathub com.super_productivity.SuperProductivity
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="run">Run
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak run com.super_productivity.SuperProductivity
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="android">Android
-&lt;/h2>&lt;p>Get it from
+&gt;&lt;/p&gt;
+&lt;h2 id="arch-linux"&gt;Arch linux
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://aur.archlinux.org/superproductivity-bin.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cd superproductivity-bin
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;makepkg -si
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="flatpak"&gt;Flatpak
+&lt;/h2&gt;&lt;h3 id="install"&gt;Install
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak install flathub com.super_productivity.SuperProductivity
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="run"&gt;Run
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak run com.super_productivity.SuperProductivity
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="android"&gt;Android
+&lt;/h2&gt;&lt;p&gt;Get it from
 &lt;a class="link" href="https://play.google.com/store/apps/details?id=com.superproductivity.superproductivity" target="_blank" rel="noopener"
->Google Play&lt;/a>&lt;/p>
-&lt;h2 id="sync-android-and-pc-with-dropbox">Sync Android and PC with Dropbox
-&lt;/h2>&lt;p>If you want to sync your tasks between your Android phone and PC, follow these steps:&lt;/p>
-&lt;h3 id="on-the-pc-app">On the PC App
-&lt;/h3>&lt;ul>
-&lt;li>Go to Settings → Sync &amp;amp; Export.&lt;/li>
-&lt;li>Enable Syncing and, if you want, enable Compression for faster syncing.&lt;/li>
-&lt;li>Set the Sync Provider to Dropbox. This will redirect you to Dropbox in your browser.&lt;/li>
-&lt;li>Create a Dropbox account (if you don’t have one) and copy the code from Dropbox.&lt;/li>
-&lt;li>Paste that code into your Super Productivity app. You’re all set!&lt;/li>
-&lt;/ul>
-&lt;h3 id="on-the-mobile-app">On the Mobile App
-&lt;/h3>&lt;ul>
-&lt;li>Repeat the same process as on your PC. Choose which data to keep (remote from your PC or local from your phone).&lt;/li>
-&lt;li>Your devices should sync automatically based on your set interval, but you can always sync manually by clicking the icon at the top right corner.&lt;/li>
-&lt;/ul>
-&lt;p>That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p></description></item></channel></rss>
+&gt;Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="sync-android-and-pc-with-dropbox"&gt;Sync Android and PC with Dropbox
+&lt;/h2&gt;&lt;p&gt;If you want to sync your tasks between your Android phone and PC, follow these steps:&lt;/p&gt;
+&lt;h3 id="on-the-pc-app"&gt;On the PC App
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Go to Settings → Sync &amp;amp; Export.&lt;/li&gt;
+&lt;li&gt;Enable Syncing and, if you want, enable Compression for faster syncing.&lt;/li&gt;
+&lt;li&gt;Set the Sync Provider to Dropbox. This will redirect you to Dropbox in your browser.&lt;/li&gt;
+&lt;li&gt;Create a Dropbox account (if you don’t have one) and copy the code from Dropbox.&lt;/li&gt;
+&lt;li&gt;Paste that code into your Super Productivity app. You’re all set!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="on-the-mobile-app"&gt;On the Mobile App
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Repeat the same process as on your PC. Choose which data to keep (remote from your PC or local from your phone).&lt;/li&gt;
+&lt;li&gt;Your devices should sync automatically based on your set interval, but you can always sync manually by clicking the icon at the top right corner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p&gt;</description></item></channel></rss>

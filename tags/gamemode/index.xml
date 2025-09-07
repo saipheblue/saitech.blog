@@ -1,61 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saitech.blog/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
-&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
->thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
->guide&lt;/a>.&lt;/p>
-&lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
-&lt;h2 id="disable-split-lock-mitigate">Disable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="enable-split-lock-mitigate">Enable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="gamemode">Gamemode
-&lt;/h2>&lt;p>If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p>
-&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo usermod -aG gamemode username
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>You can check if your user is part of the gamemode group with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">groups
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p>
-&lt;h2 id="security-risks">Security risks
-&lt;/h2>&lt;p>Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p>
-&lt;h2 id="gamemode-1">Gamemode
-&lt;/h2>&lt;p>If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
->here&lt;/a>.&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
-&lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
-&lt;h2 id="how-it-works">How It Works
-&lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>
-&lt;p>&lt;code>%command%&lt;/code>: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p>
-&lt;p>Example:&lt;/p>
-&lt;p>If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p>
-&lt;p>&lt;code>gamemoderun %command%&lt;/code>&lt;/p>
-&lt;p>This ensures the game runs with Gamemode optimizations.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/gamemode/2.png"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saitech.blog/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+&gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+&gt;guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p&gt;
+&lt;h2 id="disable-split-lock-mitigate"&gt;Disable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="enable-split-lock-mitigate"&gt;Enable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="gamemode"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p&gt;
+&lt;p&gt;Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG gamemode username
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You can check if your user is part of the gamemode group with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p&gt;
+&lt;h2 id="security-risks"&gt;Security risks
+&lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
+&lt;h2 id="gamemode-1"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How It Works
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;%command%&lt;/code&gt;: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
 width="523"
 height="133"
 srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
@@ -63,82 +63,82 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
 data-flex-basis="943px"
->&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S gamemode
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To check if Gamemode is active, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">gamemoded -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This will show whether Gamemode is running.&lt;/p>
-&lt;h2 id="what-does-gamemode-optimize">What Does Gamemode Optimize?
-&lt;/h2>&lt;p>Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>CPU Governor:&lt;/p>
-&lt;ul>
-&lt;li>Locks your CPU at top speed for better performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>I/O Priority:&lt;/p>
-&lt;ul>
-&lt;li>Gives your game priority access to your disk, reducing stuttering.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Process Niceness:&lt;/p>
-&lt;ul>
-&lt;li>Makes sure your game gets more attention from the CPU.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Kernel Scheduler:&lt;/p>
-&lt;ul>
-&lt;li>Adjusts how tasks are handled to keep your game running smoothly.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Screensaver Inhibiting:&lt;/p>
-&lt;ul>
-&lt;li>Stops your screensaver from interrupting your game.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>GPU Performance Mode:&lt;/p>
-&lt;ul>
-&lt;li>Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CPU Core Management:&lt;/p>
-&lt;ul>
-&lt;li>Pins or parks CPU cores to improve performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Custom Scripts:&lt;/p>
-&lt;ul>
-&lt;li>Lets you add your own tweaks for even more control.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="availability">Availability
-&lt;/h2>&lt;p>Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p>
-&lt;h2 id="is-it-worth-it">Is It Worth It?
-&lt;/h2>&lt;p>While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p>
-&lt;p>For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
->Github repository&lt;/a>&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S gamemode
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To check if Gamemode is active, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gamemoded -s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will show whether Gamemode is running.&lt;/p&gt;
+&lt;h2 id="what-does-gamemode-optimize"&gt;What Does Gamemode Optimize?
+&lt;/h2&gt;&lt;p&gt;Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Governor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locks your CPU at top speed for better performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I/O Priority:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gives your game priority access to your disk, reducing stuttering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Process Niceness:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Makes sure your game gets more attention from the CPU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kernel Scheduler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjusts how tasks are handled to keep your game running smoothly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screensaver Inhibiting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stops your screensaver from interrupting your game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPU Performance Mode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Core Management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pins or parks CPU cores to improve performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lets you add your own tweaks for even more control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="availability"&gt;Availability
+&lt;/h2&gt;&lt;p&gt;Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p&gt;
+&lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
+&lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
+&lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

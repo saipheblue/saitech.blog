@@ -1,48 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on Saitech</title><link>https://saitech.blog/tags/youtube/</link><description>Recent content in Youtube on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>YouTube Video Finder</title><link>https://saitech.blog/p/youtube-video-finder/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/youtube-video-finder/</guid><description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" />&lt;p>Have you ever felt that sinking feeling when you see &lt;code>&amp;quot;This video has been deleted&amp;quot;&lt;/code> in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p>
-&lt;p>Either way, not knowing can be frustrating.&lt;/p>
-&lt;p>This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p>
-&lt;ul>
-&lt;li>Search for alternative uploads&lt;/li>
-&lt;li>Find similar content&lt;/li>
-&lt;li>Or simply know what you’ve lost&lt;/li>
-&lt;/ul>
-&lt;p>Check it out here:&lt;b> &lt;a class="link" href="https://findyoutubevideo.thetechrobo.ca/" target="_blank" rel="noopener"
->https://findyoutubevideo.thetechrobo.ca/&lt;/a>&lt;/b>&lt;/p></description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" />&lt;p>What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p>
-&lt;h2 id="source">Source
-&lt;/h2>&lt;p>Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
->this&lt;/a> repo made by Benexl&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># for paru users
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">paru -S yt-x-git
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># for yay users
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yay -S yt-x-git
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="basic-commands">Basic commands
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl"># launch the ui
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"># edit your config
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">yt-x -e
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Youtube on Saitech</title><link>https://saitech.blog/tags/youtube/</link><description>Recent content in Youtube on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/youtube/index.xml" rel="self" type="application/rss+xml"/><item><title>YouTube Video Finder</title><link>https://saitech.blog/p/youtube-video-finder/</link><pubDate>Tue, 25 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/youtube-video-finder/</guid><description>&lt;img src="https://saitech.blog/p/youtube-video-finder/2.png" alt="Featured image of post YouTube Video Finder" /&gt;&lt;p&gt;Have you ever felt that sinking feeling when you see &lt;code&gt;&amp;quot;This video has been deleted&amp;quot;&lt;/code&gt; in a YouTube playlist, and you have no idea what it was? Was it a video you loved or just something you wouldn’t miss?&lt;/p&gt;
+&lt;p&gt;Either way, not knowing can be frustrating.&lt;/p&gt;
+&lt;p&gt;This tool helps you identify the title of deleted YouTube videos so you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Search for alternative uploads&lt;/li&gt;
+&lt;li&gt;Find similar content&lt;/li&gt;
+&lt;li&gt;Or simply know what you’ve lost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check it out here:&lt;b&gt; &lt;a class="link" href="https://findyoutubevideo.thetechrobo.ca/" target="_blank" rel="noopener"
+&gt;https://findyoutubevideo.thetechrobo.ca/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
+&lt;h2 id="source"&gt;Source
+&lt;/h2&gt;&lt;p&gt;Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
+&gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# for paru users
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;paru -S yt-x-git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# for yay users
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yay -S yt-x-git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="basic-commands"&gt;Basic commands
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# launch the ui
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yt-x
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;# edit your config
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yt-x -e
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item></channel></rss>

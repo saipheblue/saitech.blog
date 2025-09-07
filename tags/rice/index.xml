@@ -1,47 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rice on Saitech</title><link>https://saitech.blog/tags/rice/</link><description>Recent content in Rice on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/rice/index.xml" rel="self" type="application/rss+xml"/><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" />&lt;p>Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p>
-&lt;h2 id="installing-screenfetch-on-arch">Installing Screenfetch on Arch
-&lt;/h2>&lt;p>Just pop this in your terminal:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then run it with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p>
-&lt;h2 id="customising-the-logo">Customising the Logo
-&lt;/h2>&lt;p>Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p>
-&lt;p>The script is located here:&lt;/p>
-&lt;pre>&lt;code>/usr/bin/screenfetch
-&lt;/code>&lt;/pre>
-&lt;p>Open it with your editor of choice:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /usr/bin/screenfetch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p>
-&lt;pre>&lt;code>&amp;quot;Arch Linux&amp;quot;
-&lt;/code>&lt;/pre>
-&lt;p>Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p>
-&lt;p>This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p>
-&lt;h2 id="ascii-art-website">ASCII art website
-&lt;/h2>&lt;p>Check out this site for cool ASCII art you can use: &lt;b>&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
->emojicombos.com&lt;/a>&lt;/b>&lt;/p></description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saitech.blog/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saitech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" />&lt;p>What more to say? 🎉 Today I published my first &lt;code>rice&lt;/code> on Arch Linux for the &lt;code>bspwm&lt;/code> WM. You can find the link &lt;b>&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
->here&lt;/a>&lt;/b>. 🎉😄&lt;/p>
-&lt;p>Hope that adds some extra excitement!&lt;/p>
-&lt;blockquote>
-&lt;p>Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p>&lt;/blockquote></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rice on Saitech</title><link>https://saitech.blog/tags/rice/</link><description>Recent content in Rice on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 04 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/rice/index.xml" rel="self" type="application/rss+xml"/><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" /&gt;&lt;p&gt;Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p&gt;
+&lt;h2 id="installing-screenfetch-on-arch"&gt;Installing Screenfetch on Arch
+&lt;/h2&gt;&lt;p&gt;Just pop this in your terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then run it with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It’ll show your system info with a cool ASCII logo based on your distro.&lt;/p&gt;
+&lt;h2 id="customising-the-logo"&gt;Customising the Logo
+&lt;/h2&gt;&lt;p&gt;Want to swap out the default logo for something else? Maybe you&amp;rsquo;re using a WM or just want different vibes.&lt;/p&gt;
+&lt;p&gt;The script is located here:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;/usr/bin/screenfetch
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Open it with your editor of choice:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /usr/bin/screenfetch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Scroll down or search (Ctrl + W) for your distro&amp;rsquo;s name. For example, search for:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;quot;Arch Linux&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Change the ASCII logo under that section to whatever you want. You can grab art from other distros or draw your own.&lt;/p&gt;
+&lt;p&gt;This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p&gt;
+&lt;h2 id="ascii-art-website"&gt;ASCII art website
+&lt;/h2&gt;&lt;p&gt;Check out this site for cool ASCII art you can use: &lt;b&gt;&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
+&gt;emojicombos.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saitech.blog/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saitech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
+&gt;here&lt;/a&gt;&lt;/b&gt;. 🎉😄&lt;/p&gt;
+&lt;p&gt;Hope that adds some extra excitement!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p&gt;&lt;/blockquote&gt;</description></item></channel></rss>

@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Distro on Saitech</title><link>https://saitech.blog/tags/distro/</link><description>Recent content in Distro on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/distro/index.xml" rel="self" type="application/rss+xml"/><item><title>Pseudodragon OS</title><link>https://saitech.blog/p/pseudodragon-os/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pseudodragon-os/</guid><description>&lt;img src="https://saitech.blog/p/pseudodragon-os/1.png" alt="Featured image of post Pseudodragon OS" />&lt;p>An acquaintance of mine started working on a pretty interesting project, his own Linux distro mainly intended as a live (bootable from CD/USB) OS.&lt;/p>
-&lt;p>It’s a Kali derivative, stripped down and fast.&lt;/p>
-&lt;p>I don’t really know what else to say, I just want to leave this here as a reminder for myself when I’m scrolling through the archive later…&lt;/p>
-&lt;p>And if some wandering soul happens to stumble upon this, maybe give PseudodragonOS a shot.&lt;/p>
-&lt;p>You can check it out here: &lt;a class="link" href="https://pseudodragon.org/" target="_blank" rel="noopener"
->Pseudodragon OS – minimal Kali derivative&lt;/a>&lt;/p></description></item><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" />&lt;p>ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
-&lt;div class="video-wrapper">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Distro on Saitech</title><link>https://saitech.blog/tags/distro/</link><description>Recent content in Distro on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 19 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/distro/index.xml" rel="self" type="application/rss+xml"/><item><title>Pseudodragon OS</title><link>https://saitech.blog/p/pseudodragon-os/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pseudodragon-os/</guid><description>&lt;img src="https://saitech.blog/p/pseudodragon-os/1.png" alt="Featured image of post Pseudodragon OS" /&gt;&lt;p&gt;An acquaintance of mine started working on a pretty interesting project, his own Linux distro mainly intended as a live (bootable from CD/USB) OS.&lt;/p&gt;
+&lt;p&gt;It’s a Kali derivative, stripped down and fast.&lt;/p&gt;
+&lt;p&gt;I don’t really know what else to say, I just want to leave this here as a reminder for myself when I’m scrolling through the archive later…&lt;/p&gt;
+&lt;p&gt;And if some wandering soul happens to stumble upon this, maybe give PseudodragonOS a shot.&lt;/p&gt;
+&lt;p&gt;You can check it out here: &lt;a class="link" href="https://pseudodragon.org/" target="_blank" rel="noopener"
+&gt;Pseudodragon OS – minimal Kali derivative&lt;/a&gt;&lt;/p&gt;</description></item><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" /&gt;&lt;p&gt;ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
+&lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/_NMQ_-77JRM"
 allowfullscreen
 title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;/p>
-&lt;p>&lt;b>You can read Erik&amp;rsquo;s full farewell post &lt;a class="link" href="https://www.arcolinux.info/a-farewell-to-the-arcolinux-university/" target="_blank" rel="noopener"
->&lt;code>here.&lt;/code>&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Makes me think, maybe this is how most smaller distros will end up. Either they burn out, or they slowly merge back into their upstream projects. In Arco’s case, it’s back to Arch.&lt;/p>
-&lt;p>The distro isn’t just disappearing, it’s more like he’s closing the door on a long-running learning platform.
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;You can read Erik&amp;rsquo;s full farewell post &lt;a class="link" href="https://www.arcolinux.info/a-farewell-to-the-arcolinux-university/" target="_blank" rel="noopener"
+&gt;&lt;code&gt;here.&lt;/code&gt;&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Makes me think, maybe this is how most smaller distros will end up. Either they burn out, or they slowly merge back into their upstream projects. In Arco’s case, it’s back to Arch.&lt;/p&gt;
+&lt;p&gt;The distro isn’t just disappearing, it’s more like he’s closing the door on a long-running learning platform.
 ArcoLinux helped a lot of people get into Linux—especially Arch. That alone earns it some real respect.
-So, thanks Erik. Good job.&lt;/p>
-&lt;hr>
-&lt;p style="text-align: center;"> We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p></description></item></channel></rss>
+So, thanks Erik. Good job.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p style="text-align: center;"&gt; We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p&gt;</description></item></channel></rss>

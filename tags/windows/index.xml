@@ -1,31 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Saitech</title><link>https://saitech.blog/tags/windows/</link><description>Recent content in Windows on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" />&lt;p>My router didn’t support &lt;strong>Client Bridge&lt;/strong> or &lt;strong>Repeater Bridge&lt;/strong> mode out of the box.&lt;/p>
-&lt;p>Sometimes when my internet goes down, I share a mobile hotspot from my phone. But to &lt;strong>distribute that connection over LAN and Wi-Fi&lt;/strong>, I needed a router that supports client mode + AP. Unfortunately, my &lt;strong>TP-Link Archer C6&lt;/strong> couldn’t do this… until I replaced the official firmware with &lt;strong>OpenWRT&lt;/strong>.&lt;/p>
-&lt;h2 id="-check-compatibility">✅ Check Compatibility
-&lt;/h2>&lt;p>Make sure your device is supported:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Windows on Saitech</title><link>https://saitech.blog/tags/windows/</link><description>Recent content in Windows on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/windows/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" /&gt;&lt;p&gt;My router didn’t support &lt;strong&gt;Client Bridge&lt;/strong&gt; or &lt;strong&gt;Repeater Bridge&lt;/strong&gt; mode out of the box.&lt;/p&gt;
+&lt;p&gt;Sometimes when my internet goes down, I share a mobile hotspot from my phone. But to &lt;strong&gt;distribute that connection over LAN and Wi-Fi&lt;/strong&gt;, I needed a router that supports client mode + AP. Unfortunately, my &lt;strong&gt;TP-Link Archer C6&lt;/strong&gt; couldn’t do this… until I replaced the official firmware with &lt;strong&gt;OpenWRT&lt;/strong&gt;.&lt;/p&gt;
+&lt;h2 id="-check-compatibility"&gt;✅ Check Compatibility
+&lt;/h2&gt;&lt;p&gt;Make sure your device is supported:
 🔗 &lt;a class="link" href="https://openwrt.org/toh/start" target="_blank" rel="noopener"
->https://openwrt.org/toh/start&lt;/a>&lt;/p>
-&lt;p>Download the &lt;strong>exact&lt;/strong> firmware version for your hardware revision.
-⚠️ &lt;em>Double-check your model and version before flashing!&lt;/em>&lt;/p>
-&lt;p>Then upgrade the firmware as you normally would via the router’s web UI.&lt;/p>
-&lt;h2 id="-setting-up-openwrt-using-luci-web-interface-">⚙️ Setting Up OpenWRT (Using LUCI Web Interface )
-&lt;/h2>&lt;p>Access your router: &lt;a class="link" href="http://192.168.1.1" target="_blank" rel="noopener"
->http://192.168.1.1&lt;/a>
-Set your password if prompted.&lt;/p>
-&lt;h3 id="connect-to-your-hotspot--client-mode-">Connect to Your Hotspot ( Client Mode )
-&lt;/h3>&lt;ul>
-&lt;li>Go to &lt;strong>Network → Wireless&lt;/strong>&lt;/li>
-&lt;li>Click &lt;strong>Scan&lt;/strong> next to the wireless radio&lt;/li>
-&lt;li>Find your mobile hotspot, click &lt;strong>Join Network&lt;/strong>&lt;/li>
-&lt;li>Enter your hotspot password ( Wireless Security )&lt;/li>
-&lt;li>Set:
-&lt;ul>
-&lt;li>&lt;strong>Mode:&lt;/strong> Client&lt;/li>
-&lt;li>&lt;strong>Network:&lt;/strong> &lt;code>wwan&lt;/code> (create if needed)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Save &amp;amp; Apply&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3.png"
+&gt;https://openwrt.org/toh/start&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Download the &lt;strong&gt;exact&lt;/strong&gt; firmware version for your hardware revision.
+⚠️ &lt;em&gt;Double-check your model and version before flashing!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Then upgrade the firmware as you normally would via the router’s web UI.&lt;/p&gt;
+&lt;h2 id="-setting-up-openwrt-using-luci-web-interface-"&gt;⚙️ Setting Up OpenWRT (Using LUCI Web Interface )
+&lt;/h2&gt;&lt;p&gt;Access your router: &lt;a class="link" href="http://192.168.1.1" target="_blank" rel="noopener"
+&gt;http://192.168.1.1&lt;/a&gt;
+Set your password if prompted.&lt;/p&gt;
+&lt;h3 id="connect-to-your-hotspot--client-mode-"&gt;Connect to Your Hotspot ( Client Mode )
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Go to &lt;strong&gt;Network → Wireless&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Click &lt;strong&gt;Scan&lt;/strong&gt; next to the wireless radio&lt;/li&gt;
+&lt;li&gt;Find your mobile hotspot, click &lt;strong&gt;Join Network&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Enter your hotspot password ( Wireless Security )&lt;/li&gt;
+&lt;li&gt;Set:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mode:&lt;/strong&gt; Client&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network:&lt;/strong&gt; &lt;code&gt;wwan&lt;/code&gt; (create if needed)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Save &amp;amp; Apply&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3.png"
 width="1513"
 height="1318"
 srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_106e9a23e112034d.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_7e2816986f1e711b.png 1024w"
@@ -34,7 +34,7 @@ alt="Mobile hotspot"
 class="gallery-image"
 data-flex-grow="114"
 data-flex-basis="275px"
-> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6.png"
+&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6.png"
 width="1161"
 height="456"
 srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_db3c3308f924bc23.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_a0f7ddc01af2aeb7.png 1024w"
@@ -43,21 +43,21 @@ alt="Security - Hotspot"
 class="gallery-image"
 data-flex-grow="254"
 data-flex-basis="611px"
->&lt;/p>
-&lt;h3 id="add-a-new-wi-fi-network-access-point-">Add a New Wi-Fi Network (Access Point )
-&lt;/h3>&lt;ul>
-&lt;li>Still under &lt;strong>Network → Wireless&lt;/strong>, click &lt;strong>Add&lt;/strong>&lt;/li>
-&lt;li>Set:
-&lt;ul>
-&lt;li>&lt;strong>Mode:&lt;/strong> Access Point&lt;/li>
-&lt;li>&lt;strong>SSID:&lt;/strong> (e.g., &lt;code>MyRouterRepeater&lt;/code>)&lt;/li>
-&lt;li>&lt;strong>Network:&lt;/strong> &lt;code>lan&lt;/code>&lt;/li>
-&lt;li>Encryption: WPA2-PSK&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>Save &amp;amp; Apply&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2.png"
+&gt;&lt;/p&gt;
+&lt;h3 id="add-a-new-wi-fi-network-access-point-"&gt;Add a New Wi-Fi Network (Access Point )
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Still under &lt;strong&gt;Network → Wireless&lt;/strong&gt;, click &lt;strong&gt;Add&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Set:
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mode:&lt;/strong&gt; Access Point&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;SSID:&lt;/strong&gt; (e.g., &lt;code&gt;MyRouterRepeater&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Network:&lt;/strong&gt; &lt;code&gt;lan&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Encryption: WPA2-PSK&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Save &amp;amp; Apply&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2.png"
 width="1498"
 height="1336"
 srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_e929cc93830a722a.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_c29187eb63b76cae.png 1024w"
@@ -66,7 +66,7 @@ alt="New WiFi"
 class="gallery-image"
 data-flex-grow="112"
 data-flex-basis="269px"
-> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4.png"
+&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4.png"
 width="1481"
 height="1322"
 srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_4834023b30a6538c.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_c66a1f0f1bfbebf.png 1024w"
@@ -75,7 +75,7 @@ alt="Master - auto generated"
 class="gallery-image"
 data-flex-grow="112"
 data-flex-basis="268px"
-> &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5.png"
+&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5.png"
 width="1158"
 height="674"
 srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_37dfa2510cf9c5e4.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_58a23f334e0d7826.png 1024w"
@@ -84,68 +84,68 @@ alt="Security - New Wifi"
 class="gallery-image"
 data-flex-grow="171"
 data-flex-basis="412px"
->&lt;/p>
-&lt;h3 id="optional">Optional
-&lt;/h3>&lt;h4 id="configure-interfaces">Configure Interfaces
-&lt;/h4>&lt;ul>
-&lt;li>Go to &lt;strong>Network → Interfaces&lt;/strong>&lt;/li>
-&lt;li>Ensure:
-&lt;ul>
-&lt;li>&lt;code>lan&lt;/code> → covers Ethernet + new AP&lt;/li>
-&lt;li>&lt;code>wwan&lt;/code> → uses &lt;strong>DHCP client&lt;/strong> (for hotspot)&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>If not:
-&lt;ul>
-&lt;li>Edit &lt;code>wwan&lt;/code> → Protocol: &lt;strong>DHCP client&lt;/strong>&lt;/li>
-&lt;li>Assign Firewall Zone: &lt;strong>wan&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h4 id="firewall-rules">Firewall Rules
-&lt;/h4>&lt;ul>
-&lt;li>Go to &lt;strong>Network → Firewall&lt;/strong>&lt;/li>
-&lt;li>Ensure:
-&lt;ul>
-&lt;li>&lt;code>lan&lt;/code> can forward to &lt;code>wan&lt;/code>&lt;/li>
-&lt;li>If &lt;code>wwan&lt;/code> is its own zone, allow forwarding from &lt;code>lan&lt;/code> to &lt;code>wwan&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h3 id="save-and-reboot">Save and Reboot
-&lt;/h3>&lt;p>Now you can:&lt;/p>
-&lt;ul>
-&lt;li>Connect devices over &lt;strong>LAN&lt;/strong>&lt;/li>
-&lt;li>Share internet via &lt;strong>your new Wi-Fi network&lt;/strong>&lt;/li>
-&lt;li>Fully utilize your router—even when your ISP is down.&lt;/li>
-&lt;/ul>
-&lt;p>Alternative firmware FTW 🚀&lt;/p></description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" />&lt;p>Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p>
-&lt;p>This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p>
-&lt;h2 id="linux-setup-easyeffects">Linux Setup: EasyEffects
-&lt;/h2>&lt;p>For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p>
-&lt;h3 id="install-easyeffects-via-flatpak">Install EasyEffects via Flatpak
-&lt;/h3>&lt;ul>
-&lt;li>Run this command to install from Flatpak:&lt;/li>
-&lt;/ul>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak install flathub com.github.wwmm.easyeffects
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;ul>
-&lt;li>EasyEffects comes with several built-in plugins for audio enhancement if instaleld via Flatpak.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-and-apply-headphone-configs">Download and Apply Headphone Configs
-&lt;/h3>&lt;ul>
-&lt;li>Check out the &lt;b>&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
->AutoEq repository&lt;/a>&lt;/b> on GitHub for pre-made EQ settings for your headphones.&lt;/li>
-&lt;li>Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li>
-&lt;/ul>
-&lt;p>Do not forget to save your preset !&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
+&gt;&lt;/p&gt;
+&lt;h3 id="optional"&gt;Optional
+&lt;/h3&gt;&lt;h4 id="configure-interfaces"&gt;Configure Interfaces
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Go to &lt;strong&gt;Network → Interfaces&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Ensure:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;lan&lt;/code&gt; → covers Ethernet + new AP&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;wwan&lt;/code&gt; → uses &lt;strong&gt;DHCP client&lt;/strong&gt; (for hotspot)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;If not:
+&lt;ul&gt;
+&lt;li&gt;Edit &lt;code&gt;wwan&lt;/code&gt; → Protocol: &lt;strong&gt;DHCP client&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Assign Firewall Zone: &lt;strong&gt;wan&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id="firewall-rules"&gt;Firewall Rules
+&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;Go to &lt;strong&gt;Network → Firewall&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Ensure:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;lan&lt;/code&gt; can forward to &lt;code&gt;wan&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;wwan&lt;/code&gt; is its own zone, allow forwarding from &lt;code&gt;lan&lt;/code&gt; to &lt;code&gt;wwan&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="save-and-reboot"&gt;Save and Reboot
+&lt;/h3&gt;&lt;p&gt;Now you can:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Connect devices over &lt;strong&gt;LAN&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Share internet via &lt;strong&gt;your new Wi-Fi network&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Fully utilize your router—even when your ISP is down.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Alternative firmware FTW 🚀&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+&lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
+&lt;h2 id="linux-setup-easyeffects"&gt;Linux Setup: EasyEffects
+&lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
+&lt;h3 id="install-easyeffects-via-flatpak"&gt;Install EasyEffects via Flatpak
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Run this command to install from Flatpak:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak install flathub com.github.wwmm.easyeffects
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;EasyEffects comes with several built-in plugins for audio enhancement if instaleld via Flatpak.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-and-apply-headphone-configs"&gt;Download and Apply Headphone Configs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Check out the &lt;b&gt;&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
+&gt;AutoEq repository&lt;/a&gt;&lt;/b&gt; on GitHub for pre-made EQ settings for your headphones.&lt;/li&gt;
+&lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
 srcset="https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
@@ -154,9 +154,9 @@ alt="EasyEffects"
 class="gallery-image"
 data-flex-grow="150"
 data-flex-basis="361px"
->&lt;/p>
-&lt;h2 id="windows-setup-equalizer-apo--peace">Windows Setup: Equalizer APO + PEACE
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
+&gt;&lt;/p&gt;
+&lt;h2 id="windows-setup-equalizer-apo--peace"&gt;Windows Setup: Equalizer APO + PEACE
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
 srcset="https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
@@ -165,32 +165,32 @@ alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"
 data-flex-grow="154"
 data-flex-basis="370px"
->&lt;/p>
-&lt;h3 id="download-equalizer-apo">Download Equalizer APO
-&lt;/h3>&lt;ul>
-&lt;li>Go to Equalizer APO&amp;rsquo;s &lt;b>&lt;a class="link" href="https://sourceforge.net/projects/equalizerapo/" target="_blank" rel="noopener"
->SourceForge page&lt;/a>&lt;/b> and install the software.&lt;/li>
-&lt;li>Restart your computer once the installation is complete.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-peace-gui-for-equalizer-apo">Download PEACE (GUI for Equalizer APO)
-&lt;/h3>&lt;ul>
-&lt;li>Visit &lt;b>&lt;a class="link" href="https://sourceforge.net/projects/peace-equalizer-apo-extension/" target="_blank" rel="noopener"
->PEACE&amp;rsquo;s SourceForge page&lt;/a>&lt;/b> to download and install the GUI.&lt;/li>
-&lt;li>Open PEACE after installation— it will automatically recognize Equalizer APO.&lt;/li>
-&lt;/ul>
-&lt;h3 id="download-and-apply-headphone-configs-1">Download and Apply Headphone Configs
-&lt;/h3>&lt;ul>
-&lt;li>Check out the &lt;b>&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
->AutoEq repository&lt;/a>&lt;/b> on GitHub for pre-made EQ settings for your headphones.&lt;/li>
-&lt;li>Download a preset, then import it into PEACE via the Import button to instantly improve your audio.&lt;/li>
-&lt;/ul>
-&lt;h2 id="conclusion">Conclusion
-&lt;/h2>&lt;p>No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p>
-&lt;p>EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p></description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" />&lt;p>Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p>
-&lt;p>Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p>
-&lt;p>Official site:&lt;b> &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
->https://super-productivity.com/&lt;/a>&lt;/b>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/super-productivity/2.png"
+&gt;&lt;/p&gt;
+&lt;h3 id="download-equalizer-apo"&gt;Download Equalizer APO
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Go to Equalizer APO&amp;rsquo;s &lt;b&gt;&lt;a class="link" href="https://sourceforge.net/projects/equalizerapo/" target="_blank" rel="noopener"
+&gt;SourceForge page&lt;/a&gt;&lt;/b&gt; and install the software.&lt;/li&gt;
+&lt;li&gt;Restart your computer once the installation is complete.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-peace-gui-for-equalizer-apo"&gt;Download PEACE (GUI for Equalizer APO)
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Visit &lt;b&gt;&lt;a class="link" href="https://sourceforge.net/projects/peace-equalizer-apo-extension/" target="_blank" rel="noopener"
+&gt;PEACE&amp;rsquo;s SourceForge page&lt;/a&gt;&lt;/b&gt; to download and install the GUI.&lt;/li&gt;
+&lt;li&gt;Open PEACE after installation— it will automatically recognize Equalizer APO.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="download-and-apply-headphone-configs-1"&gt;Download and Apply Headphone Configs
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Check out the &lt;b&gt;&lt;a class="link" href="https://github.com/jaakkopasanen/AutoEq/tree/master/results/oratory1990/over-ear" target="_blank" rel="noopener"
+&gt;AutoEq repository&lt;/a&gt;&lt;/b&gt; on GitHub for pre-made EQ settings for your headphones.&lt;/li&gt;
+&lt;li&gt;Download a preset, then import it into PEACE via the Import button to instantly improve your audio.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="conclusion"&gt;Conclusion
+&lt;/h2&gt;&lt;p&gt;No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p&gt;
+&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+&lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
+&lt;p&gt;Official site:&lt;b&gt; &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
+&gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/super-productivity/2.png"
 width="801"
 height="750"
 srcset="https://saitech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saitech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
@@ -198,61 +198,61 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="106"
 data-flex-basis="256px"
->&lt;/p>
-&lt;h2 id="arch-linux">Arch linux
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">git clone https://aur.archlinux.org/superproductivity-bin.git
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">cd superproductivity-bin
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">makepkg -si
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="flatpak">Flatpak
-&lt;/h2>&lt;h3 id="install">Install
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak install flathub com.super_productivity.SuperProductivity
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="run">Run
-&lt;/h3>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">flatpak run com.super_productivity.SuperProductivity
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="android">Android
-&lt;/h2>&lt;p>Get it from
+&gt;&lt;/p&gt;
+&lt;h2 id="arch-linux"&gt;Arch linux
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;git clone https://aur.archlinux.org/superproductivity-bin.git
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cd superproductivity-bin
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;makepkg -si
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="flatpak"&gt;Flatpak
+&lt;/h2&gt;&lt;h3 id="install"&gt;Install
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak install flathub com.super_productivity.SuperProductivity
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="run"&gt;Run
+&lt;/h3&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak run com.super_productivity.SuperProductivity
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="android"&gt;Android
+&lt;/h2&gt;&lt;p&gt;Get it from
 &lt;a class="link" href="https://play.google.com/store/apps/details?id=com.superproductivity.superproductivity" target="_blank" rel="noopener"
->Google Play&lt;/a>&lt;/p>
-&lt;h2 id="sync-android-and-pc-with-dropbox">Sync Android and PC with Dropbox
-&lt;/h2>&lt;p>If you want to sync your tasks between your Android phone and PC, follow these steps:&lt;/p>
-&lt;h3 id="on-the-pc-app">On the PC App
-&lt;/h3>&lt;ul>
-&lt;li>Go to Settings → Sync &amp;amp; Export.&lt;/li>
-&lt;li>Enable Syncing and, if you want, enable Compression for faster syncing.&lt;/li>
-&lt;li>Set the Sync Provider to Dropbox. This will redirect you to Dropbox in your browser.&lt;/li>
-&lt;li>Create a Dropbox account (if you don’t have one) and copy the code from Dropbox.&lt;/li>
-&lt;li>Paste that code into your Super Productivity app. You’re all set!&lt;/li>
-&lt;/ul>
-&lt;h3 id="on-the-mobile-app">On the Mobile App
-&lt;/h3>&lt;ul>
-&lt;li>Repeat the same process as on your PC. Choose which data to keep (remote from your PC or local from your phone).&lt;/li>
-&lt;li>Your devices should sync automatically based on your set interval, but you can always sync manually by clicking the icon at the top right corner.&lt;/li>
-&lt;/ul>
-&lt;p>That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p></description></item><item><title>Vencord / Vesktop</title><link>https://saitech.blog/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" />&lt;h1 id="what-is-vencord--vesktop">What is Vencord / Vesktop?
-&lt;/h1>&lt;p>If you’re a &lt;code>Discord&lt;/code> user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/4.png"
+&gt;Google Play&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id="sync-android-and-pc-with-dropbox"&gt;Sync Android and PC with Dropbox
+&lt;/h2&gt;&lt;p&gt;If you want to sync your tasks between your Android phone and PC, follow these steps:&lt;/p&gt;
+&lt;h3 id="on-the-pc-app"&gt;On the PC App
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Go to Settings → Sync &amp;amp; Export.&lt;/li&gt;
+&lt;li&gt;Enable Syncing and, if you want, enable Compression for faster syncing.&lt;/li&gt;
+&lt;li&gt;Set the Sync Provider to Dropbox. This will redirect you to Dropbox in your browser.&lt;/li&gt;
+&lt;li&gt;Create a Dropbox account (if you don’t have one) and copy the code from Dropbox.&lt;/li&gt;
+&lt;li&gt;Paste that code into your Super Productivity app. You’re all set!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="on-the-mobile-app"&gt;On the Mobile App
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Repeat the same process as on your PC. Choose which data to keep (remote from your PC or local from your phone).&lt;/li&gt;
+&lt;li&gt;Your devices should sync automatically based on your set interval, but you can always sync manually by clicking the icon at the top right corner.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p&gt;</description></item><item><title>Vencord / Vesktop</title><link>https://saitech.blog/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id="what-is-vencord--vesktop"&gt;What is Vencord / Vesktop?
+&lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/4.png"
 width="236"
 height="236"
 srcset="https://saitech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saitech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w"
@@ -261,15 +261,15 @@ alt="Mascot"
 class="gallery-image"
 data-flex-grow="100"
 data-flex-basis="240px"
->&lt;/p>
-&lt;h2 id="where-to-download-it">Where to Download it
-&lt;/h2>&lt;p>Official Website: &lt;a class="link" href="https://vencord.dev/" target="_blank" rel="noopener"
->vencord.dev&lt;/a>&lt;/p>
-&lt;p>GitHub Repository: &lt;a class="link" href="https://github.com/Vencord/Vesktop" target="_blank" rel="noopener"
->Vencord/Vesktop&lt;/a>&lt;/p>
-&lt;p>Flatpak (Linux): &lt;a class="link" href="https://flathub.org/apps/dev.vencord.Vesktop" target="_blank" rel="noopener"
->Flathub&lt;/a>&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/1.jpg"
+&gt;&lt;/p&gt;
+&lt;h2 id="where-to-download-it"&gt;Where to Download it
+&lt;/h2&gt;&lt;p&gt;Official Website: &lt;a class="link" href="https://vencord.dev/" target="_blank" rel="noopener"
+&gt;vencord.dev&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;GitHub Repository: &lt;a class="link" href="https://github.com/Vencord/Vesktop" target="_blank" rel="noopener"
+&gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Flatpak (Linux): &lt;a class="link" href="https://flathub.org/apps/dev.vencord.Vesktop" target="_blank" rel="noopener"
+&gt;Flathub&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/1.jpg"
 width="474"
 height="237"
 srcset="https://saitech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saitech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w"
@@ -278,33 +278,33 @@ alt="Github"
 class="gallery-image"
 data-flex-grow="200"
 data-flex-basis="480px"
->&lt;/p>
-&lt;h2 id="why-use-it">Why Use it?
-&lt;/h2>&lt;p>Here are some of the key reasons to switch to Vesktop:&lt;/p>
-&lt;ul>
-&lt;li>✅ &lt;b>Better Linux Support:&lt;/b>
-&lt;ul>
-&lt;li>Unlike the official Discord app, Vesktop offers improved Linux compatibility and performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>✨ &lt;b>Plugins:&lt;/b>
-&lt;ul>
-&lt;li>Customize your Discord experience with a range of plugins.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>🎨 &lt;b>Custom Themes:&lt;/b>
-&lt;ul>
-&lt;li>Make Discord truly yours with community-made themes from &lt;a class="link" href="https://discord-themes.com" target="_blank" rel="noopener"
->discord-themes.com&lt;/a>.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>🚀 &lt;b>Fake Nitro:&lt;/b>
-&lt;ul>
-&lt;li>Unlock some premium features (like emojis and stickers) without paying—though with certain limitations.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/5.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="why-use-it"&gt;Why Use it?
+&lt;/h2&gt;&lt;p&gt;Here are some of the key reasons to switch to Vesktop:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;✅ &lt;b&gt;Better Linux Support:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlike the official Discord app, Vesktop offers improved Linux compatibility and performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;✨ &lt;b&gt;Plugins:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Customize your Discord experience with a range of plugins.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🎨 &lt;b&gt;Custom Themes:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Make Discord truly yours with community-made themes from &lt;a class="link" href="https://discord-themes.com" target="_blank" rel="noopener"
+&gt;discord-themes.com&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;🚀 &lt;b&gt;Fake Nitro:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;Unlock some premium features (like emojis and stickers) without paying—though with certain limitations.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/5.png"
 width="1655"
 height="931"
 srcset="https://saitech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saitech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w"
@@ -313,7 +313,7 @@ alt="Outlook Theme"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
->
+&gt;
 &lt;img src="https://saitech.blog/p/vencord-/-vesktop/6.png"
 width="2880"
 height="1800"
@@ -323,54 +323,54 @@ alt="Ultra Theme"
 class="gallery-image"
 data-flex-grow="160"
 data-flex-basis="384px"
->&lt;/p>
-&lt;h2 id="recommended-plugins">Recommended Plugins
-&lt;/h2>&lt;p>Here are some of the most useful Vesktop plugins to enhance your experience:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>&lt;b>YoutubeAdblock&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Finally, an adblocker that works inside the Discord app! &lt;code>This was the main reason I migrated to Vesktop.&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>FixYoutubeEmbeds&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Bypass Discord&amp;rsquo;s annoying &amp;ldquo;Watch on YouTube&amp;rdquo; restrictions and play videos directly inside the app.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>WebKeybinds&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Adds missing keybinds to the web version of Discord (which Vesktop uses), making navigation smoother.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>ClearURLs&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Automatically removes tracking parameters from URLs for added privacy.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>CrashHandler&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Handles crashes gracefully without forcing you to restart the entire app.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>NoDevtoolsWarning&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Disables the &amp;ldquo;HOLD UP&amp;rdquo; warning when opening Developer Tools. It also prevents Discord from hiding your token, helping avoid random logouts—a must-have for a smoother experience.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>&lt;b>WebScreenShareFixes&lt;/b>&lt;/p>
-&lt;ul>
-&lt;li>Removes the 2500kbps bitrate cap on Chromium and Vesktop clients, improving screen-sharing quality.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="recommended-plugins"&gt;Recommended Plugins
+&lt;/h2&gt;&lt;p&gt;Here are some of the most useful Vesktop plugins to enhance your experience:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;YoutubeAdblock&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Finally, an adblocker that works inside the Discord app! &lt;code&gt;This was the main reason I migrated to Vesktop.&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;FixYoutubeEmbeds&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Bypass Discord&amp;rsquo;s annoying &amp;ldquo;Watch on YouTube&amp;rdquo; restrictions and play videos directly inside the app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;WebKeybinds&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds missing keybinds to the web version of Discord (which Vesktop uses), making navigation smoother.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;ClearURLs&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Automatically removes tracking parameters from URLs for added privacy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;CrashHandler&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Handles crashes gracefully without forcing you to restart the entire app.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;NoDevtoolsWarning&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Disables the &amp;ldquo;HOLD UP&amp;rdquo; warning when opening Developer Tools. It also prevents Discord from hiding your token, helping avoid random logouts—a must-have for a smoother experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;b&gt;WebScreenShareFixes&lt;/b&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Removes the 2500kbps bitrate cap on Chromium and Vesktop clients, improving screen-sharing quality.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/2.png"
 width="1227"
 height="955"
 srcset="https://saitech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saitech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w"
@@ -379,7 +379,7 @@ alt="Plugins"
 class="gallery-image"
 data-flex-grow="128"
 data-flex-basis="308px"
->
+&gt;
 &lt;img src="https://saitech.blog/p/vencord-/-vesktop/3.png"
 width="917"
 height="1126"
@@ -389,4 +389,4 @@ alt="Setup"
 class="gallery-image"
 data-flex-grow="81"
 data-flex-basis="195px"
->&lt;/p></description></item></channel></rss>
+&gt;&lt;/p&gt;</description></item></channel></rss>

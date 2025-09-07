@@ -1,170 +1,170 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pacman on Saitech</title><link>https://saitech.blog/tags/pacman/</link><description>Recent content in Pacman on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pacman/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" />&lt;p>The latest version of &lt;code>Flameshot&lt;/code> on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p>
-&lt;p>The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p>
-&lt;h2 id="remove-flameshot">Remove Flameshot
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Rns flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="downgrade">Downgrade
-&lt;/h2>&lt;h3 id="using-arch-linux-archive-ala">Using Arch Linux Archive (ALA)
-&lt;/h3>&lt;h4 id="remove-flameshot-1">Remove Flameshot
-&lt;/h4>&lt;p>&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
->https://archive.archlinux.org/packages/f/flameshot/&lt;/a>&lt;/p>
-&lt;h4 id="download-it">Download it
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="install-manually">Install manually
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h3 id="using-the-downgrade-tool">Using the downgrade tool
-&lt;/h3>&lt;h4 id="install-downgrade">Install downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">YAY -S downgrade
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h4 id="run-downgrade">Run downgrade
-&lt;/h4>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo downgrade flameshot
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>From the menu, pick version &lt;strong>13.0.1&lt;/strong> and you’re done.
-Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p></description></item><item><title>Pacman update issue</title><link>https://saitech.blog/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pacman-update-issue/</guid><description>&lt;img src="https://saitech.blog/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" />&lt;p>Recently, when I entered:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -Syu
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>I got the message:&lt;/p>
-&lt;p>&lt;code>Pacman is currently in use, please wait&lt;/code>&lt;/p>
-&lt;p>Solution? Delete the lock file, most likely a leftover from an unfinished update&amp;hellip;&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">rm&lt;/span> &lt;span class="o">/&lt;/span>&lt;span class="k">var&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">lib&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">pacman&lt;/span>&lt;span class="o">/&lt;/span>&lt;span class="n">db&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">lck&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>That’s it, just in case you were wondering which file it is&amp;hellip;&lt;/p></description></item><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" />&lt;p>After updating my graphics drivers and running a full system update with
-&lt;code>sudo pacman -Syu&lt;/code>, I discovered that Arch Linux would no longer boot properly. Instead, it stopped at a black screen showing the system disk path with a blinking dash underneath.&lt;/p>
-&lt;p>I use &lt;code>SDDM&lt;/code> as my login manager and &lt;code>BSPWM&lt;/code> as my tiling window manager. Naturally, I suspected that the problem was with SDDM since it’s responsible for the login screen and should be the first thing visible.&lt;/p>
-&lt;h2 id="the-solution">The Solution
-&lt;/h2>&lt;p>Luckily, I could still switch to a TTY by pressing CTRL + ALT + F3. From there, I checked the status of SDDM with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">systemctl status sddm
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>It showed an error: &amp;ldquo;Could not start Display server on vt 2&amp;rdquo; along with other related messages.&lt;/p>
-&lt;p>After some searching, I found a helpful solution on Reddit in this &lt;a class="link" href="https://www.reddit.com/r/archlinux/comments/jtb1zb/sddm_failed_to_read_display_number_from_pipe/" target="_blank" rel="noopener"
->thread&lt;/a> by user omgrolak.&lt;/p>
-&lt;p>The fix is to edit the initramfs configuration and add the necessary GPU modules. In the TTY, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo nano /etc/mkinitcpio.conf
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then add these modules to the MODULES line:&lt;/p>
-&lt;ul>
-&lt;li>For Nvidia: &lt;code>nvidia nvidia_modeset nvidia_uvm nvidia_drm&lt;/code>&lt;/li>
-&lt;li>For AMD: &lt;code>amdgpu&lt;/code>&lt;/li>
-&lt;/ul>
-&lt;p>Save and close the file. Then regenerate the initramfs with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo mkinitcpio -P
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>After this, a reboot fixed the problem, and Arch Linux booted normally again with the login screen showing up properly.&lt;/p>
-&lt;h2 id="what-is-intramfs">What is intramfs?
-&lt;/h2>&lt;p>The initramfs is a temporary, in-memory filesystem that is used by the Linux kernel during startup. Its primary job is to mount the real root filesystem. For this to happen, it needs to have all the necessary modules (drivers) to access the storage hardware and, crucially, to initialize the display.&lt;/p>
-&lt;h2 id="fix-breakdown">Fix Breakdown
-&lt;/h2>&lt;ul>
-&lt;li>&lt;code>Editing /etc/mkinitcpio.conf&lt;/code>: This configuration file controls which modules are built into the initramfs.&lt;/li>
-&lt;li>&lt;code>nvidia&lt;/code>: The main driver module.&lt;/li>
-&lt;li>&lt;code>nvidia_modeset&lt;/code>: Enables Kernel Mode Setting (KMS), which allows the kernel to control the display resolution and mode directly. This is essential for a smooth graphical boot.&lt;/li>
-&lt;li>&lt;code>nvidia_drm&lt;/code>: Provides the Direct Rendering Manager (DRM) interface, which is a modern standard for managing graphics output.&lt;/li>
-&lt;li>&lt;code>nvidia_uvm&lt;/code>: The Unified Video Memory module, needed for certain modern NVIDIA features like CUDA.&lt;/li>
-&lt;li>&lt;code>sudo mkinitcpio -P&lt;/code>: This command regenerates the initramfs for all kernel presets on your system, applying the changes you made to the configuration file.&lt;/li>
-&lt;/ul></description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" />&lt;p>During my Arch Linux installation, I made a small mistake:
-I left the default mirrorlist untouched.&lt;/p>
-&lt;p>As a result, I relied solely on the built-in mirrors, which &lt;em>work&lt;/em>, but might not always be the fastest or most up-to-date.
-To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p>
-&lt;h2 id="mirrorlist-file">Mirrorlist file
-&lt;/h2>&lt;p>Here&amp;rsquo;s a clean example of a minimal and stable setup using the official mirror redirector:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">################################################################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">################# Arch Linux mirrorlist ########################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">################################################################################
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Server = https://mirror.pkgbuild.com/$repo/os/$arch
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This mirror is maintained directly by the Arch team and automatically redirects you to a healthy, synchronized server.&lt;/p>
-&lt;p>The mirror configuration file is located at:&lt;/p>
-&lt;ul>
-&lt;li>🗂️ /etc/pacman.d/mirrorlist&lt;/li>
-&lt;/ul>
-&lt;p>Of course, it&amp;rsquo;s a good idea to add a few more mirrors from your region as fallback options.&lt;/p>
-&lt;h2 id="resources">Resources
-&lt;/h2>&lt;p>&lt;b>&lt;a class="link" href="https://archlinux.org/mirrorlist/" target="_blank" rel="noopener"
->archlinux.org/mirrorlist&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Create a personalized mirrorlist by selecting countries, protocols (HTTPS/HTTP), and sorting preferences.&lt;/p>
-&lt;p>&lt;b>&lt;a class="link" href="https://archlinux.org/mirrors/status/" target="_blank" rel="noopener"
->archlinux.org/mirrors/status&lt;/a>&lt;/b>&lt;/p>
-&lt;p>Check real-time status of all official mirrors — including their last sync time, success rate, and availability.&lt;/p>
-&lt;hr>
-&lt;p style="text-align: center;">Speaking of mirrors...&lt;p>
-&lt;div class="video-wrapper">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pacman on Saitech</title><link>https://saitech.blog/tags/pacman/</link><description>Recent content in Pacman on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 26 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/pacman/index.xml" rel="self" type="application/rss+xml"/><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
+&lt;p&gt;The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p&gt;
+&lt;h2 id="remove-flameshot"&gt;Remove Flameshot
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Rns flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="downgrade"&gt;Downgrade
+&lt;/h2&gt;&lt;h3 id="using-arch-linux-archive-ala"&gt;Using Arch Linux Archive (ALA)
+&lt;/h3&gt;&lt;h4 id="remove-flameshot-1"&gt;Remove Flameshot
+&lt;/h4&gt;&lt;p&gt;&lt;a class="link" href="https://archive.archlinux.org/packages/f/flameshot/" target="_blank" rel="noopener"
+&gt;https://archive.archlinux.org/packages/f/flameshot/&lt;/a&gt;&lt;/p&gt;
+&lt;h4 id="download-it"&gt;Download it
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;wget https://archive.archlinux.org/packages/f/flameshot/flameshot-13.0.1-1-x86
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="install-manually"&gt;Install manually
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -U flameshot-13.0.1-1-x86_64.pkg.tar.zst
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h3 id="using-the-downgrade-tool"&gt;Using the downgrade tool
+&lt;/h3&gt;&lt;h4 id="install-downgrade"&gt;Install downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;YAY -S downgrade
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h4 id="run-downgrade"&gt;Run downgrade
+&lt;/h4&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo downgrade flameshot
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;From the menu, pick version &lt;strong&gt;13.0.1&lt;/strong&gt; and you’re done.
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>Pacman update issue</title><link>https://saitech.blog/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pacman-update-issue/</guid><description>&lt;img src="https://saitech.blog/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" /&gt;&lt;p&gt;Recently, when I entered:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -Syu
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;I got the message:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;Pacman is currently in use, please wait&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Solution? Delete the lock file, most likely a leftover from an unfinished update&amp;hellip;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;rm&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pacman&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lck&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;That’s it, just in case you were wondering which file it is&amp;hellip;&lt;/p&gt;</description></item><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" /&gt;&lt;p&gt;After updating my graphics drivers and running a full system update with
+&lt;code&gt;sudo pacman -Syu&lt;/code&gt;, I discovered that Arch Linux would no longer boot properly. Instead, it stopped at a black screen showing the system disk path with a blinking dash underneath.&lt;/p&gt;
+&lt;p&gt;I use &lt;code&gt;SDDM&lt;/code&gt; as my login manager and &lt;code&gt;BSPWM&lt;/code&gt; as my tiling window manager. Naturally, I suspected that the problem was with SDDM since it’s responsible for the login screen and should be the first thing visible.&lt;/p&gt;
+&lt;h2 id="the-solution"&gt;The Solution
+&lt;/h2&gt;&lt;p&gt;Luckily, I could still switch to a TTY by pressing CTRL + ALT + F3. From there, I checked the status of SDDM with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;systemctl status sddm
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;It showed an error: &amp;ldquo;Could not start Display server on vt 2&amp;rdquo; along with other related messages.&lt;/p&gt;
+&lt;p&gt;After some searching, I found a helpful solution on Reddit in this &lt;a class="link" href="https://www.reddit.com/r/archlinux/comments/jtb1zb/sddm_failed_to_read_display_number_from_pipe/" target="_blank" rel="noopener"
+&gt;thread&lt;/a&gt; by user omgrolak.&lt;/p&gt;
+&lt;p&gt;The fix is to edit the initramfs configuration and add the necessary GPU modules. In the TTY, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo nano /etc/mkinitcpio.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then add these modules to the MODULES line:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;For Nvidia: &lt;code&gt;nvidia nvidia_modeset nvidia_uvm nvidia_drm&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;For AMD: &lt;code&gt;amdgpu&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Save and close the file. Then regenerate the initramfs with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo mkinitcpio -P
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After this, a reboot fixed the problem, and Arch Linux booted normally again with the login screen showing up properly.&lt;/p&gt;
+&lt;h2 id="what-is-intramfs"&gt;What is intramfs?
+&lt;/h2&gt;&lt;p&gt;The initramfs is a temporary, in-memory filesystem that is used by the Linux kernel during startup. Its primary job is to mount the real root filesystem. For this to happen, it needs to have all the necessary modules (drivers) to access the storage hardware and, crucially, to initialize the display.&lt;/p&gt;
+&lt;h2 id="fix-breakdown"&gt;Fix Breakdown
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Editing /etc/mkinitcpio.conf&lt;/code&gt;: This configuration file controls which modules are built into the initramfs.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvidia&lt;/code&gt;: The main driver module.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvidia_modeset&lt;/code&gt;: Enables Kernel Mode Setting (KMS), which allows the kernel to control the display resolution and mode directly. This is essential for a smooth graphical boot.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvidia_drm&lt;/code&gt;: Provides the Direct Rendering Manager (DRM) interface, which is a modern standard for managing graphics output.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;nvidia_uvm&lt;/code&gt;: The Unified Video Memory module, needed for certain modern NVIDIA features like CUDA.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;sudo mkinitcpio -P&lt;/code&gt;: This command regenerates the initramfs for all kernel presets on your system, applying the changes you made to the configuration file.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" /&gt;&lt;p&gt;During my Arch Linux installation, I made a small mistake:
+I left the default mirrorlist untouched.&lt;/p&gt;
+&lt;p&gt;As a result, I relied solely on the built-in mirrors, which &lt;em&gt;work&lt;/em&gt;, but might not always be the fastest or most up-to-date.
+To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p&gt;
+&lt;h2 id="mirrorlist-file"&gt;Mirrorlist file
+&lt;/h2&gt;&lt;p&gt;Here&amp;rsquo;s a clean example of a minimal and stable setup using the official mirror redirector:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################################################################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################# Arch Linux mirrorlist ########################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;################################################################################
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Server = https://mirror.pkgbuild.com/$repo/os/$arch
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This mirror is maintained directly by the Arch team and automatically redirects you to a healthy, synchronized server.&lt;/p&gt;
+&lt;p&gt;The mirror configuration file is located at:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;🗂️ /etc/pacman.d/mirrorlist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Of course, it&amp;rsquo;s a good idea to add a few more mirrors from your region as fallback options.&lt;/p&gt;
+&lt;h2 id="resources"&gt;Resources
+&lt;/h2&gt;&lt;p&gt;&lt;b&gt;&lt;a class="link" href="https://archlinux.org/mirrorlist/" target="_blank" rel="noopener"
+&gt;archlinux.org/mirrorlist&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Create a personalized mirrorlist by selecting countries, protocols (HTTPS/HTTP), and sorting preferences.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;&lt;a class="link" href="https://archlinux.org/mirrors/status/" target="_blank" rel="noopener"
+&gt;archlinux.org/mirrors/status&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Check real-time status of all official mirrors — including their last sync time, success rate, and availability.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p style="text-align: center;"&gt;Speaking of mirrors...&lt;p&gt;
+&lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/1AfNOKQdY-U"
 allowfullscreen
 title="YouTube Video"
->
-&lt;/iframe>
-&lt;/div>
-&lt;p>&lt;em>Blind Guardian - Mirror Mirror&lt;/em>&lt;/p></description></item></channel></rss>
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;Blind Guardian - Mirror Mirror&lt;/em&gt;&lt;/p&gt;</description></item></channel></rss>

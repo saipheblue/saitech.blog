@@ -1,174 +1,188 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steam on Saitech</title><link>https://saitech.blog/tags/steam/</link><description>Recent content in Steam on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 26 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/steam/index.xml" rel="self" type="application/rss+xml"/><item><title>FF-X│X-2 on Arch Linux</title><link>https://saitech.blog/p/ff-xx-2-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-xx-2-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-xx-2-on-arch-linux/2.png" alt="Featured image of post FF-X│X-2 on Arch Linux" />&lt;p>Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p>
-&lt;h2 id="what-is-unx">What is UnX?
-&lt;/h2>&lt;p>UnX is a mod for Final Fantasy X/X-2 HD Remaster created by the Special K project. It improves performance, fixes bugs, and adds customization options like:&lt;/p>
-&lt;ul>
-&lt;li>Better frame pacing and performance fixes&lt;/li>
-&lt;li>Borderless fullscreen support&lt;/li>
-&lt;li>Custom resolution scaling&lt;/li>
-&lt;li>Language overrides (for Japanese voices with English subtitles)&lt;/li>
-&lt;/ul>
-&lt;p>UnX is essential for tweaking the game on PC, but not all versions work well on Linux.&lt;/p>
-&lt;h2 id="installing-unx-on-arch-linux">Installing UnX on Arch Linux
-&lt;/h2>&lt;p>I first tried to install the latest installer from the Special K UnX wiki. It detected the game installation folder and installed correctly along with the Visual C++ libraries.&lt;/p>
-&lt;p>Unfortunately, the game wouldn&amp;rsquo;t start and just crashed (white screen).&lt;/p>
-&lt;h2 id="workaround">Workaround
-&lt;/h2>&lt;p>The trick is to use &lt;code>UnX 0.8.7&lt;/code> instead of the newer versions:&lt;/p>
-&lt;ul>
-&lt;li>Download &lt;b>&lt;a class="link" href="https://github.com/Kaldaien/UnX/releases/tag/unx_087" target="_blank" rel="noopener"
->UnX 0.8.7.&lt;/a>&lt;/b>&lt;/li>
-&lt;li>Unzip the contents directly into the game folder.&lt;/li>
-&lt;li>Launch the game — this version works without crashing.&lt;/li>
-&lt;/ul>
-&lt;p>To confirm, I also tested newer version like v0.9.1.9 using the same method, and it resulted in the white screen crash.&lt;/p>
-&lt;h2 id="proton-version">Proton Version
-&lt;/h2>&lt;p>It’s also important to use the correct Proton version:&lt;/p>
-&lt;ul>
-&lt;li>&lt;code>Proton 7.0-6&lt;/code> is the only one that worked for me.&lt;/li>
-&lt;li>Proton GE and other versions led to the same white screen crash.&lt;/li>
-&lt;/ul>
-&lt;p>You can select the Proton version in the game’s properties by forcing a specific Steam Play compatibility tool.&lt;/p>
-&lt;h2 id="unx-steam-guide">UnX Steam Guide
-&lt;/h2>&lt;p>For more details about configuring UnX and its shortcuts, check this Steam &lt;b>&lt;a class="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=683802394" target="_blank" rel="noopener"
->guide&lt;/a>&lt;/b> . It covers the key settings in case you want to fine-tune the experience.&lt;/p>
-&lt;h2 id="changing-the-game-language">Changing the Game Language
-&lt;/h2>&lt;p>Basically, to change the language, just go to the Steam library, right-click on the game → Manage → Browse local files.
-Then, adjust the &lt;code>UnX_Language.ini&lt;/code> file:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
-&lt;/span>&lt;span class="lnt">6
-&lt;/span>&lt;span class="lnt">7
-&lt;/span>&lt;span class="lnt">8
-&lt;/span>&lt;span class="lnt">9
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">[Language.Master]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SoundEffects=jp
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Voice=jp
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Video=jp
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[FFX.exe]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Voice=
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">SoundEffects=
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Video=
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>In the example above, the voice will be in Japanese, while the text will be the one selected in-game settings on launch.
-&lt;code>Language.Master&lt;/code> is for all games, while &lt;code>FFX.exe&lt;/code> will change it for the specific game only (override).&lt;/p>
-&lt;hr>
-&lt;p>&lt;b>TLDR:&lt;/b> Install UnX 0.8.7 , use Proton 7.0-6 , change UnX_Language.ini&lt;/p></description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" />&lt;p>Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p>
-&lt;p>I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
->thread&lt;/a>, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
->guide&lt;/a>.&lt;/p>
-&lt;p>In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p>
-&lt;h2 id="disable-split-lock-mitigate">Disable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=0
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="enable-split-lock-mitigate">Enable split lock mitigate
-&lt;/h2>&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo sysctl kernel.split_lock_mitigate=1
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="gamemode">Gamemode
-&lt;/h2>&lt;p>If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p>
-&lt;p>Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo usermod -aG gamemode username
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>You can check if your user is part of the gamemode group with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">groups
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p>
-&lt;h2 id="security-risks">Security risks
-&lt;/h2>&lt;p>Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p>
-&lt;h2 id="gamemode-1">Gamemode
-&lt;/h2>&lt;p>If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
->here&lt;/a>.&lt;/p></description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" />&lt;p>Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p>
-&lt;p>Turns out, the fix was simpler than expected. Huge thanks to &lt;b>&lt;a class="link" href="https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/" target="_blank" rel="noopener"
->this&lt;/a>&lt;/b> blog post for pointing me in the right direction.&lt;/p>
-&lt;h2 id="install-kernel-headers--xpadneo">Install Kernel Headers &amp;amp; xpadneo
-&lt;/h2>&lt;p>First, make sure you have the kernel headers:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S linux-headers
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Then, install xpadneo, which fixes a bunch of Xbox controller nonsense:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">yay -S xpadneo-dkms-git
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="update-your-controller-firmware">Update Your Controller Firmware
-&lt;/h2>&lt;p>Here’s the kicker, you have to update your controller’s firmware, and Microsoft, being Microsoft, only lets you do it on Windows.&lt;/p>
-&lt;p>So either:&lt;/p>
-&lt;ul>
-&lt;li>Boot into Windows (if you have it)&lt;/li>
-&lt;li>Use a Windows VM&lt;/li>
-&lt;/ul>
-&lt;p>And here’s the key part you might’ve missed, head to the Microsoft Store and download the &lt;code>Xbox Accessories app&lt;/code>. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p>
-&lt;p>Reboot, reconnect, and boom, your controller should finally work without dropping every five seconds.&lt;/p>
-&lt;p>Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p></description></item><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" />&lt;p>Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p>
-&lt;p>Install MangoHud:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S mangohud
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Enable MangoHud in Steam:&lt;/p>
-&lt;p>Go to Game Properties → Launch Options and add:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MANGOHUD=1 %command%
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>Limit FPS to 60:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">MANGOHUD_CONFIG=fps_limit=60 %command%
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Steam on Saitech</title><link>https://saitech.blog/tags/steam/</link><description>Recent content in Steam on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/steam/index.xml" rel="self" type="application/rss+xml"/><item><title>Sheepy: A Short Adventure</title><link>https://saitech.blog/p/sheepy-a-short-adventure/</link><pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/sheepy-a-short-adventure/</guid><description>&lt;img src="https://saitech.blog/p/sheepy-a-short-adventure/1.jpg" alt="Featured image of post Sheepy: A Short Adventure" /&gt;&lt;p&gt;Funny how some things find their way back to you like a boomerang, or maybe just a fresh breeze. That’s how MrSuicideSheep came back to me, this time with their new game Sheepy: A Short Adventure.&lt;/p&gt;
+&lt;p&gt;I first knew them as music promoters (probably?) on YouTube about 14 years ago. And now, here they are again, with a short but magical little game. Don’t expect anything groundbreaking, but the atmosphere, the flow, and the mix of audio-visual vibes with curious motifs completely charmed me.&lt;/p&gt;
+&lt;p&gt;I just had to jot it down here on the blog. If you want to give it a chance, the game’s free on Steam.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Link is here:&lt;/b&gt;
+🔗
+&lt;b&gt;&lt;a class="link" href="https://store.steampowered.com/app/1568400/Sheepy_A_Short_Adventure/" target="_blank" rel="noopener"
+&gt;Sheepy_A_Short_Adventure&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;div class="video-wrapper"&gt;
+&lt;iframe loading="lazy"
+src="https://www.youtube.com/embed/RfT30q4GkYE"
+allowfullscreen
+title="YouTube Video"
+&gt;
+&lt;/iframe&gt;
+&lt;/div&gt;</description></item><item><title>FF-X│X-2 on Arch Linux</title><link>https://saitech.blog/p/ff-xx-2-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-xx-2-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-xx-2-on-arch-linux/2.png" alt="Featured image of post FF-X│X-2 on Arch Linux" /&gt;&lt;p&gt;Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p&gt;
+&lt;h2 id="what-is-unx"&gt;What is UnX?
+&lt;/h2&gt;&lt;p&gt;UnX is a mod for Final Fantasy X/X-2 HD Remaster created by the Special K project. It improves performance, fixes bugs, and adds customization options like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Better frame pacing and performance fixes&lt;/li&gt;
+&lt;li&gt;Borderless fullscreen support&lt;/li&gt;
+&lt;li&gt;Custom resolution scaling&lt;/li&gt;
+&lt;li&gt;Language overrides (for Japanese voices with English subtitles)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;UnX is essential for tweaking the game on PC, but not all versions work well on Linux.&lt;/p&gt;
+&lt;h2 id="installing-unx-on-arch-linux"&gt;Installing UnX on Arch Linux
+&lt;/h2&gt;&lt;p&gt;I first tried to install the latest installer from the Special K UnX wiki. It detected the game installation folder and installed correctly along with the Visual C++ libraries.&lt;/p&gt;
+&lt;p&gt;Unfortunately, the game wouldn&amp;rsquo;t start and just crashed (white screen).&lt;/p&gt;
+&lt;h2 id="workaround"&gt;Workaround
+&lt;/h2&gt;&lt;p&gt;The trick is to use &lt;code&gt;UnX 0.8.7&lt;/code&gt; instead of the newer versions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Download &lt;b&gt;&lt;a class="link" href="https://github.com/Kaldaien/UnX/releases/tag/unx_087" target="_blank" rel="noopener"
+&gt;UnX 0.8.7.&lt;/a&gt;&lt;/b&gt;&lt;/li&gt;
+&lt;li&gt;Unzip the contents directly into the game folder.&lt;/li&gt;
+&lt;li&gt;Launch the game — this version works without crashing.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To confirm, I also tested newer version like v0.9.1.9 using the same method, and it resulted in the white screen crash.&lt;/p&gt;
+&lt;h2 id="proton-version"&gt;Proton Version
+&lt;/h2&gt;&lt;p&gt;It’s also important to use the correct Proton version:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Proton 7.0-6&lt;/code&gt; is the only one that worked for me.&lt;/li&gt;
+&lt;li&gt;Proton GE and other versions led to the same white screen crash.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can select the Proton version in the game’s properties by forcing a specific Steam Play compatibility tool.&lt;/p&gt;
+&lt;h2 id="unx-steam-guide"&gt;UnX Steam Guide
+&lt;/h2&gt;&lt;p&gt;For more details about configuring UnX and its shortcuts, check this Steam &lt;b&gt;&lt;a class="link" href="https://steamcommunity.com/sharedfiles/filedetails/?id=683802394" target="_blank" rel="noopener"
+&gt;guide&lt;/a&gt;&lt;/b&gt; . It covers the key settings in case you want to fine-tune the experience.&lt;/p&gt;
+&lt;h2 id="changing-the-game-language"&gt;Changing the Game Language
+&lt;/h2&gt;&lt;p&gt;Basically, to change the language, just go to the Steam library, right-click on the game → Manage → Browse local files.
+Then, adjust the &lt;code&gt;UnX_Language.ini&lt;/code&gt; file:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;span class="lnt"&gt;2
+&lt;/span&gt;&lt;span class="lnt"&gt;3
+&lt;/span&gt;&lt;span class="lnt"&gt;4
+&lt;/span&gt;&lt;span class="lnt"&gt;5
+&lt;/span&gt;&lt;span class="lnt"&gt;6
+&lt;/span&gt;&lt;span class="lnt"&gt;7
+&lt;/span&gt;&lt;span class="lnt"&gt;8
+&lt;/span&gt;&lt;span class="lnt"&gt;9
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[Language.Master]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;SoundEffects=jp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Voice=jp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Video=jp
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[FFX.exe]
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Voice=
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;SoundEffects=
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;Video=
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;In the example above, the voice will be in Japanese, while the text will be the one selected in-game settings on launch.
+&lt;code&gt;Language.Master&lt;/code&gt; is for all games, while &lt;code&gt;FFX.exe&lt;/code&gt; will change it for the specific game only (override).&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;b&gt;TLDR:&lt;/b&gt; Install UnX 0.8.7 , use Proton 7.0-6 , change UnX_Language.ini&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
+&gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
+&gt;guide&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In certain situations, split lock mitigation can cause performance issues in some applications and games. Luckily, there&amp;rsquo;s a simple patch available to disable it via sysctl.&lt;/p&gt;
+&lt;h2 id="disable-split-lock-mitigate"&gt;Disable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=0
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="enable-split-lock-mitigate"&gt;Enable split lock mitigate
+&lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo sysctl kernel.split_lock_mitigate=1
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="gamemode"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you’re using GameMode, you can automate this tweak so you don’t have to run the command manually every time. GameMode lets you apply performance optimizations when launching games, and you can add the split lock mitigation tweak directly in its configuration.&lt;/p&gt;
+&lt;p&gt;Also, don&amp;rsquo;t forget to add yourself to the gamemode user group. Without it, the GameMode daemon won&amp;rsquo;t have the necessary permissions to change CPU governors or adjust the niceness of processes. To add your user to the group, use:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo usermod -aG gamemode username
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;You can check if your user is part of the gamemode group with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;groups
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;After adding yourself to the group, you’ll need to end your session and start a new one — either log out and back in, or reboot your PC.&lt;/p&gt;
+&lt;h2 id="security-risks"&gt;Security risks
+&lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
+&lt;h2 id="gamemode-1"&gt;Gamemode
+&lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+&lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class="link" href="https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/" target="_blank" rel="noopener"
+&gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
+&lt;h2 id="install-kernel-headers--xpadneo"&gt;Install Kernel Headers &amp;amp; xpadneo
+&lt;/h2&gt;&lt;p&gt;First, make sure you have the kernel headers:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S linux-headers
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Then, install xpadneo, which fixes a bunch of Xbox controller nonsense:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yay -S xpadneo-dkms-git
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="update-your-controller-firmware"&gt;Update Your Controller Firmware
+&lt;/h2&gt;&lt;p&gt;Here’s the kicker, you have to update your controller’s firmware, and Microsoft, being Microsoft, only lets you do it on Windows.&lt;/p&gt;
+&lt;p&gt;So either:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Boot into Windows (if you have it)&lt;/li&gt;
+&lt;li&gt;Use a Windows VM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;And here’s the key part you might’ve missed, head to the Microsoft Store and download the &lt;code&gt;Xbox Accessories app&lt;/code&gt;. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p&gt;
+&lt;p&gt;Reboot, reconnect, and boom, your controller should finally work without dropping every five seconds.&lt;/p&gt;
+&lt;p&gt;Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p&gt;</description></item><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+&lt;p&gt;Install MangoHud:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S mangohud
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Enable MangoHud in Steam:&lt;/p&gt;
+&lt;p&gt;Go to Game Properties → Launch Options and add:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD=1 %command%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Limit FPS to 60:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
 width="474"
 height="266"
 srcset="https://saitech.blog/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saitech.blog/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
@@ -176,16 +190,16 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="178"
 data-flex-basis="427px"
->&lt;/p></description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" />&lt;h2 id="what-is-gamemode">What is gamemode?
-&lt;/h2>&lt;p>The command &lt;code>gamemoderun %command%&lt;/code> is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p>
-&lt;h2 id="how-it-works">How It Works
-&lt;/h2>&lt;p>&lt;code>gamemoderun&lt;/code>: This is the command that activates Gamemode.&lt;/p>
-&lt;p>&lt;code>%command%&lt;/code>: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p>
-&lt;p>Example:&lt;/p>
-&lt;p>If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p>
-&lt;p>&lt;code>gamemoderun %command%&lt;/code>&lt;/p>
-&lt;p>This ensures the game runs with Gamemode optimizations.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
+&lt;h2 id="how-it-works"&gt;How It Works
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;%command%&lt;/code&gt;: This is a placeholder for the actual command used to launch your game or app. It’s commonly used in Steam’s launch options.&lt;/p&gt;
+&lt;p&gt;Example:&lt;/p&gt;
+&lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
 width="523"
 height="133"
 srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
@@ -193,92 +207,92 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
 data-flex-basis="943px"
->&lt;/p>
-&lt;h2 id="installation">Installation
-&lt;/h2>&lt;p>If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">sudo pacman -S gamemode
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>To check if Gamemode is active, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">gamemoded -s
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>This will show whether Gamemode is running.&lt;/p>
-&lt;h2 id="what-does-gamemode-optimize">What Does Gamemode Optimize?
-&lt;/h2>&lt;p>Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p>
-&lt;ul>
-&lt;li>
-&lt;p>CPU Governor:&lt;/p>
-&lt;ul>
-&lt;li>Locks your CPU at top speed for better performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>I/O Priority:&lt;/p>
-&lt;ul>
-&lt;li>Gives your game priority access to your disk, reducing stuttering.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Process Niceness:&lt;/p>
-&lt;ul>
-&lt;li>Makes sure your game gets more attention from the CPU.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Kernel Scheduler:&lt;/p>
-&lt;ul>
-&lt;li>Adjusts how tasks are handled to keep your game running smoothly.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Screensaver Inhibiting:&lt;/p>
-&lt;ul>
-&lt;li>Stops your screensaver from interrupting your game.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>GPU Performance Mode:&lt;/p>
-&lt;ul>
-&lt;li>Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>CPU Core Management:&lt;/p>
-&lt;ul>
-&lt;li>Pins or parks CPU cores to improve performance.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;li>
-&lt;p>Custom Scripts:&lt;/p>
-&lt;ul>
-&lt;li>Lets you add your own tweaks for even more control.&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;h2 id="availability">Availability
-&lt;/h2>&lt;p>Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p>
-&lt;h2 id="is-it-worth-it">Is It Worth It?
-&lt;/h2>&lt;p>While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p>
-&lt;p>For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
->Github repository&lt;/a>&lt;/p></description></item><item><title>Quest 3 on Arch</title><link>https://saitech.blog/p/quest-3-on-arch/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quest-3-on-arch/</guid><description>&lt;img src="https://saitech.blog/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" />&lt;p>There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p>
-&lt;h2 id="steamvr">SteamVR
-&lt;/h2>&lt;p>SteamVR is the backbone of PC VR gaming, supporting a wide range of headsets and offering access to countless VR titles.
-It is part of your Steam library—just download and run it.&lt;/p>
-&lt;p>If you&amp;rsquo;ve previously used your headset on Windows, you might encounter an issue with Steam Link on Linux. It displays the error:&lt;/p>
-&lt;p>&lt;code>'Streaming VR is not available from that computer.'&lt;/code>&lt;/p>
-&lt;p>Due to this limitation, we need to use alternative software to pair with SteamVR.&lt;/p>
-&lt;p>&lt;img src="https://saitech.blog/p/quest-3-on-arch/1.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="installation"&gt;Installation
+&lt;/h2&gt;&lt;p&gt;If you don’t have Gamemode installed, you can install it on Arch Linux using:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S gamemode
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;To check if Gamemode is active, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;gamemoded -s
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;This will show whether Gamemode is running.&lt;/p&gt;
+&lt;h2 id="what-does-gamemode-optimize"&gt;What Does Gamemode Optimize?
+&lt;/h2&gt;&lt;p&gt;Gamemode can tweak a variety of settings to improve gaming performance, including:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Governor:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locks your CPU at top speed for better performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;I/O Priority:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Gives your game priority access to your disk, reducing stuttering.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Process Niceness:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Makes sure your game gets more attention from the CPU.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kernel Scheduler:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Adjusts how tasks are handled to keep your game running smoothly.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screensaver Inhibiting:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Stops your screensaver from interrupting your game.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;GPU Performance Mode:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Optimizes your GPU for gaming (supports NVIDIA and AMD, plus overclocking for NVIDIA).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;CPU Core Management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Pins or parks CPU cores to improve performance.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Custom Scripts:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Lets you add your own tweaks for even more control.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="availability"&gt;Availability
+&lt;/h2&gt;&lt;p&gt;Gamemode packages are available for Ubuntu, Debian, Solus, Arch, Gentoo, Fedora, OpenSUSE, Mageia and possibly more.&lt;/p&gt;
+&lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
+&lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
+&lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quest 3 on Arch</title><link>https://saitech.blog/p/quest-3-on-arch/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quest-3-on-arch/</guid><description>&lt;img src="https://saitech.blog/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
+&lt;h2 id="steamvr"&gt;SteamVR
+&lt;/h2&gt;&lt;p&gt;SteamVR is the backbone of PC VR gaming, supporting a wide range of headsets and offering access to countless VR titles.
+It is part of your Steam library—just download and run it.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;ve previously used your headset on Windows, you might encounter an issue with Steam Link on Linux. It displays the error:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;'Streaming VR is not available from that computer.'&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Due to this limitation, we need to use alternative software to pair with SteamVR.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/1.png"
 width="1743"
 height="405"
 srcset="https://saitech.blog/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saitech.blog/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w"
@@ -286,31 +300,31 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="430"
 data-flex-basis="1032px"
->&lt;/p>
-&lt;h2 id="sidequest">SideQuest
-&lt;/h2>&lt;p>SideQuest is a popular platform for sideloading apps, games, and experimental software onto standalone VR headsets. It expands the possibilities of your VR device beyond the default app store.&lt;/p>
-&lt;p>Visit the official &lt;a class="link" href="https://sidequestvr.com/" target="_blank" rel="noopener"
->SideQuest site&lt;/a> for a detailed guide on how to connect your headset, enable developer mode, and install all prerequisites.&lt;/p>
-&lt;p>If you&amp;rsquo;re having trouble connecting your headset, ensure you have ADB (Android Debug Bridge) installed. To check, run:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">adb version
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;p>If it’s not installed, you can get it with:&lt;/p>
-&lt;div class="highlight">&lt;div class="chroma">
-&lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
-&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-gdscript3" data-lang="gdscript3">&lt;span class="line">&lt;span class="cl">&lt;span class="n">sudo&lt;/span> &lt;span class="n">pacman&lt;/span> &lt;span class="o">-&lt;/span>&lt;span class="n">S&lt;/span> &lt;span class="n">android&lt;/span>&lt;span class="o">-&lt;/span>&lt;span class="n">tools&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
-&lt;/div>
-&lt;/div>&lt;h2 id="alvr-air-light-vr">ALVR (Air Light VR)
-&lt;/h2>&lt;p>&lt;img src="https://saitech.blog/p/quest-3-on-arch/2.png"
+&gt;&lt;/p&gt;
+&lt;h2 id="sidequest"&gt;SideQuest
+&lt;/h2&gt;&lt;p&gt;SideQuest is a popular platform for sideloading apps, games, and experimental software onto standalone VR headsets. It expands the possibilities of your VR device beyond the default app store.&lt;/p&gt;
+&lt;p&gt;Visit the official &lt;a class="link" href="https://sidequestvr.com/" target="_blank" rel="noopener"
+&gt;SideQuest site&lt;/a&gt; for a detailed guide on how to connect your headset, enable developer mode, and install all prerequisites.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re having trouble connecting your headset, ensure you have ADB (Android Debug Bridge) installed. To check, run:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;adb version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;If it’s not installed, you can get it with:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;pacman&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;S&lt;/span&gt; &lt;span class="n"&gt;android&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;tools&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id="alvr-air-light-vr"&gt;ALVR (Air Light VR)
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/2.png"
 width="2549"
 height="492"
 srcset="https://saitech.blog/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saitech.blog/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w"
@@ -318,15 +332,15 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="518"
 data-flex-basis="1243px"
->&lt;/p>
-&lt;p>ALVR allows wireless PC VR gaming by streaming games from your PC to a standalone headset like the Meta Quest series. It uses low-latency video encoding to provide a seamless experience.&lt;/p>
-&lt;p>Download ALVR from the official &lt;a class="link" href="https://github.com/alvr-org/ALVR/releases" target="_blank" rel="noopener"
->ALVR GitHub releases page&lt;/a>&lt;/p>
-&lt;ul>
-&lt;li>Install the APK on your headset using SideQuest.&lt;/li>
-&lt;li>Extract the &lt;code>.tar&lt;/code> file on your Arch Linux machine and run the executable.&lt;/li>
-&lt;/ul>
-&lt;p>&lt;img src="https://saitech.blog/p/quest-3-on-arch/4.png"
+&gt;&lt;/p&gt;
+&lt;p&gt;ALVR allows wireless PC VR gaming by streaming games from your PC to a standalone headset like the Meta Quest series. It uses low-latency video encoding to provide a seamless experience.&lt;/p&gt;
+&lt;p&gt;Download ALVR from the official &lt;a class="link" href="https://github.com/alvr-org/ALVR/releases" target="_blank" rel="noopener"
+&gt;ALVR GitHub releases page&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Install the APK on your headset using SideQuest.&lt;/li&gt;
+&lt;li&gt;Extract the &lt;code&gt;.tar&lt;/code&gt; file on your Arch Linux machine and run the executable.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/4.png"
 width="2559"
 height="1348"
 srcset="https://saitech.blog/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saitech.blog/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w"
@@ -334,17 +348,17 @@ loading="lazy"
 class="gallery-image"
 data-flex-grow="189"
 data-flex-basis="455px"
->&lt;/p>
-&lt;p>Follow the on-screen instructions to set up ALVR. Be sure to mark the headset as &amp;ldquo;trusted.&amp;rdquo;&lt;/p>
-&lt;p>Once done, start SteamVR.&lt;/p>
-&lt;p>From there, &lt;b>manually start&lt;/b> VR games from your PC. While this is a limitation, once the game is running, you can enjoy your session in the VR headset.&lt;/p>
-&lt;h2 id="tips--tricks">Tips &amp;amp; tricks
-&lt;/h2>&lt;h3 id="fix-for-black-screen-on-headset">Fix for Black Screen on Headset
-&lt;/h3>&lt;p>If your VR game runs on your PC but your headset displays a black screen, try this fix:
-Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p>
-&lt;p>&lt;code>~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%&lt;/code>&lt;/p>
-&lt;p>&lt;i>(Note: File paths may vary depending on where you installed SteamVR.)&lt;/i>&lt;/p>
-&lt;h3 id="fix-for-games-not-launching-in-vr-mode">Fix for Games Not Launching in VR Mode
-&lt;/h3>&lt;p>Is the game not launching in VR mode? Go to the game properties, then to Compatibility, and enable Proton. After that, in General settings or during the first game launch, it will ask if you want to play in normal mode or VR mode.&lt;/p>
-&lt;h2 id="happy-gaming--">Happy gaming ! :)
-&lt;/h2></description></item></channel></rss>
+&gt;&lt;/p&gt;
+&lt;p&gt;Follow the on-screen instructions to set up ALVR. Be sure to mark the headset as &amp;ldquo;trusted.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Once done, start SteamVR.&lt;/p&gt;
+&lt;p&gt;From there, &lt;b&gt;manually start&lt;/b&gt; VR games from your PC. While this is a limitation, once the game is running, you can enjoy your session in the VR headset.&lt;/p&gt;
+&lt;h2 id="tips--tricks"&gt;Tips &amp;amp; tricks
+&lt;/h2&gt;&lt;h3 id="fix-for-black-screen-on-headset"&gt;Fix for Black Screen on Headset
+&lt;/h3&gt;&lt;p&gt;If your VR game runs on your PC but your headset displays a black screen, try this fix:
+Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;~/.local/share/Steam/steamapps/common/SteamVR/bin/vrmonitor.sh %command%&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;(Note: File paths may vary depending on where you installed SteamVR.)&lt;/i&gt;&lt;/p&gt;
+&lt;h3 id="fix-for-games-not-launching-in-vr-mode"&gt;Fix for Games Not Launching in VR Mode
+&lt;/h3&gt;&lt;p&gt;Is the game not launching in VR mode? Go to the game properties, then to Compatibility, and enable Proton. After that, in General settings or during the first game launch, it will ask if you want to play in normal mode or VR mode.&lt;/p&gt;
+&lt;h2 id="happy-gaming--"&gt;Happy gaming ! :)
+&lt;/h2&gt;</description></item></channel></rss>
