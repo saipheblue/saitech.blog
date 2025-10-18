@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Saitech</title><link>https://saitech.blog/post/</link><description>Recent content in Posts on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 17 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>SUPER TUX</title><link>https://saitech.blog/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-tux/</guid><description>&lt;img src="https://saitech.blog/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Posts on Saitech</title><link>https://saitech.blog/post/</link><description>Recent content in Posts on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/post/index.xml" rel="self" type="application/rss+xml"/><item><title>ytDownloader</title><link>https://saitech.blog/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ytdownloader/</guid><description>&lt;img src="https://saitech.blog/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
+&lt;p&gt;You can download it directly from the &lt;b&gt;&lt;a class="link" href="https://github.com/aandrew-me/ytDownloader" target="_blank" rel="noopener"
+&gt;Github page&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;or if you’re on Arch Linux, just run this in your terminal:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
+&lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class="lntd"&gt;
+&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;flatpak install flathub io.github.aandrew_me.ytdn
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;p&gt;Using it is so much easier than trying to describe it, so… go figure it out yourself 😁&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/ytdownloader/2.jpg"
+width="3176"
+height="1825"
+srcset="https://saitech.blog/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saitech.blog/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
+loading="lazy"
+alt="ytDownloader"
+class="gallery-image"
+data-flex-grow="174"
+data-flex-basis="417px"
+&gt;&lt;/p&gt;</description></item><item><title>SUPER TUX</title><link>https://saitech.blog/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-tux/</guid><description>&lt;img src="https://saitech.blog/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
 &lt;p&gt;SuperTux FTW!&lt;/p&gt;
 &lt;p&gt;Download it here from the &lt;b&gt;&lt;a class="link" href="https://www.supertux.org/index.html" target="_blank" rel="noopener"
 &gt;Official site&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
