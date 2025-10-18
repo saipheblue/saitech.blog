@@ -1,4 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saitech</title><link>https://saitech.blog/</link><description>Recent content on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>ytDownloader</title><link>https://saitech.blog/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ytdownloader/</guid><description>&lt;img src="https://saitech.blog/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saitech</title><link>https://saitech.blog/</link><description>Recent content on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Enviro+</title><link>https://saitech.blog/p/enviro-/</link><pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/enviro-/</guid><description>&lt;img src="https://saitech.blog/p/enviro-/2.png" alt="Featured image of post Enviro+" /&gt;&lt;p&gt;&lt;b&gt;Download link:&lt;/b&gt;
+🔗
+&lt;b&gt;&lt;a class="link" href="https://www.digipen.edu/showcase/student-games/dig-n-rig" target="_blank" rel="noopener"
+&gt;www.digipen.edu/showcase/student-games/dig-n-rig&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saitech.blog/p/enviro-/1.png"
+width="1508"
+height="1035"
+srcset="https://saitech.blog/p/enviro-/1_hu_f386f0afa48d7dc0.png 480w, https://saitech.blog/p/enviro-/1_hu_6ebe0244a46e0dda.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="145"
+data-flex-basis="349px"
+&gt;&lt;/p&gt;</description></item><item><title>ytDownloader</title><link>https://saitech.blog/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ytdownloader/</guid><description>&lt;img src="https://saitech.blog/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
 &lt;p&gt;You can download it directly from the &lt;b&gt;&lt;a class="link" href="https://github.com/aandrew-me/ytDownloader" target="_blank" rel="noopener"
 &gt;Github page&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;or if you’re on Arch Linux, just run this in your terminal:&lt;/p&gt;
@@ -38,7 +50,7 @@ title="YouTube Video"
 &lt;p&gt;BUT it didn’t help at all.&lt;/p&gt;
 &lt;h2 id="manual-unload"&gt;Manual unload
 &lt;/h2&gt;&lt;p&gt;According to this &lt;b&gt;&lt;a class="link" href="https://firefox-source-docs.mozilla.org/browser/tabunloader/" target="_blank" rel="noopener"
-&gt;article&lt;/a&gt;&lt;/b&gt; you can navigate to a place called about:config.&lt;/p&gt;
+&gt;article&lt;/a&gt;&lt;/b&gt; you can navigate to a place called &lt;code&gt;about:unloads&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Just type &lt;code&gt;about:unloads&lt;/code&gt; into your browser’s URL bar and hit Enter.&lt;/p&gt;
 &lt;p&gt;Here you can hit the Unload button to unload the top tab. Do this for each tab, and you’ll get to the lowest possible RAM consumption. Of course, once you reopen a tab, it will start consuming RAM again, but one at a time. The others will remain unloaded until you use them. YAY!&lt;/p&gt;
 &lt;h2 id="automatic-unload"&gt;Automatic unload

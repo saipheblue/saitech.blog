@@ -38,7 +38,7 @@ title="YouTube Video"
 &lt;p&gt;BUT it didn’t help at all.&lt;/p&gt;
 &lt;h2 id="manual-unload"&gt;Manual unload
 &lt;/h2&gt;&lt;p&gt;According to this &lt;b&gt;&lt;a class="link" href="https://firefox-source-docs.mozilla.org/browser/tabunloader/" target="_blank" rel="noopener"
-&gt;article&lt;/a&gt;&lt;/b&gt; you can navigate to a place called about:config.&lt;/p&gt;
+&gt;article&lt;/a&gt;&lt;/b&gt; you can navigate to a place called &lt;code&gt;about:unloads&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;Just type &lt;code&gt;about:unloads&lt;/code&gt; into your browser’s URL bar and hit Enter.&lt;/p&gt;
 &lt;p&gt;Here you can hit the Unload button to unload the top tab. Do this for each tab, and you’ll get to the lowest possible RAM consumption. Of course, once you reopen a tab, it will start consuming RAM again, but one at a time. The others will remain unloaded until you use them. YAY!&lt;/p&gt;
 &lt;h2 id="automatic-unload"&gt;Automatic unload
