@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Restart on Saitech</title><link>https://saitech.blog/tags/restart/</link><description>Recent content in Restart on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/restart/index.xml" rel="self" type="application/rss+xml"/><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Restart on Saitech</title><link>https://saiphe.com/tags/restart/</link><description>Recent content in Restart on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 05 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/restart/index.xml" rel="self" type="application/rss+xml"/><item><title>System not shutting down?</title><link>https://saiphe.com/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/system-not-shutting-down/</guid><description>&lt;img src="https://saiphe.com/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
 &lt;/h2&gt;&lt;p&gt;During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
-&lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
+&lt;img src="https://saiphe.com/p/system-not-shutting-down/1.png"
 width="1430"
 height="489"
-srcset="https://saitech.blog/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saitech.blog/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
+srcset="https://saiphe.com/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saiphe.com/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
 loading="lazy"
 alt="Shutdown issue"
 class="gallery-image"

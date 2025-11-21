@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ntfs on Saitech</title><link>https://saitech.blog/tags/ntfs/</link><description>Recent content in Ntfs on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/ntfs/index.xml" rel="self" type="application/rss+xml"/><item><title>Mounting External Drives on Linux</title><link>https://saitech.blog/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" /&gt;&lt;p&gt;🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ntfs on Saitech</title><link>https://saiphe.com/tags/ntfs/</link><description>Recent content in Ntfs on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 28 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/ntfs/index.xml" rel="self" type="application/rss+xml"/><item><title>Mounting External Drives on Linux</title><link>https://saiphe.com/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saiphe.com/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" /&gt;&lt;p&gt;🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
 &gt;NTFS-3G on Arch Wiki&lt;/a&gt;
 🔗 &lt;a class="link" href="https://github.com/coldfix/udiskie" target="_blank" rel="noopener"
 &gt;Udiskie GitHub&lt;/a&gt;&lt;/p&gt;
@@ -73,10 +73,10 @@
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="automating-the-mount-optional"&gt;Automating the Mount (Optional)
 &lt;/h2&gt;&lt;p&gt;To avoid manual mounting every time, &lt;code&gt;udiskie&lt;/code&gt; is a lightweight automounter that integrates with &lt;code&gt;udisks2&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/mounting-external-drives-on-linux/1.png"
 width="750"
 height="340"
-srcset="https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
+srcset="https://saiphe.com/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saiphe.com/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
 loading="lazy"
 alt="Udiskie"
 class="gallery-image"

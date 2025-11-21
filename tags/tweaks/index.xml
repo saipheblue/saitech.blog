@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tweaks on Saitech</title><link>https://saitech.blog/tags/tweaks/</link><description>Recent content in Tweaks on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/tweaks/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox eating your RAM?</title><link>https://saitech.blog/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saitech.blog/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tweaks on Saitech</title><link>https://saiphe.com/tags/tweaks/</link><description>Recent content in Tweaks on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/tweaks/index.xml" rel="self" type="application/rss+xml"/><item><title>Firefox eating your RAM?</title><link>https://saiphe.com/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saiphe.com/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;While looking for a solution, I stumbled upon this &lt;b&gt;&lt;a class="link" href="https://dev.to/msugakov/taking-firefox-memory-usage-under-control-on-linux-4b02" target="_blank" rel="noopener"
 &gt;article&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;recommending tweaking the &lt;code&gt;browser.low_commit_space_threshold_mb&lt;/code&gt; value.&lt;/p&gt;
@@ -20,7 +20,7 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 # Sets how long a tab should remain inactive before unloading. 3600000 = 1 hour.
 # You can set it lower if you like; I use 600000 for 10 minutes.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
+&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>LSP cluttering your app launcher?</title><link>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
 &lt;/h2&gt;&lt;p&gt;EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p&gt;
 &lt;p&gt;You can find them in:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;🗂️ /usr/share/applications/&lt;/code&gt;&lt;/p&gt;
@@ -48,21 +48,21 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The point is that by creating &lt;strong&gt;user-specific desktop files in&lt;/strong&gt;: &lt;code&gt;🗂️ .local/share/applications/&lt;/code&gt;their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1.png"
 width="1261"
 height="761"
-srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
+srcset="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
 loading="lazy"
 alt="Clean app launcher"
 class="gallery-image"
 data-flex-grow="165"
 data-flex-basis="397px"
-&gt;&lt;/p&gt;</description></item><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+&gt;&lt;/p&gt;</description></item><item><title>System not shutting down?</title><link>https://saiphe.com/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/system-not-shutting-down/</guid><description>&lt;img src="https://saiphe.com/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
 &lt;/h2&gt;&lt;p&gt;During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
-&lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
+&lt;img src="https://saiphe.com/p/system-not-shutting-down/1.png"
 width="1430"
 height="489"
-srcset="https://saitech.blog/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saitech.blog/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
+srcset="https://saiphe.com/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saiphe.com/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
 loading="lazy"
 alt="Shutdown issue"
 class="gallery-image"
@@ -135,7 +135,7 @@ After rebooting, I checked in the terminal:&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;Since then, the issue has been gone.
 Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p&gt;
 &lt;h2 id="final-thoughts"&gt;Final thoughts
-&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Custom Screenfetch</title><link>https://saitech.blog/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/custom-screenfetch/</guid><description>&lt;img src="https://saitech.blog/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" /&gt;&lt;p&gt;Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Custom Screenfetch</title><link>https://saiphe.com/p/custom-screenfetch/</link><pubDate>Fri, 04 Apr 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/custom-screenfetch/</guid><description>&lt;img src="https://saiphe.com/p/custom-screenfetch/3.png" alt="Featured image of post Custom Screenfetch" /&gt;&lt;p&gt;Quick tip for Arch users who like to tweak their screenfetch looks.&lt;/p&gt;
 &lt;h2 id="installing-screenfetch-on-arch"&gt;Installing Screenfetch on Arch
 &lt;/h2&gt;&lt;p&gt;Just pop this in your terminal:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -177,7 +177,7 @@ Just a reminder: before shutting down, close everything, as turning off swap wil
 &lt;p&gt;This isn’t the “official” way to theme screenfetch, but it works. Just be careful when editing system files.&lt;/p&gt;
 &lt;h2 id="ascii-art-website"&gt;ASCII art website
 &lt;/h2&gt;&lt;p&gt;Check out this site for cool ASCII art you can use: &lt;b&gt;&lt;a class="link" href="https://emojicombos.com/" target="_blank" rel="noopener"
-&gt;emojicombos.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+&gt;emojicombos.com&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saiphe.com/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/split-lock-mitigation/</guid><description>&lt;img src="https://saiphe.com/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
 &gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
 &gt;guide&lt;/a&gt;.&lt;/p&gt;
@@ -225,7 +225,7 @@ Just a reminder: before shutting down, close everything, as turning off swap wil
 &lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
 &lt;h2 id="gamemode-1"&gt;Gamemode
 &lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
-&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Xbox Controller on Linux</title><link>https://saiphe.com/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saiphe.com/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
 &lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class="link" href="https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/" target="_blank" rel="noopener"
 &gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
 &lt;h2 id="install-kernel-headers--xpadneo"&gt;Install Kernel Headers &amp;amp; xpadneo
@@ -256,14 +256,14 @@ Just a reminder: before shutting down, close everything, as turning off swap wil
 &lt;/ul&gt;
 &lt;p&gt;And here’s the key part you might’ve missed, head to the Microsoft Store and download the &lt;code&gt;Xbox Accessories app&lt;/code&gt;. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p&gt;
 &lt;p&gt;Reboot, reconnect, and boom, your controller should finally work without dropping every five seconds.&lt;/p&gt;
-&lt;p&gt;Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p&gt;</description></item><item><title>Arch News Alert</title><link>https://saitech.blog/p/arch-news-alert/</link><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/arch-news-alert/</guid><description>&lt;img src="https://saitech.blog/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id="why"&gt;Why?
+&lt;p&gt;Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p&gt;</description></item><item><title>Arch News Alert</title><link>https://saiphe.com/p/arch-news-alert/</link><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/arch-news-alert/</guid><description>&lt;img src="https://saiphe.com/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id="why"&gt;Why?
 &lt;/h2&gt;&lt;p&gt;I got tired of manually checking &lt;a class="link" href="https://archlinux.org/news" target="_blank" rel="noopener"
 &gt;archlinux.org/news&lt;/a&gt; every day just to see if there were any critical updates requiring manual steps (you know, the dreaded &lt;code&gt;manual intervention&lt;/code&gt;). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.&lt;/p&gt;
 &lt;p&gt;When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/arch-news-alert/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/arch-news-alert/2.png"
 width="1493"
 height="489"
-srcset="https://saitech.blog/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saitech.blog/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w"
+srcset="https://saiphe.com/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saiphe.com/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="305"
@@ -423,8 +423,8 @@ data-flex-basis="732px"
 &lt;/h2&gt;&lt;p&gt;Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p style="text-align: center;"&gt; Edit history &lt;/p&gt;
-&lt;p&gt;21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent&lt;/p&gt;</description></item><item><title>CTRL + U</title><link>https://saitech.blog/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ctrl--u/</guid><description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" /&gt;&lt;h2 id="keyboard-shortcut"&gt;Keyboard Shortcut
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;</description></item><item><title>Funny Linux Commands</title><link>https://saitech.blog/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/funny-linux-commands/</guid><description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id="cowsay"&gt;Cowsay
+&lt;p&gt;21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent&lt;/p&gt;</description></item><item><title>CTRL + U</title><link>https://saiphe.com/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/ctrl--u/</guid><description>&lt;img src="https://saiphe.com/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" /&gt;&lt;h2 id="keyboard-shortcut"&gt;Keyboard Shortcut
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;</description></item><item><title>Funny Linux Commands</title><link>https://saiphe.com/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/funny-linux-commands/</guid><description>&lt;img src="https://saiphe.com/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id="cowsay"&gt;Cowsay
 &lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
 &lt;p&gt;Install it using pacman:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -444,10 +444,10 @@ data-flex-basis="732px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/4.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/4.png"
 width="320"
 height="171"
-srcset="https://saitech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saitech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saiphe.com/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
 loading="lazy"
 alt="cowsay hi"
 class="gallery-image"
@@ -463,10 +463,10 @@ data-flex-basis="449px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -g &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/6.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/6.png"
 width="304"
 height="170"
-srcset="https://saitech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saitech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saiphe.com/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
 loading="lazy"
 alt="cowsay -g hi"
 class="gallery-image"
@@ -482,10 +482,10 @@ data-flex-basis="429px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/7.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/7.png"
 width="351"
 height="408"
-srcset="https://saitech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saitech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saiphe.com/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
 loading="lazy"
 alt="cowsay -f fox hi"
 class="gallery-image"
@@ -504,10 +504,10 @@ data-flex-basis="206px"
 &lt;/ul&gt;
 &lt;h3 id="cowthink"&gt;Cowthink
 &lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/5.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/5.png"
 width="302"
 height="166"
-srcset="https://saitech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saitech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saiphe.com/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
 loading="lazy"
 alt="cowthink hi"
 class="gallery-image"
@@ -526,10 +526,10 @@ data-flex-basis="436px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S sl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/1.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/1.png"
 width="915"
 height="435"
-srcset="https://saitech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saitech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saiphe.com/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
 loading="lazy"
 alt="sl"
 class="gallery-image"
@@ -547,16 +547,16 @@ data-flex-basis="504px"
 &lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/3.png"
 width="1194"
 height="300"
-srcset="https://saitech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saitech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saiphe.com/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
 loading="lazy"
 alt="sl -G"
 class="gallery-image"
 data-flex-grow="398"
 data-flex-basis="955px"
-&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saiphe.com/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/gamemode/</guid><description>&lt;img src="https://saiphe.com/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -565,10 +565,10 @@ data-flex-basis="955px"
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/gamemode/2.png"
 width="523"
 height="133"
-srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
+srcset="https://saiphe.com/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saiphe.com/p/gamemode/2_hu_572189de217f4edf.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
@@ -651,7 +651,7 @@ data-flex-basis="943px"
 &lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
 &lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
 &lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
-&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saiphe.com/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
 &lt;h2 id="terminal"&gt;Terminal
 &lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -666,10 +666,10 @@ data-flex-basis="943px"
 &lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/2.png"
 width="917"
 height="91"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
 loading="lazy"
 alt="find / -type f"
 class="gallery-image"
@@ -696,10 +696,10 @@ data-flex-basis="2418px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/1.png"
 width="850"
 height="428"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
 loading="lazy"
 alt="ncdu"
 class="gallery-image"
@@ -716,10 +716,10 @@ data-flex-basis="476px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S baobab
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/3.png"
 width="958"
 height="597"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
 loading="lazy"
 alt="baobab"
 class="gallery-image"
@@ -773,7 +773,7 @@ data-flex-basis="385px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;truncate&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;log&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;log&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Quick Audio Management</title><link>https://saitech.blog/p/quick-audio-management/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-audio-management/</guid><description>&lt;img src="https://saitech.blog/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Quick Audio Management</title><link>https://saiphe.com/p/quick-audio-management/</link><pubDate>Mon, 06 Jan 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/quick-audio-management/</guid><description>&lt;img src="https://saiphe.com/p/quick-audio-management/1.png" alt="Featured image of post Quick Audio Management" /&gt;&lt;p&gt;I was looking for a Linux alternative to the Win + G shortcut in Windows, which opens the Xbox Game Bar. I used this feature for quickly and conveniently managing audio, but there was nothing similar on Linux. So, I created this script to fill the gap.&lt;/p&gt;
 &lt;p&gt;This script was primarily created for the &lt;code&gt;bspwm&lt;/code&gt; tiling window manager but might work with some tweaks on other window managers.&lt;/p&gt;
 &lt;h1 id="steps-to-use"&gt;Steps to Use
 &lt;/h1&gt;&lt;h2 id="keybind"&gt;Keybind
@@ -919,19 +919,19 @@ data-flex-basis="385px"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;notify-send &lt;span class="s2"&gt;&amp;#34;Set volume for &lt;/span&gt;&lt;span class="nv"&gt;$app_name&lt;/span&gt;&lt;span class="s2"&gt; to &lt;/span&gt;&lt;span class="nv"&gt;$new_volume&lt;/span&gt;&lt;span class="s2"&gt;%&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-audio-management/3.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-audio-management/3.png"
 width="2560"
 height="1440"
-srcset="https://saitech.blog/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saitech.blog/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w"
+srcset="https://saiphe.com/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saiphe.com/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w"
 loading="lazy"
 alt="Select an application"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
-&gt; &lt;img src="https://saitech.blog/p/quick-audio-management/4.png"
+&gt; &lt;img src="https://saiphe.com/p/quick-audio-management/4.png"
 width="2560"
 height="1440"
-srcset="https://saitech.blog/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saitech.blog/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w"
+srcset="https://saiphe.com/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saiphe.com/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w"
 loading="lazy"
 alt="Adjust the volume during gameplay"
 class="gallery-image"

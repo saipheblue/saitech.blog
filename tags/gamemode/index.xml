@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saitech.blog/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>GameMode on Saitech</title><link>https://saiphe.com/tags/gamemode/</link><description>Recent content in GameMode on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 21 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/gamemode/index.xml" rel="self" type="application/rss+xml"/><item><title>Split Lock Mitigation</title><link>https://saiphe.com/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/split-lock-mitigation/</guid><description>&lt;img src="https://saiphe.com/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
 &gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
 &gt;guide&lt;/a&gt;.&lt;/p&gt;
@@ -46,7 +46,7 @@
 &lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
 &lt;h2 id="gamemode-1"&gt;Gamemode
 &lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
-&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saiphe.com/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/gamemode/</guid><description>&lt;img src="https://saiphe.com/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -55,10 +55,10 @@
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/gamemode/2.png"
 width="523"
 height="133"
-srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
+srcset="https://saiphe.com/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saiphe.com/p/gamemode/2_hu_572189de217f4edf.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="393"

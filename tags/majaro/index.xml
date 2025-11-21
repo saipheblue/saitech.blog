@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Majaro on Saitech</title><link>https://saitech.blog/tags/majaro/</link><description>Recent content in Majaro on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/majaro/index.xml" rel="self" type="application/rss+xml"/><item><title>Malware Found in AUR</title><link>https://saitech.blog/p/malware-found-in-aur/</link><pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/malware-found-in-aur/</guid><description>&lt;img src="https://saitech.blog/p/malware-found-in-aur/1.png" alt="Featured image of post Malware Found in AUR" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Majaro on Saitech</title><link>https://saiphe.com/tags/majaro/</link><description>Recent content in Majaro on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 18 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/majaro/index.xml" rel="self" type="application/rss+xml"/><item><title>Malware Found in AUR</title><link>https://saiphe.com/p/malware-found-in-aur/</link><pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/malware-found-in-aur/</guid><description>&lt;img src="https://saiphe.com/p/malware-found-in-aur/1.png" alt="Featured image of post Malware Found in AUR" /&gt;&lt;h2 id="the-issue"&gt;The Issue
 &lt;/h2&gt;&lt;p&gt;Malware-laced packages were recently uploaded to the AUR by user 🔗&lt;b&gt;&lt;a class="link" href="https://aur.archlinux.org/packages?O=0&amp;amp;SeB=m&amp;amp;K=Quobblego&amp;amp;outdated=&amp;amp;SB=p&amp;amp;SO=d&amp;amp;PP=50&amp;amp;submit=Go" target="_blank" rel="noopener"
 &gt;Quobblego&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/malware-found-in-aur/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/malware-found-in-aur/2.png"
 width="2500"
 height="426"
-srcset="https://saitech.blog/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saitech.blog/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
+srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="586"

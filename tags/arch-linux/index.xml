@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch Linux on Saitech</title><link>https://saitech.blog/tags/arch-linux/</link><description>Recent content in Arch Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/arch-linux/index.xml" rel="self" type="application/rss+xml"/><item><title>ytDownloader</title><link>https://saitech.blog/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ytdownloader/</guid><description>&lt;img src="https://saitech.blog/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch Linux on Saitech</title><link>https://saiphe.com/tags/arch-linux/</link><description>Recent content in Arch Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/arch-linux/index.xml" rel="self" type="application/rss+xml"/><item><title>ytDownloader</title><link>https://saiphe.com/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/ytdownloader/</guid><description>&lt;img src="https://saiphe.com/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
 &lt;p&gt;You can download it directly from the &lt;b&gt;&lt;a class="link" href="https://github.com/aandrew-me/ytDownloader" target="_blank" rel="noopener"
 &gt;Github page&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;or if you’re on Arch Linux, just run this in your terminal:&lt;/p&gt;
@@ -11,16 +11,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Using it is so much easier than trying to describe it, so… go figure it out yourself 😁&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/ytdownloader/2.jpg"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/ytdownloader/2.jpg"
 width="3176"
 height="1825"
-srcset="https://saitech.blog/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saitech.blog/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
+srcset="https://saiphe.com/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saiphe.com/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
 loading="lazy"
 alt="ytDownloader"
 class="gallery-image"
 data-flex-grow="174"
 data-flex-basis="417px"
-&gt;&lt;/p&gt;</description></item><item><title>SUPER TUX</title><link>https://saitech.blog/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-tux/</guid><description>&lt;img src="https://saitech.blog/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
+&gt;&lt;/p&gt;</description></item><item><title>SUPER TUX</title><link>https://saiphe.com/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/super-tux/</guid><description>&lt;img src="https://saiphe.com/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
 &lt;p&gt;SuperTux FTW!&lt;/p&gt;
 &lt;p&gt;Download it here from the &lt;b&gt;&lt;a class="link" href="https://www.supertux.org/index.html" target="_blank" rel="noopener"
 &gt;Official site&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
@@ -31,7 +31,7 @@ allowfullscreen
 title="YouTube Video"
 &gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Firefox eating your RAM?</title><link>https://saitech.blog/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saitech.blog/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Firefox eating your RAM?</title><link>https://saiphe.com/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saiphe.com/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;While looking for a solution, I stumbled upon this &lt;b&gt;&lt;a class="link" href="https://dev.to/msugakov/taking-firefox-memory-usage-under-control-on-linux-4b02" target="_blank" rel="noopener"
 &gt;article&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;recommending tweaking the &lt;code&gt;browser.low_commit_space_threshold_mb&lt;/code&gt; value.&lt;/p&gt;
@@ -53,7 +53,7 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 # Sets how long a tab should remain inactive before unloading. 3600000 = 1 hour.
 # You can set it lower if you like; I use 600000 for 10 minutes.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
+&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>Flameshot broken with the new update</title><link>https://saiphe.com/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saiphe.com/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
 &lt;p&gt;The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p&gt;
 &lt;h2 id="remove-flameshot"&gt;Remove Flameshot
 &lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -107,12 +107,12 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;From the menu, pick version &lt;strong&gt;13.0.1&lt;/strong&gt; and you’re done.
-Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>System not shutting down?</title><link>https://saitech.blog/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/system-not-shutting-down/</guid><description>&lt;img src="https://saitech.blog/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>System not shutting down?</title><link>https://saiphe.com/p/system-not-shutting-down/</link><pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/system-not-shutting-down/</guid><description>&lt;img src="https://saiphe.com/p/system-not-shutting-down/3.jpg" alt="Featured image of post System not shutting down?" /&gt;&lt;h2 id="the-issue"&gt;The Issue
 &lt;/h2&gt;&lt;p&gt;During shutdown and reboot, I had an issue where the screen would hang on a terminal line like this:
-&lt;img src="https://saitech.blog/p/system-not-shutting-down/1.png"
+&lt;img src="https://saiphe.com/p/system-not-shutting-down/1.png"
 width="1430"
 height="489"
-srcset="https://saitech.blog/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saitech.blog/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
+srcset="https://saiphe.com/p/system-not-shutting-down/1_hu_7e059ad8e0246057.png 480w, https://saiphe.com/p/system-not-shutting-down/1_hu_f891b96a6c3485c1.png 1024w"
 loading="lazy"
 alt="Shutdown issue"
 class="gallery-image"
@@ -185,7 +185,7 @@ After rebooting, I checked in the terminal:&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;Since then, the issue has been gone.
 Just a reminder: before shutting down, close everything, as turning off swap will wipe any unsaved data stored there.&lt;/p&gt;
 &lt;h2 id="final-thoughts"&gt;Final thoughts
-&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Mounting External Drives on Linux</title><link>https://saitech.blog/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" /&gt;&lt;p&gt;🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
+&lt;/h2&gt;&lt;p&gt;I&amp;rsquo;m mainly writing this for myself in case I need to deal with it again in the future. It probably depends on how you have your swap set up, and it might not work for you (systemd vs fstab). Also, keep in mind that if you misconfigure something in fstab, you&amp;rsquo;ll need to recover it, for example using a USB stick.&lt;/p&gt;</description></item><item><title>Mounting External Drives on Linux</title><link>https://saiphe.com/p/mounting-external-drives-on-linux/</link><pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/mounting-external-drives-on-linux/</guid><description>&lt;img src="https://saiphe.com/p/mounting-external-drives-on-linux/1.png" alt="Featured image of post Mounting External Drives on Linux" /&gt;&lt;p&gt;🔗 &lt;a class="link" href="https://wiki.archlinux.org/title/NTFS-3G" target="_blank" rel="noopener"
 &gt;NTFS-3G on Arch Wiki&lt;/a&gt;
 🔗 &lt;a class="link" href="https://github.com/coldfix/udiskie" target="_blank" rel="noopener"
 &gt;Udiskie GitHub&lt;/a&gt;&lt;/p&gt;
@@ -260,10 +260,10 @@ Just a reminder: before shutting down, close everything, as turning off swap wil
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="automating-the-mount-optional"&gt;Automating the Mount (Optional)
 &lt;/h2&gt;&lt;p&gt;To avoid manual mounting every time, &lt;code&gt;udiskie&lt;/code&gt; is a lightweight automounter that integrates with &lt;code&gt;udisks2&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/mounting-external-drives-on-linux/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/mounting-external-drives-on-linux/1.png"
 width="750"
 height="340"
-srcset="https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saitech.blog/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
+srcset="https://saiphe.com/p/mounting-external-drives-on-linux/1_hu_c6df45185c0d3fad.png 480w, https://saiphe.com/p/mounting-external-drives-on-linux/1_hu_76b1ddd96ff7521c.png 1024w"
 loading="lazy"
 alt="Udiskie"
 class="gallery-image"
@@ -317,7 +317,7 @@ data-flex-basis="529px"
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;This makes sure UID/GID match the current user, allows compatibility with Windows filenames, and improves performance with &lt;code&gt;big_writes&lt;/code&gt;.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;This setup has been solid for external NTFS drives and keeps things simple with minimal manual steps. Clean, functional, works every time.&lt;/p&gt;</description></item><item><title>Offline Arch wiki</title><link>https://saitech.blog/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/offline-arch-wiki/</guid><description>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" /&gt;&lt;p&gt;It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p&gt;
+&lt;p&gt;This setup has been solid for external NTFS drives and keeps things simple with minimal manual steps. Clean, functional, works every time.&lt;/p&gt;</description></item><item><title>Offline Arch wiki</title><link>https://saiphe.com/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/offline-arch-wiki/</guid><description>&lt;img src="https://saiphe.com/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" /&gt;&lt;p&gt;It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p&gt;
 &lt;h2 id="html-version"&gt;Html version
 &lt;/h2&gt;&lt;p&gt;Install with:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -349,10 +349,10 @@ data-flex-basis="529px"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;firefox Zsh.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/offline-arch-wiki/1.png"
 width="2560"
 height="1439"
-srcset="https://saitech.blog/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saitech.blog/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saiphe.com/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
 loading="lazy"
 alt="Zsh.html page"
 class="gallery-image"
@@ -360,19 +360,19 @@ data-flex-grow="177"
 data-flex-basis="426px"
 &gt;&lt;/p&gt;
 &lt;h2 id="terminal-version"&gt;Terminal version
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/2.png"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/offline-arch-wiki/2.png"
 width="1403"
 height="893"
-srcset="https://saitech.blog/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saitech.blog/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saiphe.com/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
 loading="lazy"
 alt="wiki-search zsh output"
 class="gallery-image"
 data-flex-grow="157"
 data-flex-basis="377px"
-&gt; &lt;img src="https://saitech.blog/p/offline-arch-wiki/3.png"
+&gt; &lt;img src="https://saiphe.com/p/offline-arch-wiki/3.png"
 width="978"
 height="696"
-srcset="https://saitech.blog/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saitech.blog/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saiphe.com/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
 loading="lazy"
 alt="Zsh option"
 class="gallery-image"
@@ -398,7 +398,7 @@ data-flex-basis="337px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Use Page Up and Page Down to navigate, or the arrow keys.&lt;/p&gt;
-&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;</description></item><item><title>Mirror Mirror on the wall</title><link>https://saitech.blog/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saitech.blog/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" /&gt;&lt;p&gt;During my Arch Linux installation, I made a small mistake:
+&lt;p&gt;That&amp;rsquo;s it!&lt;/p&gt;</description></item><item><title>Mirror Mirror on the wall</title><link>https://saiphe.com/p/mirror-mirror-on-the-wall/</link><pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/mirror-mirror-on-the-wall/</guid><description>&lt;img src="https://saiphe.com/p/mirror-mirror-on-the-wall/2.png" alt="Featured image of post Mirror Mirror on the wall" /&gt;&lt;p&gt;During my Arch Linux installation, I made a small mistake:
 I left the default mirrorlist untouched.&lt;/p&gt;
 &lt;p&gt;As a result, I relied solely on the built-in mirrors, which &lt;em&gt;work&lt;/em&gt;, but might not always be the fastest or most up-to-date.
 To keep your system snappy and avoid &amp;ldquo;file not found&amp;rdquo; errors during updates, you should curate your own mirrorlist.&lt;/p&gt;
@@ -443,7 +443,7 @@ title="YouTube Video"
 &gt;
 &lt;/iframe&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;em&gt;Blind Guardian - Mirror Mirror&lt;/em&gt;&lt;/p&gt;</description></item><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" /&gt;&lt;p&gt;ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
+&lt;p&gt;&lt;em&gt;Blind Guardian - Mirror Mirror&lt;/em&gt;&lt;/p&gt;</description></item><item><title>The End of ArcoLinux ?</title><link>https://saiphe.com/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saiphe.com/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" /&gt;&lt;p&gt;ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
 &lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/_NMQ_-77JRM"
@@ -460,7 +460,7 @@ title="YouTube Video"
 ArcoLinux helped a lot of people get into Linux—especially Arch. That alone earns it some real respect.
 So, thanks Erik. Good job.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p style="text-align: center;"&gt; We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p&gt;</description></item><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" /&gt;&lt;p&gt;If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong&gt;SkyChart (Cartes du Ciel)&lt;/strong&gt; is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt; We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p&gt;</description></item><item><title>SkyChart on Arch Linux</title><link>https://saiphe.com/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" /&gt;&lt;p&gt;If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong&gt;SkyChart (Cartes du Ciel)&lt;/strong&gt; is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p&gt;
 &lt;h2 id="install-skychart"&gt;Install SkyChart
 &lt;/h2&gt;&lt;p&gt;You can install it straight from the official Arch repos:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -483,18 +483,18 @@ So, thanks Erik. Good job.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The interface is a bit old-school, but it’s powerful. You can load catalogs, plot celestial events, and even connect to telescopes.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/2.png"
 width="1284"
 height="640"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/2_hu_b4f4f3e198c8d8af.png 480w, https://saitech.blog/p/skychart-on-arch-linux/2_hu_757f02ed54b96ff2.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/2_hu_b4f4f3e198c8d8af.png 480w, https://saiphe.com/p/skychart-on-arch-linux/2_hu_757f02ed54b96ff2.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="200"
 data-flex-basis="481px"
-&gt; &lt;img src="https://saitech.blog/p/skychart-on-arch-linux/5.png"
+&gt; &lt;img src="https://saiphe.com/p/skychart-on-arch-linux/5.png"
 width="2552"
 height="1397"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/5_hu_7b8219591732c7da.png 480w, https://saitech.blog/p/skychart-on-arch-linux/5_hu_21272b9a2d05c788.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/5_hu_7b8219591732c7da.png 480w, https://saiphe.com/p/skychart-on-arch-linux/5_hu_21272b9a2d05c788.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="182"
@@ -519,15 +519,15 @@ data-flex-basis="438px"
 &lt;/div&gt;&lt;p&gt;So if you want to reset settings or back up your setup, that’s the place.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;That’s pretty much it! Nice little tool for astronomy nerds or anyone who just wants to know what’s above their head tonight.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/4.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/4.png"
 width="1949"
 height="662"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/4_hu_3916b12e6808b77e.png 480w, https://saitech.blog/p/skychart-on-arch-linux/4_hu_975f8449c0b97b0a.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/4_hu_3916b12e6808b77e.png 480w, https://saiphe.com/p/skychart-on-arch-linux/4_hu_975f8449c0b97b0a.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="294"
 data-flex-basis="706px"
-&gt;&lt;/p&gt;</description></item><item><title>FF-X│X-2 on Arch Linux</title><link>https://saitech.blog/p/ff-xx-2-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ff-xx-2-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/ff-xx-2-on-arch-linux/2.png" alt="Featured image of post FF-X│X-2 on Arch Linux" /&gt;&lt;p&gt;Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p&gt;
+&gt;&lt;/p&gt;</description></item><item><title>FF-X│X-2 on Arch Linux</title><link>https://saiphe.com/p/ff-xx-2-on-arch-linux/</link><pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/ff-xx-2-on-arch-linux/</guid><description>&lt;img src="https://saiphe.com/p/ff-xx-2-on-arch-linux/2.png" alt="Featured image of post FF-X│X-2 on Arch Linux" /&gt;&lt;p&gt;Getting Final Fantasy X running on Arch Linux (or Steam Deck) with Japanese audio and English can be a bit tricky. After some trial and error, I found a solution that works — here’s what I did.&lt;/p&gt;
 &lt;h2 id="what-is-unx"&gt;What is UnX?
 &lt;/h2&gt;&lt;p&gt;UnX is a mod for Final Fantasy X/X-2 HD Remaster created by the Special K project. It improves performance, fixes bugs, and adds customization options like:&lt;/p&gt;
 &lt;ul&gt;
@@ -589,7 +589,7 @@ Then, adjust the &lt;code&gt;UnX_Language.ini&lt;/code&gt; file:&lt;/p&gt;
 &lt;/div&gt;&lt;p&gt;In the example above, the voice will be in Japanese, while the text will be the one selected in-game settings on launch.
 &lt;code&gt;Language.Master&lt;/code&gt; is for all games, while &lt;code&gt;FFX.exe&lt;/code&gt; will change it for the specific game only (override).&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;b&gt;TLDR:&lt;/b&gt; Install UnX 0.8.7 , use Proton 7.0-6 , change UnX_Language.ini&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saitech.blog/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/split-lock-mitigation/</guid><description>&lt;img src="https://saitech.blog/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;TLDR:&lt;/b&gt; Install UnX 0.8.7 , use Proton 7.0-6 , change UnX_Language.ini&lt;/p&gt;</description></item><item><title>Split Lock Mitigation</title><link>https://saiphe.com/p/split-lock-mitigation/</link><pubDate>Fri, 21 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/split-lock-mitigation/</guid><description>&lt;img src="https://saiphe.com/p/split-lock-mitigation/1.png" alt="Featured image of post Split Lock Mitigation" /&gt;&lt;p&gt;Just putting this here in case anyone else is dealing with the same issue, or if I decide to play some EA games later on&amp;hellip;&lt;/p&gt;
 &lt;p&gt;I came across this issue in this &lt;a class="link" href="https://www.reddit.com/r/linux_gaming/comments/1cx8py9/remember_to_add_the_user_to_gamemode_group_using/" target="_blank" rel="noopener"
 &gt;thread&lt;/a&gt;, while trying to get EA apps and games running smoothly on Arch Linux, following this helpful &lt;a class="link" href="https://www.reddit.com/r/IntelligentGaming2020/comments/11ejy71/how_to_install_use_the_ea_app_on_linux_lutris/" target="_blank" rel="noopener"
 &gt;guide&lt;/a&gt;.&lt;/p&gt;
@@ -637,12 +637,12 @@ Then, adjust the &lt;code&gt;UnX_Language.ini&lt;/code&gt; file:&lt;/p&gt;
 &lt;/h2&gt;&lt;p&gt;Alternatively, if you prefer not to add yourself to the group, you can still use the command to disable split lock mitigation as described above. However, note that disabling this mitigation can have potential security risks, as it could allow certain kinds of vulnerabilities to be exploited in some cases. Use this tweak with caution if you&amp;rsquo;re concerned about security.&lt;/p&gt;
 &lt;h2 id="gamemode-1"&gt;Gamemode
 &lt;/h2&gt;&lt;p&gt;If you&amp;rsquo;re not sure what GameMode is, be sure to check out one of my previous posts &lt;a class="link" href="https://saitech.blog/p/gamemode/" target="_blank" rel="noopener"
-&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saitech.blog/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saitech.blog/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
+&gt;here&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>My First Arch Linux Rice Setup</title><link>https://saiphe.com/p/my-first-arch-linux-rice-setup/</link><pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/my-first-arch-linux-rice-setup/</guid><description>&lt;img src="https://saiphe.com/p/my-first-arch-linux-rice-setup/1.png" alt="Featured image of post My First Arch Linux Rice Setup" /&gt;&lt;p&gt;What more to say? 🎉 Today I published my first &lt;code&gt;rice&lt;/code&gt; on Arch Linux for the &lt;code&gt;bspwm&lt;/code&gt; WM. You can find the link &lt;b&gt;&lt;a class="link" href="https://www.reddit.com/r/unixporn/comments/1j9uzyy/bspwm_white_hole_first_rice/#lightbox" target="_blank" rel="noopener"
 &gt;here&lt;/a&gt;&lt;/b&gt;. 🎉😄&lt;/p&gt;
 &lt;p&gt;Hope that adds some extra excitement!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Rice is a term used in the Linux community to describe the process of customizing and configuring a Linux setup to suit one&amp;rsquo;s personal preferences. It typically involves adjusting themes, icons, window manager settings, and other system aesthetics to make the environment unique and visually appealing.&lt;/p&gt;
-&lt;/blockquote&gt;</description></item><item><title>Xbox Controller on Linux</title><link>https://saitech.blog/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saitech.blog/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
+&lt;/blockquote&gt;</description></item><item><title>Xbox Controller on Linux</title><link>https://saiphe.com/p/xbox-controller-on-linux/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/xbox-controller-on-linux/</guid><description>&lt;img src="https://saiphe.com/p/xbox-controller-on-linux/1.png" alt="Featured image of post Xbox Controller on Linux" /&gt;&lt;p&gt;Alright, straight to it, I spent way too much time fighting with my Xbox controller on Linux. It said it was connected via Bluetooth, but nope, constant disconnects like a flakey Wi-Fi signal.&lt;/p&gt;
 &lt;p&gt;Turns out, the fix was simpler than expected. Huge thanks to &lt;b&gt;&lt;a class="link" href="https://plug-world.com/posts/fixing-xbox-bluetooth-controllers-in-arch-linux/" target="_blank" rel="noopener"
 &gt;this&lt;/a&gt;&lt;/b&gt; blog post for pointing me in the right direction.&lt;/p&gt;
 &lt;h2 id="install-kernel-headers--xpadneo"&gt;Install Kernel Headers &amp;amp; xpadneo
@@ -673,7 +673,7 @@ Then, adjust the &lt;code&gt;UnX_Language.ini&lt;/code&gt; file:&lt;/p&gt;
 &lt;/ul&gt;
 &lt;p&gt;And here’s the key part you might’ve missed, head to the Microsoft Store and download the &lt;code&gt;Xbox Accessories app&lt;/code&gt;. Once you’ve got that installed, open it up, connect your controller, and you&amp;rsquo;ll be able to update the firmware.&lt;/p&gt;
 &lt;p&gt;Reboot, reconnect, and boom, your controller should finally work without dropping every five seconds.&lt;/p&gt;
-&lt;p&gt;Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+&lt;p&gt;Hope this saves someone the headache I had. Happy gaming! 🎮&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saiphe.com/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id="linux-setup-easyeffects"&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -699,10 +699,10 @@ Then, adjust the &lt;code&gt;UnX_Language.ini&lt;/code&gt; file:&lt;/p&gt;
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
 loading="lazy"
 alt="EasyEffects"
 class="gallery-image"
@@ -710,10 +710,10 @@ data-flex-grow="150"
 data-flex-basis="361px"
 &gt;&lt;/p&gt;
 &lt;h2 id="windows-setup-equalizer-apo--peace"&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
 loading="lazy"
 alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"
@@ -740,14 +740,14 @@ data-flex-basis="370px"
 &lt;/ul&gt;
 &lt;h2 id="conclusion"&gt;Conclusion
 &lt;/h2&gt;&lt;p&gt;No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p&gt;
-&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item><item><title>Super-productivity</title><link>https://saiphe.com/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/super-productivity/</guid><description>&lt;img src="https://saiphe.com/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
 &lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
 &lt;p&gt;Official site:&lt;b&gt; &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
 &gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/super-productivity/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/super-productivity/2.png"
 width="801"
 height="750"
-srcset="https://saitech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saitech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
+srcset="https://saiphe.com/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saiphe.com/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="106"
@@ -804,7 +804,7 @@ data-flex-basis="256px"
 &lt;li&gt;Repeat the same process as on your PC. Choose which data to keep (remote from your PC or local from your phone).&lt;/li&gt;
 &lt;li&gt;Your devices should sync automatically based on your set interval, but you can always sync manually by clicking the icon at the top right corner.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p&gt;</description></item><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+&lt;p&gt;That’s it! You’re ready to sync between your Android and PC and keep everything organized.&lt;/p&gt;</description></item><item><title>MangoHud</title><link>https://saiphe.com/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/mangohud/</guid><description>&lt;img src="https://saiphe.com/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
 &lt;p&gt;Install MangoHud:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -833,22 +833,22 @@ data-flex-basis="256px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/mangohud/1.jpg"
 width="474"
 height="266"
-srcset="https://saitech.blog/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saitech.blog/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
+srcset="https://saiphe.com/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saiphe.com/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="178"
 data-flex-basis="427px"
-&gt;&lt;/p&gt;</description></item><item><title>Arch News Alert</title><link>https://saitech.blog/p/arch-news-alert/</link><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/arch-news-alert/</guid><description>&lt;img src="https://saitech.blog/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id="why"&gt;Why?
+&gt;&lt;/p&gt;</description></item><item><title>Arch News Alert</title><link>https://saiphe.com/p/arch-news-alert/</link><pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/arch-news-alert/</guid><description>&lt;img src="https://saiphe.com/p/arch-news-alert/3.png" alt="Featured image of post Arch News Alert" /&gt;&lt;h2 id="why"&gt;Why?
 &lt;/h2&gt;&lt;p&gt;I got tired of manually checking &lt;a class="link" href="https://archlinux.org/news" target="_blank" rel="noopener"
 &gt;archlinux.org/news&lt;/a&gt; every day just to see if there were any critical updates requiring manual steps (you know, the dreaded &lt;code&gt;manual intervention&lt;/code&gt;). So, I decided to automate it by adding a simple notification to my Polybar that shows the latest news headline.&lt;/p&gt;
 &lt;p&gt;When clicked, the notification disappears, and if manual intervention is required, it highlights the alert with exclamation marks—ensuring important updates aren’t missed and the system stays stable.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/arch-news-alert/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/arch-news-alert/2.png"
 width="1493"
 height="489"
-srcset="https://saitech.blog/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saitech.blog/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w"
+srcset="https://saiphe.com/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saiphe.com/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="305"
@@ -1008,12 +1008,12 @@ data-flex-basis="732px"
 &lt;/h2&gt;&lt;p&gt;Simply wait for new news to be released. Clicking the notification will open the news in a new browser tab. After 10 seconds, the alert will disappear from your Polybar until fresh news is available. If manual intervention is required, exclamation mark symbols will be added to grab your attention.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p style="text-align: center;"&gt; Edit history &lt;/p&gt;
-&lt;p&gt;21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent&lt;/p&gt;</description></item><item><title>Vencord / Vesktop</title><link>https://saitech.blog/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saitech.blog/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id="what-is-vencord--vesktop"&gt;What is Vencord / Vesktop?
+&lt;p&gt;21.4.25 - Code refactor, small fixes, more compact and readable, user-name independent&lt;/p&gt;</description></item><item><title>Vencord / Vesktop</title><link>https://saiphe.com/p/vencord-/-vesktop/</link><pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/vencord-/-vesktop/</guid><description>&lt;img src="https://saiphe.com/p/vencord-/-vesktop/7.png" alt="Featured image of post Vencord / Vesktop" /&gt;&lt;h1 id="what-is-vencord--vesktop"&gt;What is Vencord / Vesktop?
 &lt;/h1&gt;&lt;p&gt;If you’re a &lt;code&gt;Discord&lt;/code&gt; user looking for better Linux support, enhanced performance, and powerful customization, Vesktop—powered by Vencord—might be the perfect solution. Vesktop is essentially a custom Discord client that behaves like the web version but with native app benefits, extra features, and support for plugins and themes.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/4.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/vencord-/-vesktop/4.png"
 width="236"
 height="236"
-srcset="https://saitech.blog/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saitech.blog/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/4_hu_e071aac72f100839.png 480w, https://saiphe.com/p/vencord-/-vesktop/4_hu_d2e17d11be3b5fee.png 1024w"
 loading="lazy"
 alt="Mascot"
 class="gallery-image"
@@ -1027,10 +1027,10 @@ data-flex-basis="240px"
 &gt;Vencord/Vesktop&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Flatpak (Linux): &lt;a class="link" href="https://flathub.org/apps/dev.vencord.Vesktop" target="_blank" rel="noopener"
 &gt;Flathub&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/1.jpg"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/vencord-/-vesktop/1.jpg"
 width="474"
 height="237"
-srcset="https://saitech.blog/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saitech.blog/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/1_hu_332b4e0867b5fb8b.jpg 480w, https://saiphe.com/p/vencord-/-vesktop/1_hu_cc6b35c9ea7d3ca2.jpg 1024w"
 loading="lazy"
 alt="Github"
 class="gallery-image"
@@ -1062,20 +1062,20 @@ data-flex-basis="480px"
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/5.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/vencord-/-vesktop/5.png"
 width="1655"
 height="931"
-srcset="https://saitech.blog/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saitech.blog/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/5_hu_24226de96d025d4.png 480w, https://saiphe.com/p/vencord-/-vesktop/5_hu_d72966d28bd2977d.png 1024w"
 loading="lazy"
 alt="Outlook Theme"
 class="gallery-image"
 data-flex-grow="177"
 data-flex-basis="426px"
 &gt;
-&lt;img src="https://saitech.blog/p/vencord-/-vesktop/6.png"
+&lt;img src="https://saiphe.com/p/vencord-/-vesktop/6.png"
 width="2880"
 height="1800"
-srcset="https://saitech.blog/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saitech.blog/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/6_hu_bff5e47a5c709238.png 480w, https://saiphe.com/p/vencord-/-vesktop/6_hu_bddc922b5fb18143.png 1024w"
 loading="lazy"
 alt="Ultra Theme"
 class="gallery-image"
@@ -1128,27 +1128,27 @@ data-flex-basis="384px"
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/vencord-/-vesktop/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/vencord-/-vesktop/2.png"
 width="1227"
 height="955"
-srcset="https://saitech.blog/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saitech.blog/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/2_hu_98b82ff1b2e85238.png 480w, https://saiphe.com/p/vencord-/-vesktop/2_hu_774154bbed83cd33.png 1024w"
 loading="lazy"
 alt="Plugins"
 class="gallery-image"
 data-flex-grow="128"
 data-flex-basis="308px"
 &gt;
-&lt;img src="https://saitech.blog/p/vencord-/-vesktop/3.png"
+&lt;img src="https://saiphe.com/p/vencord-/-vesktop/3.png"
 width="917"
 height="1126"
-srcset="https://saitech.blog/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saitech.blog/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w"
+srcset="https://saiphe.com/p/vencord-/-vesktop/3_hu_f7264537c7600464.png 480w, https://saiphe.com/p/vencord-/-vesktop/3_hu_acabcdc4ccdc7ada.png 1024w"
 loading="lazy"
 alt="Setup"
 class="gallery-image"
 data-flex-grow="81"
 data-flex-basis="195px"
-&gt;&lt;/p&gt;</description></item><item><title>CTRL + U</title><link>https://saitech.blog/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ctrl--u/</guid><description>&lt;img src="https://saitech.blog/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" /&gt;&lt;h2 id="keyboard-shortcut"&gt;Keyboard Shortcut
-&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;</description></item><item><title>Funny Linux Commands</title><link>https://saitech.blog/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/funny-linux-commands/</guid><description>&lt;img src="https://saitech.blog/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id="cowsay"&gt;Cowsay
+&gt;&lt;/p&gt;</description></item><item><title>CTRL + U</title><link>https://saiphe.com/p/ctrl--u/</link><pubDate>Tue, 11 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/ctrl--u/</guid><description>&lt;img src="https://saiphe.com/p/ctrl--u/1.png" alt="Featured image of post CTRL + U" /&gt;&lt;h2 id="keyboard-shortcut"&gt;Keyboard Shortcut
+&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CTRL + U&lt;/code&gt; clears all inputs from text fields, for example, when entering a username or password. No need to select everything and delete it or smash the backspace key.&lt;/p&gt;</description></item><item><title>Funny Linux Commands</title><link>https://saiphe.com/p/funny-linux-commands/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/funny-linux-commands/</guid><description>&lt;img src="https://saiphe.com/p/funny-linux-commands/2.png" alt="Featured image of post Funny Linux Commands" /&gt;&lt;h2 id="cowsay"&gt;Cowsay
 &lt;/h2&gt;&lt;p&gt;Cowsay is a hilarious ASCII art tool that lets a cow (or other animals) say the text you define.&lt;/p&gt;
 &lt;p&gt;Install it using pacman:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -1168,10 +1168,10 @@ data-flex-basis="195px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/4.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/4.png"
 width="320"
 height="171"
-srcset="https://saitech.blog/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saitech.blog/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/4_hu_f6f947134abd5a41.png 480w, https://saiphe.com/p/funny-linux-commands/4_hu_7b162188ed6d8019.png 1024w"
 loading="lazy"
 alt="cowsay hi"
 class="gallery-image"
@@ -1187,10 +1187,10 @@ data-flex-basis="449px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -g &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/6.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/6.png"
 width="304"
 height="170"
-srcset="https://saitech.blog/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saitech.blog/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/6_hu_2bc1845f8b9e2c1b.png 480w, https://saiphe.com/p/funny-linux-commands/6_hu_eb6ce85b89017732.png 1024w"
 loading="lazy"
 alt="cowsay -g hi"
 class="gallery-image"
@@ -1206,10 +1206,10 @@ data-flex-basis="429px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;cowsay -f &amp;lt;animal name&amp;gt; &amp;lt;message&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/7.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/7.png"
 width="351"
 height="408"
-srcset="https://saitech.blog/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saitech.blog/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/7_hu_930443bc97fdba9e.png 480w, https://saiphe.com/p/funny-linux-commands/7_hu_f8ef70cdb124e7de.png 1024w"
 loading="lazy"
 alt="cowsay -f fox hi"
 class="gallery-image"
@@ -1228,10 +1228,10 @@ data-flex-basis="206px"
 &lt;/ul&gt;
 &lt;h3 id="cowthink"&gt;Cowthink
 &lt;/h3&gt;&lt;p&gt;Want the cow to think instead of speak? Try:&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/5.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/5.png"
 width="302"
 height="166"
-srcset="https://saitech.blog/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saitech.blog/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/5_hu_6e2e1e513bafbe66.png 480w, https://saiphe.com/p/funny-linux-commands/5_hu_71819b7f9630cfcd.png 1024w"
 loading="lazy"
 alt="cowthink hi"
 class="gallery-image"
@@ -1250,10 +1250,10 @@ data-flex-basis="436px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S sl
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/1.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/1.png"
 width="915"
 height="435"
-srcset="https://saitech.blog/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saitech.blog/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/1_hu_2075ea0e70007dc0.png 480w, https://saiphe.com/p/funny-linux-commands/1_hu_38b3192ac903e471.png 1024w"
 loading="lazy"
 alt="sl"
 class="gallery-image"
@@ -1271,16 +1271,16 @@ data-flex-basis="504px"
 &lt;li&gt;&lt;code&gt;-w&lt;/code&gt;: &lt;b&gt;Speed boost&lt;/b&gt; – Makes the train move faster.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;-[Number]&lt;/code&gt;: &lt;b&gt;Custom cars&lt;/b&gt; – Adjust the number of train cars.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/funny-linux-commands/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/funny-linux-commands/3.png"
 width="1194"
 height="300"
-srcset="https://saitech.blog/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saitech.blog/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
+srcset="https://saiphe.com/p/funny-linux-commands/3_hu_170ada30c8888ba6.png 480w, https://saiphe.com/p/funny-linux-commands/3_hu_493ba83f97c49326.png 1024w"
 loading="lazy"
 alt="sl -G"
 class="gallery-image"
 data-flex-grow="398"
 data-flex-basis="955px"
-&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saiphe.com/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/gamemode/</guid><description>&lt;img src="https://saiphe.com/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -1289,10 +1289,10 @@ data-flex-basis="955px"
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/gamemode/2.png"
 width="523"
 height="133"
-srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
+srcset="https://saiphe.com/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saiphe.com/p/gamemode/2_hu_572189de217f4edf.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="393"
@@ -1375,7 +1375,7 @@ data-flex-basis="943px"
 &lt;h2 id="is-it-worth-it"&gt;Is It Worth It?
 &lt;/h2&gt;&lt;p&gt;While not all games will see a huge improvement, Gamemode is a simple and effective way to squeeze out extra performance. If you’re a Linux gamer, it’s definitely worth a try!&lt;/p&gt;
 &lt;p&gt;For more details, check out the &lt;a class="link" href="https://github.com/FeralInteractive/gamemode" target="_blank" rel="noopener"
-&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saitech.blog/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
+&gt;Github repository&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Quick Tools to Manage Space Usage</title><link>https://saiphe.com/p/quick-tools-to-manage-space-usage/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/quick-tools-to-manage-space-usage/</guid><description>&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/1.png" alt="Featured image of post Quick Tools to Manage Space Usage" /&gt;&lt;p&gt;From time to time, you might need to free up disk space, but where do you start? How can you quickly locate those large files taking up valuable storage? Let’s explore some options. Spoiler alert: The first two are my top picks!&lt;/p&gt;
 &lt;h2 id="terminal"&gt;Terminal
 &lt;/h2&gt;&lt;p&gt;Command to Locate Large Files&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -1390,10 +1390,10 @@ data-flex-basis="943px"
 &lt;p&gt;&lt;code&gt;-type f&lt;/code&gt;: Search for files only.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;-size +2000M&lt;/code&gt;: Files larger than 2000 MB.&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;2&amp;gt;/dev/null&lt;/code&gt;: Suppress permission denied errors.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/2.png"
 width="917"
 height="91"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/2_hu_265e8a25a28c8d98.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/2_hu_8b5ab8f484028146.png 1024w"
 loading="lazy"
 alt="find / -type f"
 class="gallery-image"
@@ -1420,10 +1420,10 @@ data-flex-basis="2418px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Use arrow keys to navigate&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/1.png"
 width="850"
 height="428"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/1_hu_cc3afc7aff852d76.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/1_hu_78d099765d46c35c.png 1024w"
 loading="lazy"
 alt="ncdu"
 class="gallery-image"
@@ -1440,10 +1440,10 @@ data-flex-basis="476px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;sudo pacman -S baobab
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quick-tools-to-manage-space-usage/3.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-tools-to-manage-space-usage/3.png"
 width="958"
 height="597"
-srcset="https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saitech.blog/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
+srcset="https://saiphe.com/p/quick-tools-to-manage-space-usage/3_hu_af4e6bae8dc9cf82.png 480w, https://saiphe.com/p/quick-tools-to-manage-space-usage/3_hu_97fdc23f77cee819.png 1024w"
 loading="lazy"
 alt="baobab"
 class="gallery-image"
@@ -1497,17 +1497,17 @@ data-flex-basis="385px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;sudo&lt;/span&gt; &lt;span class="n"&gt;truncate&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;log&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;filename&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;log&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Quest 3 on Arch</title><link>https://saitech.blog/p/quest-3-on-arch/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/quest-3-on-arch/</guid><description>&lt;img src="https://saitech.blog/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Quest 3 on Arch</title><link>https://saiphe.com/p/quest-3-on-arch/</link><pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/quest-3-on-arch/</guid><description>&lt;img src="https://saiphe.com/p/quest-3-on-arch/3.jpg" alt="Featured image of post Quest 3 on Arch" /&gt;&lt;p&gt;There are plenty of guides online on how to set everything up on Windows, but not so many for Arch Linux or Linux in general.&lt;/p&gt;
 &lt;h2 id="steamvr"&gt;SteamVR
 &lt;/h2&gt;&lt;p&gt;SteamVR is the backbone of PC VR gaming, supporting a wide range of headsets and offering access to countless VR titles.
 It is part of your Steam library—just download and run it.&lt;/p&gt;
 &lt;p&gt;If you&amp;rsquo;ve previously used your headset on Windows, you might encounter an issue with Steam Link on Linux. It displays the error:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;'Streaming VR is not available from that computer.'&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;Due to this limitation, we need to use alternative software to pair with SteamVR.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quest-3-on-arch/1.png"
 width="1743"
 height="405"
-srcset="https://saitech.blog/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saitech.blog/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w"
+srcset="https://saiphe.com/p/quest-3-on-arch/1_hu_57dc3decdacdcb54.png 480w, https://saiphe.com/p/quest-3-on-arch/1_hu_d8260031f69711a8.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="430"
@@ -1536,10 +1536,10 @@ data-flex-basis="1032px"
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;h2 id="alvr-air-light-vr"&gt;ALVR (Air Light VR)
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/2.png"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/quest-3-on-arch/2.png"
 width="2549"
 height="492"
-srcset="https://saitech.blog/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saitech.blog/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w"
+srcset="https://saiphe.com/p/quest-3-on-arch/2_hu_acc05a0afaf8439.png 480w, https://saiphe.com/p/quest-3-on-arch/2_hu_dfc83ce14a5b9e6f.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="518"
@@ -1552,10 +1552,10 @@ data-flex-basis="1243px"
 &lt;li&gt;Install the APK on your headset using SideQuest.&lt;/li&gt;
 &lt;li&gt;Extract the &lt;code&gt;.tar&lt;/code&gt; file on your Arch Linux machine and run the executable.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/quest-3-on-arch/4.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/quest-3-on-arch/4.png"
 width="2559"
 height="1348"
-srcset="https://saitech.blog/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saitech.blog/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w"
+srcset="https://saiphe.com/p/quest-3-on-arch/4_hu_3f33c643b996e60b.png 480w, https://saiphe.com/p/quest-3-on-arch/4_hu_68fb0702bb54f729.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="189"
@@ -1573,7 +1573,7 @@ Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
 &lt;h3 id="fix-for-games-not-launching-in-vr-mode"&gt;Fix for Games Not Launching in VR Mode
 &lt;/h3&gt;&lt;p&gt;Is the game not launching in VR mode? Go to the game properties, then to Compatibility, and enable Proton. After that, in General settings or during the first game launch, it will ask if you want to play in normal mode or VR mode.&lt;/p&gt;
 &lt;h2 id="happy-gaming--"&gt;Happy gaming ! :)
-&lt;/h2&gt;</description></item><item><title>Colorize and List IPs</title><link>https://saitech.blog/p/colorize-and-list-ips/</link><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/colorize-and-list-ips/</guid><description>&lt;img src="https://saitech.blog/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
+&lt;/h2&gt;</description></item><item><title>Colorize and List IPs</title><link>https://saiphe.com/p/colorize-and-list-ips/</link><pubDate>Thu, 19 Dec 2024 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/colorize-and-list-ips/</guid><description>&lt;img src="https://saiphe.com/p/colorize-and-list-ips/1.png" alt="Featured image of post Colorize and List IPs" /&gt;&lt;p&gt;Did you know you can display all IP addresses and interfaces on Linux in a neatly formatted table for easier reading?&lt;/p&gt;
 &lt;p&gt;The syntax is:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -1586,7 +1586,7 @@ Add the following command to SteamVR&amp;rsquo;s launch options:&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;&lt;a class="link" href="https://mastodon.social/@nixCraft/113679576456152013" target="_blank" rel="noopener"
-&gt;Source&lt;/a&gt;&lt;/p&gt;</description></item><item><title>YT-X</title><link>https://saitech.blog/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/yt-x/</guid><description>&lt;img src="https://saitech.blog/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
+&gt;Source&lt;/a&gt;&lt;/p&gt;</description></item><item><title>YT-X</title><link>https://saiphe.com/p/yt-x/</link><pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/yt-x/</guid><description>&lt;img src="https://saiphe.com/p/yt-x/2024-12-19_01-32.png" alt="Featured image of post YT-X" /&gt;&lt;p&gt;What else is there to say? You can easily browse YouTube videos right from the terminal&lt;/p&gt;
 &lt;h2 id="source"&gt;Source
 &lt;/h2&gt;&lt;p&gt;Get it from &lt;a class="link" href="https://github.com/Benexl/yt-x" target="_blank" rel="noopener"
 &gt;this&lt;/a&gt; repo made by Benexl&lt;/p&gt;

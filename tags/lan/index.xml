@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lan on Saitech</title><link>https://saitech.blog/tags/lan/</link><description>Recent content in Lan on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/lan/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" /&gt;&lt;p&gt;My router didn’t support &lt;strong&gt;Client Bridge&lt;/strong&gt; or &lt;strong&gt;Repeater Bridge&lt;/strong&gt; mode out of the box.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Lan on Saitech</title><link>https://saiphe.com/tags/lan/</link><description>Recent content in Lan on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 15 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/lan/index.xml" rel="self" type="application/rss+xml"/><item><title>Exploring Alternative Firmwares for Routers</title><link>https://saiphe.com/p/exploring-alternative-firmwares-for-routers/</link><pubDate>Thu, 15 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/exploring-alternative-firmwares-for-routers/</guid><description>&lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/1.png" alt="Featured image of post Exploring Alternative Firmwares for Routers" /&gt;&lt;p&gt;My router didn’t support &lt;strong&gt;Client Bridge&lt;/strong&gt; or &lt;strong&gt;Repeater Bridge&lt;/strong&gt; mode out of the box.&lt;/p&gt;
 &lt;p&gt;Sometimes when my internet goes down, I share a mobile hotspot from my phone. But to &lt;strong&gt;distribute that connection over LAN and Wi-Fi&lt;/strong&gt;, I needed a router that supports client mode + AP. Unfortunately, my &lt;strong&gt;TP-Link Archer C6&lt;/strong&gt; couldn’t do this… until I replaced the official firmware with &lt;strong&gt;OpenWRT&lt;/strong&gt;.&lt;/p&gt;
 &lt;h2 id="-check-compatibility"&gt;✅ Check Compatibility
 &lt;/h2&gt;&lt;p&gt;Make sure your device is supported:
@@ -25,19 +25,19 @@ Set your password if prompted.&lt;/p&gt;
 &lt;/li&gt;
 &lt;li&gt;Save &amp;amp; Apply&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/3.png"
 width="1513"
 height="1318"
-srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_106e9a23e112034d.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/3_hu_7e2816986f1e711b.png 1024w"
+srcset="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/3_hu_106e9a23e112034d.png 480w, https://saiphe.com/p/exploring-alternative-firmwares-for-routers/3_hu_7e2816986f1e711b.png 1024w"
 loading="lazy"
 alt="Mobile hotspot"
 class="gallery-image"
 data-flex-grow="114"
 data-flex-basis="275px"
-&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6.png"
+&gt; &lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/6.png"
 width="1161"
 height="456"
-srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_db3c3308f924bc23.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/6_hu_a0f7ddc01af2aeb7.png 1024w"
+srcset="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/6_hu_db3c3308f924bc23.png 480w, https://saiphe.com/p/exploring-alternative-firmwares-for-routers/6_hu_a0f7ddc01af2aeb7.png 1024w"
 loading="lazy"
 alt="Security - Hotspot"
 class="gallery-image"
@@ -57,28 +57,28 @@ data-flex-basis="611px"
 &lt;/li&gt;
 &lt;li&gt;Save &amp;amp; Apply&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/2.png"
 width="1498"
 height="1336"
-srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_e929cc93830a722a.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/2_hu_c29187eb63b76cae.png 1024w"
+srcset="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/2_hu_e929cc93830a722a.png 480w, https://saiphe.com/p/exploring-alternative-firmwares-for-routers/2_hu_c29187eb63b76cae.png 1024w"
 loading="lazy"
 alt="New WiFi"
 class="gallery-image"
 data-flex-grow="112"
 data-flex-basis="269px"
-&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4.png"
+&gt; &lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/4.png"
 width="1481"
 height="1322"
-srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_4834023b30a6538c.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/4_hu_c66a1f0f1bfbebf.png 1024w"
+srcset="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/4_hu_4834023b30a6538c.png 480w, https://saiphe.com/p/exploring-alternative-firmwares-for-routers/4_hu_c66a1f0f1bfbebf.png 1024w"
 loading="lazy"
 alt="Master - auto generated"
 class="gallery-image"
 data-flex-grow="112"
 data-flex-basis="268px"
-&gt; &lt;img src="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5.png"
+&gt; &lt;img src="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/5.png"
 width="1158"
 height="674"
-srcset="https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_37dfa2510cf9c5e4.png 480w, https://saitech.blog/p/exploring-alternative-firmwares-for-routers/5_hu_58a23f334e0d7826.png 1024w"
+srcset="https://saiphe.com/p/exploring-alternative-firmwares-for-routers/5_hu_37dfa2510cf9c5e4.png 480w, https://saiphe.com/p/exploring-alternative-firmwares-for-routers/5_hu_58a23f334e0d7826.png 1024w"
 loading="lazy"
 alt="Security - New Wifi"
 class="gallery-image"

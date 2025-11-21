@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Icons on Saitech</title><link>https://saitech.blog/tags/icons/</link><description>Recent content in Icons on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/icons/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Icons on Saitech</title><link>https://saiphe.com/tags/icons/</link><description>Recent content in Icons on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/icons/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
 &lt;/h2&gt;&lt;p&gt;EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p&gt;
 &lt;p&gt;You can find them in:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;🗂️ /usr/share/applications/&lt;/code&gt;&lt;/p&gt;
@@ -26,10 +26,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The point is that by creating &lt;strong&gt;user-specific desktop files in&lt;/strong&gt;: &lt;code&gt;🗂️ .local/share/applications/&lt;/code&gt;their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1.png"
 width="1261"
 height="761"
-srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
+srcset="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
 loading="lazy"
 alt="Clean app launcher"
 class="gallery-image"

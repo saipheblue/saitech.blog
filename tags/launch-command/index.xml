@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Launch Command on Saitech</title><link>https://saitech.blog/tags/launch-command/</link><description>Recent content in Launch Command on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/launch-command/index.xml" rel="self" type="application/rss+xml"/><item><title>MangoHud</title><link>https://saitech.blog/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/mangohud/</guid><description>&lt;img src="https://saitech.blog/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Launch Command on Saitech</title><link>https://saiphe.com/tags/launch-command/</link><description>Recent content in Launch Command on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Fri, 28 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/launch-command/index.xml" rel="self" type="application/rss+xml"/><item><title>MangoHud</title><link>https://saiphe.com/p/mangohud/</link><pubDate>Fri, 28 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/mangohud/</guid><description>&lt;img src="https://saiphe.com/p/mangohud/1.png" alt="Featured image of post MangoHud" /&gt;&lt;p&gt;Overlay for monitoring FPS, frame times, GPU usage, etc., in-game.&lt;/p&gt;
 &lt;p&gt;Install MangoHud:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
@@ -27,15 +27,15 @@
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;MANGOHUD_CONFIG=fps_limit=60 %command%
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/mangohud/1.jpg"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/mangohud/1.jpg"
 width="474"
 height="266"
-srcset="https://saitech.blog/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saitech.blog/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
+srcset="https://saiphe.com/p/mangohud/1_hu_bccd31ef22cdfa3.jpg 480w, https://saiphe.com/p/mangohud/1_hu_53edd20db56c7aa8.jpg 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="178"
 data-flex-basis="427px"
-&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saitech.blog/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/gamemode/</guid><description>&lt;img src="https://saitech.blog/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
+&gt;&lt;/p&gt;</description></item><item><title>Gamemode</title><link>https://saiphe.com/p/gamemode/</link><pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/gamemode/</guid><description>&lt;img src="https://saiphe.com/p/gamemode/1.png" alt="Featured image of post Gamemode" /&gt;&lt;h2 id="what-is-gamemode"&gt;What is gamemode?
 &lt;/h2&gt;&lt;p&gt;The command &lt;code&gt;gamemoderun %command%&lt;/code&gt; is used on Linux to run a game or application with Gamemode, a tool designed to optimize your system for gaming. It tweaks settings like the CPU governor, I/O priority, and more to give your games a performance boost.&lt;/p&gt;
 &lt;h2 id="how-it-works"&gt;How It Works
 &lt;/h2&gt;&lt;p&gt;&lt;code&gt;gamemoderun&lt;/code&gt;: This is the command that activates Gamemode.&lt;/p&gt;
@@ -44,10 +44,10 @@ data-flex-basis="427px"
 &lt;p&gt;If you’re running a game through Steam, you might add the following to the game’s launch options:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;gamemoderun %command%&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;This ensures the game runs with Gamemode optimizations.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/gamemode/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/gamemode/2.png"
 width="523"
 height="133"
-srcset="https://saitech.blog/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saitech.blog/p/gamemode/2_hu_572189de217f4edf.png 1024w"
+srcset="https://saiphe.com/p/gamemode/2_hu_1470256ba24ccd4d.png 480w, https://saiphe.com/p/gamemode/2_hu_572189de217f4edf.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="393"

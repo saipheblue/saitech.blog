@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chart on Saitech</title><link>https://saitech.blog/tags/chart/</link><description>Recent content in Chart on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/chart/index.xml" rel="self" type="application/rss+xml"/><item><title>SkyChart on Arch Linux</title><link>https://saitech.blog/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" /&gt;&lt;p&gt;If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong&gt;SkyChart (Cartes du Ciel)&lt;/strong&gt; is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chart on Saitech</title><link>https://saiphe.com/tags/chart/</link><description>Recent content in Chart on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/chart/index.xml" rel="self" type="application/rss+xml"/><item><title>SkyChart on Arch Linux</title><link>https://saiphe.com/p/skychart-on-arch-linux/</link><pubDate>Sun, 06 Apr 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/skychart-on-arch-linux/</guid><description>&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/1.png" alt="Featured image of post SkyChart on Arch Linux" /&gt;&lt;p&gt;If you&amp;rsquo;re into stargazing or just like pretty sky maps, &lt;strong&gt;SkyChart (Cartes du Ciel)&lt;/strong&gt; is a solid planetarium software. Works great on Linux, and yes, you can run it on Arch btw.&lt;/p&gt;
 &lt;h2 id="install-skychart"&gt;Install SkyChart
 &lt;/h2&gt;&lt;p&gt;You can install it straight from the official Arch repos:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -21,18 +21,18 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The interface is a bit old-school, but it’s powerful. You can load catalogs, plot celestial events, and even connect to telescopes.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/2.png"
 width="1284"
 height="640"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/2_hu_b4f4f3e198c8d8af.png 480w, https://saitech.blog/p/skychart-on-arch-linux/2_hu_757f02ed54b96ff2.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/2_hu_b4f4f3e198c8d8af.png 480w, https://saiphe.com/p/skychart-on-arch-linux/2_hu_757f02ed54b96ff2.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="200"
 data-flex-basis="481px"
-&gt; &lt;img src="https://saitech.blog/p/skychart-on-arch-linux/5.png"
+&gt; &lt;img src="https://saiphe.com/p/skychart-on-arch-linux/5.png"
 width="2552"
 height="1397"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/5_hu_7b8219591732c7da.png 480w, https://saitech.blog/p/skychart-on-arch-linux/5_hu_21272b9a2d05c788.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/5_hu_7b8219591732c7da.png 480w, https://saiphe.com/p/skychart-on-arch-linux/5_hu_21272b9a2d05c788.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="182"
@@ -57,10 +57,10 @@ data-flex-basis="438px"
 &lt;/div&gt;&lt;p&gt;So if you want to reset settings or back up your setup, that’s the place.&lt;/p&gt;
 &lt;hr&gt;
 &lt;p&gt;That’s pretty much it! Nice little tool for astronomy nerds or anyone who just wants to know what’s above their head tonight.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/skychart-on-arch-linux/4.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/skychart-on-arch-linux/4.png"
 width="1949"
 height="662"
-srcset="https://saitech.blog/p/skychart-on-arch-linux/4_hu_3916b12e6808b77e.png 480w, https://saitech.blog/p/skychart-on-arch-linux/4_hu_975f8449c0b97b0a.png 1024w"
+srcset="https://saiphe.com/p/skychart-on-arch-linux/4_hu_3916b12e6808b77e.png 480w, https://saiphe.com/p/skychart-on-arch-linux/4_hu_975f8449c0b97b0a.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="294"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EasyEffects on Saitech</title><link>https://saitech.blog/tags/easyeffects/</link><description>Recent content in EasyEffects on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/easyeffects/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>EasyEffects on Saitech</title><link>https://saiphe.com/tags/easyeffects/</link><description>Recent content in EasyEffects on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 06 Jul 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/easyeffects/index.xml" rel="self" type="application/rss+xml"/><item><title>LSP cluttering your app launcher?</title><link>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</link><pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/lsp-cluttering-your-app-launcher/</guid><description>&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/2.png" alt="Featured image of post LSP cluttering your app launcher?" /&gt;&lt;h2 id="the-problem"&gt;The Problem
 &lt;/h2&gt;&lt;p&gt;EasyEffects, the tool I use as a sound equalizer (see one of my previous posts), requires LSP (Linux Studio Plugins Project). It used to include these plugins, but after a recent update, I had to install them separately, and my app launcher rewarded me with 120 LSP icons.&lt;/p&gt;
 &lt;p&gt;You can find them in:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;🗂️ /usr/share/applications/&lt;/code&gt;&lt;/p&gt;
@@ -26,16 +26,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;The point is that by creating &lt;strong&gt;user-specific desktop files in&lt;/strong&gt;: &lt;code&gt;🗂️ .local/share/applications/&lt;/code&gt;their settings take priority, allowing you to hide them cleanly from your app launcher.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1.png"
 width="1261"
 height="761"
-srcset="https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saitech.blog/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
+srcset="https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_cb169ad5a5b0df73.png 480w, https://saiphe.com/p/lsp-cluttering-your-app-launcher/1_hu_3b5797020324521.png 1024w"
 loading="lazy"
 alt="Clean app launcher"
 class="gallery-image"
 data-flex-grow="165"
 data-flex-basis="397px"
-&gt;&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+&gt;&lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saiphe.com/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id="linux-setup-easyeffects"&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -61,10 +61,10 @@ data-flex-basis="397px"
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
 loading="lazy"
 alt="EasyEffects"
 class="gallery-image"
@@ -72,10 +72,10 @@ data-flex-grow="150"
 data-flex-basis="361px"
 &gt;&lt;/p&gt;
 &lt;h2 id="windows-setup-equalizer-apo--peace"&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
 loading="lazy"
 alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"

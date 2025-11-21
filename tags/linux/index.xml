@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saitech.blog/tags/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>ytDownloader</title><link>https://saitech.blog/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/ytdownloader/</guid><description>&lt;img src="https://saitech.blog/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Linux on Saitech</title><link>https://saiphe.com/tags/linux/</link><description>Recent content in Linux on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/linux/index.xml" rel="self" type="application/rss+xml"/><item><title>Enviro+</title><link>https://saiphe.com/p/enviro-/</link><pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/enviro-/</guid><description>&lt;img src="https://saiphe.com/p/enviro-/2.png" alt="Featured image of post Enviro+" /&gt;&lt;p&gt;&lt;b&gt;Download link:&lt;/b&gt;
+🔗
+&lt;b&gt;&lt;a class="link" href="https://www.digipen.edu/showcase/student-games/dig-n-rig" target="_blank" rel="noopener"
+&gt;www.digipen.edu/showcase/student-games/dig-n-rig&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saiphe.com/p/enviro-/1.png"
+width="1508"
+height="1035"
+srcset="https://saiphe.com/p/enviro-/1_hu_f386f0afa48d7dc0.png 480w, https://saiphe.com/p/enviro-/1_hu_6ebe0244a46e0dda.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="145"
+data-flex-basis="349px"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saiphe.com/p/enviro-/3.png"
+width="2559"
+height="1381"
+srcset="https://saiphe.com/p/enviro-/3_hu_c266a3b184deb8b6.png 480w, https://saiphe.com/p/enviro-/3_hu_777b0f9a9d2216db.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="185"
+data-flex-basis="444px"
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://saiphe.com/p/enviro-/4.png"
+width="2555"
+height="1387"
+srcset="https://saiphe.com/p/enviro-/4_hu_891da98a1b0698dd.png 480w, https://saiphe.com/p/enviro-/4_hu_3d8ad40340ecf5d7.png 1024w"
+loading="lazy"
+class="gallery-image"
+data-flex-grow="184"
+data-flex-basis="442px"
+&gt;&lt;/p&gt;</description></item><item><title>ytDownloader</title><link>https://saiphe.com/p/ytdownloader/</link><pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/ytdownloader/</guid><description>&lt;img src="https://saiphe.com/p/ytdownloader/1.png" alt="Featured image of post ytDownloader" /&gt;&lt;p&gt;For years I was using online solutions to download music from YouTube… not anymore. This simple GUI solves all my issues.&lt;/p&gt;
 &lt;p&gt;You can download it directly from the &lt;b&gt;&lt;a class="link" href="https://github.com/aandrew-me/ytDownloader" target="_blank" rel="noopener"
 &gt;Github page&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;or if you’re on Arch Linux, just run this in your terminal:&lt;/p&gt;
@@ -11,16 +41,16 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;Using it is so much easier than trying to describe it, so… go figure it out yourself 😁&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/ytdownloader/2.jpg"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/ytdownloader/2.jpg"
 width="3176"
 height="1825"
-srcset="https://saitech.blog/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saitech.blog/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
+srcset="https://saiphe.com/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saiphe.com/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
 loading="lazy"
 alt="ytDownloader"
 class="gallery-image"
 data-flex-grow="174"
 data-flex-basis="417px"
-&gt;&lt;/p&gt;</description></item><item><title>SUPER TUX</title><link>https://saitech.blog/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-tux/</guid><description>&lt;img src="https://saitech.blog/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
+&gt;&lt;/p&gt;</description></item><item><title>SUPER TUX</title><link>https://saiphe.com/p/super-tux/</link><pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/super-tux/</guid><description>&lt;img src="https://saiphe.com/p/super-tux/1.png" alt="Featured image of post SUPER TUX" /&gt;&lt;p&gt;The game I’m writing about maybe is known among Linux people, but for me it is like a trip back in time to my youth, and the only game I played on Linux as a kid. This open-source Mario ripoff once amazed me so much that it was unbelievable joy when I found it again after many years. So I’m saving it here for myself, so my future me will find this post and have another moment of joy.&lt;/p&gt;
 &lt;p&gt;SuperTux FTW!&lt;/p&gt;
 &lt;p&gt;Download it here from the &lt;b&gt;&lt;a class="link" href="https://www.supertux.org/index.html" target="_blank" rel="noopener"
 &gt;Official site&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
@@ -31,7 +61,7 @@ allowfullscreen
 title="YouTube Video"
 &gt;
 &lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Firefox eating your RAM?</title><link>https://saitech.blog/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saitech.blog/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
+&lt;/div&gt;</description></item><item><title>Firefox eating your RAM?</title><link>https://saiphe.com/p/firefox-eating-your-ram/</link><pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/firefox-eating-your-ram/</guid><description>&lt;img src="https://saiphe.com/p/firefox-eating-your-ram/1.png" alt="Featured image of post Firefox eating your RAM?" /&gt;&lt;p&gt;I had a problem with Firefox consuming way more RAM than it should, sometimes even 28 GB on a daily basis, as I am a tab hoarder &lt;em&gt;cough cough&lt;/em&gt;.&lt;/p&gt;
 &lt;p&gt;While looking for a solution, I stumbled upon this &lt;b&gt;&lt;a class="link" href="https://dev.to/msugakov/taking-firefox-memory-usage-under-control-on-linux-4b02" target="_blank" rel="noopener"
 &gt;article&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;recommending tweaking the &lt;code&gt;browser.low_commit_space_threshold_mb&lt;/code&gt; value.&lt;/p&gt;
@@ -53,7 +83,7 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 # Sets how long a tab should remain inactive before unloading. 3600000 = 1 hour.
 # You can set it lower if you like; I use 600000 for 10 minutes.
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>Flameshot broken with the new update</title><link>https://saitech.blog/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saitech.blog/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
+&lt;p&gt;And viola (typo intended 😉), it works! 🎉&lt;/p&gt;</description></item><item><title>Flameshot broken with the new update</title><link>https://saiphe.com/p/flameshot-broken-with-the-new-update/</link><pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/flameshot-broken-with-the-new-update/</guid><description>&lt;img src="https://saiphe.com/p/flameshot-broken-with-the-new-update/1.png" alt="Featured image of post Flameshot broken with the new update" /&gt;&lt;p&gt;The latest version of &lt;code&gt;Flameshot&lt;/code&gt; on Arch Linux is broken, it messes up the resolution, causes distortion in the resulting image, and makes the fonts unreadable.&lt;/p&gt;
 &lt;p&gt;The solution? Roll back to an earlier version. And since I’m lazy, I’ll just write it down here: how to do it, and which version worked for me, so that next time I run into this I’ll know exactly which one to go back to.&lt;/p&gt;
 &lt;h2 id="remove-flameshot"&gt;Remove Flameshot
 &lt;/h2&gt;&lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -107,12 +137,12 @@ browser.tabs.min_inactive_duration_before_unload = 3600000
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;From the menu, pick version &lt;strong&gt;13.0.1&lt;/strong&gt; and you’re done.
-Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>Pseudodragon OS</title><link>https://saitech.blog/p/pseudodragon-os/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pseudodragon-os/</guid><description>&lt;img src="https://saitech.blog/p/pseudodragon-os/1.png" alt="Featured image of post Pseudodragon OS" /&gt;&lt;p&gt;An acquaintance of mine started working on a pretty interesting project, his own Linux distro mainly intended as a live (bootable from CD/USB) OS.&lt;/p&gt;
+Using the downgrade tool is definitely more convenient, but remember it’s still another piece of software you need to trust and keep an eye on.&lt;/p&gt;</description></item><item><title>Pseudodragon OS</title><link>https://saiphe.com/p/pseudodragon-os/</link><pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/pseudodragon-os/</guid><description>&lt;img src="https://saiphe.com/p/pseudodragon-os/1.png" alt="Featured image of post Pseudodragon OS" /&gt;&lt;p&gt;An acquaintance of mine started working on a pretty interesting project, his own Linux distro mainly intended as a live (bootable from CD/USB) OS.&lt;/p&gt;
 &lt;p&gt;It’s a Kali derivative, stripped down and fast.&lt;/p&gt;
 &lt;p&gt;I don’t really know what else to say, I just want to leave this here as a reminder for myself when I’m scrolling through the archive later…&lt;/p&gt;
 &lt;p&gt;And if some wandering soul happens to stumble upon this, maybe give PseudodragonOS a shot.&lt;/p&gt;
 &lt;p&gt;You can check it out here: &lt;a class="link" href="https://pseudodragon.org/" target="_blank" rel="noopener"
-&gt;Pseudodragon OS – minimal Kali derivative&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Pacman update issue</title><link>https://saitech.blog/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/pacman-update-issue/</guid><description>&lt;img src="https://saitech.blog/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" /&gt;&lt;p&gt;Recently, when I entered:&lt;/p&gt;
+&gt;Pseudodragon OS – minimal Kali derivative&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Pacman update issue</title><link>https://saiphe.com/p/pacman-update-issue/</link><pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/pacman-update-issue/</guid><description>&lt;img src="https://saiphe.com/p/pacman-update-issue/1.png" alt="Featured image of post Pacman update issue" /&gt;&lt;p&gt;Recently, when I entered:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
 &lt;table class="lntable"&gt;&lt;tr&gt;&lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code&gt;&lt;span class="lnt"&gt;1
@@ -132,13 +162,13 @@ Using the downgrade tool is definitely more convenient, but remember it’s stil
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-gdscript3" data-lang="gdscript3"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="n"&gt;rm&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="k"&gt;var&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;lib&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;pacman&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="n"&gt;db&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;lck&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;That’s it, just in case you were wondering which file it is&amp;hellip;&lt;/p&gt;</description></item><item><title>Malware Found in AUR</title><link>https://saitech.blog/p/malware-found-in-aur/</link><pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/malware-found-in-aur/</guid><description>&lt;img src="https://saitech.blog/p/malware-found-in-aur/1.png" alt="Featured image of post Malware Found in AUR" /&gt;&lt;h2 id="the-issue"&gt;The Issue
+&lt;/div&gt;&lt;p&gt;That’s it, just in case you were wondering which file it is&amp;hellip;&lt;/p&gt;</description></item><item><title>Malware Found in AUR</title><link>https://saiphe.com/p/malware-found-in-aur/</link><pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/malware-found-in-aur/</guid><description>&lt;img src="https://saiphe.com/p/malware-found-in-aur/1.png" alt="Featured image of post Malware Found in AUR" /&gt;&lt;h2 id="the-issue"&gt;The Issue
 &lt;/h2&gt;&lt;p&gt;Malware-laced packages were recently uploaded to the AUR by user 🔗&lt;b&gt;&lt;a class="link" href="https://aur.archlinux.org/packages?O=0&amp;amp;SeB=m&amp;amp;K=Quobblego&amp;amp;outdated=&amp;amp;SB=p&amp;amp;SO=d&amp;amp;PP=50&amp;amp;submit=Go" target="_blank" rel="noopener"
 &gt;Quobblego&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/malware-found-in-aur/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/malware-found-in-aur/2.png"
 width="2500"
 height="426"
-srcset="https://saitech.blog/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saitech.blog/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
+srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="586"
@@ -325,7 +355,7 @@ data-flex-basis="1408px"
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;fi&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saitech.blog/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" /&gt;&lt;p&gt;After updating my graphics drivers and running a full system update with
+&lt;/div&gt;</description></item><item><title>Fix Arch Linux Boot After Graphics Driver Update</title><link>https://saiphe.com/p/fix-arch-linux-boot-after-graphics-driver-update/</link><pubDate>Sat, 14 Jun 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/fix-arch-linux-boot-after-graphics-driver-update/</guid><description>&lt;img src="https://saiphe.com/p/fix-arch-linux-boot-after-graphics-driver-update/1.png" alt="Featured image of post Fix Arch Linux Boot After Graphics Driver Update" /&gt;&lt;p&gt;After updating my graphics drivers and running a full system update with
 &lt;code&gt;sudo pacman -Syu&lt;/code&gt;, I discovered that Arch Linux would no longer boot properly. Instead, it stopped at a black screen showing the system disk path with a blinking dash underneath.&lt;/p&gt;
 &lt;p&gt;I use &lt;code&gt;SDDM&lt;/code&gt; as my login manager and &lt;code&gt;BSPWM&lt;/code&gt; as my tiling window manager. Naturally, I suspected that the problem was with SDDM since it’s responsible for the login screen and should be the first thing visible.&lt;/p&gt;
 &lt;h2 id="the-solution"&gt;The Solution
@@ -375,7 +405,7 @@ data-flex-basis="1408px"
 &lt;li&gt;&lt;code&gt;nvidia_drm&lt;/code&gt;: Provides the Direct Rendering Manager (DRM) interface, which is a modern standard for managing graphics output.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;nvidia_uvm&lt;/code&gt;: The Unified Video Memory module, needed for certain modern NVIDIA features like CUDA.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo mkinitcpio -P&lt;/code&gt;: This command regenerates the initramfs for all kernel presets on your system, applying the changes you made to the configuration file.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg</title><link>https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</guid><description>&lt;img src="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/3.png" alt="Featured image of post Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg" /&gt;&lt;p&gt;When I was troubleshooting playback issues on my Raspberry Pi, I realized that many video formats, especially older ones like &lt;code&gt;.avi&lt;/code&gt;, aren&amp;rsquo;t fully supported by default media players. Some files wouldn’t play at all, others had no sound or were stuttering badly.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg</title><link>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</guid><description>&lt;img src="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/3.png" alt="Featured image of post Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg" /&gt;&lt;p&gt;When I was troubleshooting playback issues on my Raspberry Pi, I realized that many video formats, especially older ones like &lt;code&gt;.avi&lt;/code&gt;, aren&amp;rsquo;t fully supported by default media players. Some files wouldn’t play at all, others had no sound or were stuttering badly.&lt;/p&gt;
 &lt;p&gt;After a bit of trial and error, the most reliable solution was to convert the videos to a more modern and compatible format — &lt;code&gt;MP4 with H.264&lt;/code&gt; for video and &lt;code&gt;AAC&lt;/code&gt; for audio.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage
 &lt;/h2&gt;&lt;p&gt;FFmpeg made the process simple. Here’s the command I used:&lt;/p&gt;
@@ -406,10 +436,10 @@ data-flex-basis="1408px"
 &lt;/ul&gt;
 &lt;h2 id="gui-options-for-ffmpeg"&gt;GUI Options for FFmpeg
 &lt;/h2&gt;&lt;p&gt;There are many graphical user interfaces (GUIs) available for FFmpeg, but personally, I chose the lightweight QWinFF, so I&amp;rsquo;ll just mention it here briefly.&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2.png"
 width="1051"
 height="469"
-srcset="https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_7d4500780db3d01e.png 480w, https://saitech.blog/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_fcdedc1555da9274.png 1024w"
+srcset="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_7d4500780db3d01e.png 480w, https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_fcdedc1555da9274.png 1024w"
 loading="lazy"
 alt="QWINFF"
 class="gallery-image"
@@ -425,7 +455,7 @@ data-flex-basis="537px"
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-fallback" data-lang="fallback"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;yay -S qwinff
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>The End of ArcoLinux ?</title><link>https://saitech.blog/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saitech.blog/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" /&gt;&lt;p&gt;ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
+&lt;/div&gt;</description></item><item><title>The End of ArcoLinux ?</title><link>https://saiphe.com/p/the-end-of-arcolinux/</link><pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/the-end-of-arcolinux/</guid><description>&lt;img src="https://saiphe.com/p/the-end-of-arcolinux/2.png" alt="Featured image of post The End of ArcoLinux ?" /&gt;&lt;p&gt;ArcoLinux is coming to an end. The video below is a farewell to the community and an explanation of what’s coming next. The main point: there’s no need to panic—ArcoLinux will slowly but surely transition into Arch Linux through future updates.
 &lt;div class="video-wrapper"&gt;
 &lt;iframe loading="lazy"
 src="https://www.youtube.com/embed/_NMQ_-77JRM"
@@ -442,7 +472,7 @@ title="YouTube Video"
 ArcoLinux helped a lot of people get into Linux—especially Arch. That alone earns it some real respect.
 So, thanks Erik. Good job.&lt;/p&gt;
 &lt;hr&gt;
-&lt;p style="text-align: center;"&gt; We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saitech.blog/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
+&lt;p style="text-align: center;"&gt; We weren’t just maintaining a distro — we were teaching a mindset. &lt;/p&gt;</description></item><item><title>Audio EQ for Windows &amp; Linux</title><link>https://saiphe.com/p/audio-eq-for-windows-linux/</link><pubDate>Fri, 07 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/audio-eq-for-windows-linux/</guid><description>&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/4.png" alt="Featured image of post Audio EQ for Windows &amp; Linux" /&gt;&lt;p&gt;Want to take your audio experience to the next level? Whether you’re on Windows or Linux, Equalizer APO (paired with PEACE on Windows) and EasyEffects for Linux give you full control over your sound.&lt;/p&gt;
 &lt;p&gt;This guide will walk you through how to set them up and get the best out of your headphones.&lt;/p&gt;
 &lt;h2 id="linux-setup-easyeffects"&gt;Linux Setup: EasyEffects
 &lt;/h2&gt;&lt;p&gt;For those using Linux, EasyEffects offers a sleek and intuitive interface that makes tweaking your system-wide audio simple. With a few adjustments, you’ll be on your way to a more customized listening experience.&lt;/p&gt;
@@ -468,10 +498,10 @@ So, thanks Erik. Good job.&lt;/p&gt;
 &lt;li&gt;Manually apply these settings within EasyEffects by adjusting the graphic or parametric equalizer to match the profile of your headphones. Pre-amp can be applied via moving &amp;ldquo;Input&amp;rdquo; bar.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Do not forget to save your preset !&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/3.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saitech.blog/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
 loading="lazy"
 alt="EasyEffects"
 class="gallery-image"
@@ -479,10 +509,10 @@ data-flex-grow="150"
 data-flex-basis="361px"
 &gt;&lt;/p&gt;
 &lt;h2 id="windows-setup-equalizer-apo--peace"&gt;Windows Setup: Equalizer APO + PEACE
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/audio-eq-for-windows-linux/1.jpeg"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
-srcset="https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saitech.blog/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
 loading="lazy"
 alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"
@@ -509,14 +539,14 @@ data-flex-basis="370px"
 &lt;/ul&gt;
 &lt;h2 id="conclusion"&gt;Conclusion
 &lt;/h2&gt;&lt;p&gt;No matter if you&amp;rsquo;re using Windows or Linux, getting a customized sound experience is now easier than ever. Both Equalizer APO + PEACE on Windows and EasyEffects on Linux offer a range of tools to improve your audio with minimal effort. Whether you use pre-made EQ profiles or tweak your settings manually, you’ll soon be enjoying high-quality sound tailored to your headphones. Happy listening, and enjoy the enhanced experience!&lt;/p&gt;
-&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item><item><title>Super-productivity</title><link>https://saitech.blog/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/super-productivity/</guid><description>&lt;img src="https://saitech.blog/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
+&lt;p&gt;EDIT 6.7.2025: Don&amp;rsquo;t forget to enable Preset Autoloading under the PipeWire tab for your headphone and speaker presets. 😉&lt;/p&gt;</description></item><item><title>Super-productivity</title><link>https://saiphe.com/p/super-productivity/</link><pubDate>Thu, 06 Mar 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/super-productivity/</guid><description>&lt;img src="https://saiphe.com/p/super-productivity/3.png" alt="Featured image of post Super-productivity" /&gt;&lt;p&gt;Super Productivity has become my go-to app for staying organized and on track. I can easily track birthdays, create to-do lists for everything from movies I want to watch to things I need to buy, and much more. But what I love most is the ability to schedule tasks and set reminders. It’s exactly what I was looking for!&lt;/p&gt;
 &lt;p&gt;Although I don’t use all the features, Super Productivity has some excellent extras like Pomodoro timers, focus mode, time tracking, and support for syncing with Dropbox, WebDAV, or local files. It gives you all the tools you need to stay on top of things, even if you’re not using every single feature.&lt;/p&gt;
 &lt;p&gt;Official site:&lt;b&gt; &lt;a class="link" href="https://super-productivity.com/" target="_blank" rel="noopener"
 &gt;https://super-productivity.com/&lt;/a&gt;&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src="https://saitech.blog/p/super-productivity/2.png"
+&lt;p&gt;&lt;img src="https://saiphe.com/p/super-productivity/2.png"
 width="801"
 height="750"
-srcset="https://saitech.blog/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saitech.blog/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
+srcset="https://saiphe.com/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saiphe.com/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="106"

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch Wiki on Saitech</title><link>https://saitech.blog/tags/arch-wiki/</link><description>Recent content in Arch Wiki on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saitech.blog/tags/arch-wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Offline Arch wiki</title><link>https://saitech.blog/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saitech.blog/p/offline-arch-wiki/</guid><description>&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" /&gt;&lt;p&gt;It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arch Wiki on Saitech</title><link>https://saiphe.com/tags/arch-wiki/</link><description>Recent content in Arch Wiki on Saitech</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 06 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://saiphe.com/tags/arch-wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Offline Arch wiki</title><link>https://saiphe.com/p/offline-arch-wiki/</link><pubDate>Tue, 06 May 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/offline-arch-wiki/</guid><description>&lt;img src="https://saiphe.com/p/offline-arch-wiki/1.png" alt="Featured image of post Offline Arch wiki" /&gt;&lt;p&gt;It might come in handy if you ever find yourself without internet access, so here it is:&lt;/p&gt;
 &lt;h2 id="html-version"&gt;Html version
 &lt;/h2&gt;&lt;p&gt;Install with:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;div class="chroma"&gt;
@@ -30,10 +30,10 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;firefox Zsh.html
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
-&lt;/div&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/1.png"
+&lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/offline-arch-wiki/1.png"
 width="2560"
 height="1439"
-srcset="https://saitech.blog/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saitech.blog/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/1_hu_c6138a7dad31c6e5.png 480w, https://saiphe.com/p/offline-arch-wiki/1_hu_986af033afaeb0d9.png 1024w"
 loading="lazy"
 alt="Zsh.html page"
 class="gallery-image"
@@ -41,19 +41,19 @@ data-flex-grow="177"
 data-flex-basis="426px"
 &gt;&lt;/p&gt;
 &lt;h2 id="terminal-version"&gt;Terminal version
-&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saitech.blog/p/offline-arch-wiki/2.png"
+&lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/offline-arch-wiki/2.png"
 width="1403"
 height="893"
-srcset="https://saitech.blog/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saitech.blog/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/2_hu_7ef2538dc1031ccf.png 480w, https://saiphe.com/p/offline-arch-wiki/2_hu_c753a4f57119799b.png 1024w"
 loading="lazy"
 alt="wiki-search zsh output"
 class="gallery-image"
 data-flex-grow="157"
 data-flex-basis="377px"
-&gt; &lt;img src="https://saitech.blog/p/offline-arch-wiki/3.png"
+&gt; &lt;img src="https://saiphe.com/p/offline-arch-wiki/3.png"
 width="978"
 height="696"
-srcset="https://saitech.blog/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saitech.blog/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
+srcset="https://saiphe.com/p/offline-arch-wiki/3_hu_659d356baf62737a.png 480w, https://saiphe.com/p/offline-arch-wiki/3_hu_fc9708edb4d3e6c3.png 1024w"
 loading="lazy"
 alt="Zsh option"
 class="gallery-image"
