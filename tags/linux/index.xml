@@ -14,7 +14,7 @@
 &lt;p&gt;&lt;img src="https://saiphe.com/p/ytdownloader/2.jpg"
 width="3176"
 height="1825"
-srcset="https://saiphe.com/p/ytdownloader/2_hu_420659f400ad0d5b.jpg 480w, https://saiphe.com/p/ytdownloader/2_hu_3c95f684496fc421.jpg 1024w"
+srcset="https://saiphe.com/p/ytdownloader/2_hu_fb4c3b060d34b12f.jpg 480w, https://saiphe.com/p/ytdownloader/2_hu_2192be121b15e244.jpg 1024w"
 loading="lazy"
 alt="ytDownloader"
 class="gallery-image"
@@ -138,7 +138,7 @@ Using the downgrade tool is definitely more convenient, but remember it’s stil
 &lt;p&gt;&lt;img src="https://saiphe.com/p/malware-found-in-aur/2.png"
 width="2500"
 height="426"
-srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
+srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_69ec2611da25c017.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_957c93dbec120fda.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="586"
@@ -249,7 +249,7 @@ data-flex-basis="1408px"
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# This script checks for the presence of specific malicious AUR packages and&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# a related malicious process on Arch-based systems as per the security PSA.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
@@ -375,7 +375,7 @@ data-flex-basis="1408px"
 &lt;li&gt;&lt;code&gt;nvidia_drm&lt;/code&gt;: Provides the Direct Rendering Manager (DRM) interface, which is a modern standard for managing graphics output.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;nvidia_uvm&lt;/code&gt;: The Unified Video Memory module, needed for certain modern NVIDIA features like CUDA.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sudo mkinitcpio -P&lt;/code&gt;: This command regenerates the initramfs for all kernel presets on your system, applying the changes you made to the configuration file.&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg</title><link>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</guid><description>&lt;img src="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/3.png" alt="Featured image of post Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg" /&gt;&lt;p&gt;When I was troubleshooting playback issues on my Raspberry Pi, I realized that many video formats, especially older ones like &lt;code&gt;.avi&lt;/code&gt;, aren&amp;rsquo;t fully supported by default media players. Some files wouldn’t play at all, others had no sound or were stuttering badly.&lt;/p&gt;
+&lt;/ul&gt;</description></item><item><title>Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg</title><link>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/</guid><description>&lt;img src="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/3.webp" alt="Featured image of post Fix Choppy or Unsupported Videos on Raspberry Pi Using FFmpeg" /&gt;&lt;p&gt;When I was troubleshooting playback issues on my Raspberry Pi, I realized that many video formats, especially older ones like &lt;code&gt;.avi&lt;/code&gt;, aren&amp;rsquo;t fully supported by default media players. Some files wouldn’t play at all, others had no sound or were stuttering badly.&lt;/p&gt;
 &lt;p&gt;After a bit of trial and error, the most reliable solution was to convert the videos to a more modern and compatible format — &lt;code&gt;MP4 with H.264&lt;/code&gt; for video and &lt;code&gt;AAC&lt;/code&gt; for audio.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage
 &lt;/h2&gt;&lt;p&gt;FFmpeg made the process simple. Here’s the command I used:&lt;/p&gt;
@@ -409,7 +409,7 @@ data-flex-basis="1408px"
 &lt;p&gt;&lt;img src="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2.png"
 width="1051"
 height="469"
-srcset="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_7d4500780db3d01e.png 480w, https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_fcdedc1555da9274.png 1024w"
+srcset="https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_54cddff3506e5bce.png 480w, https://saiphe.com/p/fix-choppy-or-unsupported-videos-on-raspberry-pi-using-ffmpeg/2_hu_6050de66e16feb78.png 1024w"
 loading="lazy"
 alt="QWINFF"
 class="gallery-image"
@@ -471,7 +471,7 @@ So, thanks Erik. Good job.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/3.png"
 width="1127"
 height="749"
-srcset="https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_45de9a1c0a81ccca.png 480w, https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_f64648aaab618f30.png 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_112437f0791fd28a.png 480w, https://saiphe.com/p/audio-eq-for-windows-linux/3_hu_d67358d509bf3ada.png 1024w"
 loading="lazy"
 alt="EasyEffects"
 class="gallery-image"
@@ -482,7 +482,7 @@ data-flex-basis="361px"
 &lt;/h2&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/audio-eq-for-windows-linux/1.jpeg"
 width="1040"
 height="674"
-srcset="https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_575a60b8c20c5d2b.jpeg 480w, https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_6138d60567952a90.jpeg 1024w"
+srcset="https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_474d023ae04c9d8f.jpeg 480w, https://saiphe.com/p/audio-eq-for-windows-linux/1_hu_7028527d88aa8f2d.jpeg 1024w"
 loading="lazy"
 alt="Equalizer APO &amp;#43; PEACE"
 class="gallery-image"
@@ -516,7 +516,7 @@ data-flex-basis="370px"
 &lt;p&gt;&lt;img src="https://saiphe.com/p/super-productivity/2.png"
 width="801"
 height="750"
-srcset="https://saiphe.com/p/super-productivity/2_hu_d09a14a6fa4076ad.png 480w, https://saiphe.com/p/super-productivity/2_hu_68cb5725cb50daf6.png 1024w"
+srcset="https://saiphe.com/p/super-productivity/2_hu_ba9d1485d9f574cc.png 480w, https://saiphe.com/p/super-productivity/2_hu_cbf0bcece0de480c.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="106"

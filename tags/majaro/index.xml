@@ -4,7 +4,7 @@
 &lt;p&gt;&lt;img src="https://saiphe.com/p/malware-found-in-aur/2.png"
 width="2500"
 height="426"
-srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_1fd3a0e15b564e9.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_4c96a2ce3d97672b.png 1024w"
+srcset="https://saiphe.com/p/malware-found-in-aur/2_hu_69ec2611da25c017.png 480w, https://saiphe.com/p/malware-found-in-aur/2_hu_957c93dbec120fda.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="586"
@@ -115,7 +115,7 @@ data-flex-basis="1408px"
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# This script checks for the presence of specific malicious AUR packages and&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# a related malicious process on Arch-based systems as per the security PSA.&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;#&lt;/span&gt;

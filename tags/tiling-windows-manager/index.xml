@@ -5,7 +5,7 @@
 &lt;p&gt;&lt;img src="https://saiphe.com/p/arch-news-alert/2.png"
 width="1493"
 height="489"
-srcset="https://saiphe.com/p/arch-news-alert/2_hu_ea68053dd90a2daa.png 480w, https://saiphe.com/p/arch-news-alert/2_hu_51c312f7c2e7446b.png 1024w"
+srcset="https://saiphe.com/p/arch-news-alert/2_hu_8f9816e510e7b1a.png 480w, https://saiphe.com/p/arch-news-alert/2_hu_b30fac1e8bbfb310.png 1024w"
 loading="lazy"
 class="gallery-image"
 data-flex-grow="305"
@@ -102,7 +102,7 @@ data-flex-basis="732px"
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/bin/bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;NEWS_FILE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/.cache/&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;whoami&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;/arch_news_last&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;CURRENT_FILE&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;&lt;/span&gt;&lt;span class="nv"&gt;$HOME&lt;/span&gt;&lt;span class="s2"&gt;/.cache/&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;whoami&lt;span class="k"&gt;)&lt;/span&gt;&lt;span class="s2"&gt;/arch_news_current&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
@@ -250,7 +250,7 @@ data-flex-basis="732px"
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class="lntd"&gt;
 &lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;#!/usr/bin/env bash
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="c1"&gt;# Get a list of active audio streams and their application names, excluding anything starting with &amp;#34;sink-input&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nv"&gt;streams&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;$(&lt;/span&gt;pactl list sink-inputs &lt;span class="p"&gt;|&lt;/span&gt; awk &lt;span class="s1"&gt;&amp;#39;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s1"&gt; /Sink Input #[0-9]+/ {stream_id = $3}
@@ -314,7 +314,7 @@ data-flex-basis="732px"
 &lt;/div&gt;&lt;p&gt;&lt;img src="https://saiphe.com/p/quick-audio-management/3.png"
 width="2560"
 height="1440"
-srcset="https://saiphe.com/p/quick-audio-management/3_hu_cc248326dccbf87e.png 480w, https://saiphe.com/p/quick-audio-management/3_hu_8b09dd3a81eb809.png 1024w"
+srcset="https://saiphe.com/p/quick-audio-management/3_hu_fe363b494450868f.png 480w, https://saiphe.com/p/quick-audio-management/3_hu_36133dc66c5d0964.png 1024w"
 loading="lazy"
 alt="Select an application"
 class="gallery-image"
@@ -323,7 +323,7 @@ data-flex-basis="426px"
 &gt; &lt;img src="https://saiphe.com/p/quick-audio-management/4.png"
 width="2560"
 height="1440"
-srcset="https://saiphe.com/p/quick-audio-management/4_hu_454fd3063cd839a1.png 480w, https://saiphe.com/p/quick-audio-management/4_hu_af05ca3a328401cb.png 1024w"
+srcset="https://saiphe.com/p/quick-audio-management/4_hu_8461b2c71516ae6f.png 480w, https://saiphe.com/p/quick-audio-management/4_hu_d5372df1079a5d28.png 1024w"
 loading="lazy"
 alt="Adjust the volume during gameplay"
 class="gallery-image"
